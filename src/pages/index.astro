@@ -1,30 +1,7 @@
 ---
-import '../styles/global.css';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Home";
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<Header />
-
-		<h1>Sylvie's Home</h1>
-		<p> Sylvie's Christmas Card: Uncle Power!<p>
-
-		<Footer />
-
- 		<script>
-			import "../scripts/menu.js";
-  		</script>
-
-
-	</body>
-</html>
-
+<BaseLayout pageTitle = { pageTitle }>
+  <h2>Sylvie's Xmas Card: Grrrrl Power!</h2>
+</BaseLayout>
