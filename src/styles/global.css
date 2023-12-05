@@ -31,14 +31,14 @@ h1 {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  background-color: #99d6ff; /* JH modified blue */
 }
 
 .nav-links {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #ff9776;
+  background-color: #99d6ff; /* JH modified blue; bg color of mobile menu when expanded */
   display: none;
   margin: 0;
 }
@@ -55,12 +55,20 @@ h1 {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #ff9776;
+  background-color: #99d6ff;
 }
 
 .expanded {
   display: unset;
 }
+
+.footer a {
+	display: inline-block;
+	padding: 20px 18px 0px 0px;
+}
+
+
+/* When viewport is greater than 636px, show desktop header */
 
 @media screen and (min-width: 636px) {
   .nav-links {
