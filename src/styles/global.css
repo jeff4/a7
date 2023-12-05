@@ -1,3 +1,16 @@
+/* dark mode styles begin */
+
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
+/* dark mode styling ends */ 
+
 html {
   background-color: #f1f5f9;
   font-family: sans-serif;
