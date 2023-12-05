@@ -72,11 +72,13 @@ h1 {
 
 @media screen and (min-width: 636px) {
   .nav-links {
-    margin-left: 5em;
+    margin-left: 0em;	/* original 5em. JH changed this to 0em so */
+						/* Header Nav items are flush with left of page */	
     display: block;
     position: static;
     width: auto;
     background: none;
+    text-align: left;
   }
 
   .nav-links a {
