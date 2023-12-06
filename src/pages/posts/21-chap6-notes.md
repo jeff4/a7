@@ -125,7 +125,17 @@ tags: []
 * (End of p. 168)
 
 ### Section 6.2 Gradient-Based Learning
-* p. 173 The largest difference between the linear models we have seen so far and neural networks is that the nonlinearity of an ANN causes most interesting loss functions to become nonconvex.
+* p. 171 The largest difference between the linear models we have seen so far and neural networks is that the nonlinearity of an ANN causes most interesting loss functions to become nonconvex.
 	* i.e., JH: A convex function in this case means a function that has a global optimum (max--or in the case of a loss function, a minimum) that is relatively easy to find. 
 	* Thus, ANNs are usually trained by using an iterative, gradient-based optimizer that merely dives the cost function to a very low value; instead of the linear equation solvers used to train linear regression models. This also means that the convex optimization algos with global convergence usd to train logistic regressions and SVMs are not available.
 * Convex optimization converges starting from any initial parameters in theory; in practice, it is robust but can encounter numerical problems. 
+* SGD applied to nonconvex loss functions has no such convergence guarantee and is sensitive to the values of the initial parameters.
+* For FFN, it is important to set as initial values: 
+	* Weights to small random values
+	* Biases to zero or small positive values
+* The iterative gradient-based optimization algorithms used to train FFN are examined more carefully in Chapter 8.
+* For now, the training algo is almost always based on using the gradient to descend the cost function in one way or another.
+* The specific algos are improvements and refinements to the ideas of gradient descent, introduced in Section 4.3; more specifically, are most often improvements of the SGD algo introduced in Section 5.9
+
+
+
