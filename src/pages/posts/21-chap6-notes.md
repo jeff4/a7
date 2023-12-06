@@ -113,8 +113,8 @@ tags: []
 * p. 167 A simple feedforward network is able to learn a different feature space in which a linear model is able to represent the solution.
 * Specifically, we will introduce a simple FFN with one hidden layer containing 2 hidden units. See diagram drawn in JH Comp Science #1, 11/21/2023; p.169, Figure 6.2.
 * This feedforward network has a vector of hidden units **h** that are computed by a function f<sub>1</sub>(x&#8407;; **`W`**,c&#8407;). Where **`W`** is a matrix containing the weights for both neurons h<sub>1</sub> and h<sub>2</sub>.
-    * The output of function f<sub>1</sub> is then used for the 2nd, output layer.
-    * The output layer is still just a linear regression model which is now applied to **h** rather than the inital input x&#8407;.
+	* The output of function f<sub>1</sub> is then used for the 2nd, output layer.
+	* The output layer is still just a linear regression model which is now applied to **h** rather than the inital input x&#8407;.
 * Most ANNs use an affine transformation controlled by learned parameters, followed by a fixed nonlinear function called an activation function.
 * We use that strategy here by defining **h** = g(**`W`**<sup>transpose</sup>x&#8407; + c&#8407;) where **`W`** is a matrix that provides the weights of a linear transformation and vector c&#8407; provides the biases.
 * Previously, to describe a linear regression model, we used a vector of weights and a scalar bias parameter to describe an affine transformation from an input vector to an output scalar.
@@ -137,19 +137,36 @@ tags: []
 * For now, the training algo is almost always based on using the gradient to descend the cost function in one way or another.
 * The specific algos are improvements and refinements to the ideas of gradient descent, introduced in Section 4.3; more specifically, are most often improvements of the SGD algo introduced in Section 5.9
 * We can of course train models such as linear regression and SVM with gradient descent as well. In fact, this is common practice when the training data set is extremely large.
-    * From this perspective, training an ANN is not much different from training any other model. 
-    * In Section 6.5, we describe how to obtain the gradient using the backprop algo and modern generalizations of backprop.
+	* From this perspective, training an ANN is not much different from training any other model. 
+	* In Section 6.5, we describe how to obtain the gradient using the backprop algo and modern generalizations of backprop.
 
 #### 6.2.1 Cost Functions
 * p.172 First, let's review how we choose cost functions for simpler parametric models such as linear models. 
-    * In most cases, our parametric model defines a distribution *p*(
+	* In most cases, our parametric model defines a distribution **p(** y&#8407; **|** x&#8407;; **&#952; )**. In this case, we simply use the principle of maximum likelihood; i.e., we use the cross-entropy between the training data and the model's predictions as the cost function.
+* Sometimes, we take a simpler approach, where rather than predicting a complex probability distribution over y&#8407;, we merely predict some sub-statistic of y&#8407; conditioned on x&#8407;.
+	* Specialized loss functions enable us to train a predictor of these estimates.
+* p.172-173 When training an ANN, we often combine these primary cost functions with a regularization term. Before, we've seen simple versions of regularization applied to linear models in section 5.2.2.
+	* The weight decay approach used for lienar models is also directly applicable to deep neural networks and is among the most popular regularization strategies.
+
+#### 6.2.1.1 Learning Conditional Distributions with Maximum Likelihood
+
+* p.173 Most modern neural networks are trained using maximum likelihood. This means that the cost function is simply the NLL (negative log-likelihood) aka the cross-entropy between the training data and the model distribution. This cost function is given by Eq. 6.12: 
+	* J(**&#952;**) = -E<sub>x&#8407;,y&#8407;~p<sub>data</sub></sub>log p<sub>model</sub>( y&#8407; | x&#8407; ) 
+* The specific form of the cost function changes from model to model, depending on the specific form of log p<sub>model</sub>. The expansion of Eq 6.12 typically yields some terms that do not depend on the model parameters and may be discarded. 
+* p.173 An advantage of this approach of deriving the cost function from maximum likelihood is that it removes the burden of designing unique cost functions for each model.
+	* Specifying a model p( y&#8407; | x&#8407; ) automatically determines a cost function log p ( y&#8407; | x&#8407; ).
+* One recurring theme throughout ANN design is that the gradient of the cost function must be large and predictable enough to serve as a good guide for the learning algorithm.
+	* Functions that saturate (become very flat) undermine this objective because the make the gradient become very small. 
+	* In many cases, this happens because the activation functions used to produce the output of the hidden units or the output units saturate.
+	* The NLL (negative log-likelihood) helps to avoid this problem for many models.
+* p.174 One unusual property of the cross-entropy cost used to perform maximum likelihood estimation is that it usually does not have a minimum value when applied to the models commonly used in practice.
+  
 
 
 
 
 
 
-###
 
 ##### Double-struck R for Real numbers
 * "rp = double-struck R = &#8477;
