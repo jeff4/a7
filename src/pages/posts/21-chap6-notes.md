@@ -148,7 +148,7 @@ tags: []
 * p.172-173 When training an ANN, we often combine these primary cost functions with a regularization term. Before, we've seen simple versions of regularization applied to linear models in section 5.2.2.
 	* The weight decay approach used for lienar models is also directly applicable to deep neural networks and is among the most popular regularization strategies.
 
-#### 6.2.1.1 Learning Conditional Distributions with Maximum Likelihood
+##### 6.2.1.1 Learning Conditional Distributions with Maximum Likelihood
 
 * p.173 Most modern neural networks are trained using maximum likelihood. This means that the cost function is simply the NLL (negative log-likelihood) aka the cross-entropy between the training data and the model distribution. This cost function is given by Eq. 6.12: 
 	* J(**&#952;**) = -E<sub>x&#8407;,y&#8407;~p<sub>data</sub></sub>log p<sub>model</sub>( y&#8407; | x&#8407; ) 
@@ -160,9 +160,34 @@ tags: []
 	* In many cases, this happens because the activation functions used to produce the output of the hidden units or the output units saturate.
 	* The NLL (negative log-likelihood) helps to avoid this problem for many models.
 * p.174 One unusual property of the cross-entropy cost used to perform maximum likelihood estimation is that it usually does not have a minimum value when applied to the models commonly used in practice.
-  
+	* See more on regularization etc. in Chapter 7.  
 
+##### 6.2.1.2 Learning Conditional Statistics
+* p. 174 Instead of learning a full probability distribution p( y&#8407; | x&#8407;; **&#952;** ), we often want to learn just a single conditional statistic of y&#8407; given x&#8407;.
+	* e.g., we might use the predictor f( x&#8407; ; **&#952;** ) to predict **the mean value** of y&#8407;.
+* If we use sufficiently powerful neural network, we can think of the neural network as being able to represent any function f from a wide class of functions, with this class being limited only by features such as continuity and boundedness.
+* p. 174 Some discussion of functionals and calculus of variations. Note: a functional is just a mapping from a transformation/function (as the domain) to &#8477;<sup>1</sup> (as the co-domain).
+* p. 175 Explores derivation of MSE (mean squared error) and MAE (mean absolute error) from calculus of variations. And why these stats are less popular than cross-entropy cost function.
 
+#### 6.2.2 Output Units
+* p. 175 the choice of cost function is tightly coupled with the choice of output unit.
+* Most of the time, we simply use the cross-entropy between the data distribution an the model distribution. the choice fo how to represent the output then determines the form of the cross-entropy function.
+* The linear, sigmoid, and softmax output units explored in section 6.2.2 are primarily used for output layers. However, they and similar neurons can be used in hidden layer as well.
+	* p. 176 Section 6.2.2.1 Linear Units for Gaussain output distributions
+	* p. 176 Section 6.2.2.2 Sigmoid Units for Bernoulli Output Distributions
+		* p. 177 logits are defined as a *z*-variable defining probabliity distributions over binary variables.
+	* p.182-185. Section 6.2.2.4 Other types of output units 
+
+##### 6.2.2.3 Softmax Units
+* p. 178 Section 6.2.2.3 Softmax Units for Multinoulli output distributions
+* p. 181 From a neuroscientific point of view, we might interpret the softmax as a way to create a form of competition between the neurons that participate in it; the softmax outputs always sum to 1 so an increase in the value of one unit necessarily corresponds to the decrease the value of the others. aka zero-sum as inputs to the target neuron.
+	* This is analogous to the inhibition that is believed to occur between different neurons that both feed into the same destination neuron for cells within the cortex.
+	* At the extreme, aka when one of the inputs is nearly 1 and the inputs of the other parallel neurons is close to 0, this is like a form of **winner-take-all**.
+* p. 181-182. The name 'softmax' can be somewhat confusing. The function is more closely related to the `arg max` function than the `max` function. 
+	* The term 'soft' derives from the fact that the softmax function is continuous and differentiable. The `arg max` function with its results represented by a one-hot vector, is not continuous or differentiable.
+	* Thus, the softmax function provides a *softened* version of the harsh `arg max`.
+	* The corresponding soft version of the maximum function is softmax(z&#8407;)<sup>transpose</sup>z&#8407;.
+	* A more accurate name is probably 'soft arg max' rather than 'softmax'; but *softmax* is the convention at this point.
 
 
 
