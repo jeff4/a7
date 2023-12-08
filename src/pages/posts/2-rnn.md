@@ -12,7 +12,6 @@ tags: []
 ## Papers
 * *Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation* by Cho, Bahdanau, Bougares, Schwenk, and Bengio 2014a. [arXiv link](https://arxiv.org/abs/1406.1078) and [PDF](https://arxiv.org/pdf/1406.1078.pdf)
 * *On the Properties of Neural Machine Translation: Encoder–Decoder Approaches* by Cho, van Merrienboer, Bahdanau, and Bengio 2014b. [arXiv link](https://arxiv.org/abs/1409.1259) and [PDF](https://arxiv.org/pdf/1409.1259.pdf)
-* test from minipro-23
 
 ***
 
