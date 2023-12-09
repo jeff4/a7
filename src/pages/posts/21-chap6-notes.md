@@ -176,7 +176,6 @@ tags: []
 	* p. 176 Section 6.2.2.1 Linear Units for Gaussain output distributions
 	* p. 176 Section 6.2.2.2 Sigmoid Units for Bernoulli Output Distributions
 		* p. 177 logits are defined as a *z*-variable defining probabliity distributions over binary variables.
-	* p.182-185. Section 6.2.2.4 Other types of output units 
 
 ##### 6.2.2.3 Softmax Units
 * p. 178 Section 6.2.2.3 Softmax Units for Multinoulli output distributions
@@ -188,6 +187,25 @@ tags: []
 	* Thus, the softmax function provides a *softened* version of the harsh `arg max`.
 	* The corresponding soft version of the maximum function is softmax(z&#8407;)<sup>transpose</sup>z&#8407;.
 	* A more accurate name is probably 'soft arg max' rather than 'softmax'; but *softmax* is the convention at this point.
+
+##### 6.2.2.4 Output Units other than Linear, Sigoid, or Softmax
+* p.182-185 Other types of output units 
+
+#### 6.3 Hidden Units
+* p.185-186 The design of hidden units is an extremely active area of research; there are not many definitive guiding theoretical principles (as of 2016). 
+* In general ReLUs are a good starting point for hidden units.
+* Some of the following hidden unit types suggested below are not actually differentialble at all input points. e.g., for a ReLU, the rectified linear function of g(z) = max { 0 , z } is not differentiable at the value z =0; it has a 'kink' sharp angle.
+	* However, we still choose to use g(z) rectified linewar model b/c gradient descent still works *generally* well enough to kee using ReLU
+* Why is it ok to minimize cost functions like ReLU which are *not* differentiable and continuous? See hilly topology function in Figure 4.3, p. 81. Goal is to find a "pretty good" local minimum, not necessarily to find the absolute global minimum.
+	* See Chapter 8 for more discussion on this.
+	* We accept ReLU's shortcomings as a differentiable, smooth, continuous function because we do not actually expect training to actually reach where g'(x) = 0.It is acceptable for the minima of the cost function to correspond to points with undefined gradient.
+	* Even if a hidden unit is non-differentiable sometimes, that only occurs in realtively small parts of its domain. i.e., Hidden units that are note differentiable are usually non-differentiable at only a small number of points.
+
+
+
+
+
+
 
 
 
