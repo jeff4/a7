@@ -200,8 +200,8 @@ tags: []
 	* See Chapter 8 for more discussion on this.
 	* We accept ReLU's shortcomings as a differentiable, smooth, continuous function because we do not actually expect training to actually reach where g'(x) = 0.It is acceptable for the minima of the cost function to correspond to points with undefined gradient.
 	* Even if a hidden unit is non-differentiable sometimes, that only occurs in realtively small parts of its domain. i.e., Hidden units that are note differentiable are usually non-differentiable at only a small number of points.
-
-
+* In general, a function g(z) has a left derivative defined by the slope of the function immediately to the left of z aka *g'<sub>left</sub>(x)*; and the right derivative defined by the slope of the function immediately to the right of z aka *g'<sub>right</sub>(x)*.
+	* A function is differentiable at z only iff both the left derivative and right derivative are defined and are equal to each other.
 
 
 
