@@ -102,13 +102,6 @@ tags: []
 	* We have two functions that run sequentially. First f<sub>1</sub>(x&#8407;) outputs **h**. Then, f<sub>2</sub>(**h**) outputs y. 
 	* *Formatting issue:* in above equestions, *h* should have a vector arrow drawn above it, but *h&#8407;* looks weird.
 
-### 11/22 notes
-* Pulled out Learning From Data and their alternative take on all this material is excellent and useful. Takes some time to get the math though...
-
-## Notes for Nueva Jan 2024
-* History of computing link by Steve Furber, one of the early ARM chip designers. Published March 2017. ['Microprocessors: the engines of the digital age.'](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5378251/)
-
-
 #### Using a simple feedforward network to solve XOR
 * p. 167 A simple feedforward network is able to learn a different feature space in which a linear model is able to represent the solution.
 * Specifically, we will introduce a simple FFN with one hidden layer containing 2 hidden units. See diagram drawn in JH Comp Science #1, 11/21/2023; p.169, Figure 6.2.
@@ -171,7 +164,7 @@ tags: []
 
 #### 6.2.2 Output Units
 * p. 175 the choice of cost function is tightly coupled with the choice of output unit.
-* Most of the time, we simply use the cross-entropy between the data distribution an the model distribution. the choice fo how to represent the output then determines the form of the cross-entropy function.
+* Most of the time, we simply use the cross-entropy between the data distribution an the model distribution. the choice of how to represent the output then determines the form of the cross-entropy function.
 * The linear, sigmoid, and softmax output units explored in section 6.2.2 are primarily used for output layers. However, they and similar neurons can be used in hidden layer as well.
 	* p. 176 Section 6.2.2.1 Linear Units for Gaussain output distributions
 	* p. 176 Section 6.2.2.2 Sigmoid Units for Bernoulli Output Distributions
@@ -202,11 +195,24 @@ tags: []
 	* Even if a hidden unit is non-differentiable sometimes, that only occurs in realtively small parts of its domain. i.e., Hidden units that are note differentiable are usually non-differentiable at only a small number of points.
 * In general, a function g(z) has a left derivative defined by the slope of the function immediately to the left of z aka *g'<sub>left</sub>(x)*; and the right derivative defined by the slope of the function immediately to the right of z aka *g'<sub>right</sub>(x)*.
 	* A function is differentiable at z only iff both the left derivative and right derivative are defined and are equal to each other.
+* The functions used in the context of neural networks usually have defined left derivatives and defined right derivatives. So even though there is a "kink" at z = 0 making the function not smooth and differentiable at z = 0, g(z) *is* differentiable to the left of z = 0 and to the right of z = 0.
+	* In the example of the softmax activation function g(z)--aka **g(z) = max{0,z}**-- the left derivative *g'<sub>left</sub>'(x)=0* at z=0 and the right derivative *g'<sub>right</sub>(x)=1* at z=0.
+	* **Software implementations of ANN training usually return *one* of the one-sided derivatives rather than reporting that the derivative is undefined or erroring out.** aka, *g'(x)=0* or *g'(x)=1*.
+* p.186-187 Some theoretical justifications. But the bottom line: totally ok to ignore the nondifferentiability of hidden unit activations and pragmatically implement as effectively differentiating cleanly at z=0.
 
+##### 6.3.1 ReLUs and their generalizations
 
+* p.187 ReLUs are easy to optimize because they are so similar to linear units. Again, the only difference between a vanilla linear unit and a ReLU is that a ReLU outputs 0 across half its domain.
+* This means that derivatives through a ReLU **remain large whenever the unit is active**. 
+* Also, the gradients are not only large but *consistent*.
+* The 2nd derivative *g''(x)* of the rectifying operation is 0 almost everywhere and the derviative of the rectifying operation is 1 everywhere teh unit is active.
+	* This means that the gradient direction is far more useful for learning than it would be with activation functions which might introduce 2nd-order effects.
+* ReLUs are typically accept vectors with an affine line (aka has a bias *b* such that it does not cross the origin). **h** = **g(**`W`<sup>transpose</sup>x&#8407; + b&#8407;**)**
+* When initializing the parameters of an affine transformations, it can be good practice to set all the biases *b* to a small positive value, such as 0.1.
+	* Doing so makes it more likely that the ReLUs will have some initial activation for most inputs to the training set and will allow derivatives to pass through.
 
-
-
+##### Generalizations from the vanilla ReLU
+* p.187
 
 
 
@@ -227,8 +233,11 @@ tags: []
 
 
 
+## Notes for Nueva Jan 2024
+* History of computing link by Steve Furber, one of the early ARM chip designers. Published March 2017. ['Microprocessors: the engines of the digital age.'](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5378251/)
 
-
+### More notes on humanities
+* Dec 11. quick history of 1944 neural networks proposed, early researchers moved to MIT in 1952, Minsky and Papert topped it 1968 etc in this [Intro to Liquid Neural Networks](https://hackernoon.com/an-introduction-to-liquid-neural-networks-nt5c33t7)
 
 
 
