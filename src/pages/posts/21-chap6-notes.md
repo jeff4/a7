@@ -229,7 +229,34 @@ tags: []
 	* Sigmoid function mostly used in the 90s.
 	* Late 90s through first decade of 2000s - tanh aka hyperbolic tangent.
 * **Sigmoid function** related to the Gaussian normal distribution: *g(z) = &#963;(z)* aka lowercase sigma.
+	* RNN recurrent neural networks, many probabilistic models, and some autoencoders are good places for sigmoid activation functions b/c these networks have some requirements that rule out piecewise linear activation functions.
+	* Sigmoid is useful for RNNs, probablistic models, and autoencoders despite the saturation problems. p. 190.
 * **Hyperbolic tangent** *aka* tanh: *g(z) = tanh( z )*
+
+#### 6.3.3 Other Hidden Units
+* p. 190-191
+* Softmax Units
+* Radial Basis Function (RBF)
+* Softplus
+* Hard tanh
+
+### 6.4 Architecture Design
+* p. 191-192 Chain-rule based structures.
+	1. *First layer* has an output **h<sub>1</sub>** such that: **h<sub>1</sub>** = g<sub>1</sub> ( `W`<sub>1</sub><sup>transpose</sup> x&#8407; + **b<sub>1</sub>** )
+	2. *Second layer* has an output **h<sub>2</sub>** such that: **h<sub>2</sub>** = g<sub>2</sub> ( `W`<sub>2</sub><sup>transpose</sup> **h<sub>1</sub>** + **b<sub>2</sub>** )
+	3. *Third layer* has an output **h<sub>3</sub>** such that: **h<sub>3</sub>** = g<sub>3</sub> ( `W`<sub>3</sub><sup>transpose</sup> **h<sub>2</sub>** + **b<sub>3</sub>** )
+	4. And so on....
+* In general, network architecture consists of the number of layers (aka *depth* of ANN), the width of each layer, and connections. 
+* The ideal network architecture for a given task/objective must be found via experimentation guided by monitoring the validation set error.
+
+
+#### 6.4.1 Theorems proving universal applicabilty of Feed Forward Networks
+* p. 192. **The universal approximation theorem** (Hornik, 1989; Cybenko, 1989), states that a feedforward network witha  linear output layer and at least 1 hidden layer with a sufficient number of neurons in that layer *and* with any 'squashing' activation function (e.g., a logistic sigmoid activation function) can approximate any Borel measurable function from one finite-dimensional space (domain) to another finite-dimensional space (codomain).
+	* i.e., any continuous function on a closed and bounded subset of &#8477;<sup>n</sup> may be approximated by a feedforward MLP (multi-level perceptron).
+	* p. 193. *Note:* The UA Theorem proves that a suffciently large MLP--even one with just a single hidden layer--can represent *any* continuous function.
+	* *However*, even though any function can be represented, we have no guarantee that a learning algorithm will be able to train our MLP to get to a close approximation of that function. 
+
+
 
 
 
