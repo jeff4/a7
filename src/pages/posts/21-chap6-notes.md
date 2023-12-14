@@ -212,7 +212,26 @@ tags: []
 	* Doing so makes it more likely that the ReLUs will have some initial activation for most inputs to the training set and will allow derivatives to pass through.
 
 ##### Generalizations from the vanilla ReLU
-* p.187
+* p.187 - One drawback to ReLUs is that they cannot learn via gradient-based methods when a training example leads to an activation of exactly 0. Several generalizations / variants of ReLU work around this problem by ensuring that g(z) is differentiable everywhere.
+* p.187-188. When a slope *alpha<sub>i</sub>* is nonzero and z is less than zero (aka z is negative), we have a small output value for *h* such that *h<sub>i</sub>* = g(z&#8407;, **alpha**)<sub>i</sub> = **max(** 0 , z<sub>i</sub> **)** + *alpha<sub>i</sub>* **min(** 0 , z<sub>i</sub> **)**:
+	1. Absolute value rectification (Jarrett et al, 2009)
+	1. Leaky ReLU (Maas et al, 2013)
+	1. Parametric ReLU aka *PReLU* (He et al, 2015) 
+* p.188. Goodfellow et al in 2013 proposed **Maxout Units** as another variant / generalization. These units separate the activation into *k* different subcomponents.
+	* Maxout Units provides a way to learn a piecewise linear function that reponds to multiple directions in the input x&#8407; spacje.
+	* A maxout unit can learn a piecewise linear convex function with up to *k* pieces.
+	* A maxout unit can *learn the activation function itself* rather than just the relationship between units.
+	* Maxout units also show resistanct to the phenonmenon of **catastrophic forgetting**.
+* ReLUs and their variants are based on the principle that models are easier to optimize if an activation function is close to a linear function.
+
+#### 6.3.2 Logistic Sigmoid and Hyperbolic Tangent
+* p. 189 The ReLU function was first studied in biology in the last 1960s but were not really introduced to ANN research until 2009-2011. For a good history on this, see [this article](https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/).
+	* Sigmoid function mostly used in the 90s.
+	* Late 90s through first decade of 2000s - tanh aka hyperbolic tangent.
+* **Sigmoid function** related to the Gaussian normal distribution: *g(z) = &#963;(z)* aka lowercase sigma.
+* **Hyperbolic tangent** *aka* tanh: *g(z) = tanh( z )*
+
+
 
 
 
@@ -227,9 +246,7 @@ tags: []
 * "ap = rightward pointing arrow = &#8594;
 * "ep = element of = &#8712;
 * "wp = matrix W = **`W`**
-
-
-
+* "sp = lowercase sigma for sigmoid function &#963;
 
 
 
