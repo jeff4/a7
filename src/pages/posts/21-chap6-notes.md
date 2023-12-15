@@ -117,7 +117,9 @@ tags: []
 * We can specify the complete network as f(x&#8407;;**`W`**,c&#8407;, w&#8407;, b) = w<sup>transpose</sup>max(
 * (End of p. 168)
 
-### Section 6.2 Gradient-Based Learning
+***
+
+### 6.2 Gradient-Based Learning
 * p. 171 The largest difference between the linear models we have seen so far and neural networks is that the nonlinearity of an ANN causes most interesting loss functions to become nonconvex.
 	* i.e., JH: A convex function in this case means a function that has a global optimum (max--or in the case of a loss function, a minimum) that is relatively easy to find. 
 	* Thus, ANNs are usually trained by using an iterative, gradient-based optimizer that merely dives the cost function to a very low value; instead of the linear equation solvers used to train linear regression models. This also means that the convex optimization algos with global convergence usd to train logistic regressions and SVMs are not available.
@@ -184,7 +186,9 @@ tags: []
 ##### 6.2.2.4 Output Units other than Linear, Sigoid, or Softmax
 * p.182-185 Other types of output units 
 
-#### 6.3 Hidden Units
+***
+
+### 6.3 Hidden Units
 * p.185-186 The design of hidden units is an extremely active area of research; there are not many definitive guiding theoretical principles (as of 2016). 
 * In general ReLUs are a good starting point for hidden units.
 * Some of the following hidden unit types suggested below are not actually differentialble at all input points. e.g., for a ReLU, the rectified linear function of g(z) = max { 0 , z } is not differentiable at the value z =0; it has a 'kink' sharp angle.
@@ -240,6 +244,8 @@ tags: []
 * Softplus
 * Hard tanh
 
+***
+
 ### 6.4 Architecture Design
 * p. 191-192 Chain-rule based structures.
 	1. *First layer* has an output **h<sub>1</sub>** such that: **h<sub>1</sub>** = g<sub>1</sub> ( `W`<sub>1</sub><sup>transpose</sup> x&#8407; + **b<sub>1</sub>** )
@@ -249,17 +255,49 @@ tags: []
 * In general, network architecture consists of the number of layers (aka *depth* of ANN), the width of each layer, and connections. 
 * The ideal network architecture for a given task/objective must be found via experimentation guided by monitoring the validation set error.
 
-
-#### 6.4.1 Theorems proving universal applicabilty of Feed Forward Networks
-* p. 192. **The universal approximation theorem** (Hornik, 1989; Cybenko, 1989), states that a feedforward network witha  linear output layer and at least 1 hidden layer with a sufficient number of neurons in that layer *and* with any 'squashing' activation function (e.g., a logistic sigmoid activation function) can approximate any Borel measurable function from one finite-dimensional space (domain) to another finite-dimensional space (codomain).
+#### 6.4.1 UAT and related theorems proving the universal applicabilty of Feed Forward Networks
+* p. 192. **The universal approximation theorem** (Hornik, 1989; Cybenko, 1989), states that a feedforward network with a linear output layer, with at least 1 hidden layer, and with any 'squashing' activation function (e.g., a logistic sigmoid activation function) can approximate any Borel measurable function from one finite-dimensional space (domain) to another finite-dimensional space (codomain).
 	* i.e., any continuous function on a closed and bounded subset of &#8477;<sup>n</sup> may be approximated by a feedforward MLP (multi-level perceptron).
 	* p. 193. *Note:* The UA Theorem proves that a suffciently large MLP--even one with just a single hidden layer--can represent *any* continuous function.
+	* see p. 192 for a brief explanation of Borel measurability.
 	* *However*, even though any function can be represented, we have no guarantee that a learning algorithm will be able to train our MLP to get to a close approximation of that function. 
+* p. 193 there are 2 ways that learning may fail to find the correct target function:
+	1. The optimization algo that sorts through the various hypotheses (aka the various candidate functions)  may not be able to find the value of the parameters that correspond to the ideal target function
+	1. Alternately, overfitting may occur when we over optimize on the training data rather than the test data.  
+* Recall the No Free Lunch theorem from section 5.2.1: there is no universally superior ML algorithm.
+* FFN provide a universal system for representing functions in the sense that, given a function, there exists a FFN that approximates teh function.
+* However, there is no universal procedure (or in AML's terminology, *learning model*) for examining a training set of specfic examples and choosing a function that will generalize to points not in the training set.
+* Although the UAT shows that a single hidden layer with enough neurons (aka units) can represent any continous function, the number of units may be unfeasibly large; adding additional hidden layers can both reduce the number of total units *and* reduce generalization error.
+* p. 194-195 Montufar et al (2014) illustrate geometrically why symmetry might explain why repeating patterns may be efficiently captured by more layers.
+* p.195 Concept: Choosing a deep belief network encodes a very general belief that the function we want to learn should involve composition of several simpler functions.
+	* aka, nature is hierarchical and modular in composition.
+
+***
+
+### Section 6.5: Overview of Backprop and other Differentiation Algorithms
+* p.197. Backprop popularized by Rumelhart et al (1986) allows the cost J(**&#952;**) to flow backward through the network in order to compute the gradient. 
+* p.198. Computing a pure analytical expression for the gradient is straightforward, but numerically evaluating such an expression can be computationally expensive. The backprop algorithm does so using a simple and einexpensive procedure.
+* **The term back-propagation is often misunderstood as meaning the whole learning algorithm for MLP.**
+	* In fact, backprop *only* refers to the method to compute / discover  the gradient.
+	* Meanwhile, a different algorithm *uses* the discovered the gradient to *learn* the desired function by adjusting parameters. e.g., an algorithm like **stochastic gradient descent** uses the backprop-delivered gradient to learn the target function.
+* p.198, also backprop is misunderstood as applying only to MLP. In fact, it can be used to compute derivatives of any function.
+* In ML, the gradient we most often require si the gradient of the cost function wrt parameters aka &#8711;<sub>**&#952;**</sub>J(**&#952;**).
+
+#### 6.5.1 - 6.5.4
+* Skipped Introduction to Computational Graphs; Chain Rule of Calculus; Recursion of chain rule to obtain backprop; Backprop computation in fully connected MLP
+* pages 198 - 206
+
+#### 6.5.5 Symbol-to-symbol Derivatives
 
 
 
 
+#### 6.5.8: Complications (aka practical considerations) wrt simple theoretical narrative about backprop
 
+
+
+#### 6.5.9: Differentiation outside the Deep Learning Community
+* Relevant to unrolling RNNs in chapter 10
 
 
 
@@ -274,7 +312,7 @@ tags: []
 * "ep = element of = &#8712;
 * "wp = matrix W = **`W`**
 * "sp = lowercase sigma for sigmoid function &#963;
-
+* "np = nabla aka gradient upside down triangle &#8711;
 
 
 ## Notes for Nueva Jan 2024
@@ -287,12 +325,6 @@ tags: []
 
 
 ***
-
-### Section 6.5: Overview of Backprop and other Differentiation Algorithms
-#### 6.5.1: Introduction to Computational Graphs
-#### 6.5.8: Complications (aka practical considerations) wrt simple theoretical narrative about backprop
-#### 6.5.9: Differentiation outside the Deep Learning Community
-* Relevant to unrolling RNNs in chapter 10
 ### Section 6.6: Historical Notes p. 220
 * 'Feedforward networks can be seen as eﬃcient nonlinear function approximatorsbased on using gradient descent to minimize the error in a function approximation. From this point of view, the modern feedforward network is the culmination of centuries of progress on the general function approximation task.
 
