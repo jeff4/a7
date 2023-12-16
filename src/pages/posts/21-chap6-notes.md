@@ -283,21 +283,48 @@ tags: []
 * p.198, also backprop is misunderstood as applying only to MLP. In fact, it can be used to compute derivatives of any function.
 * In ML, the gradient we most often require si the gradient of the cost function wrt parameters aka &#8711;<sub>**&#952;**</sub>J(**&#952;**).
 
-#### 6.5.1 - 6.5.4
-* Skipped Introduction to Computational Graphs; Chain Rule of Calculus; Recursion of chain rule to obtain backprop; Backprop computation in fully connected MLP
+#### Skipped: 6.5.1 - 6.5.4 
+* Skipped: *Introduction to Computational Graphs; Chain Rule of Calculus; Recursion of Chain Rule to Obtain Backprop; Backprop Computation in Fully Connected MLP*
 * pages 198 - 206
 
 #### 6.5.5 Symbol-to-symbol Derivatives
+* p. 206 Algebraic expressions and computational graphs both operate on symbols *aka* variables that do not have specific values.
+* These algebraic and graph-based represntations are called symbolic representations.
+* When we actually use or train a neural network, we must assign specific values to these symbols.
+* We replace a symbolic input to the network x&#8407; with a specific numeric value, e.g., `( 1.2, 3.765, -1.8 )`
+* Some approaches to backprop take a computational graph and a set of numerical values for the inputs to the graph, and then return a set of numerical values describing the gradient at those input values.
+* We call this approach symbol-to-number differentiation. This is the approach used by libraries such as **Torch (2011)** and **Caffe (2013)**.
+* Another approach is to take a computational graph and add additional nodes to the graph that provide a symbolic description of the desired derivatives.
+	* This is the approach taken by **Theano (2010 - 2012)** and **TensorFlow**.
+	* See Fig 6.10 on p.207    
+	* The primary advantage of this approach is that the derivatives are described in the same language as the original expression.
+	* Because the derivatives are just another computational graph, it is possible to run backprop again, differentiating the derivatives to obtain higher-order derivatives.
+* We will use the latter approach (computational graph with additional nodes) to illustrate how one constructs a computational graaph for the derivatives.
+	* Any subset of the graph may then be evaluated using specific numerical values at a later time.
+	* This allows us to avoid specifying exactly *when* each operation should be computed.
+* p.208 Instead, a generic graph expression engine can evaluate every node as soon as its parents' values are available.
+	* The description of the symbol-to-symbol based approach subsumes the symbol-to-number approach. The symbol-to-number approach can be understood as performing exactly the same computations as are done in the graph built by the smbol-to-symbol approach. 
+	* The key difference is that the symbol-to-number approach does not expose the graph.
+## **REVIEW FIG 6.10 DIAGRAM on p207**
 
-
-
+#### Skipped: 6.5.6 - 6.5.7 
+* Skipped: *General Back Propagation; Example of Backprop Applied to MLP Training* 
+* pages 208-214
 
 #### 6.5.8: Complications (aka practical considerations) wrt simple theoretical narrative about backprop
 
-
-
 #### 6.5.9: Differentiation outside the Deep Learning Community
 * Relevant to unrolling RNNs in chapter 10
+
+#### 6.5.10: Higher-Order Derivatives
+
+
+
+
+
+
+
+
 
 
 
