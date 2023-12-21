@@ -25,12 +25,6 @@ tags: []
 * In the context of deep learning, *most regularization strategies are based on regularizing estimators*.
 	* **Regularizing an estimator works by trading increased bias for reduced variance.**
 	* An effective regularizer is one that makes a profitable trade by significantly reducing variance while not overly increasing bias.
-* Per Chapter 5, there were 3 regimes:
-	1. Excluding the true data-generating process (aka *underfitting* and *inducing bias*)
-	1. Correctly/accurately matching the data-generating process
-	1. *Including* the true data-generating process *but* also matching many other generating processes (aka *overfitting*)
-		* In this overfitting regime, variance rather than bias dominates the estimation error
-* The goal of regularization is to move from the 3rd regime above to the 2nd regime.
 * Some archaelogy. **J() = objective function**. From GBC p.79, synonyms for objective function include:
 	* **cost function**
 	* **loss function**
@@ -38,7 +32,12 @@ tags: []
 * Also from p.79, "We often denote the value that minimizes or maximizes a function with a superscript *. For example, we might say x&#8407;<sup>\*</sup> = arg min f(x&#8407;)." i.e., x&#8407; refers to when f'(x&#8407;) = 0 and there is a minimum in the derivative df/dx.  
 * Where is the first instance of theta **&#952;** ?
 	* p.119 Point estimation from Section 5.4.1. True value of a parameter is denoted by **&#952;**. In contrast, the *estimate* of the value of the parameter is with **&#952;-hat**. And since both the regular and hat versions of theta are vectors, they can contain many values for the parameter.
-	* p.165 Intro to Chap6 on Deep FeedForwward networks. Third of 3 options on mapping of function phi aka &#966;. 'We now have a parameters **&#952;** that we use to learn &#966; from a broad class of of functions. And also a vector w&#8407; that contains all the individual `weight` values that map from &#966;(x&#8407; ) to the final output.' 
+
+
+#### Starting again 12/21/2023
+
+
+
 
 
 ##### Double-struck R for Real numbers

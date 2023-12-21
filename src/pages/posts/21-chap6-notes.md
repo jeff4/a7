@@ -312,6 +312,9 @@ tags: []
 * pages 208-214
 
 #### 6.5.8: Complications (aka practical considerations) wrt simple theoretical narrative about backprop
+## Continue reading from this section
+
+
 
 #### 6.5.9: Differentiation outside the Deep Learning Community
 * Relevant to unrolling RNNs in chapter 10
@@ -326,7 +329,7 @@ tags: []
 
 
 
-
+***
 
 ##### Double-struck R for Real numbers
 * "rp = double-struck R = &#8477;
