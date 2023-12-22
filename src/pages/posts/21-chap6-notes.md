@@ -345,15 +345,6 @@ tags: []
 * "np = nabla aka gradient upside down triangle &#8711;
 
 
-## Notes for Nueva Jan 2024
-* History of computing link by Steve Furber, one of the early ARM chip designers. Published March 2017. ['Microprocessors: the engines of the digital age.'](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5378251/)
-
-### More notes on humanities
-* Dec 11. quick history of 1944 neural networks proposed, early researchers moved to MIT in 1952, Minsky and Papert topped it 1968 etc in this [Intro to Liquid Neural Networks](https://hackernoon.com/an-introduction-to-liquid-neural-networks-nt5c33t7)
-
-
-
-
 ***
 ### Section 6.6: Historical Notes p. 220
 * 'Feedforward networks can be seen as eﬃcient nonlinear function approximatorsbased on using gradient descent to minimize the error in a function approximation. From this point of view, the modern feedforward network is the culmination of centuries of progress on the general function approximation task.
