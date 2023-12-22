@@ -1,0 +1,9 @@
+---
+import BaseLayout from './BaseLayout.astro';
+const { frontmatter } = Astro.props;
+---
+<BaseLayout pageTitle={frontmatter.title}>
+	<h3>{frontmatter.description}</h3>
+	<p><em>Last updated: {frontmatter.LastUpdatedDate.slice(0,10)}</em></p>
+	<slot />
+</BaseLayout>
