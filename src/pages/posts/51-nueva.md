@@ -22,3 +22,33 @@ tags: []
 ### Troublemakers 
 * Author: Leslie Berlin
 * Pub date: 2017
+* Covers period from 1969 to 1982
+* Importance of Geography, small-world networks. Examples of this. Traitorous Eight / Fairchild. Physics circles in 19th-20th century Europe.
+
+## Enrico Moretti 
+* The New Geography of Jobs, 2013
+* Economic geography. It's not about high or low cost. It's about thick versus thin networks.
+
+## Dartmouth Conference 1956
+* John McCarthy
+* Marvin Minsky, Nathanial Rochester, Claude Shannon
+* References from Wiki article
+	* J. Moor, "The Dartmouth College Artificial Intelligence Conference: The Next Fifty Years" AI Magazine 2006
+	* Ronald R. Kline "Cybernetics, Automota Studies and the Dartmouth Conference on Artificial Intelligence" IEEE Annals of the History of Computing. Oct-Dec, 2011, IEEE Computer Society
+* Look at original 1955 proposal by McCarthy, Minsky, Shannon
+
+## Examples of demimondes / communities of creativity and discovery
+* Bloomsbury Group
+* Examples of this. Traitorous Eight / Fairchild. Physics circles in 19th-20th century Europe.
+
+
+## Examples of multiple aka simultaneous discoveries
+* Newton + Liebniz: discovery/invention of calculus
+* Discovery of oxygen (over phlogiston) by Carl Wilhelm Scheele, Joseph Priestley, Antoine Lavoisier
+* Evolution by Natural Selection; Darwin and Wallace
+* See Wiki article 
+* Technologies
+	* Blast furnace independently invented in China, Europe, Africa
+	* Crossbow-- China, Greece, Africa, Northern Canada, and Baltic Countries
+	* Magnetism-- Greece, China, India
+
