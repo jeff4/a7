@@ -10,10 +10,46 @@ tags: []
 
 ---
 
+***
+
 ### Notes
+* Kuhn, *The Structure of Scientific Revolutions*
 * History of computing link by Steve Furber, one of the early ARM chip designers. Published March 2017. ['Microprocessors: the engines of the digital age.'](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5378251/)
-* Quick history of 1944 neural networks proposed, early researchers moved to MIT in 1952, Minsky and Papert topped it 1968 etc in this [Intro to Liquid Neural Networks](https://hackernoon.com/an-introduction-to-liquid-neural-networks-nt5c33t7)
+    * JH notes [here](/posts/64-microproc/)
 * [HN comment](https://news.ycombinator.com/item?id=38739832) about [this substack piece](https://thealgorithmicbridge.substack.com/p/god-is-dead-so-they-are-building) referencing Sutton, Schmidhuber, and Sam Altman.
+
+***
+
+### 12/27/2023 Hacker Noon / Liquid NN article
+* [Quick history](https://hackernoon.com/an-introduction-to-liquid-neural-networks-nt5c33t7) from 1944 - 1968.
+* Timeline:
+	* 1944 - Primitive neural networks proposed by McCullough and Pitts in 1944. Hacker Noon references this 2017 [MIT article](https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414?ref=hackernoon.com#:~:text=Neural%20networks%20were%20first%20proposed,the%20first%20cognitive%20science%20department.) that has subtitle *Ballyhooed artificial-intelligence technique known as “deep learning” revives 70-year-old idea.* 
+
+***
+
+### 12/27/2023 Will Scaling Work by Dwarmish
+* 12/27/2023 - [HN thread](https://news.ycombinator.com/item?id=38781484) on Dwarkesh Patel's Substack article ['Will Scaling Work?'](https://www.dwarkeshpatel.com/p/will-scaling-work). 
+* Debate between 2 characters: Believer and Skeptic
+####  Question 1: Will We Run out of Data?
+
+####  Question 2: Has Scaling Ever Actually Worked So Far?
+
+####  Question 3: Do Models Understand the World?
+
+####  Conclusion
+
+
+***
+
+## Dartmouth Conference 1956
+* John McCarthy
+* Marvin Minsky, Nathanial Rochester, Claude Shannon
+* References from Wiki article
+	* J. Moor, "The Dartmouth College Artificial Intelligence Conference: The Next Fifty Years" AI Magazine 2006
+	* Ronald R. Kline "Cybernetics, Automota Studies and the Dartmouth Conference on Artificial Intelligence" IEEE Annals of the History of Computing. Oct-Dec, 2011, IEEE Computer Society
+* Look at original 1955 proposal by McCarthy, Minsky, Shannon
+
+***
 
 ### The Code
 * Author: Margaret O'Mara
@@ -29,18 +65,10 @@ tags: []
 * The New Geography of Jobs, 2013
 * Economic geography. It's not about high or low cost. It's about thick versus thin networks.
 
-## Dartmouth Conference 1956
-* John McCarthy
-* Marvin Minsky, Nathanial Rochester, Claude Shannon
-* References from Wiki article
-	* J. Moor, "The Dartmouth College Artificial Intelligence Conference: The Next Fifty Years" AI Magazine 2006
-	* Ronald R. Kline "Cybernetics, Automota Studies and the Dartmouth Conference on Artificial Intelligence" IEEE Annals of the History of Computing. Oct-Dec, 2011, IEEE Computer Society
-* Look at original 1955 proposal by McCarthy, Minsky, Shannon
 
 ## Examples of demimondes / communities of creativity and discovery
 * Bloomsbury Group
 * Examples of this. Traitorous Eight / Fairchild. Physics circles in 19th-20th century Europe.
-
 
 ## Examples of multiple aka simultaneous discoveries
 * Newton + Liebniz: discovery/invention of calculus
