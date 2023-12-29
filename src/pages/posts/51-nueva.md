@@ -12,11 +12,24 @@ tags: []
 
 ***
 
-### Notes
+### Main
 * Kuhn, *The Structure of Scientific Revolutions*
 * History of computing link by Steve Furber, one of the early ARM chip designers. Published March 2017. ['Microprocessors: the engines of the digital age.'](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5378251/)
     * JH notes [here](/posts/64-microproc/)
 * [HN comment](https://news.ycombinator.com/item?id=38739832) about [this substack piece](https://thealgorithmicbridge.substack.com/p/god-is-dead-so-they-are-building) referencing Sutton, Schmidhuber, and Sam Altman.
+
+***
+
+### Axes
+* Individual vs. Structural Forces
+	* What if Lenin had died earlier?
+	* What if Martin Luther had died earlier?
+* Contingency vs. Determinism
+	* Technology determinism
+* Continuity vs. Change
+* Lumping vs. Splitting
+* Forces: Political, Social, Economic, Cultural, Intellectual
+
 
 ***
 
