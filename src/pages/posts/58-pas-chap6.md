@@ -191,28 +191,45 @@ tags: []
 1. Information algorithms were designed according to the logic of self-organisation to better capture a social and economic field undergoing radical transformation.
 
 ### Autonomy and automation
-1. 
+1. In the second half of the twentieth century, 'Autonomy!' emerged as the common slogan for both cybernetics and the emerging counterculture. 
+1. High-level cyberneticians funded by the US army were discussing 'principles of self-organisation' in organisms and machines just as antiauthoritarian movements were proposing the same for social and political institutions. As such, these two tendencies debated, for different purposes, the ability of a system to give itself new rules over and against an external ruler (which is, in fact, the original meaning of 'autonomy'). 
+1. They were both, each in their own respect, forms of political avant-garde and a response to the dominion of outdated regimes: European fascism, Stalinist totalitarianism, and American capitalism. The terms 'cybernetics' and 'beat generation' were both coined, coincidentally, in 1948. 
+1. A few years later, Norbert Wiener defined both fascism and Western corporatism as ideologies of 'the inhuman use of human beings' against which cybernetics purported to offer a more 'human use of human beings'. But, where cybernetics in fact bolstered US military primacy during and after World War II, the counterculture and the student movement firmly boycotted the Vietnam War and the arms race. 
+1. The project of autonomy obviously meant different things to these different parties. For anti-authoritarian movements, it represented the freedom of self-determination and a means to constitute new institutions and alternative forms of life.  
+1. For the cyberneticians, it was the technological utopia of full automation and enlightened societal control:
+a military and industrial fantasy which also included the project of AI. 
+1. That even the military -- that most traditionally hierarchical structure -- also had a vested interest in forms of distributed communication and self-organising networks is a sign of deeper transformations.
+1. In the 1960s, the Free Speech Movement at the University of California, Berkeley, rightly condemned the first mainframe computers as technologies of war and social control in the hands of government and corporations. 
+1. Media scholar Fred Turner remembers when, on 2 December 1964, in front of more than five thousand students at the University of California, Berkeley, activist Mario Savio delivered an incendiary speech in which he 'uttered three sentences that would come to define not only the Free Speech Movement at Berkeley, but the countercultural militancy of the 1960s across America and much of Europe as well':
+	* There's a time when the operation of the machine becomes so odious, makes you so sick at heart, that you can't take part, you can't even tacitly take part. And you've got to put your bodies upon the gears and upon the wheels, upon the levers, upon all the apparatus, and you've got to make it stop. 
+	* And you've got to indicate to the people who run it, to the people who own it, that unless you're free, the machine will be prevented from working at all.
+1. For Turner, Savio's speech evoked memories of the pre-digital era, with images of workers physically wrestling with machines on factory floors. However, he also linked the term 'machine' to the modern society's dependence on information technology, which was beginning to significantly organise social relations as well.
+1. Such criticism of information technologies changed polarity in the following decade: computer science absorbed the aspirations of the earlier counterculture, while the counterculture itself claimed the emancipatory potential of information technologies (and eventually mutated into the so- called cyberculture). 
+1. The controversial imbrication of social autonomy and technological automation was already present, albeit underground, in the debates of the 1960s. Components of the counterculture, especially those inspired by Eastern spirituality, developed a naive attraction to cybernetics.
+1. The *Whole Earth Catalog*, published in California between 1968 and 1972, came to represent a culmination and synthesis of both cybernetic and ecological traditions. Richard Brautigan photographed this convergence in his famous satirical poem 'All Watched Over by Machines of Loving Grace'. 
+1. On the other hand, European voices such as that of Herbert Marcuse from the Frankfurt school and the autonomist Marxists reclaimed automation in the battle of emancipation from industrial labour. In Italy, a famous slogan of the *autonomia* cried: *'Lavoro zero e reddito intero, tutta la produzione all'automazione'* (Translation: zero work and full income, all production to automation).
+1. The terms 'autonomy', 'autonomous', 'automation', and the more ambivalent 'autonomisation' (meaning, depending on the context, 'being automated' or 'becoming autonomous') are not equivalent and also differ from 'self-organisation'. 
+1. Etymologically, the classical Greek term *autonomia* -- from *autos* ('self ') and *nomos* ('law') -- signifies the power to give oneself new habits, rules, and laws. 
+1. Modernity recognises this power as one belonging to legislative institutions, especially to the constituent assembly that founds the political order of the state. 
+1. Autonomy is simultaneously a constituent and destituent power: each time a new rule is invented, an old one can be subverted, nullified, or incorporated by the new invention. 
+1. But the opposite is also true: any time a rule is broken, an anomaly takes form and a new constitution -- a new vision of the world -- is implied. 
+1. In cybernetics, autonomy was defined as the capacity of a technical system of multiple agents to find a new organisation and equilibrium in relation to external inputs -- namely, the capacity to adapt to the environment. 
+1. In this way, a technical system was said to show emergent properties that might be perceived as 'intelligent' by a human observer. 
+1. These questions continue to haunt the dream of artificial intelligence, even now: Can a finite-state automaton -- that is, a computer -- show properties of autonomy? 
+1. Can a computer programmed to follow strict rules rebel against its core instructions and invent new ones? If autonomy is the power to invent a new rule, automation can be defined as the blind following of a rule, as is the case with computation.
+1. In this regard, the Austrian philosopher Ludwig Wittgenstein remarked that 'following a rule' will always have a different meaning for a human and a machine. 
+1. Considering the recent debates on AI bias as well as the speculation on the risks of 'superintelligence', one wonders whether the game of AI is still being played within the domain of automation (following a rule) rather than the domain of autonomy (that of breaking rules).
+1. To conclude, a competing claim: technologies of automation have always been responses to social autonomy, and cybernetic techniques of self-organisation such as artificial neural networks, similarly, have been avatars of the emergent social relations of their day. 
+1. In hindsight, both cybernetics and the post-war social movements were directly related to the autonomisation of knowledge and information in labour processes and social behaviours, which had triggered the rise of new media and technologies. 
+1. These points have over the years become a conventional interpretation in theories of knowledge society and information economy, to the point that even neoliberal economic paradigms, such as Hayek's spontaneous order of markets, or 'catallaxy', can be considered responses to the increased exchange of information in society at large (see chapter 8). 
+1. Materialist historians concede the dialectical relations of the two movements -- between the drive for social autonomy by new generations of workers, on one hand, and the appearance of new technologies of automation, on the other. 
+1. Ultimately, the diverse projects of automation after World War II were a way to govern developing social forces -- that is, to organise a 'control revolution' (as Beniger defined it) against a more rebellious society. 
+1. It is not by chance that, at least in the Global North, students and computer programmers were transformed into a new political subjectivity similar to the industrial workers' movement, given a global economy more and more dependent on information, knowledge, and science as key economic drivers.
+1. In the late 1960s, political philosopher Mario Tronti proposed to reverse a thesis which was then mainstream also in Marxism: capitalist development was always considered to shape workers' organisation and their politics. 
+1. To the contrary, Tronti claimed that capitalist development, including technological innovation, was always triggered by workers' struggles. 
+1. Interestingly, for a European intellectual such as Tronti, 'the working-class struggle reached its highest level of development between 1933 and 1947, and specifically in the United States', which are coincidentally the years that witness the rise of cybernetics and digital computation. 
+1. Radical and unconventional perspectives like this should be explored to narrate the combined evolution of society and technology throughout the twentieth and twenty-first centuries. 
+1. Across the historical transformations that this book attempts to analyse, it appears that the project of AI has never been truly *biomorphic* (aiming to imitate natural intelligence, as mentioned earlier) but implicitly *sociomorphic* -- aiming to encode the forms of social cooperation and collective intelligence in order to control them. 
+1. The destiny of the automation of intelligence cannot be seen as separate from the political drive to autonomy: it was ultimately the self-organisation of the social mind that gave form and momentum to the project of AI. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+***
