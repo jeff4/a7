@@ -129,6 +129,68 @@ tags: []
 1. The visual matrix (and, with it, the picture plane of modern iconology) has since then evolved into these advanced logical forms, into vast ramifications of statistical inference yet to be fully understood.
 
 ### The language of the brain is not the language of mathematics
+1. As the epistemologist David Bates has noted, the Gestalt school's scepticism about computational reductionism was nevertheless received by a central protagonist of US cybernetics: the polymath John von Neumann. 
+1. A key figure of the Manhattan Project and fervent anti-Communist, von Neumann occupied a role of mediator in the controversy. 
+1. In so doing, he effected a synthesis of Gestalt theory and logical neural networks and, in this way, opened the terrain for Rosenblatt's idea of statistical neural networks. He maintained a strong interest in the mathematical analysis of biological neural networks without claiming either that the brain is a machine or that a machine can perfectly simulate a brain. 
+1. Instead, he argued that, considering the number of their units (neurons in brains relative to switches in machines), the scale of human cognition cannot be compared with mechanical computation: 'The number of nerve cells in the human central nervous system has been estimated to be 10 billion ... and nobody has seen a switching organ of 10 billion units; therefore one would be comparing two unknown objects.' 
+1. As we will see, ultimately von Neumann did not reduce the brain to the computer -- the biological to the logical -- but instead envisioned in-between models and implementations to translate one domain into the other.
+1. Von Neumann agreed with McCulloch and Pitts that 'anything that you can describe in words can also be done with the neuron method' but disagreed 'that any circuit you are designing in this manner really occurs in nature'.
+1. While he sympathised with McCulloch and Pitts's effort to axiomatise biological neurons into formal ones, he also agreed with the Gestalt school that the systemic nature of form perception is such that it cannot be easily described in propositional terms and deductive logic, unless by exploding the size of descriptions into lengthy and verbose code scripts. As von Neumann explains, arithmetic logic carries manifest limits of scale in its representation of the world:
+	* *Suppose you want to describe the fact that when you look at a triangle you realize that it's a triangle, and you realize this whether it's small or large. It's relatively simple to describe geometrically what is meant: a triangle is a group of three lines arranged in a certain manner.* 
+	* *Well, that's fine, except that you also recognize as a triangle something whose sides are curved, and a situation where only the vertices are indicated, and something where the interior is shaded and the exterior is not.* 
+	* *You can recognize as a triangle many different things, all of which have some indication of a triangle in them, but the more details you try to put in a description of it the longer the description becomes.* 
+	* *[With] respect to the whole visual machinery of interpreting a picture, of putting something into a picture, we get into domains which you certainly cannot describe in those [logical] terms.*
+1. Contra McCulloch and Pitts, von Neumann contended that the brain can recognise the complexity of any image precisely because of its probabilistic logic. 
+1. Arithmetic logic would be then a simplification and approximation of the brain's actual workings and could only partially grasp its features. 
+1. As a result, von Neumann defined arithmetic logic as a metalanguage ('secondary language' or 'short code') that is efficient but not effective at fully describing the underlying probabilistic language of the brain ('primary language' or 'complete code'). 
+1. He also observed, similarly to Köhler, that the nervous system speaks this primary language using the statistical properties of stimuli ('complete code'), rather than exact markers ('short code').  
+1. Given such probabilistic dynamics, von Neumann concluded, counterintuitively, that in the nervous system a 'deterioration' of arithmetic precision can actually result in 'an improvement in logics'. 
+1. He highlighted, among others, that biological neural networks operate with an error tolerance that would set any deterministic computing machine out of joint. 
+1. A single mistake in a computer programme and the whole machine halts. However, such mistakes never trouble organisms. It is, then, the same probabilistic nature of organisms that make them fault redundant and able to perceive fuzzy and complex figures effortlessly:
+	* *The fact that natural organisms have such a radically different attitude about errors and behave so differently when an error occurs is probably connected with some other traits of natural organisms, which are entirely absent from our automata.* 
+	* *The ability of a natural organism to survive in spite of a high incidence of error (which our artificial automata are incapable of) probably requires a very high flexibility and ability of the automaton to watch itself and reorganize itself.* 
+	* *And this probably requires a very considerable autonomy of parts. There is a high autonomy of parts in the human nervous system. This autonomy of parts of a system has an effect which is observable in the human nervous system but not in artificial automata.*
+1. There is today consensus that biological neural networks operate in spite of errors, faults, and damages -- and precisely also thanks to them. 
+1. Cyberneticians encountered this idea of neuroplasticity in the cognitive sciences of the time, in particular in the work of the neurologists Karl Lashley (who also presented at the Hixon symposium) and Kurt Goldstein (who had emigrated to the US as part of the Gestalt school diaspora). 
+1. Lashley tested the effect of artificially induced brain injuries on the memory of laboratory rats, while Goldstein studied the capacity of World War I veterans to reorganise their memories after real brain traumas. 
+1. However, it was Goldstein rather than Lashley who provided a more systematic model of neuroplasticity. His theory of the brain's capacity to reorganise itself after a trauma was also closely related to the debate on memory localisation. 
+1. A thesis key to a pioneer of holistic neurology, Constantin von Monakow, was that memory is distributed rather than localised, and this is why it can be recovered after a brain injury (see chapter 8). Von Neumann echoed such theories:
+	* *The main difficulty with the memory organ is that it appears to be nowhere in particular. It is never very simple to locate anything in the brain, because the brain has an enormous ability to re-organize.* 
+	* *Even when you have localized a function in a particular part of it, if you remove that part, you may discover that the brain has reorganized itself, reassigned its responsibilities, and the function is again being performed.*
+1. It was this idea of a distributed memory in human brains that suggested the delocalisation of memory in machines. Neural networks, with their distributed architecture, were the perfect candidates to accomplish this. 
+1. As Rosenblatt acknowledged in *Neurodynamics*, von Neumann's comment on distributed memory was a main inspiration for the perceptron (see chapter 9). 
+1. Seen in perspective, von Neumann pursued a different method of inquiry compared to the other cyberneticians. 
+1. Against the Platonism and intuitionism then popular also in engineering, von Neumann maintained a constructivist perspective on language, logic, and mathematics. 
+1. He believed that these concepts were not inherent or innate, but rather products of historical development.
+	* *It is only proper to realize that language is largely a historical accident.* 
+	* *The basic human languages are traditionally transmitted to us in various forms, but their very multiplicity proves that there is nothing absolute and necessary about them.* 
+	* *Just as languages like Greek or Sanskrit are historical facts and not absolute logical necessities, it is only reasonable to assume that logics and mathematics are similarly historical, accidental forms of expression.* 
+	* *They may have essential variants, i.e. they may exist in other forms than the ones to which we are accustomed. Indeed, the nature of the central nervous system and of the message systems that it transmits indicate positively that this is so.*
+1. This historical relativisation of mathematics and logic is crucial for understanding von Neumann's approach to the computational theory of the mind and the project of building thinking automata. 
+1. Von Neumann held a more sophisticated position than functionalism, or the thesis of the *multiple realisability of the mind*, which maintains that the same operative model of intelligence can be implemented across different substrates made of neurons, relays, transistors, and so forth. 
+1. Instead, von Neumann promoted a method of mutual implementation between artificial and natural worlds, that is, *a method of modelling*. Of course, von Neumann was positive about using computers as model machines for studying the brain.
+1. Even so, at the end of his life, when he was invited by Yale University to deliver the Silliman Lectures in 1956, he sought to clarify this point without ambiguity. 
+1. His lecture series 'The Computer and the Brain' concludes with the declarative title 'The Language of the Brain Not the Language of Mathematics'. 
+1. In this lecture series, he recognised a key role to the 'secondary language' of mathematics in the knowledge of the 'primary language' of the brain. But, rather than reiterating the computationalism of McCulloch, Pitts, and Wiener, von Neumann -- himself no romantic -- made at the end a remarkable intervention: he reversed the relation between logic and nature, computer and brain, to the point of suggesting that the study of neurophysiology could one day reshape logic altogether. 
+1. In the introduction to the lectures's anthology, shortly before his death in 1957, presciently, von Neumann wrote: 'I suspect that a deeper mathematical study of the nervous system [in fact] may alter the way in which we look on mathematics and logics proper.'
+1. Von Neumann's final thoughts were a recognition of the dialectical relation of any system of thought with nature and the external world. They came to terms with the bounds of any system of formalisation and acknowledged the material constraints, including historical ones, of technological and scientific abstractions. 
+1. These insights surpassed the standard reductionism of the cybernetic mentality. 
+1. Models of minds and machines do not need to match each other; they often operate through modelling the world rather than reducing it to fixed representations. 
+1. An epistemology which would acknowledge the flexibility and limitations of modelling is recommended, and yet not a sufficient condition for a progressive philosophy of the mind. As we will see in the next chapter, in fact, the neoliberal economist Friedrich Hayek attempted to turn model thinking into a core principle of economic individualism.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
