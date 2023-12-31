@@ -231,7 +231,4 @@ tags: []
 1. Any abstraction, any classification, is the result of a social division of labour, of contradictions and conflicts that are generative of knowledge. 
 1. Similarly, Hayek's neural networks and artificial neural networks in general remain an extension of this very social division of abstract labour.
 
-
-
-
-
+***
