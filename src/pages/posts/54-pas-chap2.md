@@ -9,5 +9,5 @@ tags: []
 
 
 ---
-## Introduction: AI as Division of Labour'
+## Introduction: AI as Division of Labour
 ### Notes

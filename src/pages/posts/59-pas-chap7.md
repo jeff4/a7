@@ -177,3 +177,5 @@ tags: []
 1. These insights surpassed the standard reductionism of the cybernetic mentality. 
 1. Models of minds and machines do not need to match each other; they often operate through modelling the world rather than reducing it to fixed representations. 
 1. An epistemology which would acknowledge the flexibility and limitations of modelling is recommended, and yet not a sufficient condition for a progressive philosophy of the mind. As we will see in the next chapter, in fact, the neoliberal economist Friedrich Hayek attempted to turn model thinking into a core principle of economic individualism.
+
+***

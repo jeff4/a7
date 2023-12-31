@@ -75,5 +75,5 @@ tags: []
 1. Indeed, Babbage's calculating engines ('intelligent machines' of their age) were an implementation of the analytical eye of the factory's master.
 1. Cousins of Jeremy Bentham's panopticon, they were instruments, simultaneously, of surveillance and measurement of labour. It is this idea that we should consider and apply to the age of artificial intelligence and its political critique, although reversing its polarisation, in order to declare computing infrastructures a concretion of labour in common.
 
-
+***
 
