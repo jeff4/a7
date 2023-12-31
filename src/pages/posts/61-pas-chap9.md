@@ -15,7 +15,7 @@ tags: []
 * Frank Rosenblatt (1964): 'The role of experimentation becomes increasingly important as the systems to be considered grow in complexity, while the amount that can be accomplished by purely logical reasoning falls increasingly short of a complete understanding of the system's performance. This does not mean that an abandonment of theoretical analysis is advocated but, rather, in the spirit of Galileo, that theory must be matched by experiment at all times, and that from the interaction of theory and experiment will emerge the knowledge of the proper steps which must follow.'
 * Simon Schaffer (2011): "Faults are defaults, yet instruments perform. A principle of science studies is that dissensus is instructive, not pathological, and that agreement is not inevitable, but to be explained.  Instruments' adequate function needs comparable analysis. Then 'the big question' is how it's judged that instruments are working and, indeed, what they are."
 
-### An organization of the external environment in a meaningful way
+### 10. An organization of the external environment in a meaningful way
 1. In 1958, two years after the Dartmouth workshop on AI, *The New York Times* granted bold headlines to the project of a new 'thinking machine': the artificial neural network 'perceptron'. Its inventor, the psychologist Frank Rosenblatt (at the time only thirty years old), and its sponsor, Marshall Yovits of the US Office of Naval Research, were looking for good press to justify the expenditure of taxpayer money. 
 1. In praise of the invention, the newspaper cartoonishly reported that 'the Navy revealed the embryo of an electronic computer that it expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence'. 
 1. It was fanfare for the military, yet some of the article's exaggerations predicted the creepy future achievements of deep neural networks. For instance, the article was eerily prescient regarding face recognition and natural language processing that would emerge half a century later: 'Later Perceptrons will be able to recognize people and call out their names and instantly translate speech in one language to speech or writing in another language.'
@@ -31,7 +31,7 @@ tags: []
 1. Rosenblatt also planned to design, aside photoperceptrons, a whole class of devices operating with the same logic which included phonoperceptrons (to recognise words in audio communications) and radioperceptrons (to recognise objects in radar and sonar signals). 
 1. Technically speaking, the perceptron was a statistical neural network for pattern recognition -- that is, a self-organising computing network for the classification of stimuli in a binary way, as briefly mentioned in previous chapters.
 
-### The Mark I Perceptron
+### 20. The Mark I Perceptron
 1. The first implementation of the perceptron was a computer simulation written in the SHARE programming language and run, in 1957, on an IBM 704, one of the first commercial mainframes. In the earliest tests, the computer was fed a series of punched cards, and apparently, after fifty trials, it 'taught itself to distinguish cards marked on the left from cards marked on the right'. 
 1. Rosenblatt considered this proof that a more complex architecture of the perceptron could be designed to recognise more complex patterns. Shortly after *The New York Times* article, this idea took the form of a bulky piece of hardware which would be completed only in 1960: the legendary Mark I Perceptron which now rests at the Smithsonian National Museum of American History in Washington, DC. 
 1. The Mark I was the same digital computer that had been used by John von Neumann in the 1940s to make calculations for the Manhattan Project; however, in this implementation, it was extended by the analogue module of the Perceptron. 
@@ -87,7 +87,7 @@ tags: []
 1. Some system, more advanced in principle than the perceptron, seems to be required at this point.' 
 1. To date, lacking a complete theory of statistical learning, artificial neural networks and deep learning are still at the epistemic stage of *experiments*. In other words, they are machines of unknown potentialities and unpredictable failures.
 
-### Brain models and experimental method
+### 30. Brain models and experimental method
 
 1. The simple perceptron was not the first artificial neural network but the first *adaptive* one -- meaning it was able not just to recognise patterns but to learn how to recognise them (and to be rewired in different configurations in order to *learn differently*). 
 1. Although its achievements were primitive, it is considered, nevertheless, the first classifier algorithm. 
@@ -118,7 +118,7 @@ tags: []
 1. In fact, despite the seeming simplicity of its architecture, a neural network requires a number of operations that exponentially increases just by adding a few layers and connections. 
 1. Writing the history of computation from the point of view of algorithmic complexity -- that is, the size of calculations and resource usage -- statistical neural networks such as the perceptron marked a hurdle that, at the time, could not be successfully crossed due to the lack of computing power.
 
-### From symbolic logic to vector space
+### 40. From symbolic logic to vector space
 
 1. The first international symposium on the newly established field of AI took place in November 1958 at the National Physical Laboratory in Teddington, West London, under the title 'Mechanisation of Thought Processes'. 
 1. This event played a key role in the history of AI, but it has been rarely studied; here, for reasons of space, only Rosenblatt's contribution is considered. 
@@ -161,7 +161,7 @@ tags: []
 1. Since then, however, its influence has gone far beyond image recognition: vectorisation in multiple dimensions has been applied to all kinds of data and has come to represent the epistemic form of the 'intelligence' that machine learning embodies in general, which is a form of *statistical intelligence*. 
 1. The characteristic of 'intelligence' that is anthropomorphised in AI systems is essentially the trick of projecting data on a multidimensional space in order to perform operations of clustering, classification, and prediction. At its core, machine learning exhibits the quality of geometric and spatial 'intelligence'.
 
-### The new vectors of mind
+### 50. The new vectors of mind
 
 1. During the 1950s, psychometrics emerged as an influential subfield in the departments of psychology across US universities. 
 1. It represented quite a reductionist turn in the study of the psyche, as it was mainly concerned with the quantification and statistical measurement of personality traits, cognitive abilities, and work skills. 
@@ -221,7 +221,7 @@ tags: []
 1. Statistical tools have become since then not only a model of 'intelligence' in psychology but also a model of 'artificial intelligence' in the development of labour automation. 
 1. Eventually, a whole statistical view of the world and society underwent a process of automation, so to speak, as it became increasingly normalised and naturalised through AI.
 
-### Hacking the vector space
+### 60. Hacking the vector space
 
 1. In their 1969 book *Perceptrons*, Marvin Minsky and Seymour Papert demonstrated in mathematical terms that Rosenblatt's simple perceptron was unable to recognise certain patterns, questioning in this way its capacity for generalisation to other tasks of human intelligence. 
 1. Specifically, the book argued that certain images, once projected onto the multidimensional space, could not be linearly separated by the simple perceptron: in particular, the perceptron could not discriminate connected from disconnected figures. 
@@ -251,4 +251,54 @@ tags: []
 1. The adoption of statistical tools by machine learning is a counterproof, in all its controversial legacy, that the master algorithm of 'artificial general intelligence', understood as the dream of technological singularity and *alpha machine* by a large community of engineers and computer scientists, is precisely a statistical illusion projected by data. 
 1. In other words, the master algorithm does not exist as algorithm, but only as an originary extended social form.
 
-### The social calculus of knowledge
+### 70. The social calculus of knowledge
+
+1. In the 1980s, in his book *The Vision Machine*, it was the French theorist Paul Virilio who would rediscover the then little-known case of the perceptron as part of the industrial and military spectrum of projects for the 'automation of perception'. 
+1. Yet these military origins should not distract from seeing the perceptron in the larger genealogy of labour automation, social control, and knowledge extractivism. 
+1. Alongside the known automation of manual and mental labour, the perceptron pioneered the automation of a different kind of labour: the *labour of perception*, or *supervision*. 
+1. This is the task of surveilling machines (*Maschinenarbeit* in Marx) but also workspaces and assembly lines with a clear disciplinary function when it takes place under the eye of the authority, such as masters, guards, and policemen. 
+1. As the media scholar Jonathan Beller has summarised, 'to look is to labour' and has been so for a long time; but 'to look is to organise labour' as well, and the eye of the master has been doing so all along. 
+1. Optical media such as cinema and photography have often been involved in the automation of the gaze and the surveillance of labour in the past, and experiments of pattern recognition such as the perceptron have simply articulated these previous regimes of machine vision to a further stage.  
+1. As seen in chapter 2, the industrial age pursued the mechanisation of manual labour with tooling machines and steam engines, and, with Babbage, the mechanisation of mental labour under the form of hand calculation and symbol manipulation (which are still quite 'manual' activities, as the names indicate). 
+1. In the mid-twentieth century, mainframe computers extended the automation of mental labour as calculation and symbol manipulation in state administration, large companies, and scientific research. 
+1. Compared to this history, the labour of supervision was mechanised in a different way. 
+1. A novel aspect of the perceptron (and of pattern recognition algorithms in general) lies in the fact that a machine, for the first time, sought to automate so high a speculative faculty as the act of recognising -- that is interpreting -- an image, as opposed to the manipulation of symbols of given meaning. 
+1. Rosenblatt defined the perceptron as a machine for the 'interpretation of the environment', arguing that the 'conceptualization of the environment is the first step towards creative thinking', and under this respect, in fact, the perceptron can be defined also as an *interpretation machine*.  
+1. In today's technical jargon of machine learning, the perceptron is a *classifier* -- that is, an algorithm for statistically discriminating among images and assigning them a class or category (also known as a 'label') in a given cultural taxonomy. 
+1. This, perhaps the most important aspect of the classifiers, has nothing to do with their *internal logic* but with the association of their output to an *external convention* that establishes the meaning of an image or other symbol in a given culture. 
+1. Gestalt theory, cybernetics, and symbolic AI each intended to identify the *internal laws* of perception, but the key feature of a classifier such as the perceptron is to record *external rules* -- that is, social conventions. 
+1. Ultimately, an artificial neural network is an *extroverted machine*, a machine projected towards the outside, because the interpretation of an image, for example, is always affected more by experience and external social factors than by internal physiological circuits.  
+1. A classification algorithm such as the perceptron does not automate reasoning understood as a capacity of *symbolic manipulation*, but rather as *situated knowledge* which is part of the cultural heritage of a given context. 
+1. The act of image recognition or pattern classification is a specific kind of mental labour: it is a profoundly social act that mobilises, at the same time, tacit and explicit know-how, scientific and traditional taxonomies, and vernacular and technical grammars -- in short, knowledgemaking as a historical and often conflicting process. 
+1. Although the industrial task of machine supervision can be highly codified, pattern recognition 'in the wild' remains a gesture of open interpretation rather than a strict rule-based procedure. 
+1. For these reasons, a machine which is designed to automate such an epistemic mess (see the project of selfdriving cars) encounters, then as now, great difficulties. 
+1. Moreover, the recent debates on gender, class, and racial bias in machine learning systems for face recognition reminds us what semioticians, philosophers of language, and art historians have always known: that image interpretation is an act that bears unresolvable political implications. 
+1. In this regard, critical AI scholars Michael Castelle and Tyler Reigeluth have proposed to compare machine learning to the theory of learning as a social process by the Soviet psychologist Lev Vygotsky.58 The semiotic structure of the classifier, which is basically an *imitation machine*, confirms what Vygotsky argued: that there is no inner logic to discover in intelligence, because intelligence is a social process by constitution.
+1. In conclusion, Rosenblatt's initial experiment to automate pattern recognition with a small matrix of 400 dimensions resulted, after the design of convolutional neural networks in the 1980s and the rise of deep learning in the 2010s, in the algorithmic modelling of vast inventories of spontaneous knowledge, mass communication, and cultural heritage. 
+1. The perceptron was an experiment of visual pattern recognition that thereafter was extended to the analysis of non-visual data, into a novel 'pattern recognition' across datasets of cultural, social, and scientific kind. 
+1. In the age of deep learning, the architecture of the multilayered perceptron ended up being not a model of the biological brain but of the collective mind, eventually expressing its original ontology shaped by psychometrics. 
+1. In fact, probably the most crucial moment in the history of AI is when, with Rosenblatt's perceptron, artificial neural networks inherited the techniques of multidimensional analysis from psychometrics and statistics. 
+1. This made possible not only pattern recognition but also the computation of data of much-higher dimensions -- a feature that would come to be key, half a century later, in the age of 'big data'. 
+1. As is well known, the unfortunate term 'big data' does refer to data that are not only vast in size but diverse in terms of typology -- rendered in statistics as 'dimensions'. 
+1. Nowadays, companies such as Google, Amazon, Facebook, and Twitter, for example, collect data that define an extensive manifold of dimensions about their users, such as location, age, gender, nationality, language, education, job, number of contacts, along with political orientation, cultural interests, and so on. 
+1. The variety of social dimensions that these platform companies can analyse is vertiginous, exceeding the imagination of any well-trained statistician. 
+1. The rise of machine learning algorithms is, then, also the response to the *dimensionality explosion* of social data rather than simply to an issue of information overload.  
+1. Eventually, in the past decade, machine learning has grown into an extensive *algorithmic modelling of collective knowledge*, a 'social calculus' that aims to encode individual behaviours, community life, and cultural heritage under the form of vast architectures of statistical correlations. 
+1. This has helped establish a monopolistic regime of knowledge extractivism on a global scale and new techniques for the automation of labour and management. As with only a few other artefacts of our epoch, AI has come to exemplify a unique concentration of power as knowledge.
+
+***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
