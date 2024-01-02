@@ -90,7 +90,7 @@ tags: []
 1. McCulloch and Pitts's paradigm of perception and cognition was as much as atomistic as multidimensional: it was based on the idea that in order to 'perceive' and 'understand', a biological or artificial neural network can dismember a manifold of two dimensions and project it onto a different configuration of dimensions than the original ones. 
 1. In a visionary way, they challenged the famous dictum by Gestalt theory: 'The whole is other than the sum of its parts.' They sought to replace Gestalt theory's holistic complexity with another kind of multidimensionality which was purely mathematical.
 
-### What the frog's eye tells the frog's brain
+### 30. What the frog's eye tells the frog's brain
 
 1. At the Hixon symposium, Köhler was the lone delegate representing the Gestalt school. 
 1. He participated not to defend a mystic power of the mind but to present physical measurements of brain activity during visual perception, precisely 'records of electric currents which have been taken from the heads of human subjects under conditions of pattern vision'. 
@@ -99,6 +99,9 @@ tags: []
 	* *Gestalt psychologists did not capitulate to mysticism, political reaction and vitalism, all of which were connected with the hunger for wholeness.*
 	* *They insisted on empirical studies of phenomena and sought fundamental laws describing structural characteristics of experience, even as they supported the popular opposition to atomistic and mechanistic analyses of the world.*
 1. Specifically, Köhler relied on the model of force fields, which was derived from physics and inspired, among others, by his close friend Max Planck, to explain the phenomenon of visual perception happening between eye and brain.
+
+### 32. JH Break
+
 1. At the Hixon symposium, the *physical hypothesis* of force fields underlying Gestalt perception clashed with the *computational analogy* of brains as finite-state automata. 
 1. Köhler attacked McCulloch's reductionist approach to the brain, arguing that nerve impulses, when seen and measured by a histologist or neurophysiologist, do not look like logical propositions but simply like ... impulses! 
 1. Against cybernetics' view of the brain as 'machine arrangements', Köhler proposed the theory of force fields to explain a structural continuity of form (isomorphism) between the stimulus of perception, its neural correlates, and the higher faculties of cognition (such as the faculty of insight):
@@ -108,6 +111,9 @@ tags: []
 1. In contrast with the gung-ho enthusiasm of cyberneticians for neural correlates resembling logical operators, Köhler was cautious about his own findings. 
 1. Moreover, contrary to what the term may suggest, Gestalt 'isomorphism' was not a monotonic notion but one that included principles of plasticity such as self-organisation and selfrepair in the broader sense. 
 1. The Gestalt school considered the idea of the mind as a finite-state automaton unfit for describing these higher capacities of the mind for synthesis and abstraction through self-organisation.  
+
+### 35. JH Break
+
 1. On the other side of the camp, the most vocal and virulent antiGestaltist was Norbert Wiener, who called holism a 'pseudo-scientific bogy'. 
 1. Accordingly, Wiener argued that 'if a phenomena can only be grasped as a whole and is completely unresponsive to analysis, there is no suitable material for any scientific description of it; for the whole is never at our disposal'. 
 1. Wiener shared McCulloch and Pitts's computational view of the mind ideologically, with no hesitation:
@@ -123,13 +129,16 @@ tags: []
 1. In the mid-1950s, neurophysiologist Jerome Lettvin and biologist Humberto Maturana invited McCulloch and Pitts to contribute to their studies on the neurons of the frog's eye. 
 1. Their conclusion would be published in 1959 in the famous paper 'What the Frog's Eye Tells the Frog's Brain', which for many represents the final nail in the coffin of the Gestalt controversy. 
 
-### JH Break on *The Frog Paper*
+### 40. JH Break on *The Frog Paper*
 
 1. Their research moved from the simple observation that the optical nerve of higher animals is composed of fewer fibres than the retina. 
 1. This suggests that the stimulus must undergo compression before it reaches the brain. 
 1. The question that arises is what exactly happens to the stimulus between the retina, the optical nerve, and the visual cortex? The scientists took the frog as their model organism. They measured the stimuli in the optical nerve using an electrode, while presenting high-contrast shapes to the animal's eye. 
 1. In this way, they recorded four types of neural behaviours, or 'operations': '1) sustained contrast detection; 2) net convexity detection; 3) moving edge detection; 4) net dimming detection'. 
 1. By way of illustration, let us consider the second operation -- net convexity detection -- which is perhaps the most intuitive to understand: it is about the perception of a small object roaming across the visual field, like a flying insect, which is crucial for food retrieval and the survival of the frog. As such, it was colloquially called the 'bug detector'.
+
+### 42. JH Break
+
 1. Against the Gestalt theory's primacy of brain functions, the authors argued that the eye already performs basic tasks of cognition, such as pattern recognition, and sends signals to the brain that are already wellformed concepts and not just percepts. 
 1. They contended that the eye is already employing the language of 'complex abstractions' rather than being simply a medium of sensations. 
 1. They concluded that 'the eye speaks to the brain in a language already highly organized and interpreted, instead of transmitting some more or less accurate copy of the distribution of light on the receptors'. 
@@ -141,7 +150,7 @@ tags: []
 1. The human organ that McCulloch and Pitts most often investigated and envisioned as a network of logical operators was not the brain but the eye; and, of the eye, their artificial neural networks implicitly inherited a specific hierarchy of behaviour. 
 1. In McCulloch and Pitts's 1947 essay, the cooperation among the nodes of the artificial neural network was supposed to resolve the combinatorial geometry of the field of vision, not the propositional logic of a syllogism, as in their 1943 publication. 
 
-### JH Break on Gestalt
+### 45. JH Break on Gestalt
 
 1. In the Gestalt controversy, then, one does not find a model of cognition to be mechanised but rather several models of perception, since the elements of the perceptual field, rather than mental states, were represented in computational terms. 
 1. The development of artificial neural networks continued by mostly studying the neurons of the eye rather than the brain: from Lettvin's frogs to David Hubel and Torsten Wiesel's cats (which inspired convolutional neural networks such as AlexNet), the history of connectionist AI is indebted to experiments on animals and their organs of vision.
@@ -150,13 +159,16 @@ tags: []
 1. Logic gates and perceptual fields -- the basic concepts of cybernetics and the Gestalt school respectively -- were two polarised ideals that the evolution of AI eventually overcame and synthesised into more and more abstract constructs: today the inner logic of machine learning is described, for instance, through entities such as multidimensional vectors, latent spaces, and statistical distributions. 
 1. The visual matrix (and, with it, the picture plane of modern iconology) has since then evolved into these advanced logical forms, into vast ramifications of statistical inference yet to be fully understood.
 
-### The language of the brain is not the language of mathematics
+### 50. The language of the brain is not the language of mathematics
 1. As the epistemologist David Bates has noted, the Gestalt school's scepticism about computational reductionism was nevertheless received by a central protagonist of US cybernetics: the polymath John von Neumann. 
 1. A key figure of the Manhattan Project and fervent anti-Communist, von Neumann occupied a role of mediator in the controversy. 
 1. In so doing, he effected a synthesis of Gestalt theory and logical neural networks and, in this way, opened the terrain for Rosenblatt's idea of statistical neural networks. He maintained a strong interest in the mathematical analysis of biological neural networks without claiming either that the brain is a machine or that a machine can perfectly simulate a brain. 
 1. Instead, he argued that, considering the number of their units (neurons in brains relative to switches in machines), the scale of human cognition cannot be compared with mechanical computation: 'The number of nerve cells in the human central nervous system has been estimated to be 10 billion ... and nobody has seen a switching organ of 10 billion units; therefore one would be comparing two unknown objects.' 
 1. As we will see, ultimately von Neumann did not reduce the brain to the computer -- the biological to the logical -- but instead envisioned in-between models and implementations to translate one domain into the other.
 1. Von Neumann agreed with McCulloch and Pitts that 'anything that you can describe in words can also be done with the neuron method' but disagreed 'that any circuit you are designing in this manner really occurs in nature'.
+
+### 51. JH Break
+
 1. While he sympathised with McCulloch and Pitts's effort to axiomatise biological neurons into formal ones, he also agreed with the Gestalt school that the systemic nature of form perception is such that it cannot be easily described in propositional terms and deductive logic, unless by exploding the size of descriptions into lengthy and verbose code scripts. As von Neumann explains, arithmetic logic carries manifest limits of scale in its representation of the world:
 	* *Suppose you want to describe the fact that when you look at a triangle you realize that it's a triangle, and you realize this whether it's small or large. It's relatively simple to describe geometrically what is meant: a triangle is a group of three lines arranged in a certain manner.* 
 	* *Well, that's fine, except that you also recognize as a triangle something whose sides are curved, and a situation where only the vertices are indicated, and something where the interior is shaded and the exterior is not.* 
@@ -169,7 +181,7 @@ tags: []
 1. Given such probabilistic dynamics, von Neumann concluded, counterintuitively, that in the nervous system a 'deterioration' of arithmetic precision can actually result in 'an improvement in logics'. 
 1. He highlighted, among others, that biological neural networks operate with an error tolerance that would set any deterministic computing machine out of joint. 
 
-### JH Break on graceful degradation mostly required in biology and eecs needed to learn redundancy/error correction
+### 55. Graceful degradation mostly required in biology and eecs needed to learn redundancy/error correction
 #### Continue reading here
 
 1. **A single mistake in a computer programme and the whole machine halts. However, such mistakes never trouble organisms. It is, then, the same probabilistic nature of organisms that make them fault redundant and able to perceive fuzzy and complex figures effortlessly:**
@@ -180,13 +192,16 @@ tags: []
 1. Cyberneticians encountered this idea of neuroplasticity in the cognitive sciences of the time, in particular in the work of the neurologists Karl Lashley (who also presented at the Hixon symposium) and Kurt Goldstein (who had emigrated to the US as part of the Gestalt school diaspora). 
 1. Lashley tested the effect of artificially induced brain injuries on the memory of laboratory rats, while Goldstein studied the capacity of World War I veterans to reorganise their memories after real brain traumas. 
 
-### JH Break
+### 60. JH Break
 
 1. However, it was Goldstein rather than Lashley who provided a more systematic model of neuroplasticity. His theory of the brain's capacity to reorganise itself after a trauma was also closely related to the debate on memory localisation. 
 1. A thesis key to a pioneer of holistic neurology, Constantin von Monakow, was that memory is distributed rather than localised, and this is why it can be recovered after a brain injury (see chapter 8). Von Neumann echoed such theories:
 	* *The main difficulty with the memory organ is that it appears to be nowhere in particular. It is never very simple to locate anything in the brain, because the brain has an enormous ability to re-organize.* 
 	* *Even when you have localized a function in a particular part of it, if you remove that part, you may discover that the brain has reorganized itself, reassigned its responsibilities, and the function is again being performed.*
 1. It was this idea of a distributed memory in human brains that suggested the delocalisation of memory in machines. Neural networks, with their distributed architecture, were the perfect candidates to accomplish this. 
+
+### 62. JH Break
+
 1. As Rosenblatt acknowledged in *Neurodynamics*, von Neumann's comment on distributed memory was a main inspiration for the perceptron (see chapter 9). 
 1. Seen in perspective, von Neumann pursued a different method of inquiry compared to the other cyberneticians. 
 1. Against the Platonism and intuitionism then popular also in engineering, von Neumann maintained a constructivist perspective on language, logic, and mathematics. 
@@ -199,7 +214,7 @@ tags: []
 1. Von Neumann held a more sophisticated position than functionalism, or the thesis of the *multiple realisability of the mind*, which maintains that the same operative model of intelligence can be implemented across different substrates made of neurons, relays, transistors, and so forth. 
 1. Instead, von Neumann promoted a method of mutual implementation between artificial and natural worlds, that is, *a method of modelling*. Of course, von Neumann was positive about using computers as model machines for studying the brain.
 
-### Von Neumann lecture at Yale 1956
+### 70. Von Neumann lecture at Yale 1956
 
 1. Even so, at the end of his life, when he was invited by Yale University to deliver the Silliman Lectures in 1956, he sought to clarify this point without ambiguity. 
 1. His lecture series 'The Computer and the Brain' concludes with the declarative title 'The Language of the Brain Not the Language of Mathematics'. 
