@@ -37,11 +37,11 @@ tags: []
 1. The Mark I was the same digital computer that had been used by John von Neumann in the 1940s to make calculations for the Manhattan Project; however, in this implementation, it was extended by the analogue module of the Perceptron. 
 1. Though it was a thousand times slower than the IBM 704, this hardware--software hybrid allowed a programmer to rewire the network by hand, which was faster than rewriting a program. 
 1. The operator's manual described it in this way:
-	* The Mark I Perceptron is a pattern learning and recognition device. 
-	* It can learn to classify plane patterns into groups on the basis of certain geometric similarities and differences. 
-	* Among the properties which it may use in its discriminations and generalizations are position in the retinal field of view, geometric form, occurrence frequency, and size. 
-	* If, of the many possible bases of classification, a particular one is desired, it can generally be transferred to the perceptron by a *forced learning* session or by an *error correction* training process. 
-	* If left to its own resources the perceptron can still divide up into classes the patterns presented to it, on a classification basis of its own forming. This formation process is commonly referred to as *spontaneous learning*.
+	* *The Mark I Perceptron is a pattern learning and recognition device.*
+	* *It can learn to classify plane patterns into groups on the basis of certain geometric similarities and differences.*
+	* *Among the properties which it may use in its discriminations and generalizations are position in the retinal field of view, geometric form, occurrence frequency, and size.*
+	* *If, of the many possible bases of classification, a particular one is desired, it can generally be transferred to the perceptron by a *forced learning* session or by an *error correction* training process.*
+	* *If left to its own resources the perceptron can still divide up into classes the patterns presented to it, on a classification basis of its own forming. This formation process is commonly referred to as *spontaneous learning*.*
 1. The Mark I Perceptron implemented a simple neural network made of three layers of units that were connected in progression: 'Sensory or S-units, Association or A-units, Response or R-units'. 
 1. The input layer (also called the 'retina') was a 20-by-20-pixel camera, featuring 400 photoreceptors in total. 
 1. These sensory units were randomly or topologically connected, with fixed weights, to a layer of 512 associative units. 
@@ -187,7 +187,7 @@ tags: []
 	* *The statisticians' conquest of new territory in psychology started in the 1940s...*
 	* *By the early 1950s, half of the psychology departments in leading American universities offered courses on Fisherian methods and had made inferential statistics a graduate program requirement.*
 	* *By 1955, more than 80% of the experimental articles in leading journals used inferential statistics to justify conclusions from the data...I therefore use 1955 as a rough date for the institutionalization of the tool in curricula, textbooks, and editorials...*
-	* *In experimental psychology, inferential statistics became almost synonymous with scientific method.  Inferential statistics, in turn, provided a large part of the new concepts for mental processes that have fueled the so-called cognitive revolution since the 1960s. *
+	* *In experimental psychology, inferential statistics became almost synonymous with scientific method.  Inferential statistics, in turn, provided a large part of the new concepts for mental processes that have fueled the so-called cognitive revolution since the 1960s.*
 	* *Theories of cognition were cleansed of terms such as restructuring and insight, and the new mind has come to be portrayed as drawing random samples from nervous fibers, computing probabilities, calculating analyses of variance (ANOVA), setting decision criteria, and performing utility analyses.*
 	* *After the institutionalization of inferential statistics, a broad range of cognitive processes, conscious and unconscious, elementary and complex, were reinterpreted as involving 'intuitive statistics'.*
 1.  Gigerenzer provides a realistic periodisation that is compatible with the adoption of statistical techniques also in the artificial neural networks research. 
