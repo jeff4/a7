@@ -19,6 +19,9 @@ tags: []
 1. In 1958, two years after the Dartmouth workshop on AI, *The New York Times* granted bold headlines to the project of a new 'thinking machine': the artificial neural network 'perceptron'. Its inventor, the psychologist Frank Rosenblatt (at the time only thirty years old), and its sponsor, Marshall Yovits of the US Office of Naval Research, were looking for good press to justify the expenditure of taxpayer money. 
 1. In praise of the invention, the newspaper cartoonishly reported that 'the Navy revealed the embryo of an electronic computer that it expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence'. 
 1. It was fanfare for the military, yet some of the article's exaggerations predicted the creepy future achievements of deep neural networks. For instance, the article was eerily prescient regarding face recognition and natural language processing that would emerge half a century later: 'Later Perceptrons will be able to recognize people and call out their names and instantly translate speech in one language to speech or writing in another language.'
+
+### 12 JH Break
+
 1. In the same year, *The New Yorker* featured more sober coverage in the form of an interview with Rosenblatt, who clarified that the perceptron was not 'a mechanical brain', as the hype claimed, but a self-organising machine that could likewise provide 'an organization of its external environment in a meaningful way'. Paraphrasing the Hebbian principle of neuroplasticity ('Neurons that fire together, wire together'), the magazine gave an accurate account, for the time, of the working of an artificial neural network:
 	* The distinctive characteristic of the perceptron is that it interacts with its environment, forming concepts that have not been made ready for it by a human agent. 
 	* Biologists claim that only biological systems see, feel, and think, but the perceptron behaves as if it saw, felt, and thought. Both computers and perceptrons have so-called memories; in the latter, however, the memory isn't a mere storehouse of deliberately selected and accumulated facts but a free, indeterminate area of association units, connecting, as nearly as possible at random, a sensory input, or eye, with a very large number of response units.
@@ -43,6 +46,9 @@ tags: []
 	* *If, of the many possible bases of classification, a particular one is desired, it can generally be transferred to the perceptron by a *forced learning* session or by an *error correction* training process.*
 	* *If left to its own resources the perceptron can still divide up into classes the patterns presented to it, on a classification basis of its own forming. This formation process is commonly referred to as *spontaneous learning*.*
 1. The Mark I Perceptron implemented a simple neural network made of three layers of units that were connected in progression: 'Sensory or S-units, Association or A-units, Response or R-units'. 
+
+### 22 JH Break 
+
 1. The input layer (also called the 'retina') was a 20-by-20-pixel camera, featuring 400 photoreceptors in total. 
 1. These sensory units were randomly or topologically connected, with fixed weights, to a layer of 512 associative units. 
 1. The associative units were themselves connected to eight response units (R- units, or output) with weights that could be adjusted automatically (these 'weights' were analogue potentiometers that could be also controlled by hand).
@@ -54,6 +60,9 @@ tags: []
 1. In any case, in terms of algorithmic complexity, this was already a big number of variables to be computed by incremental approximation with the resources of the time. 
 1. Today, to give an idea of the different scale of complexity, three lines of Python code suffice to run the perceptron algorithm on a desktop computer, whereas a large model such as GPT4 comprises of around 1 trillion parameters (which requires a large data centre for training and deployment).  
 1. The randomness of the initial connections and weights was crucial for Rosenblatt to demonstrate that the perceptron displayed a capacity of self- organisation, even when initialised from a chaotic state. 
+
+### 24 JH Break
+
 1. Rosenblatt was enthusiastic about the perceptron's computing resolution, remarking: 'It is clear that with an amazingly small number of units -- in contrast with the human brain's 1010 nerve cells -- the perceptron is capable of highly sophisticated activity.' 
 1. The architecture of the perceptron could vary and assume different configurations with more layers and functions.
 1. It was already clear in Rosenblatt's papers that guessing the optimal configuration of the computing network was a craft of its own, forming part of the experimental practice.  
@@ -74,7 +83,10 @@ tags: []
 1. Once again, the problem is finding the most efficient procedure that converges to the final result in the fewest number of steps. 
 1. The design of the training algorithm is a further level of abstraction and problem-solving, which is distinct from the structure of the neural network. 
 1. On this view, what many still call 'artificial intelligence' is just a technique of mathematical optimisation. 
-1. This is still a case of bruteforce approximation, the logic of which has become even more 'brute' in large models featuring trillions of parameters. 
+
+### 26 JH Break
+
+1. This is still a case of brute force approximation, the logic of which has become even more 'brute' in large models featuring trillions of parameters. 
 1. Eventually, it is remarkable that at the heart of the most advanced techniques of 'artificial intelligence', one finds approximation procedures not dissimilar to those that constituted calculus since antiquity (see chapter 1). 
 1. What was the Mark I Perceptron capable of? In terms of pattern recognition, not much. 
 1. It was able to distinguish a black square on the left of the visual field from one on the right, and to distinguish simple letters if they were aligned on the centre of its 20-by-20 visual matrix. 
@@ -95,12 +107,18 @@ tags: []
 1. Rosenblatt then applied an errorcorrection algorithm to gradually adjust these values and have them converge towards an optimal equilibrium with external data, achieving in this way 'intelligence' as a spontaneous order emerging from chaos.  
 1. The hype around neural networks and self-organising theories (see chapter 6) initially caused ill feeling and envy among the 'artificial intelligentsia', especially in the circles of symbolic AI that were competing for the same military funds. 
 1. In order to counteract this negative response, in 1961 Rosenblatt went on to systematise his research in the lengthy monograph *Principles of Neurodynamics*, which, while little studied, remains the best source to understand the origins of artificial neural networks. 
+
+### 32 JH Break
+
 1. However, an essay from 1964, 'Analytic Techniques for the Study of Neural Nets', better illustrates Rosenblatt's research perspective. 
 1. In this later text, in order to defend the experimental nature of artificial neural networks, Rosenblatt polemically mobilised the Galilean method against the Aristotelian one, which, in his view, was still used in other studies of brain models. Symbolic AI theorists, for instance, believed in the possibility of encoding the mind's rules into the machine's rules straightforwardly, without experimental testing:
 	* *For the two millennia which followed Aristotle, it was believed that the fundamental truths of nature could be revealed through the application of pure reason, that it was the philosopher, rather than the experimenter, who might discern the necessary order of nature through the sheer power of his intellect...*
 	* *Then, at the beginning of the seventeenth century, the publication of Galileo's 'Discourses on Two New Sciences' gave voice for the first time to the doctrine of the experimental method.* 
 	* *Galileo's work, advocating a clear alternative to Aristotelian rationalism, engendered a period of scientific growth and discovery in the physical sciences which has not yet run its course*
 	* *It may happen, by coincidence, that these results have application in the engineering domain, but for present purposes we propose to work not as inventors, but as discoverers, and the kind of theorizing which leads to scientific discovery is apt to be quite different from the kind of theorizing which is useful for engineering synthesis.*
+
+### 33 JH Break
+
 1. The way in which Rosenblatt claimed the role of 'discoverer' rather than 'inventor' can be considered naive but it was somehow a defence of the experimental and scientific method against the 'engineer mentality' of many cyberneticians. 
 1. Rosenblatt professed the experimental culture of artificial neural networks research in particular against the selfproving logic of symbolic AI. In the introduction to *Neurodynamics*, similarly, Rosenblatt echoed McCulloch's method of 'experimental epistemology' to assert that:
 	* *a perceptron is first and foremost a brain model, not an invention for pattern recognition.*
@@ -112,6 +130,9 @@ tags: []
 	* *They are simplified networks, designed to permit the study of lawful relationships between the organization of a nerve net, the organization of its environment, and the 'psychological' performances of which the network is capable.*
 	* *Perceptrons might actually correspond to parts of more extended networks in biological systems...More likely, they represent extreme simplifications of the central nervous system, in which some properties are exaggerated, others suppressed.*
 1. The perceptron was a machine constituted by numerous parameters to be adjusted in order to approximate a result. 
+
+### 38 JH Break
+
 1. If scientific experiments usually rely on testing models of few parameters, Rosenblatt's neural network can be regarded as an experimental simulation par excellence, given the increasing number of parameters to be determined. 
 1. This experimental dimension was missing from symbolic AI, whose algorithms were instead often based on the opposite assumption -- that a limited number of rules could project unlimited intelligence without much acknowledgement of the critical role that implementation plays.27 The perceptron's numerical parameters were not a *representation* of the world as in symbolic AI; they were simply relational and partial elements in the construction of a *non-isomorphic model* of the world. 
 1. This feature would escalate in deep learning, with algorithmic models such as GPT4 today featuring trillions of parameters. 
@@ -129,13 +150,24 @@ tags: []
 	* *Logics and mathematics in the central nervous system...must structurally be essentially different from those languages to which our common experience refers...* 
 	* *When we talk mathematics, we may be discussing a secondary language, built on the primary language truly used by the central nervous system.*
 	* *Thus the outward forms of our mathematics are not absolutely relevant from the point of view of evaluating what the mathematical or logical language truly used by the central nervous system is* 
+
+### 42 JH Break
+
 1. Von Neumann argued that there is less 'logical depth' in the brain than in a computer, which may require millions of successive logical steps to imitate a simple thought process (known as the problem of 'combinatorial explosion' mentioned above). 
 1. Following von Neumann, Rosenblatt similarly concluded that 'in dealing with the brain, a different kind of mathematics, primarily statistical in nature, seems to be involved [as the] brain seems to arrive at many results directly, or *intuitively*, rather than analytically'. 
 1. It is clear from these passages that Rosenblatt intended to conceptualise the perceptron not as a logical but as a statistical machine -- that is, as a machine quite different from the paradigm of Boolean and binary computation that was emerging in those years. 
 1. The genealogy of the perceptron points to a technological lineage that is related but clearly distinct from that of the digital computer.  
 1. The invention of the perceptron, in fact, condenses influences that proceeded from diverse disciplines such as neurology, psychology, engineering, cybernetics, mathematics, and statistics. 
+
+### 44 JH Break
+
 1. Rosenblatt's book *Neurodynamics* is the best source to evidence such a conurbation of ideas. 
-1. Aside from von Neumann, in Neurodynamics Rosenblatt credited the contributions of Nicolas Rashevsky, McCulloch and Pitts, as well as Minsky for the idea of the logical neural network; Albert Uttley for the probabilistic model of distributed memory; Ross Ashby for the theory of self-organisation in machines; Donald Hebb and Hayek for selfreinforcement in neural pathways; and Gestalt theorists for holistic perception and distributed memory, among others. 
+1. Aside from von Neumann, in *Neurodynamics* Rosenblatt credited the contributions of Nicolas Rashevsky, McCulloch and Pitts, as well as: 
+	* Minsky for the idea of the logical neural network;
+	* Albert Uttley for the probabilistic model of distributed memory;
+	* Ross Ashby for the theory of self-organisation in machines;
+	* Donald Hebb and Hayek for selfreinforcement in neural pathways;
+	* Gestalt theorists for holistic perception and distributed memory, among others. 
 1. But, how exactly did the perceptron constitute a breakthrough in the relation to this tradition? 
 1. In a nutshell, as a technical form, the perceptron was an electromechanical computing network, but as a mathematical form, it expressed a novel trick: its adjustable parameters represented coordinates in a multidimensional vector space. 
 1. This intuition has less to do with neurophysiology than with statistics. 
@@ -144,6 +176,9 @@ tags: []
 1. The mathematical 'trick' to solve image recognition via multidimensional analysis can be reconstructed in this way. 
 1. Each digital image in a training dataset is a two-dimensional matrix of numerical values that represent pixels. 
 1. In addition to being a two-dimensional matrix, each image can also be defined as a single point in a multidimensional space whose coordinates are the values of each pixel. 
+
+### 46 JH Break
+
 1. For example, given the resolution of the Mark I Perceptron, an image of 20-by-20 pixels is equivalent to a single point in a multidimensional space of 400 dimensions. 
 1. The projection of digital images onto a multidimensional space discloses unexpected properties. 
 1. In such multidimensional space, for example, points that are closer together designate similar images, while points that are further apart designate dissimilar images. 
@@ -154,6 +189,9 @@ tags: []
 1. Rosenblatt's theorems of statistical separability argued that a perceptron could automate this act of classification on its own and find a hyperplane to linearly separate the vector space into two regions: one containing the images corresponding to the pattern to be 'learned', the other not. 
 1. The parameters of the mathematical function of the hyperplane are the weights of the network connections. 
 1. The weights of the perceptron plot the hyperplane and adjust its inclination across the hyperspace until the two clusters are perfectly separated. 
+
+### 48 JH Break
+
 1. In the case of the simple perceptron (with 400 weights between association and output units), the hyperplane would be defined by a linear equation with 400 unknowns. 
 1. The values of this equation (which are the weights of the neural network) are found by the training algorithm through the stepby-step procedure of approximation abovementioned.  
 1. The perceptron is a crucial episode in the history of cultural techniques: it entails not just a process of digitisation of the picture plane into a two- dimensional numerical matrix but its vectorisation into a statistical matrix of multiple dimensions. 
@@ -170,6 +208,9 @@ tags: []
 1. In 1953, Rosenblatt asked two hundred students of Cornell University to answer a questionnaire about their childhood using a numerical scale for each answer, pursuing the typical postulate of psychometrics that 'personalities can be classified objectively'. 
 1. In the tradition of the psychometrics of Alfred Binet, Lewis Terman, Charles Spearman, and especially Louis Leon Thurstone, Rosenblatt analysed the results through a method of factor analysis in order to compute the similarity between the numerical matrices of each questionnaire. 
 1. In this way, the twenty-five-year-old Rosenblatt intended to prove the mathematical presence of clusters of similar answers and, therefore, to demonstrate, as a psychometrician of sound faith would do, the existence of distinguishable personalities.  
+
+### 51 JH break
+
 1. It was probably towards the end of his PhD that Rosenblatt noticed that the numerical matrices of cognitive tests looked identical to the numerical matrices of digital images and began to consider applying the same techniques of multidimensional analysis to visual pattern recognition. 
 1. It is apparent that Rosenblatt's perceptron was computing patterns of similarity in numerical images in the same way in which psychometrics was computing patterns of similarity in the numerical matrices of psychological profiles.
 1. This is another example of the spurious and experimental genealogies of AI, which points, however, to a specific and intriguing modality of technological innovation in which metrics anticipates automation: Rosenblatt, in fact, repurposed the tools that were used to quantify a cognitive task for the automation of the cognitive task itself.  
@@ -180,6 +221,9 @@ tags: []
 	* *A problem that would take 15 minutes to solve with a desk computer can be solved by the machine in two seconds. Rosenblatt is testing the idea that personalities can be classified in a scientific and objective way.*
 1. Predating the Mark I Perceptron, Rosenblatt's EPAC was a first experiment in the automation of multidimensional analysis, a task which was commonly assigned to human 'computers' (often women) in the psychology laboratories of the time. 
 1. In the same way in which Babbage put a calculating engine in place of a human computer, it could be said that Rosenblatt put a computer in place of a statistician, shaping machine learning as it is understood today. 
+
+### 52 JH break
+
 1. During his PhD, Rosenblatt aimed to empower psychometrics with the help of a computer, but it was psychometrics, in fact, that helped to calculate the matrices of artificial neural networks and contributed to forge a new -- statistical this time -- model of the synthetic mind.  
 1. It is of historical relevance that the perceptron advanced the automation of statistical tools precisely in the same years when they were becoming a predominant method in US psychology. 
 1. This institutionalisation of statistics in US psychology between 1940 and 1955 has been studied and confirmed also by the German psychologist Gerd Gigerenzer. 
@@ -191,6 +235,9 @@ tags: []
 	* *Theories of cognition were cleansed of terms such as restructuring and insight, and the new mind has come to be portrayed as drawing random samples from nervous fibers, computing probabilities, calculating analyses of variance (ANOVA), setting decision criteria, and performing utility analyses.*
 	* *After the institutionalization of inferential statistics, a broad range of cognitive processes, conscious and unconscious, elementary and complex, were reinterpreted as involving 'intuitive statistics'.*
 1.  Gigerenzer provides a realistic periodisation that is compatible with the adoption of statistical techniques also in the artificial neural networks research. 
+
+### 53 JH Break
+
 1. Considering Rosenblatt's PhD (1956) and his first paper on the perceptron (1957), the 1950s are indeed the years in which statistical tools of multidimensional analysis made an interdisciplinary leap and were applied to artificial neural networks and the automation of pattern recognition. 
 1. It is through this path that psychometrics entered the history of AI and imparted a statistical mentality to it. 
 1. These advancements come as no surprise considering that, at the beginning of the century, psychology had already attempted to quantify human intelligence in a statistical way. 
@@ -200,13 +247,19 @@ tags: []
 	* *No doubt the instruments used to make such measures then become the source of neurological metaphor.* 
 	* *But this kind of cerebral metrology embraces a wider history than that which links craniometry with more recent strategies of intelligence testing and psychometrics.*
 1. To what extent could the performance of a machine be judged as 'intelligent' -- that is, commensurable (measurable in the same terms) with human intelligence? 
+
+### 54 JH break
+
 1. Since the Turing test, machines have been judged as 'intelligent' by comparing their behaviour with social conventions. Cybernetics investigated this question in a different way, that is, by postulating a common 'mechanism' (whatever logical or physiological) between humans and machines. 
 1. But in the decades prior to cybernetics and computer science, psychometrics had already turned human intelligence into a quantifiable (and potentially computable) object. 
 1. In the early twentieth century, Spearman, for instance, proposed the statistical measurement of 'general intelligence' (or g factor) as the correlation between unrelated tasks in a skill test. 
-1. For Spearman, these correlations mathematically demonstrated the existence of an underly- ing cognitive faculty that common sense would refer to as 'intelligence'. 
+1. For Spearman, these correlations mathematically demonstrated the existence of an underlying cognitive faculty that common sense would refer to as 'intelligence'. 
 1. Spearman's analysis was based on two factors: general intelligence (g) and specific ability (s). 
 1. A few decades later, Thurstone criticised Spearman's reduction of intelligence to only two factors and proposed the consideration of multiple factors, listing up to seven intelligence attributes or 'primary mental abilities'. 
 1. There was enthusiasm about the flexibility of these statistical techniques which could potentially escalate the number of their dimensions and model the most complex aspects of mind and the world. 
+
+### 55 JH break
+
 1. In 1935, Thurstone published a book by the visionary title *The Vectors of Mind*, which aimed to provide students with an accessible introduction to multifactor analysis, moving psychol- ogy closer and closer to the mentality of statistics.46 Such a quantitative measure of intelligence, abstracted from social circumstances and deprived of any historical contexts, supported, however, a meritocratic social order and helped consolidate, among others, the questionable practice of measuring the intelligence quotient (IQ). 
 1. These techniques were, and still are, instrumental to maintaining social hierarchies and racial segregation, and in disciplining the workforce. 
 1. It must be remembered that the pseudoscience of psychometrics was founded by the English statistician Francis Galton with the racist and eugenicist agenda of demonstrating a correlation between intelligence and ethnicity. 
@@ -214,6 +267,9 @@ tags: []
 1. Spearman's g factor contributed to the reification of 'intelligence' as a new scientific 'object' that could be statistically measured. 
 1. As mentioned above, Gigerenzer has also noticed a similar process of reification of a tool of inquiry into a paradigm of thought in the field of psychology -- a process which he defines as 'tool-to-theory heuristics'. 
 1. As he noted, in the psychology of the mid-twentieth century, the 'statistical tools' of psychometrics eventually 'turned into theories of mind' in psychology. 
+
+### 56 JH break
+
 1. Together with Daniel Goldstein, Gigerenzer has described how the adoption of statistical tools gradually also popularised the computational metaphor of the mind, adding to its plausibility. 
 1. According to them, it was specifically the influence of statistical tools such as the Neyman--Pearson theory of hypothesis testing and Roland Fisher's analysis of variance (ANOVA) that helped to consolidate the metaphor of the mind as a computer in the second half of the twentieth century. 
 1. The transformation of a tool of inquiry into a model of the mind is exemplified also by the case of the perceptron, in which a statistical technique implicitly became a brain model (and, ultimately, a model of collective knowledge). 
@@ -229,6 +285,9 @@ tags: []
 1. In logical terms, the theorem explained that a perceptron reduced to only two input neurons could 'learn' the AND, OR, and NOT logic functions but not the more complex XOR (exclusive-OR). 
 1. For the first time, the vector space of an artificial neural network was 'hacked' and its vulnerability exposed. 
 1. Minsky and Papert's conclusions were true only for the simplest class of perceptrons (which featured only one layer of neurons), but they were received as valid for all configurations of artificial neural networks and had a devastating effect on the whole research field. 
+
+### 61 JH break
+
 1. This initiated the first 'winter of AI' -- which was in fact the imposition of the 'MIT winter' on other research communities. 
 1. Minsky and Papert's attitude was somewhat baronial and recalcitrant: they manifestly sought to divert military funding back to MIT -- not exactly a needy institution -- and to demonstrate that artificial neural networks did not constitute true 'artificial intelligence', as other techniques would reveal the virtuous path towards this goal. 
 1. It should be remembered that already in his 1961 monograph *Neurodynamics*, Rosenblatt proposed different configurations of 'multi-layer perceptrons' that could overcome these limitations, but a convergence theorem could not be proven, and an efficient training algorithm (such as gradient descent) was not yet known. 
@@ -236,11 +295,17 @@ tags: []
 1. Among other aspects, Minsky and Papert noticed (as also had Rosenblatt) that artificial neural networks are not able to distinguish well between figure and ground: in their computation of the visual field, each point gains somehow the same priority -- which is not the case with human vision. 
 1. This happens because artificial neural networks have no 'concept' of figure and ground, which they replace with a statistical distribution of correlations (while the figure--ground relation implies a model of causation). 
 1. The problem has not disappeared with deep learning: it has been discovered that large convolutional neural networks such as AlexNet, GoogleNet, and ResNet-50 are still biased towards texture in relation to shape. 
+
+### 62. ANNs may continue to have a bias towards distinguishing textures vs. shapes
+
 1. It may happen that they discriminate between the images of an elephant and a cat, for instance, not according to their shape but according to the texture of their skin and fur, respectively. 
 1. The texture-over-shape bias occurs because even convolutional neural networks (which are specifically designed to extract edges, features, and details) still compute a statistical distribution of the whole data and not only of its 'meaningful' parts (as the human mind does, according to the Gestalt school). 
 1. This was all the more true in the case of Rosenblatt's simple perceptron back then, but this problem of resolution in the rendering of common knowledge extends probably also to large foundation models such as the contemporary GPT. 
 1. One can argue that Minsky and Papert conceived the first adversarial method for hacking an 'intelligent machine' and designed the corresponding 'adversarial patches', as they are called today -- the doctored pictures that can fool deep neural networks for image recognition. 
 1. As a hack, it was quite successful in that it managed to derail military funding and neural networks research until the late 1980s. 
+
+### 63 JH Break
+
 1. Beyond the issues at stake in the controversy, Minsky and Papert nonetheless contributed to a critique of the knowledge paradigm that artificial neural networks embody and to the divulgation of the limitations of multidimensional modelling.
 1. However, there is a tendency in the AI community, including in critical AI studies, to take sides in the 'perceptrons' controversy, mobilising viewpoints and philosophical traditions that would, alternatively, justify either symbolic or connectionist AI as the more rational or progressive paradigm, or as the more capable of causal thinking. 
 1. Other readings conflate both schools under the same instrumentalist agenda of the military and its power genealogy. 
@@ -260,6 +325,9 @@ tags: []
 1. As the media scholar Jonathan Beller has summarised, 'to look is to labour' and has been so for a long time; but 'to look is to organise labour' as well, and the eye of the master has been doing so all along. 
 1. Optical media such as cinema and photography have often been involved in the automation of the gaze and the surveillance of labour in the past, and experiments of pattern recognition such as the perceptron have simply articulated these previous regimes of machine vision to a further stage.  
 1. As seen in chapter 2, the industrial age pursued the mechanisation of manual labour with tooling machines and steam engines, and, with Babbage, the mechanisation of mental labour under the form of hand calculation and symbol manipulation (which are still quite 'manual' activities, as the names indicate). 
+
+### 71 JH break
+
 1. In the mid-twentieth century, mainframe computers extended the automation of mental labour as calculation and symbol manipulation in state administration, large companies, and scientific research. 
 1. Compared to this history, the labour of supervision was mechanised in a different way. 
 1. A novel aspect of the perceptron (and of pattern recognition algorithms in general) lies in the fact that a machine, for the first time, sought to automate so high a speculative faculty as the act of recognising -- that is interpreting -- an image, as opposed to the manipulation of symbols of given meaning. 
@@ -267,6 +335,9 @@ tags: []
 1. In today's technical jargon of machine learning, the perceptron is a *classifier* -- that is, an algorithm for statistically discriminating among images and assigning them a class or category (also known as a 'label') in a given cultural taxonomy. 
 1. This, perhaps the most important aspect of the classifiers, has nothing to do with their *internal logic* but with the association of their output to an *external convention* that establishes the meaning of an image or other symbol in a given culture. 
 1. Gestalt theory, cybernetics, and symbolic AI each intended to identify the *internal laws* of perception, but the key feature of a classifier such as the perceptron is to record *external rules* -- that is, social conventions. 
+
+### 72 JH Break
+
 1. Ultimately, an artificial neural network is an *extroverted machine*, a machine projected towards the outside, because the interpretation of an image, for example, is always affected more by experience and external social factors than by internal physiological circuits.  
 1. A classification algorithm such as the perceptron does not automate reasoning understood as a capacity of *symbolic manipulation*, but rather as *situated knowledge* which is part of the cultural heritage of a given context. 
 1. The act of image recognition or pattern classification is a specific kind of mental labour: it is a profoundly social act that mobilises, at the same time, tacit and explicit know-how, scientific and traditional taxonomies, and vernacular and technical grammars -- in short, knowledgemaking as a historical and often conflicting process. 
@@ -275,12 +346,18 @@ tags: []
 1. Moreover, the recent debates on gender, class, and racial bias in machine learning systems for face recognition reminds us what semioticians, philosophers of language, and art historians have always known: that image interpretation is an act that bears unresolvable political implications. 
 1. In this regard, critical AI scholars Michael Castelle and Tyler Reigeluth have proposed to compare machine learning to the theory of learning as a social process by the Soviet psychologist Lev Vygotsky.58 The semiotic structure of the classifier, which is basically an *imitation machine*, confirms what Vygotsky argued: that there is no inner logic to discover in intelligence, because intelligence is a social process by constitution.
 1. In conclusion, Rosenblatt's initial experiment to automate pattern recognition with a small matrix of 400 dimensions resulted, after the design of convolutional neural networks in the 1980s and the rise of deep learning in the 2010s, in the algorithmic modelling of vast inventories of spontaneous knowledge, mass communication, and cultural heritage. 
+
+### 73 JH Break
+
 1. The perceptron was an experiment of visual pattern recognition that thereafter was extended to the analysis of non-visual data, into a novel 'pattern recognition' across datasets of cultural, social, and scientific kind. 
 1. In the age of deep learning, the architecture of the multilayered perceptron ended up being not a model of the biological brain but of the collective mind, eventually expressing its original ontology shaped by psychometrics. 
 1. In fact, probably the most crucial moment in the history of AI is when, with Rosenblatt's perceptron, artificial neural networks inherited the techniques of multidimensional analysis from psychometrics and statistics. 
 1. This made possible not only pattern recognition but also the computation of data of much-higher dimensions -- a feature that would come to be key, half a century later, in the age of 'big data'. 
 1. As is well known, the unfortunate term 'big data' does refer to data that are not only vast in size but diverse in terms of typology -- rendered in statistics as 'dimensions'. 
 1. Nowadays, companies such as Google, Amazon, Facebook, and Twitter, for example, collect data that define an extensive manifold of dimensions about their users, such as location, age, gender, nationality, language, education, job, number of contacts, along with political orientation, cultural interests, and so on. 
+
+### 74 JH Break
+
 1. The variety of social dimensions that these platform companies can analyse is vertiginous, exceeding the imagination of any well-trained statistician. 
 1. The rise of machine learning algorithms is, then, also the response to the *dimensionality explosion* of social data rather than simply to an issue of information overload.  
 1. Eventually, in the past decade, machine learning has grown into an extensive *algorithmic modelling of collective knowledge*, a 'social calculus' that aims to encode individual behaviours, community life, and cultural heritage under the form of vast architectures of statistical correlations. 

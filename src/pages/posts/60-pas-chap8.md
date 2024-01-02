@@ -27,6 +27,9 @@ tags: []
 1. Hayek began work on his theory of the mind in 1920, when he was an assistant in the laboratory of neuropathologist Constantin Monakow in Zurich, and continued developing it across a long list of publications throughout his career. 
 1. He provided an impressive synthesis of ideas, from neurophysiology, holistic neurology, Gestalt psychology, system theory, empirio-criticism, and cybernetics -- although he mobilised this armamentarium of cognitive science with the purpose of making neoliberal principles look natural and universal. 
 1. A striking example of this is that Hayek described the decentralisation of knowledge across the market in the same way in which Constantin von Monakow and Kurt Goldstein's theories of neuroplasticity described the decentralisation of cognitive functions across the brain.  
+
+### JH Break 7.1
+
 1. As seen in chapter 6, between the 1940s and the 1960s, the theory of self-organisation in markets contributed to the theories of selforganisation in computing networks, and vice versa. It must be said, however, that Hayek's theory of the market's spontaneous order was part of an ideological coup d'état. 
 1. Indeed, nothing looked less spontaneous than a market order within the sphere of influence of a nuclear superpower.
 1. As noted earlier, historians of science and technology usually stress the influence of US military funding on the development of cybernetics and artificial intelligence. However, another front of the Cold War has to be acknowledged to complete the picture: the formation of neoliberal doctrines in response to the socialist calculation debate (described below) and Keynesian policies. 
@@ -65,6 +68,9 @@ tags: []
 	* *Certain associations may be effectively brought about through several alternative bundles of connexions, so that, if any one of these paths is severed, the remaining ones will still be able to bring about the result.* 
 	* *Such effects have been observed and described under the names of 'vicarious functioning' and 'equipotentiality'.*
 1. As von Neumann, among others, has suggested, holistic neurology influenced not only Hayek's idea of distributed knowledge across the market but also the architecture of distributed memory in computing machines. 
+
+### JH Break 7.2
+
 1. In his 1961 book Neurodynamics, Rosenblatt also acknowledged Lashley's and von Neumann's remarks on the distributed architecture of the brain as one of the main inspirations for the perceptron neural network. 
 1. Alongside the decentralisation of knowledge in his economic paradigm, Hayek performed another important operation of decentring: the mobilisation of tacit knowledge. 
 1. Hayek took great inspiration from Gilbert Ryle's 1945 paper, 'Knowing How and Knowing That', which famously defended the status of know-how and skills against the alleged 'higher' forms of conscious and procedural knowledge. Hayek writes:
@@ -118,6 +124,9 @@ tags: []
 1. Gestalt theory had registered a profound influence on Hayek, to the extent that his theoretical framework can be considered the translation of Gestalt principles into the economic and social field. 
 1. In German literature and science, the notion of Gestalt (or perceptual configuration) had played a central role since the eighteenth century, from Goethe to Mach, before being canonised in the Gestalt school's psychology of perception. 
 1. As seen in the previous chapter, at the 1948 Hixon symposium, cyberneticians questioned Gestalt perception as a unique faculty of the human and advocated its mechanisation under techniques such as McCulloch and Pitts's artificial neural networks for pattern recognition. 
+
+### JH Break 7.3
+
 1. In fact, the more technical English term 'pattern' gradually replaced the German word Gestalt, which was imported to the United States by the diaspora of scholars fleeing Nazism. 
 1. However, it was thanks to Gestalt theory and not cybernetics that Hayek was able to extend the definitions of class and pattern to the economic field. 
 1. Already in Sensory Order he expanded the understanding of pattern beyond the visual sphere and in so doing covered, respectively, 'patterns within the brain', 'topological patterns', 'patterns of movements', 'temporal patterns', 'patterns of behavior', 'patterns of motor responses', 'patterns of attitude or dispositions', 'patterns of nervous impulses', and so on. 
@@ -156,6 +165,9 @@ tags: []
 1. Hayek argued that the mind (which in his view was a mental order, a selforganised network of entities such as neurons) can only provide a *model* rather than a representation of the world (a sensory order, made of relations among qualia). 
 1. Hayek wrote that 'what we call mind is thus a particular order of a set of events taking place in some organism and in some manner related to but not identical with, the physical order of events in the environment'. In 1945, cyberneticians Arturo Rosenblueth and Norbert Wiener framed model-making in similar terms:
 	* *Partial models, imperfect as they may be, are the only means developed by science for understanding the universe. This statement does not imply an attitude of defeatism but the recognition that the main tool of science is the human mind and that the human mind is finite.*
+
+### JH Break 7.4
+
 1. The construction of a model is the implementation of a given environment within the internal parameters and constraints of another environment, yet in the process of translation some elements are dispersed, approximated, and distorted. 
 1. Hayek also acknowledged that a mental order is a partial, often false, interpretation of reality: 
 	* *We have seen that the classification of the stimuli performed by our senses will be based on a system of acquired connexions which reproduce, in a partial and imperfect manner, relations existing between the corresponding physical stimuli.*
@@ -181,6 +193,9 @@ tags: []
 1. Lange understood the computer as a new instrument of knowledge that inaugurates a different perspective on the economy, as 'the computer fulfils a function which the market never was able to perform'. 
 1. Implicitly, Lange suggested the use of the computer as technical mediator between the troubles of market spontaneity and those of centralised planning. 
 1. This particular insight of Lange has been quoted by left- accelerationist rhetoric to generically foster a public use of algorithmic planning in the age of big data against the private use of said planning by corporations; Fredric Jameson, for example, advocated for the nationalisation of the computing power of global logistics giants such as Walmart and Amazon. 
+
+### JH Break 7.5
+
 1. But to what specific sort of computing technique was Lange referring? Often neglected, the following part of his argument does not mention deterministic computing but something that resembles the training process of artificial neural networks:
 	* *The market mechanism and trial and error procedure proposed in my essay really played the role of a computing device for solving a system of simultaneous equations.*
 	* *The solution was found by a process of iteration which was assumed to be convergent. The iterations were based on a feedback principle operating so as to gradually eliminate deviations from equilibrium.*
@@ -207,6 +222,9 @@ tags: []
 1. A few generations after *elektron* coins entered circulation and boosted commerce, the Greek colonies witnessed the first generation of the canonical Western philosophers, including Thales, Anaximander, and Anaximenes. 
 1. Sohn-Rethel argued that the notions of identity, substance, divisibility, and infinity typical of the pre-Socratic philosophers mirrored the same properties that had to be measured in the new metallic medium of commerce. 
 1. For him, however, secular thinking was born as a conscious and critical reaction to the ills that money brought to Greek society.  
+
+### JH Break 7.6
+
 1. Reducing the genesis of symbolic forms only to the monetary general equivalent can open all too easily onto fatalistic readings of the pernicious influence of capitalism on the mental order, creating a state of affairs wherein it would be difficult, if not impossible, to think outside the logic of capital. 
 1. In his account of the emergence of conceptual tools, Sohn-Rethel stressed only the influence of the sphere of circulation (mercantile exchange) and thus minimised the sphere of production (the social division of labour). 
 1. In so doing, he overlooked the activity of reflection of labour through tools and language, which, according to other materialist epistemologies (including those of Jean Piaget and Peter Damerow) gave rise to mathematical abstractions long before the emergence of mercantile exchange. 
@@ -217,8 +235,11 @@ tags: []
 1. In the introduction to that work (written in 1857, a decade before *Capital*), Marx described the dialectics of abstract and concrete ideas as 'the method of political economy', in this way synthesising German idealism and British political economy. 
 1. Questioning the given categories of everyday language, as Hegel himself proposed in *The Phenomenology of Spirit*, Marx stressed that a familiar expression such as 'labour' is the result of the long combination of different abstractions rather than a simple and originary notion from which reflection should start. 
 1. According to Marx, the 'scientifically correct method' starts from decomposing an idea (*Vorstellung*) into simpler concepts (*Begriff*) and then moving again from these simple concepts to recompose the whole 'as a rich totality of many determinations and relations'. 
-1. Hayek's description of the scientific method as the making and unmaking of the abstractions (classes, patterns, etc.) 
-1. through which reality is perceived appears not dissimilar from that of Marx, though their political extrapolations obviously diverge. The creation of new ideas is, for Hayek, a subjective affair, an exercise of individual freedom, while, for Marx, it is influenced by the social relations of production and is often organic to the logic of capital. 
+1. Hayek's description of the scientific method as the making and unmaking of the abstractions (classes, patterns, etc.) through which reality is perceived appears not dissimilar from that of Marx, though their political extrapolations obviously diverge. 
+
+### JH Break 7.7
+
+1. The creation of new ideas is, for Hayek, a subjective affair, an exercise of individual freedom, while, for Marx, it is influenced by the social relations of production and is often organic to the logic of capital. 
 1. Marx took the example of labour, which appears to be an old, familiar, and simple category, which modern capitalism has transformed into an abstraction. 
 1. According to Marx, in fact, industrial capitalism emerged via the imposition of 'abstract labour' -- that is, labour indifferent to the specificity of 'concrete labour', labour that is transformed into commodity, into a general equivalent of labour that any worker can perform. 
 1. Unlike preindustrial concrete labour, abstract labour is measured in abstract time units, and workers are paid proportionally to such units. 
@@ -230,5 +251,8 @@ tags: []
 1. As political philosophers Michael Hardt and Antonio Negri justifiably remark, 'Abstraction is essential to both the functioning of capital and the critique of it.' 
 1. Any abstraction, any classification, is the result of a social division of labour, of contradictions and conflicts that are generative of knowledge. 
 1. Similarly, Hayek's neural networks and artificial neural networks in general remain an extension of this very social division of abstract labour.
+
+
+"bp = ### JH Break
 
 ***

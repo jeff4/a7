@@ -59,6 +59,9 @@ tags: []
 1. According to Heims's account, in preparation for the highly anticipated visit of the Gestalt scholar Köhler to the Macy conferences in New York, Klüver issued a challenge to the gathered scientists: to formulate a theory on 'how an automaton could perceive Gestalten'. 
 1. Klüver's challenge was taken up by McCulloch and Pitts, who, with the financial support of the Macy and Rockefeller foundations, were seeking to move beyond their 1943 proof that a finite network of simplified modelneurons could compute anything that can be unambiguously stated in words. 
 1. Their aim, this time, was to develop neural mechanisms for specific brain functions such as perception, ideally with enough precision to be tested experimentally.
+
+### Publication of 1947 McCulloch and Pitts paper
+
 1. As a result of the discussion, in 1947, McCulloch and Pitts published their paper 'How We Know Universals: The Perception of Auditory and Visual Forms'. 
 1. Compared to the previous one from 1943, here the concern is not the computation of propositions according to a linear logic but, rather, the recognition of a pattern in a bidimensional matrix. 
 1. McCulloch and Pitts conceived a 'device' by which 'numerous nets, embodied in special nervous structures, serve to classify information according to useful common characters'. 
@@ -77,6 +80,9 @@ tags: []
 1. Gestalt theorists maintained that perception and cognition exist along a continuous isomorphism: the spatial relations of an object are isomorphic with its percept, and thus with its mental image. 
 1. In contrast, McCulloch and Pitts suggested the possibility of transforming the twodimensional relations of an image into a one-dimensional representation -- basically a code, or logical proposition -- without undermining the content or quality of information.
 1. This is a crucial passage in the history of connectionism and AI: McCulloch and Pitts argued that the isomorphism between an image and its logical representation is not necessary. 
+1. **JH: This section seems to indicate that the Gestalt folks push for both an *analog* and whole-greater-than-sum-of-its-parts view of perception.**
+	* In contrast, McCulloh and Pitts and other connectionists are pushing for a *digital* and broken down into (as seen below) 'atomistic'. And maybe reconstructing this representation. Like encoding/decoding. 
+	* In a pure analog and gestalt scenario, encoding / decoding seems...impossible?
 1. The form of a triangle, for instance, does not need to be memorised as an isomorphic triangle in some parts of the brain but can be distributed across different dimensions (a topological transformation also termed 'internal representation' in deep learning). 
 1. The two scientists advanced this hypothesis against the Gestalt school to argue that a visual manifold can be computed by a linear information machine such as that of Turing:
 	* *This point is especially to be taken against the Gestalt psychologists, who will not conceive a figure being known save by depicting it topographically on neuronal mosaics, and against the neurologists of the school of Hughlings Jackson, who must have it fed to some specialized neuron whose business is, say, the reading of squares.*
@@ -116,6 +122,9 @@ tags: []
 	* *The machines do not know, because among their functions there is none that can be compared with insight into the meaning of a problem.*
 1. In the mid-1950s, neurophysiologist Jerome Lettvin and biologist Humberto Maturana invited McCulloch and Pitts to contribute to their studies on the neurons of the frog's eye. 
 1. Their conclusion would be published in 1959 in the famous paper 'What the Frog's Eye Tells the Frog's Brain', which for many represents the final nail in the coffin of the Gestalt controversy. 
+
+### JH Break on *The Frog Paper*
+
 1. Their research moved from the simple observation that the optical nerve of higher animals is composed of fewer fibres than the retina. 
 1. This suggests that the stimulus must undergo compression before it reaches the brain. 
 1. The question that arises is what exactly happens to the stimulus between the retina, the optical nerve, and the visual cortex? The scientists took the frog as their model organism. They measured the stimuli in the optical nerve using an electrode, while presenting high-contrast shapes to the animal's eye. 
@@ -131,9 +140,13 @@ tags: []
 1. The biomorphism of the early artificial neural networks (in this case, the imitation of biological neural networks) must eventually be questioned. 
 1. The human organ that McCulloch and Pitts most often investigated and envisioned as a network of logical operators was not the brain but the eye; and, of the eye, their artificial neural networks implicitly inherited a specific hierarchy of behaviour. 
 1. In McCulloch and Pitts's 1947 essay, the cooperation among the nodes of the artificial neural network was supposed to resolve the combinatorial geometry of the field of vision, not the propositional logic of a syllogism, as in their 1943 publication. 
+
+### JH Break on Gestalt
+
 1. In the Gestalt controversy, then, one does not find a model of cognition to be mechanised but rather several models of perception, since the elements of the perceptual field, rather than mental states, were represented in computational terms. 
 1. The development of artificial neural networks continued by mostly studying the neurons of the eye rather than the brain: from Lettvin's frogs to David Hubel and Torsten Wiesel's cats (which inspired convolutional neural networks such as AlexNet), the history of connectionist AI is indebted to experiments on animals and their organs of vision.
-1. From a mathematical point of view, the Gestalt controversy was, on one hand, about the transformation of an image into a logical construct and, on the other, about the fact that a logical construct of human reasoning may share the probabilistic features of image perception.35 Reading between the lines, the Gestalt controversy was already pointing towards a logical form that would only emerge properly in twenty-firstcentury machine learning: the idea of a spatial and statistical dimension of information beyond the linear modality of the Turing machine. 
+1. From a mathematical point of view, the Gestalt controversy was, on one hand, about the transformation of an image into a logical construct and, on the other, about the fact that a logical construct of human reasoning may share the probabilistic features of image perception. 
+1. Reading between the lines, the Gestalt controversy was already pointing towards a logical form that would only emerge properly in twenty-firstcentury machine learning: the idea of a spatial and statistical dimension of information beyond the linear modality of the Turing machine. 
 1. Logic gates and perceptual fields -- the basic concepts of cybernetics and the Gestalt school respectively -- were two polarised ideals that the evolution of AI eventually overcame and synthesised into more and more abstract constructs: today the inner logic of machine learning is described, for instance, through entities such as multidimensional vectors, latent spaces, and statistical distributions. 
 1. The visual matrix (and, with it, the picture plane of modern iconology) has since then evolved into these advanced logical forms, into vast ramifications of statistical inference yet to be fully understood.
 
@@ -155,7 +168,10 @@ tags: []
 1. He also observed, similarly to Köhler, that the nervous system speaks this primary language using the statistical properties of stimuli ('complete code'), rather than exact markers ('short code').  
 1. Given such probabilistic dynamics, von Neumann concluded, counterintuitively, that in the nervous system a 'deterioration' of arithmetic precision can actually result in 'an improvement in logics'. 
 1. He highlighted, among others, that biological neural networks operate with an error tolerance that would set any deterministic computing machine out of joint. 
-1. A single mistake in a computer programme and the whole machine halts. However, such mistakes never trouble organisms. It is, then, the same probabilistic nature of organisms that make them fault redundant and able to perceive fuzzy and complex figures effortlessly:
+
+### JH Break on graceful degradation mostly required in biology and eecs needed to learn redundancy/error correction
+
+1. **A single mistake in a computer programme and the whole machine halts. However, such mistakes never trouble organisms. It is, then, the same probabilistic nature of organisms that make them fault redundant and able to perceive fuzzy and complex figures effortlessly:**
 	* *The fact that natural organisms have such a radically different attitude about errors and behave so differently when an error occurs is probably connected with some other traits of natural organisms, which are entirely absent from our automata.* 
 	* *The ability of a natural organism to survive in spite of a high incidence of error (which our artificial automata are incapable of) probably requires a very high flexibility and ability of the automaton to watch itself and reorganize itself.* 
 	* *And this probably requires a very considerable autonomy of parts. There is a high autonomy of parts in the human nervous system. This autonomy of parts of a system has an effect which is observable in the human nervous system but not in artificial automata.*
@@ -178,6 +194,9 @@ tags: []
 1. This historical relativisation of mathematics and logic is crucial for understanding von Neumann's approach to the computational theory of the mind and the project of building thinking automata. 
 1. Von Neumann held a more sophisticated position than functionalism, or the thesis of the *multiple realisability of the mind*, which maintains that the same operative model of intelligence can be implemented across different substrates made of neurons, relays, transistors, and so forth. 
 1. Instead, von Neumann promoted a method of mutual implementation between artificial and natural worlds, that is, *a method of modelling*. Of course, von Neumann was positive about using computers as model machines for studying the brain.
+
+### Von Neumann lecture at Yale 1956
+
 1. Even so, at the end of his life, when he was invited by Yale University to deliver the Silliman Lectures in 1956, he sought to clarify this point without ambiguity. 
 1. His lecture series 'The Computer and the Brain' concludes with the declarative title 'The Language of the Brain Not the Language of Mathematics'. 
 1. In this lecture series, he recognised a key role to the 'secondary language' of mathematics in the knowledge of the 'primary language' of the brain. But, rather than reiterating the computationalism of McCulloch, Pitts, and Wiener, von Neumann -- himself no romantic -- made at the end a remarkable intervention: he reversed the relation between logic and nature, computer and brain, to the point of suggesting that the study of neurophysiology could one day reshape logic altogether. 
