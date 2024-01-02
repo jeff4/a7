@@ -170,6 +170,7 @@ tags: []
 1. He highlighted, among others, that biological neural networks operate with an error tolerance that would set any deterministic computing machine out of joint. 
 
 ### JH Break on graceful degradation mostly required in biology and eecs needed to learn redundancy/error correction
+#### Continue reading here
 
 1. **A single mistake in a computer programme and the whole machine halts. However, such mistakes never trouble organisms. It is, then, the same probabilistic nature of organisms that make them fault redundant and able to perceive fuzzy and complex figures effortlessly:**
 	* *The fact that natural organisms have such a radically different attitude about errors and behave so differently when an error occurs is probably connected with some other traits of natural organisms, which are entirely absent from our automata.* 
@@ -178,6 +179,9 @@ tags: []
 1. There is today consensus that biological neural networks operate in spite of errors, faults, and damages -- and precisely also thanks to them. 
 1. Cyberneticians encountered this idea of neuroplasticity in the cognitive sciences of the time, in particular in the work of the neurologists Karl Lashley (who also presented at the Hixon symposium) and Kurt Goldstein (who had emigrated to the US as part of the Gestalt school diaspora). 
 1. Lashley tested the effect of artificially induced brain injuries on the memory of laboratory rats, while Goldstein studied the capacity of World War I veterans to reorganise their memories after real brain traumas. 
+
+### JH Break
+
 1. However, it was Goldstein rather than Lashley who provided a more systematic model of neuroplasticity. His theory of the brain's capacity to reorganise itself after a trauma was also closely related to the debate on memory localisation. 
 1. A thesis key to a pioneer of holistic neurology, Constantin von Monakow, was that memory is distributed rather than localised, and this is why it can be recovered after a brain injury (see chapter 8). Von Neumann echoed such theories:
 	* *The main difficulty with the memory organ is that it appears to be nowhere in particular. It is never very simple to locate anything in the brain, because the brain has an enormous ability to re-organize.* 
