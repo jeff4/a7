@@ -14,7 +14,7 @@ tags: []
 * *On the Properties of Neural Machine Translation: Encoder–Decoder Approaches* by Cho, van Merrienboer, Bahdanau, and Bengio 2014b. [arXiv link](https://arxiv.org/abs/1409.1259) and [PDF](https://arxiv.org/pdf/1409.1259.pdf)
 
 ***
-
+### Test #2 from minipro-23 Dropbox folder
 **Deep Learning (2016)** 
 * Ian Goodfellow, Yoshua Bengio, and Aaron Courville
 * GBC
