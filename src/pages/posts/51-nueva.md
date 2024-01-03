@@ -32,6 +32,23 @@ tags: []
 
 
 ***
+## 'Top-Down Symbolic' vs. 'Bottom-Up Connectionist'
+### Symbolic
+* Logical
+* By rules
+* Human-encoded
+* Dartmouth AI approach McCarthy
+* Based on philosophy
+### Connectionist
+* Statistical
+* By experience
+* “Learned from experience”
+* Hayek / McCulloch + Pitts / Rosenblatt
+* Based on experiment
+
+
+***
+
 
 ### Timeline -- mostly by JH with some adaptation from hacker noon
 * [Quick history](https://hackernoon.com/an-introduction-to-liquid-neural-networks-nt5c33t7) from 1944 - 1968. 
