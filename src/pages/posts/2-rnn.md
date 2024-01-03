@@ -16,7 +16,6 @@ tags: []
 ***
 
 **Deep Learning (2016)** 
-* test by JEFF
 * Ian Goodfellow, Yoshua Bengio, and Aaron Courville
 * GBC
 ## Chapter 10: Sequence Modeling: RNNs and Recursive Nets
