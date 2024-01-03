@@ -33,8 +33,8 @@ tags: []
 
 ***
 
-### 12/27/2023 Hacker Noon / Liquid NN article
-* [Quick history](https://hackernoon.com/an-introduction-to-liquid-neural-networks-nt5c33t7) from 1944 - 1968. With some additional notes by Jeff.
+### Timeline -- mostly by JH with some adaptation from hacker noon
+* [Quick history](https://hackernoon.com/an-introduction-to-liquid-neural-networks-nt5c33t7) from 1944 - 1968. 
 * Timeline:
 	* **1944** - Perceptron (aka the *McCulloch-Pitts neuron*) with zero layers proposed as pure mathematical expression by [Warren S. McCulloch](https://en.wikipedia.org/wiki/Warren_Sturgis_McCulloch) and [Walter Pitts](https://en.wikipedia.org/wiki/Walter_Pitts). Paper was "A Logical Calculus of Ideas Immanent in Nervous Activity" (1943). 
 		* Fascinating history of Walter Pitts as a 15-yr-old runaway who impressed Betrand Russell at the age of 12. Died tragically young in 1969 at the age f 46.
@@ -46,9 +46,16 @@ tags: []
 	* **1957** - [Frank Rosenblatt](https://en.wikipedia.org/wiki/Frank_Rosenblatt), alum of Bronx Science, Cornell undergrad, Cornell PhD, builds the mechanical [first implementation of the perceptron](https://en.wikipedia.org/wiki/Perceptron#Mark_I_Perceptron_machine) at the Cornell Aeronautical Laboratory, funded by US Office of Naval Research and the Rome Air Developmwent Center.
 		* See also this history at the [Cornell website](https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon)
 	* **1969** - MIT mathematicians Minsky and Papert's critique of Perceptron
+***
+### Brief notes on Pasquinelli
 
+#### Chapter 4
+* 19th century. Babbage and Marx. Two principles
+	1. A machine or a system of machines can replicate the work of a worker or group of workers
+	1. **The Babbage Principle** whereby the division of labour means there is a division to units of work that can be measured, optimized, etc. Leads to Taylorism and Fordist production.
 
-
+#### Chapter 9 - Invention of the Perceptron
+* 
 ***
 
 ### 12/27/2023 Will Scaling Work by Dwarmish

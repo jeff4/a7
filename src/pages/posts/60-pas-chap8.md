@@ -19,7 +19,7 @@ tags: []
     * From footnote 3: Donald Hebb introduced the term 'connectionist' in his 1949 book *The Organization of Behavior: A Neuropsychological Theory*, New York: Wiley & Sons, 1949. 
     * Rosenblatt adopted the term in 1958 to define his theory of artificial neural networks: Frank Rosenblatt, 'The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain', *Psychological Review* 65, no. 6 (1958).
 1. In his 1952 book *The Sensory Order*, Hayek propounded a connectionist theory of the mind already far more advanced than the theory of symbolic AI, whose birth is, redundantly, celebrated anno 1956 with the exalted Dartmouth workshop. 
-1. In The Sensory Order, Hayek provided a synthesis of Gestalt principles and Warren McCulloch and Walter Pitts's idea of neural networks to describe 'the nervous system as an instrument of classification'. 
+1. In *The Sensory Order*, Hayek provided a synthesis of Gestalt principles and Warren McCulloch and Walter Pitts's idea of neural networks to describe 'the nervous system as an instrument of classification'. 
 1. He went so far to speculate about the possibility of a device fulfilling a similar function, describing (in the jargon of today's machine learning) a classifier algorithm. 
 1. In 1958, Frank Rosenblatt defined the perceptron (the first operative artificial neural network for pattern recognition) as 'connectionist' and acknowledged that the work of 'Hebb and Hayek' was 'the most suggestive' for his own.
 1. While Donald Hebb was a neuropsychologist famous for the theory of brain cell assemblies -- a doctrine of neuroplasticity that is encapsulated in the dictum 'Neurons that fire together, wire together' seen in chapter 6 -- Hayek was an economist who studied the selforganisation of the mind in a similar way but in order to support a political belief: namely, the spontaneous order of markets. 
@@ -72,7 +72,7 @@ tags: []
 1. He coined the term 'diaschisis' (from the Greek for 'shocked throughout') to describe how an injured brain can recover cognitive functions through neural reorganisation. 
 1. Monakow's holistic model of the brain (what nowadays would be called a model of 'neuroplasticity') was further systematised by another author Hayek read and often quoted, the Gestalt neurologist Kurt Goldstein. 
 1. Hayek's idea that the market is a place of distributed knowledge therefore did not proceed from the study of economic phenomena but was first extrapolated from holistic neurology and early theories of neuroplasticity. 
-1. In The Sensory Order, Hayek also referred to neurophysiologist Karl Lashley's idea of the brain's equipotentiality, which bears similarities to Monakow and Goldstein's:
+1. In *The Sensory Order*, Hayek also referred to neurophysiologist Karl Lashley's idea of the brain's equipotentiality, which bears similarities to Monakow and Goldstein's:
 	* *Certain mental processes which are normally based on impulses proceeding in certain fibres may, after these fibres have been destroyed, be relearned by the use of some other fibres.* 
 	* *Certain associations may be effectively brought about through several alternative bundles of connexions, so that, if any one of these paths is severed, the remaining ones will still be able to bring about the result.* 
 	* *Such effects have been observed and described under the names of 'vicarious functioning' and 'equipotentiality'.*
@@ -121,7 +121,7 @@ tags: []
 	* *For the purposes of the following discussion it will nevertheless be convenient to adopt the term 'to classify' with its corresponding nouns 'classes' and 'classification' in a special technical meaning...*
 	* *By 'classification' we shall mean a process in which on each occasion on which a certain recurring event happens it produces the same specific effect...*
 	* *All the different events which whenever they occur produce the same effect will be said to be events of the same class, and the fact that every one of them produces the same effect will be the sole criterion which makes them members of the same class.*
-1. The above passage is followed in The Sensory Order by Hayek's speculations about the possibility of machines embodying this principle of classification. 
+1. The above passage is followed in *The Sensory Order* by Hayek's speculations about the possibility of machines embodying this principle of classification. 
 
 ### 31. JH Break
 
@@ -150,7 +150,7 @@ tags: []
 
 1. In fact, the more technical English term 'pattern' gradually replaced the German word Gestalt, which was imported to the United States by the diaspora of scholars fleeing Nazism. 
 1. However, it was thanks to Gestalt theory and not cybernetics that Hayek was able to extend the definitions of class and pattern to the economic field. 
-1. Already in Sensory Order he expanded the understanding of pattern beyond the visual sphere and in so doing covered, respectively, 'patterns within the brain', 'topological patterns', 'patterns of movements', 'temporal patterns', 'patterns of behavior', 'patterns of motor responses', 'patterns of attitude or dispositions', 'patterns of nervous impulses', and so on. 
+1. Already in *The Sensory Order* he expanded the understanding of pattern beyond the visual sphere and in so doing covered, respectively, 'patterns within the brain', 'topological patterns', 'patterns of movements', 'temporal patterns', 'patterns of behavior', 'patterns of motor responses', 'patterns of attitude or dispositions', 'patterns of nervous impulses', and so on. 
 1. He developed a large repertoire of the notion of pattern that included form, template, Schablone, mould, schemata, abstraction, norm, habit, disposition, arrangement, rule, and inference. 
 1. However, it was first with 'The Theory of Complex Phenomena' (1961) that Hayek began to use the prescient moniker 'pattern recognition' to define classification. 
 
