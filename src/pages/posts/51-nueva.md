@@ -10,6 +10,14 @@ tags: []
 
 ---
 
+
+***
+
+
+### Timeline -- mostly by JH with some adaptation from hacker noon
+* See [main ai timeline page](/posts/65-ai-timeline/) 
+* See also [general timeline](/posts/66-tech-timeline/) for more milestones in tech history.
+
 ***
 
 ### Main
@@ -46,23 +54,6 @@ tags: []
 * Hayek / McCulloch + Pitts / Rosenblatt
 * Based on experiment
 
-
-***
-
-
-### Timeline -- mostly by JH with some adaptation from hacker noon
-* [Quick history](https://hackernoon.com/an-introduction-to-liquid-neural-networks-nt5c33t7) from 1944 - 1968. 
-* Timeline:
-	* **1944** - Perceptron (aka the *McCulloch-Pitts neuron*) with zero layers proposed as pure mathematical expression by [Warren S. McCulloch](https://en.wikipedia.org/wiki/Warren_Sturgis_McCulloch) and [Walter Pitts](https://en.wikipedia.org/wiki/Walter_Pitts). Paper was "A Logical Calculus of Ideas Immanent in Nervous Activity" (1943). 
-		* Fascinating history of Walter Pitts as a 15-yr-old runaway who impressed Betrand Russell at the age of 12. Died tragically young in 1969 at the age f 46.
-		* Norber Weiner was a weird dude and had a massive falling out with both McCulloch and Pitts and cut them all off.
-		* Liquid ANN article references 2017 [MIT article](https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414?ref=hackernoon.com#:~:text=Neural%20networks%20were%20first%20proposed,the%20first%20cognitive%20science%20department.) that has subtitle *Ballyhooed artificial-intelligence technique known as “deep learning” revives 70-year-old idea.* 
-	* **1948** - [Donald Hebb](https://en.wikipedia.org/wiki/Donald_O._Hebb) proposes Hebbian Learning in *The Organization of Behavior*.  
-	* **1952** - McCulloch and Pitts did this work at University of Chicago during and after the war. They moved to MIT in 1952.
-	* **1956** - Dartmouth Conference with John McCarthy
-	* **1957** - [Frank Rosenblatt](https://en.wikipedia.org/wiki/Frank_Rosenblatt), alum of Bronx Science, Cornell undergrad, Cornell PhD, builds the mechanical [first implementation of the perceptron](https://en.wikipedia.org/wiki/Perceptron#Mark_I_Perceptron_machine) at the Cornell Aeronautical Laboratory, funded by US Office of Naval Research and the Rome Air Developmwent Center.
-		* See also this history at the [Cornell website](https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon)
-	* **1969** - MIT mathematicians Minsky and Papert's critique of Perceptron
 ***
 ### Brief notes on Pasquinelli
 
@@ -134,9 +125,11 @@ tags: []
 * From Adam Fisher *Valley of Genius: The Uncensored History of Silicon Valley* (2018)
 * Chapter 1: The Big Bang--Everything Starts with Doug Engelbart
 * Dramatis Personae
+	* [Bill English](https://en.wikipedia.org/wiki/Bill_English_(computer_engineer)) who worked with Engelbart in making the first computer mouse at SRI. Later worked at Xerox PARC and Sun Microsystems. He was extremely important in building and executing the mother of demos in SF in December 1968.
 	* [Bob Taylor](https://en.wikipedia.org/wiki/Robert_Taylor_(computer_scientist)) who first approved Engelbart's proposal from SRI in tne early 1960s
 	* [J.C.R. Licklider](https://en.wikipedia.org/wiki/J._C._R._Licklider) who headed the Information Processing Techniques Office (IPTO) at [ARPA](https://en.wikipedia.org/wiki/DARPA)
-
-
+	* [Bill Paxton](https://en.wikipedia.org/wiki/Bill_Paxton_(computer_scientist)) worked with Engelbart on the NLS. Later co-founded Adobe in the early 1980s, retired from Adobe in 1990, and then taught at the Kavli Institute for Theoretical Physics at UCSB. See more [here](https://www.kitp.ucsb.edu/paxton) and [here](https://news.ucsb.edu/2021/020203/accidental-astrophysicist).
+* The [NLS](https://en.wikipedia.org/wiki/NLS_(computer_system)) aka 'oN-Line System' was implemented on a [SDS 940 Computer](https://en.wikipedia.org/wiki/SDS_940)
+* ARPA said cost is no object, make sure it's redundant. They ended up spending $175k in 1968 dollars which is about $1.5million in 2023.
 
 
