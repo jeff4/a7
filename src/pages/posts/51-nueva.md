@@ -128,3 +128,15 @@ tags: []
 	* Crossbow-- China, Greece, Africa, Northern Canada, and Baltic Countries
 	* Magnetism-- Greece, China, India
 
+****
+
+### Thoughts on Doug Engelbart
+* From Adam Fisher *Valley of Genius: The Uncensored History of Silicon Valley* (2018)
+* Chapter 1: The Big Bang--Everything Starts with Doug Engelbart
+* Dramatis Personae
+	* [Bob Taylor](https://en.wikipedia.org/wiki/Robert_Taylor_(computer_scientist)) who first approved Engelbart's proposal from SRI in tne early 1960s
+	* [J.C.R. Licklider](https://en.wikipedia.org/wiki/J._C._R._Licklider) who headed the Information Processing Techniques Office (IPTO) at [ARPA](https://en.wikipedia.org/wiki/DARPA)
+
+
+
+
