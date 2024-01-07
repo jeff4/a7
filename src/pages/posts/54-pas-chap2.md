@@ -11,7 +11,13 @@ tags: []
 ---
 ## Babbage and the Mechanisation of Mental Labour
 ### Quotes
-1. Charles Babbage (1832): 'We must remember that another and a higher science, itself still more boundless, is also advancing with a giant's stride ... It is the science of calculation -- which becomes continually more necessary at each step of our progress, and which must ultimately govern the whole of the applications of science to the arts of life.'
+1. Charles Babbage (1832): *We must remember that another and a higher science, itself still more boundless, is also advancing with a giant's stride ... It is the science of calculation -- which becomes continually more necessary at each step of our progress, and which must ultimately govern the whole of the applications of science to the arts of life.*
+
+***
+* @f = add '1.' and j to the next line
+* @s  = add '1.' and that's all
+* @a = add an asterisk at the end of the current line and add j to advance to the next line
+***
 
 ### Computation as division of labour
 
@@ -207,6 +213,61 @@ tags: []
 	* *Thus not only the mental and the material, but the theoretical and the practical in the mathematical world, are brought into more intimate and effective connexion with each other.*
 	* *We are not aware of its being on record that anything partaking in the nature of what is so well designated the Analytical Engine has been hitherto proposed, or even thought of, as a practical possibility, any more than the idea of a thinking or of a reasoning machine.*
 1. Lovelace's 'Notes' contain, however, the first dismissal of AI in a world that was already cultivating the anthropomorphic projection of a machine that could 'think' like a human. In the famous note 'G', she wrote:
+	* *The Analytical Engine has no pretensions whatever to originate anything.*
+	* *It can do whatever we know how to order it to perform.*
+	* *It can follow analysis; but it has no power of anticipating any analytical relations or truths.*
+	* *Its province is to assist us in making available what we are already acquainted with.*
+	* *This it is calculated to effect primarily and chiefly, of course, through its executive faculties; but it is likely to exert an indirect and reciprocal influence on science itself in another manner.*
+	* *For, in so distributing and combining the truths and the formulae of analysis, that they may become most easily and rapidly amenable to the mechanical combinations of the engine, the relations and the nature of many subjects in that science are necessarily thrown into new lights, and more profoundly investigated.*
+	* *This is a decidedly indirect, and a somewhat speculative, consequence of such an invention.*
+	* *It is however pretty evident, on general principles, that in devising for mathematical truths a new form in which to record and throw themselves out for actual use, views are likely to be induced, which should again react on the more theoretical phase of the subject.*
+	* *There are in all extensions of human power, or additions to human knowledge, various collateral influences, besides the main and primary object attained.*
+1. That the Analytical Engine could follow analysis means that it could represent and embody the analytical construction of a problem as an algebraist could do. 
+1. Moreover, that the Analytical Engine had 'no power of anticipating any analytical relations or truths' means that it could not exceed or break the chain of reasoning that it was representing and materially embodying -- just as today's algorithms for data analytics that are rebranded as 'machine learning' and 'artificial intelligence' cannot creatively break the rules on which they are based and, more importantly, cannot consistently invent new ones.  
+1. Babbage reluctantly recognised Lovelace's contribution, asking to publish her notes on the Analytical Engine anonymously. 
+1. For her resistance against Babbage's chauvinism, Lovelace is, without a doubt, an exemplary figure of technical curiosity and emancipation in an academic and scientific world dominated by men. 
+1. Yet her hagiographic portrait has also to be placed into its context. 
+1. Both Babbage and Lovelace's stories belong to a narrative of the industrial era in which social hierarchies and intellectual debts are mystified by a predictable bourgeois personality cult. 
+1. One example is a quote from Lovelace that has become a routine slogan for the digirati: 'We may say most aptly that the Analytical Engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves.' 
+1. To the romanticism of this quote, Schaffer contrasted a harsh observation: 'Lovelace never raised the problem of the substitution of weavers' intelligence by a series of automatic program cards nor the consequent sufferings of London's skilled unemployed.'
+
+### The march of the material intellect
+
+1. According to Babbage's vision, the calculating engines were also tools for the measurement, disciplining, and surveillance of labour -- that is, for the 'intelligence' of labour, at least in the sense the word still carried at the time. 
+1. According to Schaffer, in fact, 'in early nineteenth-century Britain the word intelligence simultaneously embodied the growing system of social surveillance and the emerging mechanisation of natural philosophies of mind.' 
+1. Well before the technocratic ambitions of cybernetics in the twentieth century, Babbage had cultivated a larger technocratic vision of society through his calculating machines. 
+1. The hyperbolic publicist Dionysius Lardner professed that Babbage's new system of mechanical notation could be useful for describing and operating 'an extensive factory, or any great public institution, in which a vast number of individuals are employed, and their duties regulated'.  
+1. In a similar vein of industrialist propaganda, Babbage's book on machinery and manufactures concluded with a chapter on the grandiose progress of British capitalism under the banner of 'abstract Science.' 
+1. There, Babbage specifically asserted that the accumulation of science does not follow the laws of scarcity of physical forces and material production but is virtuously amplified over time:
+	* *Science and knowledge are subject, in their extension and increase, to laws quite opposite to those which regulate the material world.*
+	* *Unlike the forces of molecular attraction, which cease at sensible distances;*
+	* *or that of gravity, which decreases rapidly with the increasing distance from the point of its origin;*
+	* *the further we advance from the origin of our knowledge, the larger it becomes, and the greater power it bestows upon its cultivators, to add new fields to its dominions.*
+1. Commenting on Babbage's ideology, and its striking resemblance to twentieth-century proclamations about the knowledge society, Norton Wise writes:
+	* *The engine metaphor now extends from the literal steam engine setting machinery in motion, to capital as the engine of labour, to the machine economy as a social engine, to scientific knowledge as an engine of practical action.*
+	* *Inevitably, scientific knowledge represented capital in the economy of knowledge, a reservoir of moving force which continued to accumulate at compound interest.*
+1. These optimistic views about knowledge development were not uncommon at the time: as shown in the following chapter, Ricardian socialists such as William Thompson and Thomas Hodgskin had similar utopian theories about the accumulation of knowledge labour from the perspective of the workers' movement. 
+1. According to Babbage, the ratio of the 'continually increasing field of human knowledge' is exponential, and one wonders (as did the Ricardian socialists and Marx) what the effect would be of such an overproduction of knowledge and science on the economy and on capital accumulation. 
+1. It is at this climax of accumulation of knowledge and science that Babbage prophetically announced the hegemonic rise of a new science -- the science of calculation:
+	* *We must remember that another and a higher science, itself still more boundless, is also advancing with a giant's stride,*
+	* *and having grasped the mightier masses of the universe, and reduced their wanderings to laws, has given to us in its own condensed language, expressions, which are to the past as history, to the future as prophecy.*
+	* *It is the same science which is now preparing its fetters for the minutest atoms that nature has created:*
+	* *already it has nearly chained the ethereal fluid, and bound in one harmonious system all the intricate and splendid phenomena of light.*
+	* *It is the science of calculation -- which becomes continually more necessary at each step of our progress, and which must ultimately govern the whole of the applications of science to the arts of life.*
+1. Ideology here wins out over Babbage's scientific achievements. 
+1. While in an earlier chapter of his book, Babbage grounded the science of calculation on the principles of labour analysis, he ultimately presented it as the materialisation of science in the abstract.
+1. In a similar way to the contemporary AI discourse, Babbage captured the collective intelligence of the division of labour and instrumentalised it to build a technocratic view of society. 
+1. Babbage's rhetoric never explicitly acknowledged the Machinery Question -- the public debate about workers who were being replaced by machines. 
+1. Rather, for him, knowledge of steam power and the new science of automated calculation were meant to serve solely as a multiplier of productivity. 
+1. In the words of the historian William Ashworth: 'Babbage's work on his calculating machine was the march of the material intellect set to the rhythm of the factory.'
+
+
+
+
+
+
+
+
 
 
 
