@@ -21,8 +21,8 @@ tags: []
 
 ### Computation as division of labour
 
-1. In early nineteenth-century England, 'computer' was not the name of a machine but of a human -- namely an office clerk, often a woman, who had to make tedious calculations by hand for the government, the Astronomical Society, or the Navy. 
-1. At times 'computers' were also working from home, receiving stacks of numbers to calculate and sending back results by mail: this was literally the first historical occurrence of a computing network that took the form of domestic labour and probably involved further family members. 
+1. In early nineteenth-century England, 'computer' was not the name of a machine but of a human -- namely an *office clerk*, often a woman, who had to make tedious calculations by hand for the government, the Astronomical Society, or the Navy. 
+1. At times 'computers' were also working from home, receiving stacks of numbers to calculate and sending back results by mail: this was literally the first historical occurrence of a *computing network* that took the form of domestic labour and probably involved further family members. 
 1. With the aim of streamlining this time-consuming and error- prone process, the polymath Charles Babbage had the idea of replacing the repetitive work of many 'computers' with an automated machine powered by steam. 
 1. Henry Colebrooke, presenting Babbage with a gold medal at the Astronomical Society of London in 1823 for the invention of the Difference Engine, declared: 
 	* *In other cases, mechanical devices have substituted machines for simpler tools or for bodily labour...*
@@ -31,15 +31,15 @@ tags: []
 1. Babbage's Difference Engine, celebrated as the precursor of modern computers, was born out of a business ambition -- to automate the calculations of logarithms and sell error-free logarithmic tables, which were crucial in astronomy and for maintaining British hegemony in maritime trade. 
 1. Among other instigators, it was the problem of the longitudinal calculus in open sea that gave a special impetus to mechanised computation. 
 1. Small mechanical calculators already existed, but they were not automated and solved only the basic mathematical operations. 
-1. Babbage had the idea of connecting a complex logarithmic calculator to the continuous motion provided by steam engines, so as not to have just a calculating device, but a calculating engine that could establish the business of calculation at an industrial scale -- with the fantasies of unbounded performance and unfettered economic growth that the novel word 'engine' carried at the time. 
+1. Babbage had the idea of connecting a complex logarithmic calculator to the continuous motion provided by steam engines, so as not to have just a calculating device, but a *calculating engine* that could establish the business of calculation at an industrial scale -- with the fantasies of unbounded performance and unfettered economic growth that the novel word 'engine' carried at the time. 
 1. The idea of the automatic computer, in the contemporary sense, emerged out of the project to mechanise the mental labour of clerks rather than the old alchemic dream of building thinking automata -- although the latter narrative would often be used, in the nineteenth century as much as in the century of corporate AI, to masquerade the former business. 
 1. Precisely what kind of 'intellectual process', or mental labour, was Babbage aiming to mechanise? 
 1. If we are to understand the limitations and potentialities of computation, this is a key clarification, without which even the definition of AI itself can only amplify misunderstandings. 
-1. The first kind of mental labour to be mechanised was hand calculation -- a specific skill that persisted until the model of the Turing machine, which was envisioned itself in the form of a human typist (a 'computer') reading and writing figures on a tape, as in a telegraph station. 
+1. The first kind of mental labour to be mechanised was *hand calculation* -- a specific skill that persisted until the model of the Turing machine, which was envisioned itself in the form of a human typist (a 'computer') reading and writing figures on a tape, as in a telegraph station. 
 1. As chapter 9 will show by following a different genealogy of computation and AI, this was not to be the case with artificial neural networks for pattern recognition, which aimed to automate not hand calculation but the labour of perception and supervision.  
 1. Babbage's Difference Engine was a peculiar artefact. 
 1. It was not a computer in the contemporary sense, because it did not distinguish software from hardware, instruction from information (fig 2.1). 
-1. As it was at the same time both hardware and software, the Difference Engine appears aesthetically intriguing to contemporary eyes: its brass gears and rotating cylinders physically embodied a single algorithm, French mathematician Gaspard de Prony's 'method of differences', which was used to abbreviate the calculation of square numbers and logarithms. 
+1. As it was at the same time both hardware *and* software, the Difference Engine appears aesthetically intriguing to contemporary eyes: its brass gears and rotating cylinders physically embodied a single algorithm, French mathematician Gaspard de Prony's 'method of differences', which was used to abbreviate the calculation of square numbers and logarithms. 
 1. The Difference Engine was also not a computer in the contemporary sense, because it was not a programmable device: the title of an industrial machine featuring an independent input for information belongs to the more modest Jacquard loom. 
 1. The Difference Engine prototype was never finalised, while the Jacquard loom was produced in thousands of exemplars and became a driver of the industrial age. 
 1. The Jacquard loom set a standard for information storage -- the punched card -- which IBM would maintain with little to no variation until the twentieth century. 
@@ -49,7 +49,7 @@ tags: []
 1. As Simon Schaffer has noted, 'places of intelligence' across England assisted Babbage's experiments with mechanical computation and were ultimately the source of his 'machine intelligence'. 
 1. Schaffer remarks that Babbage had a more intimate relation with the industrial workshops as a locus of knowledge than with the universities, which, at the time, offered only conservative and notional curricula.  
 1. Whereas the hagiographies still depict him as a solitary genius, Babbage was in fact deeply engaged in the industrial milieu of the age and in the debates of the emerging discipline of political economy. 
-1. In fact, he authored one of the most influential industrial manuals of the time: On the Economy of Machinery and Manufactures (1832).  
+1. In fact, he authored one of the most influential industrial manuals of the time: *On the Economy of Machinery and Manufactures* (1832).  
 1. That the applied division of labour, rather than abstract mathematics, is the 'inventor' of automated computation is also confirmed by the opening of Babbage's book: 'The present volume may be considered as one of the consequences that have resulted from the Calculating-Engine, the construction of which I have been so long superintending.' 
 1. This is historical evidence that, as an expression of the division of labour, computation watched over the unfolding of industrial capitalism from its very outset, rather than being a product of its latest developments. 
 1. While Babbage tried to convince his reader that the first manual ever published on the management of industrial production was inspired by the project of automated computation, a materialist historian would scrutinise such auto-mythography. 
@@ -62,8 +62,8 @@ tags: []
 1. The hagiographical anecdotes report that Babbage, mulling over the logarithm books and staring at their numerous errors, exclaimed: 'I wish to God these calculations had been executed by steam.' 
 1. The first project to accelerate the calculation of logarithmic tables, however, took place not in England but in France, where in 1791 the revolutionary government was engaged in reforming the official measuring system towards the metric system, investing in what Lorraine Daston (to draw an analogy with today's 'big data') calls 'big calculation'. Pursuing an ambitious plan to make the decimal system the standard for angular measurements, the government asked Gaspard de Prony to design the division of the square angle with 100 rather than 90 degrees -- a project which required the logarithmic translation of the old radial fractions into new ones. 
 1. Though the plan of angular reform failed, and the millennia-old Sumerian partition of time remains a global standard to this day, the attempt would give momentum to the birth of automated computation.  
-1. The Scottish economist Adam Smith wrote a famous account of the division of labour in pin making in The Wealth of Nations. 
-1. Smith's picture of the division of labour inspired de Prony, who designed accordingly a sort of collective algorithm for the calculus of logarithms. 
+1. The Scottish economist Adam Smith wrote a famous account of the division of labour in pin making in *The Wealth of Nations*. 
+1. Smith's picture of the division of labour inspired de Prony, who designed accordingly a sort of *collective algorithm* for the calculus of logarithms. 
 1. De Prony conceived a workflow that was organised as a social pyramid: at the top, he placed a class of mathematicians who would formulate the problem and pass it on to a second class of 'algebraists'; they would then prepare simple operations and data for a third class of human computers who would perform all of the actual calculations on paper sheets, then send them back to their superiors (see fig. 2.2). 
 1. Students, often women, and sometimes 'a large number of unemployed hairdressers were used to fill out the numbers on the sheets by adding and subtracting'. De Prony's algorithm applied the aforementioned method of differences, which is based on the fact that the difference between the squares of consecutive numbers remains constant and the interpolation of following squares can be easily reached by simple addition and subtraction in place of complex multiplication.
 1. Babbage had the idea of replacing the third class of workers of the calculating pyramid with a machine, as they were repeating tedious tasks of additions and subtractions of a simple difference. 
@@ -99,14 +99,14 @@ tags: []
 1. Schaffer has highlighted that Babbage's 'machine intelligence' proceeded from the 'mindful hands' of workers, craftsmen, and machinists who were building experimental contrivances, as seen above, in 'places of intelligence' such as workshops and factories rather than royal academies. 
 1. As Jones details, Babbage publicly pursued Francis Bacon's 'hope for the discovery of a philosophical theory of invention'. Yet the secret of his calculating engine was not the imitation of God's foresight (as Babbage argued) so much as the everyday business of these workshops and factories, made of continuous failures and conflicts with workers, including the insubordination of Babbage's own team. 
 1. In order to better understand the design of Babbage's machines and their quality of 'machine intelligence', it is therefore necessary to explicate his two principles of labour analysis.
-1. As the founder of modern economics, Adam Smith was the first to have sketched a labour theory of the machine in The Wealth of Nations (1776) by recognising that new machines are 'invented' by imitating the organisation of tasks in the workplace: 
+1. As the founder of modern economics, Adam Smith was the first to have sketched a labour theory of the machine in *The Wealth of Nations* (1776) by recognising that new machines are 'invented' by imitating the organisation of tasks in the workplace: 
 	* *The invention of all those machines by which labour is so much facilitated and abridged seems to have been originally owing to the division of labour.*
 1. Whereas the independent tool emerges out of the repetition of a simple manual activity, the machine emerges out of assemblages of these tools. 
-1. Given his greater technical experience, Babbage formulated this idea better in his On the Economy of Machinery and Manufactures:
+1. Given his greater technical experience, Babbage formulated this idea better in his *On the Economy of Machinery and Manufactures*:
 	* *Perhaps the most important principle on which the economy of a manufacturer depends, is the division of labour amongst the persons who perform the work...*
 	* *The division of labour suggests the contrivance of tools and machinery to execute its processes...*
 	* *When each process has been reduced to the use of some simple tool, the union of all these tools, actuated by one moving power, constitutes a machine.*
-1. The labour theory of the machine is based on a postulate at once technical and economic, according to which a machine emerges only after a coordination of tools has been tested and proved to be successful for production and cost reduction. 
+1. The *labour theory of the machine* is based on a postulate at once technical and economic, according to which a machine emerges only after a coordination of tools has been tested and proved to be successful for production and cost reduction. 
 1. If Smith and Babbage are right, and a machine emerges as the experimentation and implementation of a collective division of labour, a political issue comes straightaway to the fore: Who is actually the inventor of the machine? 
 1. Who can claim credit for its invention? 
 1. Workers, factory masters, engineers, or the orchestration of all these actors? 
@@ -119,13 +119,13 @@ tags: []
 	* *whereas, if the whole work were executed by one workman, that person must possess sufficient skill to perform the most difficult, and sufficient strength to execute the most laborious, of the operations into which the art is divided.*
 1. The Babbage principle states that the organisation of a production process into small tasks (the division of labour) allows for the calculation and precise purchase of the quantity of labour that is necessary for each task (the division of value). 
 1. The division of labour establishes a privileged perspective for the surveillance of labour, but also helps to modulate the extraction of surplus labour from each worker according to need. 
-1. In more analytical terms, the Babbage principle posits that the abstract diagram of the division of labour helps to organise production while at the same time offering an instrument for measuring the value of labour. 
+1. In more analytical terms, the Babbage principle posits that the abstract diagram of the division of labour helps to organise production while at the same time offering an *instrument* for measuring the value of labour. 
 1. In this respect, the division of labour provides not only the design of machinery but also of the business plan.
 1. A fundamental theory of automated computation came from Babbage's application of his principles of labour calculation to the division of mental labour. Notably, he already saw the factory as a sort of knowledge economy from which to extract exact 'quantity of skill and knowledge which is required' from each worker:
 	* *The effect of the division of labour, both in mechanical and in mental processes, is, that it enables us to purchase and apply to each process precisely that quantity of skill and knowledge which is required for it:*
 	* *we avoid employing any part of the time of a man who can get eight or ten shillings a day by his skill in tempering needles, in turning a wheel, which can be done for sixpence a day;*
 	* *and we equally avoid the loss arising from the employment of an accomplished mathematician in performing the lowest processes of arithmetic.*
-1. Combining both Babbage's principles, one could say that computation emerged as both the automation of the division of mental labour and the calculus of the costs of such labour. 
+1. Combining both Babbage's principles, one could say that computation emerged as both the *automation* of the division of mental labour and the *calculus of the costs* of such labour. 
 1. One could postulate that, under the logic of computation, the automation of labour and the calculus of the cost of labour even become the same thing. 
 1. After all, to compute means to measure the costs of labour in terms of time, space, energy, resources, and capital. This often neglects, from capital's perspective, the 'human cost' of such labour. As the historian of science Norton Wise has remarked, the division of labour
 	* *is actually one of the hierarchy of labour, rather than merely division...*
@@ -134,13 +134,13 @@ tags: []
 	* *It is a principle of the interior organization of a factory ... which Babbage sought to generalize to the entire political economy.*
 1. What Babbage's principles of labour analysis implied was the further discrimination between skilled and unskilled workers and the 'automation', ultimately, of social hierarchies of knowledge. 
 1. In conclusion, Babbage's labour theory of the machine is of extraordinary importance when it is combined with his principle of labour calculation: together, they seem to define the industrial machine not just as a productive apparatus but also as an instrument of measurement of labour. 
-1. Ultimately, the Babbage principle represents a machine theory of value -- that is, a model to mechanically represent and compute labour costs and capital investments. 
+1. Ultimately, the Babbage principle represents a *machine theory of value* -- that is, a model to mechanically represent and compute labour costs and capital investments. 
 1. In a highly formalised way, it can be said that the labour theory of the machine and the machine theory of value together form a technoeconomic principle according to which the machine is built by the division of labour in order to achieve a more accurate calculation and extraction of surplus value.
 
 ### Analytical intelligence and machine semiotics
 
 
-1. Mulling over broken tools, uneven cogs, and unfinished machines, Babbage found himself in a situation not uncommon to many other inventors: he needed to codify an artificial language in order to improve and accelerate design. In On the Economy of Machinery, he writes:
+1. Mulling over broken tools, uneven cogs, and unfinished machines, Babbage found himself in a situation not uncommon to many other inventors: he needed to codify an artificial language in order to improve and accelerate design. In *On the Economy of Machinery*, he writes:
 	* *It is possible to construct the whole machine upon paper, and to judge of the proper strength to be given to each part as well as to the framework which supports it, and also of its ultimate effect, long before a single part of it has been executed.*
 	* *In fact, all the contrivance, and all the improvements, ought first to be represented in the drawings.*
 1. As Jones has noted, Babbage's analytical hopes soon clashed with the contingencies of implementation and the necessity of human cooperation. 
@@ -155,24 +155,24 @@ tags: []
 1. Considering the nature of these calculating machines, Babbage's mechanical notation can be considered the embryonic stage of what would later become the flow charts and programming languages of twentieth-century digital computers. 
 1. The logical equivalence between Babbage's mechanical notation and digital computer language is no coincidence: in fact, it is possible for the latter to emulate the former.  
 1. The idea of mechanical notation must also be contextualised as part of the intellectual milieu of Babbage's time -- and in particular, the controversy about the rise of mathematical analysis in British universities against the traditional curricula of geometry. 
-1. In the early nineteenth century, a dispute broke out at Cambridge University between geometry scholars proud of their practical insights and the new algebraists. 
+1. In the early nineteenth century, a dispute broke out at Cambridge University between geometry scholars proud of their practical insights and the new *algebraists*. 
 1. The latter were accused of merely adopting a fashionable pose from France -- called 'Analysis' -- which mired them in abstractions lacking any practical use. 
-1. With industrial capitalism storming through the United Kingdom, however, the arrival of 'analytical' thinking in academia can be considered as echoing another equally urgent form of 'analysis' for the time: the analysis of labour. 
+1. With industrial capitalism storming through the United Kingdom, however, the arrival of 'analytical' thinking in academia can be considered as echoing another equally urgent form of 'analysis' for the time: the *analysis of labour*. 
 1. Indeed, mathematical analysis appeared to be encouraged by the economic demand for more analytical intelligence on labour and machines. 
-1. As will be shown in chapter 4, even Marx adopted Babbage's terminology, writing in the Grundrisse that the best method for designing machines is not the application of science (the 'analysis of nature') to industry but the 'analysis through the division of labour'.  
+1. As will be shown in chapter 4, even Marx adopted Babbage's terminology, writing in the *Grundrisse* that the best method for designing machines is not the application of science (the 'analysis of nature') to industry but the 'analysis through the division of labour'.  
 1. Regarding the process of invention, Babbage suggested a threefold design: (1) the analysis of the machine's design through its components; (2) the simplification of the machine's design; and (3) the implementation of the simplified design, which usually brings further adjustments. 
 1. The algorithmic nature of this method is manifest in the centrality given to the simplification process, which makes it equivalent to a method of optimisation and economisation of resources. 
-1. In his late autobiography, Passages from the Life of a Philosopher, Babbage remarked, unsurprisingly, that the economy of time -- which is key to the division of labour and the design of machines -- is also key to the calculation programs to be run on the Analytical Engine (a principle known today as algorithmic efficiency): 'As soon as an Analytical Engine exists, it will necessarily guide the future course of the science. 
-1. Whenever any result is sought by its aid, the question will then arise -- By what course of calculation can these results be arrived at by the machine in the shortest time?' 
+1. In his late autobiography, *Passages from the Life of a Philosopher*, Babbage remarked, unsurprisingly, that the economy of time -- which is key to the division of labour and the design of machines -- is also key to the calculation programs to be run on the Analytical Engine (a principle known today as *algorithmic efficiency*): 'As soon as an Analytical Engine exists, it will necessarily guide the future course of the science. 
+1. Whenever any result is sought by its aid, the question will then arise -- By what course of calculation can these results be arrived at by the machine in the *shortest time*?' 
 1. Babbage was therefore not just the mathematician that most of his biographers portray, but already an 'algorithmic thinker', as the principle of design optimisation and resource economisation was key to his (uncompleted) machines as much as it was to his (speculative) algorithms.  
 1. Babbage's mechanical notation grew, essentially, out of the analysis of labour. 
 1. If the design of the labour process forges the machine's design, then, in a similar way, the machine's design itself inspires the machine language as a second-order representation. 
-1. As elucidated in chapter 1, the scaffolding of further levels of abstraction in industrial machine design is typical of the development of cultural techniques. 
+1. As elucidated in chapter 1, the scaffolding of further levels of *abstraction* in industrial machine design is typical of the development of cultural techniques. 
 1. Babbage's principles are specifically principles of the 'analytical intelligence' of labour that can also be useful for illuminating the history of AI in the following century, as a continuous implementation and automation of labour tasks. In short: the analytical intelligence of labour is what grounds the analytical intelligence of the machine.
 
 ### Ada Lovelace: When computers were women
 
-1. Babbage was no solitary genius. Since the publication of Bertram Bowden's anthology Faster than Thought (1953), the figure of Ada Lovelace and her contribution to Babbage's projects have progressively been acknowledged. 
+1. Babbage was no solitary genius. Since the publication of Bertram Bowden's anthology *Faster than Thought* (1953), the figure of Ada Lovelace and her contribution to Babbage's projects have progressively been acknowledged. 
 1. Indeed, a growing literature today, while overlooking the role of other 'anonymised' women in the business of calculation of the time, celebrates her as the 'first woman programmer of history'. 
 1. Lovelace, the daughter of the poet Lord Byron and the often forgotten mathematician Anne Isabella Milbanke, was passionate about the algebraic notation known at the time as 'Analysis' -- so much so that she even gave herself the futuristic title of 'Analyst'. 
 1. This passion for mathematics and abstract notation brought her to become an acquaintance of Babbage.
@@ -184,9 +184,9 @@ tags: []
 1. These 'Notes' are a milestone in the history of computation, as they sketch embryonic postulates of what in the twentieth century would become known as 'computer science' and what in her time Lovelace defined as the 'science of operations'. 
 1. Her intention was to distinguish between the logical and mechanical structure of the Engine -- or between software and hardware, as one would say today. 
 1. Taking the mechanical contrivances that made such logical powers possible as a substrate, she detailed the improvements upon its predecessor, the Difference Engine (which, as mentioned above, implemented just a single algorithm).
-1. It can therefore be said that Lovelace dedicated herself to the ambitious and complex task of describing the Analytical Engine as the first general purpose computer, as it would be termed today.  
+1. It can therefore be said that Lovelace dedicated herself to the ambitious and complex task of describing the Analytical Engine as the first *general purpose computer*, as it would be termed today.  
 1. By envisioning a logical machine that could express all possible equations and their evaluation, Lovelace advanced a definition of 'operation' which was more general and universal than the operation upon numbers as it is understood by traditional mathematics. 
-1. Her science of operations included the abstract manipulation of any entity, not just numbers, suggesting in this way a broader meaning also for the definition of automation. 
+1. Her science of operations included the abstract manipulation of *any* entity, not just numbers, suggesting in this way a broader meaning also for the definition of automation. 
 1. She wrote:
 	* *It may be desirable to explain, that by the word operation, we mean any process which alters the mutual relation of two or more things, be this relation of what kind it may.*
 	* *This is the most general definition, and would include all subjects in the universe.*
@@ -194,7 +194,7 @@ tags: []
 	* *But the science of operations, as derived from mathematics more especially, is a science of itself, and has its own abstract truth and value.* 
 1. In other words, Lovelace defined as an 'operation' the control of material and symbolic entities beyond the second-order language of mathematics (like the idea, discussed in chapter 1, of an algorithmic thinking beyond the boundary of computer science). 
 1. In a visionary way, Lovelace seemed to suggest that mathematics is not the universal theory par excellence but a particular case of the science of operations. 
-1. Following this insight, she envisioned the capacity of numerical computers qua universal machines to represent and manipulate numerical relations in the most diverse disciplines and generate, among other things, complex musical artefacts:
+1. Following this insight, she envisioned the capacity of numerical computers qua *universal machines* to represent and manipulate numerical relations in the most diverse disciplines and generate, among other things, complex musical artefacts:
 	* *[The Analytical Engine] might act upon other things besides number--were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations-*
 	* *and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...*
 	* *Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations,*
@@ -248,7 +248,7 @@ tags: []
 	* *Inevitably, scientific knowledge represented capital in the economy of knowledge, a reservoir of moving force which continued to accumulate at compound interest.*
 1. These optimistic views about knowledge development were not uncommon at the time: as shown in the following chapter, Ricardian socialists such as William Thompson and Thomas Hodgskin had similar utopian theories about the accumulation of knowledge labour from the perspective of the workers' movement. 
 1. According to Babbage, the ratio of the 'continually increasing field of human knowledge' is exponential, and one wonders (as did the Ricardian socialists and Marx) what the effect would be of such an overproduction of knowledge and science on the economy and on capital accumulation. 
-1. It is at this climax of accumulation of knowledge and science that Babbage prophetically announced the hegemonic rise of a new science -- the science of calculation:
+1. It is at this climax of accumulation of knowledge and science that Babbage prophetically announced the hegemonic rise of a new science -- the science of *calculation*:
 	* *We must remember that another and a higher science, itself still more boundless, is also advancing with a giant's stride,*
 	* *and having grasped the mightier masses of the universe, and reduced their wanderings to laws, has given to us in its own condensed language, expressions, which are to the past as history, to the future as prophecy.*
 	* *It is the same science which is now preparing its fetters for the minutest atoms that nature has created:*
