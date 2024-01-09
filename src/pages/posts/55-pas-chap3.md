@@ -123,14 +123,13 @@ The [machinery] question was central to everyday relations between master and wo
 1. Hodgskin complained that Adam Smith, the father of political economy, did not give a proper treatment to the subject, commenting:
 	* *Those books, therefore, called Elements, Principles, or Systems of Political Economy, which do not embrace and fully develop...*
 	* *the whole influence of knowledge on productive power, and do not explain the natural laws which regulate the progress of society in knowledge, are and must, as treatises on Political Economy, be essentially incomplete.*
-
 1. In a clear anti-Malthusian argument, Hodgskin anchored the virtuous growth of knowledge to the needs of a growing population, in this way also reclaiming the territory of knowledge production from the monopoly of state academies and science institutions. 
 1. He positively declared: 'Necessity is the mother of invention; and the continual existence of necessity can only be explained by the continual increase of people.' 
 1. According to Hodgskin, it is the growth of population that demands better skill in producing and distributing wealth, thereby generating advanced knowledge: 'As the world grows older, and as men increase and multiply, there is a constant, natural, and necessary tendency to an increase in their knowledge, and consequently in their productive power.' 
 1. Like Thompson, Hodgskin maintained that the rules of the knowledge economy are not those of capitalism: 'The laws which regulate the accumulation and employment of capital are quite dissimilar to and unconnected with the laws regulating the progress of knowledge.' 
 1. In Hodgskin's view of society, there should be no intellectual hierarchies, no division of head and hand, no labour aristocracy to promote, because 'both mental and bodily labour are practised by almost every individual.'
 
-###The demonisation of mental labour
+### The demonisation of mental labour
 
 1. As Berg noted, for participants in the Machinery Question and those within the Mechanics' Institute movement, the apparently benevolent celebration of craftsmanship was actually instrumental to dividing the working class and inciting a fabricated 'labour aristocracy' to mimic bourgeois customs:
 	* *The rhetoric on the connection between technological progress and economic improvement in the Mechanics Institute Movement...*
@@ -154,31 +153,72 @@ The [machinery] question was central to everyday relations between master and wo
 1. Industrial machinery, nonetheless, ended up polarising the distance between skilled and deskilled labour. 
 1. As Marx sharply summarised: 'By the introduction of machinery the division of labour inside society has grown up, the task of the worker inside the workshop has been simplified, capital has been concentrated, human beings have been further dismembered.' 
 1. It is on this basis which Berg concludes that 'machinery did not displace labour. Rather, it differentiated this labour by dismembering the old craft.'
-
-1. The distinction of head and hand, of mental and manual labour, is not only typical of modern industrial societies; it has been part of Western culture at least since the Aristotelian opposition of episteme ('knowledge') and techne ('art' or 'craft') in ancient Greece, which later became functional for defining social hierarchies across the West. 
+1. The distinction of head and hand, of mental and manual labour, is not only typical of modern industrial societies; it has been part of Western culture at least since the Aristotelian opposition of *episteme* ('knowledge') and *techne* ('art' or 'craft') in ancient Greece, which later became functional for defining social hierarchies across the West. 
 1. Historians of mathematics such as Peter Damerow actually predate the social separation of mental and manual labour to the dawn of civilisations due to the need to count populations, plan agriculture, and administer resources. 
 1. The control of abstract symbols would later develop into the domain of letters and spirit and a long-lasting class segmentation of society, as historians of science Lissa Roberts and Simon Schaffer record:
-
 	* *Self-appointed mental workers, such as philosophers, scientists, policy-makers and bureaucrats, then as now, claimed and constructed the dominion of their 'understanding' over hand-workers and their crafts.*
 	* *They relied on the mutual reinforcement of coercive rhetoric and brutal deed.*
 	* *The easy acceptance of their categories has left us with a historical map shaped by oppositional and hierarchically ordered pairs:*
 		* *scholar / artisan, science / technology, pure / applied and theory / practice.*
-
-1. It could therefore be argued that the first division of labour in the modern sense is the separation of head from hand that gradually emerged out of the workshops of the Renaissance to be fully severed precisely in the industrial factories as the division of mental and manual labour. 
+1. It could therefore be argued that the first *division of labour* in the modern sense is the separation of head from hand that gradually emerged out of the workshops of the Renaissance to be fully severed precisely in the industrial factories as the division of mental and manual labour. 
 1. For instance, Edgar Zilsel, a historian of science, documented how even the 'heroes' of the so-called Scientific Revolution, such as Galileo Galilei, learned more in clandestine workshops, hidden libraries, and nomadic classrooms than at universities. 
 1. Roberts and Schaffer, for their part, have proposed the elegant image of the 'mindful hand' as a way to recognize and recompose the ingenuity of manual labour, mechanical experiments, and scientific workshops throughout modernity, without romanticising craftsmanship as conservative discourse so often does. 
 1. Rather than cultivating the provincial 'heroism' of craftsmen in a reactionary way, the image of the 'mindful hand' stresses the convivial dimension of experimental life and its inventions.  
-1. Industrial modernity has established itself on the capture of this collective knowledge by state and economic apparatuses, by institutions of knowledge and technologies of knowledge, which eventually turned mental labour into a Geist, to use the ambivalent German term -- a ghost, more than an intellectual spirit, that political theory still struggles to grasp. 
+1. Industrial modernity has established itself on the capture of this collective knowledge by state and economic apparatuses, by institutions of knowledge and technologies of knowledge, which eventually turned mental labour into a *Geist*, to use the ambivalent German term -- a ghost, more than an intellectual spirit, that political theory still struggles to grasp. 
 1. Extorted from workers and social cooperation, mental labour assumed the nature of a half-visible demon: a political issue to be exorcised, for opposite reasons, by the workers' movement as much as by corporate interests.
 
-### The machine theory of scienc
+### The machine theory of science
 
+1. Tool-makers and machine operators knew that they were contributing to the invention of new technologies. 
+1. What they were rarely aware of is that they were also contributing to new scientific discoveries. 
+1. New machines prompt scientific notions and paradigm shifts more often than science happens to invent new technologies from above. 
+1. As in an example mentioned earlier, it was the steam engine which gave birth to thermodynamics, rather than the other way around. 
+1. The science of heat and energy transformation developed to ameliorate the steam engine: it was a projection of the lucrative ambitions of autonomous motion, not just the child of curiosity towards the universe. 
+1. In the study of the forms of knowledge that undergo mechanisation, it is important to also highlight the knowledge of the world that is expressed anew by machines. 
+1. The idea that tools, instruments, and machines project and constitute the ontology of scientific theories about the world can be defined as a *machine theory of science*. 
+1. As Peter Damerow and Wolfgang Lefèvre have stressed, among others, the tools of work are also tools for exploring the world and speculating upon it: 'The development of science depends on the development of its material tools...
+1. When using a material tool, more can always be learned than the knowledge invested in its invention.' 
+1. Yet Damerow and Lefèvre also stress that science is never fully independent from the materiality of its instruments:
+	* *Science is not free in forming its abstractions; in this activity it is restricted by material preconditions,*
+	* *more precisely, by the specific tools at its disposal that provide cognition with abstractions which are capable of realization...*
+	* *The material tools of scientific labor define a scope of objective possibilities that represent the framework for developing scientific abstractions.*
+Tools and machines, however, are never fully transparent in their implications. Machines are born as experiments, and they are often operated without full knowledge of their workings. 
+1. Science is developed to cover these blind spots in our knowledge of machines, not just of the universe. 
+1. On the other hand, the perception of nature is often machine based, not simply because of the mediation of instruments on perception but because machines have influenced, indirectly, the ontology of entire scientific paradigms. 
+1. For example, into the twenty-first century, the standard theory of time remains based on the irreversible arrow of entropy that was encountered and conceptualised, for the first time, in the chambers of the steam engine before being canonised in the second principle of thermodynamics. 
+1. It is not an exaggeration to say that the universe is still perceived nowawdays as from the belly of an industrial engine.  
+1. In 1931, with his lecture 'The Social and Economic Roots of Newton's *Principia*', Boris Hessen consolidated the history of science and technology upon the method of historical materialism, arguing that Newton's endeavours were indebted to the tools and machines of the time which happened to be, unsurprisingly, also the main *means of production* of the time: water canal transport techniques, water pumps and pulleys used in the mining industry, new firearms and their ballistic control, and so forth. 
+1. More recently, Peter Galison has accounted for the difference between Newtonian and Einsteinian physics through analysing the technical perception of time in their respective ages and the definition of synchronisation: a centralised universal clockwork maintained a uniform time in Newton's case, whereas it was 'an electromechanical world' connected by new networks of communication such as the telephone in Einstein's case. 
+1. Going back to the industrial age, the historical epistemology of science and technology suggests that we reconsider the project of machine intelligence as a prism reflecting multiple forms of knowledge. 
+1. Stretching its definition across a larger time scale, the expression 'machine intelligence' ultimately acquires at least four meanings: 
+	1. the human knowledge of the machine; 
+	1. the knowledge embodied by the machine's design; 
+	1. the human tasks automated by the machine; and 
+	1. the new knowledge of the universe made possible by its use.
 
+### The Machinery Question in the age of AI
 
-
-
-
-
-
+1. The industrial machine is a powerful artefact because it imbricates in one thing the relations between energy and matter, knowledge and science, but more importantly between capital and labour. 
+1. In this sense, the industrial machine appears to be the incarnation of the many contradictions of capitalism and a concrete locus of a social and ideological struggle. 
+1. A similar fascination with the political centrality of technology has extended until the present day, reiterating ambivalent impressions of the industrial age. 
+1. Both academic techno-determinism and corporate techno-solutionism, for instance, consider it today as the core of the political question. 
+1. However, it would be a gross mistake to consider technology the *unique locus* of political conflict. 
+1. As this book is trying to explicate, social relations and in particular labour cooperation are the 'engines' of technical and political development. 
+1. But, in their own terms, such social relations and the category of labour itself have to be scrutinised. 
+1. What is labour cooperation made of, by the way? 
+1. How was the notion of labour constructed, employed, narrated, and analysed by the political economy of the nineteenth and twentieth century? 
+1. This is not a trivial question, because the idea of labour that is still used today is an inheritance from the nineteenth century and a product of the bold political confrontations of that time: of labour as a manual activity often devoid of any mental component.  
+1. Industrial capitalism was not only an energetic intensification of labour and production; it was also a transformation of the division of labour and social relations, to the point of becoming the matrix of a new kind of knowledge production -- not only mathematics, mechanics, and physics, but knowledge of the most diverse kinds. 
+1. In the early nineteenth century, Ricardian socialists such as Thompson and Hodgskin were already discussing the social potentialities and psychic implications of 'mental labour' claiming that knowledge is the first source of labour. 
+1. Other political economists, such as Marx, agreed but argued that both mental and manual labour, without distinction, were the source of collective knowledge. 
+1. It was close to the workshops of the industrial age that modern computation, eventually, was born as the project to mechanise the division of mental labour, as Babbage experimented with his calculating engines.  
+1. This chapter has explored the hypothesis that during the industrial age, knowledge and intelligence comprised the true hidden transaction between labour and capital. 
+1. As we have seen, all labour, without distinction, was and still is cognitive and knowledge-producing. 
+1. The most important component of labour is not energy and motion (which are easy to automate and replace) but knowledge and intelligence (which are far from being completely automated in the age of AI). 
+1. The industrial age was also the moment of the *originary accumulation of technical intelligence* as the dispossession of knowledge from labour. 
+1. AI is today the continuation of the same process: it is a systematic mechanisation and capitalisation of collective knowledge into new apparatuses, into the datasets, algorithms, and statistical models of machine learning, among other techniques. 
+1. Ultimately, it is not difficult to imagine AI as a late avatar of the collective worker, the *Gesamtarbeiter* that was for Marx the main actor of industrial production. 
+1. As we shall see, the nineteenthcentury Machinery Question is also of signal importance for figuring out how to question this generalised process of automation in the age of AI. 
+1. Aptly, in 2016 *The Economist* issued a special report on AI forewarning 'The Return of the Machinery Question'.
 
 
