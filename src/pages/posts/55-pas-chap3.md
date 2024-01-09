@@ -98,3 +98,87 @@ The [machinery] question was central to everyday relations between master and wo
 1. Indeed, early nineteenth-century political economy already recognised the productive role of mental labour and the knowledge component of any form of manual labour in technological invention. 
 1. Ricardian socialists such as William Thompson and Thomas Hodgskin, for instance, provided an analysis of mental labour that largely predates the theorists of the knowledge society of the twentieth century. 
 1. Their position is illustrated, in this book, as a knowledge theory of labour, according to which the main component of labour is not muscular, physical, and energetic, but primarily psychological, intellectual, and informational.
+1. William Thompson was 'an Irish landowner who embraced Owenism, and criticised political economy from a utopian socialist position, but on the basis of Ricardo's doctrines'. 
+1. In 1824, Thompson published a since forgotten book with the optimistic title *An Inquiry into the Principles of the Distribution of Wealth Most Conducive to Human Happiness Applied to the Newly Proposed System of Voluntary Equality of Wealth*. 
+1. There Thompson provided one of the first systematic definitions of knowledge labour of the modern age: 
+	* *In speaking of labour, we have always included in that term the quantity of knowledge requisite for its direction.*
+	* *Without this knowledge, it would be no more than brute force directed to no useful purpose.*
+	* *In whatever proportion knowledge is possessed, whether in whole or in part, by the productive labourer, or by him who directs his labour, it is necessary in order to make his labour productive that some person should possess it.*
+1. Presciently, Thompson argued that the economy of knowledge follows rules of diffusion that are different than the economy of scarcity of material goods and instead are driven by continuous expansion and free multiplication:
+	* *Wealth, the produce of labor, is necessarily limited in its supply...*
+	* *Not so with the pleasure derived from the acquisition, the possession, and diffusion of knowledge.*
+	* *The supply of knowledge is unlimited...*
+	* *The more it is diffused, the more it multiplies itself.*
+1. Thompson, however, perceived the ambivalence of instrumental knowledge, in a sort of 'dialectics of enlightenment' *ante litteram*. 
+1. In a typical polemic of Owenism, Thompson described machinery as humiliating the 'general intellectual powers' of the workers that were reduced, in this way, to 'drilled automata'. 
+1. The factory was an apparatus to keep the workers 'ignorant of the secret springs which regulated the machine and to repress the general powers of their minds' so 'that the fruits of their own labors were by a hundred contrivances taken away from them'. 
+1. Marx's quote from Thompson in *Capital* is a perfect distillation of this thought:
+	* *The man of knowledge and the productive labourer comes to be widely divided from each other, and knowledge, instead of remaining the handmaid of labour in the hand of the labourer to increase his productive powers...*
+	* *has almost everywhere arrayed itself against labour.*
+	* *'Knowledge' becomes 'an instrument, capable of being detached from labour and opposed to it'.*
+1. Thompson's was not only the first modern account of knowledge labour and of the cognitive component of all labour, but also one that recognised the alienation of knowledge from workers and its transformation into a repressive power inimical to the workers themselves.  
+1. Similar positions were advanced also by Thomas Hodgskin, a Ricardian socialist of libertarian tendency who believed in the progress of collective knowledge and the autonomy of society from both capital and state intervention. 
+1. Hodgskin was one of the founders of the London Mechanics' Institute, where in 1826 he presented the lecture 'On the Influence of Knowledge', later published as part of his book *Popular Political Economy* (1827). 
+1. Socialists such as Thompson and Hodgskin argued that knowledge is key to economic prosperity. 
+1. Hodgskin complained that Adam Smith, the father of political economy, did not give a proper treatment to the subject, commenting:
+	* *Those books, therefore, called Elements, Principles, or Systems of Political Economy, which do not embrace and fully develop...*
+	* *the whole influence of knowledge on productive power, and do not explain the natural laws which regulate the progress of society in knowledge, are and must, as treatises on Political Economy, be essentially incomplete.*
+
+1. In a clear anti-Malthusian argument, Hodgskin anchored the virtuous growth of knowledge to the needs of a growing population, in this way also reclaiming the territory of knowledge production from the monopoly of state academies and science institutions. 
+1. He positively declared: 'Necessity is the mother of invention; and the continual existence of necessity can only be explained by the continual increase of people.' 
+1. According to Hodgskin, it is the growth of population that demands better skill in producing and distributing wealth, thereby generating advanced knowledge: 'As the world grows older, and as men increase and multiply, there is a constant, natural, and necessary tendency to an increase in their knowledge, and consequently in their productive power.' 
+1. Like Thompson, Hodgskin maintained that the rules of the knowledge economy are not those of capitalism: 'The laws which regulate the accumulation and employment of capital are quite dissimilar to and unconnected with the laws regulating the progress of knowledge.' 
+1. In Hodgskin's view of society, there should be no intellectual hierarchies, no division of head and hand, no labour aristocracy to promote, because 'both mental and bodily labour are practised by almost every individual.'
+
+###The demonisation of mental labour
+
+1. As Berg noted, for participants in the Machinery Question and those within the Mechanics' Institute movement, the apparently benevolent celebration of craftsmanship was actually instrumental to dividing the working class and inciting a fabricated 'labour aristocracy' to mimic bourgeois customs:
+	* *The rhetoric on the connection between technological progress and economic improvement in the Mechanics Institute Movement...*
+	* *meant to contribute to the formalisation of hierarchies in the labour movement.*
+	* *The skilled artisan was to be separated from unskilled common labour, and both were to be detached from the middle class.*
+	* *This design for creating a 'labour aristocracy' was complemented by efforts to contribute to the discipline of the labour force.*
+1. Cultivating the figure of the ingenious artisan among other gifted personalities (such as scientists and philosophers), the industrialist class aimed to divide the proletariat according to a hierarchy of deskilled and skilled workers, and to impose a gradual disciplining of labour. 
+1. The workers' movement, on the other hand, fought to maintain a united front in which both unskilled workers and skilled artisans could perceive each other on the same side of the political confrontation. 
+1. But in order to maintain such a position, for tactical reasons, it had to both conceal and absorb the difference of *mental labour* within the manual, and of individual labour within the collective. 
+1. In terms of political strategy, in order to unify a divided front, it was therefore necessary to declare that all labour is manual (without implying that all labour is also mental). 
+1. All collective knowledge, including skill, know-how, and even science, thus had to become an expression of *labour in common*.  
+1. Ultimately, this reaction against the social hierarchies of knowledge in the workers' movement led to the refusal of status for mental labour among its ranks and, in this way, the unconscious adoption of a bourgeois social segmentation. 
+1. As such, it was in order to maintain the political unity of workers that mental labour was ostracised from the Machinery Question. 
+1. The focus on manual labour has since then imposed an interpretation of labour as energetic performance only (as Rabinbach has noted, even Marx's *Arbeitskraft* was originally a notion from thermodynamics). 
+1. Both the middle class's discrimination of mental and manual labour and the working class's neutralisation of mental labour within manual labour were dictated by reasons of political tactics within the field of social forces of the industrial age. 
+1. What is remarkable is that the twentieth-century amnesia surrounding the nineteenth-century theory of mental labour finds its explanation in the strength of the workers' movement in its confrontation with the capitalist class.  
+1. Marx had a specific role in organising the political amnesia of mental labour (see chapter 4). 
+1. Although familiar with Thompson and Hodgskin, both of whom he quoted, in *Capital* Marx removed all references to mental labour, knowledge labour, and the 'general intellect' to replace them with the inventive capacity of the division of labour and the new figure of the collective worker, or *Gesamtarbeiter*. 
+1. Following Babbage, Marx adopted the idea that the extended division of labour, rather than science, was the inventor of the machine. 
+1. In this way, Marx reversed Thompson and Hodgskin's *knowledge theory of labour* into the more materialistic *labour theory of knowledge*, in which forms of labour that are spontaneous, unconscious, tacit, and collective are also eventually recognised as producing knowledge. 
+1. Industrial machinery, nonetheless, ended up polarising the distance between skilled and deskilled labour. 
+1. As Marx sharply summarised: 'By the introduction of machinery the division of labour inside society has grown up, the task of the worker inside the workshop has been simplified, capital has been concentrated, human beings have been further dismembered.' 
+1. It is on this basis which Berg concludes that 'machinery did not displace labour. Rather, it differentiated this labour by dismembering the old craft.'
+
+1. The distinction of head and hand, of mental and manual labour, is not only typical of modern industrial societies; it has been part of Western culture at least since the Aristotelian opposition of episteme ('knowledge') and techne ('art' or 'craft') in ancient Greece, which later became functional for defining social hierarchies across the West. 
+1. Historians of mathematics such as Peter Damerow actually predate the social separation of mental and manual labour to the dawn of civilisations due to the need to count populations, plan agriculture, and administer resources. 
+1. The control of abstract symbols would later develop into the domain of letters and spirit and a long-lasting class segmentation of society, as historians of science Lissa Roberts and Simon Schaffer record:
+
+	* *Self-appointed mental workers, such as philosophers, scientists, policy-makers and bureaucrats, then as now, claimed and constructed the dominion of their 'understanding' over hand-workers and their crafts.*
+	* *They relied on the mutual reinforcement of coercive rhetoric and brutal deed.*
+	* *The easy acceptance of their categories has left us with a historical map shaped by oppositional and hierarchically ordered pairs:*
+		* *scholar / artisan, science / technology, pure / applied and theory / practice.*
+
+1. It could therefore be argued that the first division of labour in the modern sense is the separation of head from hand that gradually emerged out of the workshops of the Renaissance to be fully severed precisely in the industrial factories as the division of mental and manual labour. 
+1. For instance, Edgar Zilsel, a historian of science, documented how even the 'heroes' of the so-called Scientific Revolution, such as Galileo Galilei, learned more in clandestine workshops, hidden libraries, and nomadic classrooms than at universities. 
+1. Roberts and Schaffer, for their part, have proposed the elegant image of the 'mindful hand' as a way to recognize and recompose the ingenuity of manual labour, mechanical experiments, and scientific workshops throughout modernity, without romanticising craftsmanship as conservative discourse so often does. 
+1. Rather than cultivating the provincial 'heroism' of craftsmen in a reactionary way, the image of the 'mindful hand' stresses the convivial dimension of experimental life and its inventions.  
+1. Industrial modernity has established itself on the capture of this collective knowledge by state and economic apparatuses, by institutions of knowledge and technologies of knowledge, which eventually turned mental labour into a Geist, to use the ambivalent German term -- a ghost, more than an intellectual spirit, that political theory still struggles to grasp. 
+1. Extorted from workers and social cooperation, mental labour assumed the nature of a half-visible demon: a political issue to be exorcised, for opposite reasons, by the workers' movement as much as by corporate interests.
+
+### The machine theory of scienc
+
+
+
+
+
+
+
+
+
+
