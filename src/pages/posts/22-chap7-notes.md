@@ -17,14 +17,20 @@ tags: []
 1. See also Chapter 5 of ISL (Introduction to Statistical Learning 2021 by Tibshirani et al). PDF available in Box
 1. See also quick overview of Regularization concepts in GBC Section 5.2.2, such as very basic treatment of "generalization, underfitting, overfitting, bias, variance, and regularization." p. 221
 	* On GBC p. 107 note that '**generalization error** is exactly synonymous with **test error**' from first page of Section 5.2
-1. 'Regularization adds terms to the objective function which can be thought of as extra constraints and penalities.
-1. 'Sometimes these constraints/penalties are meant to improve performance on the test set. 
-1. 'Sometimes these constraints/penalties **are designed to encode specific kinds of prior knowledge**.
-1. 'Sometimes these constraints/penalties are meant to improve the generalization of a model so that it does not overfit on a simple objective.
-1. 'Finally, regularization includes *ensemble methods* which combine multiple hypotheses to explain training data' p.222
+1. Regularization adds terms to the objective function which can be thought of as extra constraints and penalities.
+
+#### JH Break
+
+1. Sometimes these constraints/penalties are meant to improve performance on the test set. 
+1. Sometimes these constraints/penalties **are designed to encode specific kinds of prior knowledge**.
+1. Sometimes these constraints/penalties are meant to improve the generalization of a model so that it does not overfit on a simple objective.
+1. Finally, regularization includes *ensemble methods* which combine multiple hypotheses to explain training data' p.222
 1. In the context of deep learning, *most regularization strategies are based on regularizing estimators*.
 	* **Regularizing an estimator works by trading increased bias for reduced variance.**
 	* An effective regularizer is one that makes a profitable trade by significantly reducing variance while not overly increasing bias.
+
+#### JH Break
+
 1. Some archaelogy. **J() = objective function**. From GBC p.79, synonyms for objective function include:
 	* **cost function**
 	* **loss function**
@@ -46,7 +52,7 @@ tags: []
 1. Diﬀerent choices for the parameter norm penalty &#937; can result in diﬀerent solutions being preferred.
 1. In section 7.1, we discuss the eﬀects of the various norms when used as penaltieson the model parameters.
 
-### JH Break
+#### JH Break
 
 1. Before delving into the regularization behavior of diﬀerent norms, we note that for neural networks, we typically choose to use a parameter norm penalty that penalizes *only the **weights** of the aﬃne transformation at each layer and **leaves the biases unregularized***. 
 1. The biases typically require less data than the weights to ﬁt accurately. Each weight speciﬁes how two variables interact. Fitting each weight well requires observing both variables in a variety of conditions. 
@@ -55,7 +61,7 @@ tags: []
 1. Thus, we use a vector w&#8407; to contain all the **weight parameters** that should be affected by the norm penalty.
 	* Meawhile, the vector **&#952;** contains *all* the parameters, including all the weight parameters in w&#8407; (that **are regularized by the norm penalty**) *and* the other (non-weight) parameters that are **not regularized**.
 
-### JH Break
+#### JH Break
 
 1. In the context of neural networks, it is sometimes desirable to use a separate penalty with a diﬀerent
 alpha coeﬃcient for each layer of the network. 
