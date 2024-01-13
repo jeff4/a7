@@ -22,7 +22,9 @@ tags: []
 	* Because this problem is so important and so expensive, a specialized set of optimization techniques have been developed for solving it. 
 1. Chapter 8 presents the best optimization techniques for training ANNs.
 
+### JH Break
 
+1. 
 
 
 
