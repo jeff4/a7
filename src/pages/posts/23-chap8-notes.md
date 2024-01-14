@@ -64,6 +64,94 @@ tags: []
 1. The goal of a machine learning algorithm is to reduce the expected generalizationi error given by equation 8.2. 
 1. This quantity is known as the risk. 
 1. We emphasize here that the expectation is taken over the true underlying distribution p<sub>data</sub>. 
+1. If we knew the true distribution p<sub>data</sub>(x&#8407;, y), then the risk minimization would be an optimization task solvable by a vanilla optimization problem. 
+1. However, when we do *not* know the true distribution p<sub>data</sub>(x&#8407;, y), and only have access to the distribution from a set of training samples, then we have an ML problem.
+
+### JH Break
+
+1. The simplest way to convert an ML problem back into an optimization problem is to minimize the expected loss on the training set. 
+1. In other words, we replace the true distribution p(x&#8407;, y) with the training set's empirical distribution p-hat(x&#8407;, y)
+1. Equation 8.3 on p. 268 shows the *empirical risk* **E**<sub>x&#8407;, y ~ **p-hat**<sub>data</sub>(x&#8407;, y)</sub> which needs to be minimized.
+1. This process is called *empirical risk minimization*.
+
+### JH Break
+
+1. In this context, ML is still very similar to straightforward optimization.
+1. Rather than optimizing the risk directly, we optimize the empirical risk and hope that the risk decreases signiﬁcantly as well. 
+1. A variety of theoretical results establish conditions under which the true risk can be expected to decrease by various amounts.
+1. Nonetheless, empirical risk minimization is prone to overﬁtting. 
+1. Models with high capacity can simply memorize the training set. 
+1. In many cases, empirical risk minimization is not really feasible. 
+
+### JH Break
+
+1. The most eﬀective modern optimization algorithms are based on gradient descent. 
+1. However, many useful loss functions, such as 0-1 loss, have no useful derivatives (i.e., the derivative is either zero or undeﬁned everywhere). 
+1. These two problems mean that, in the context of deep learning, we rarely use empirical risk minimization. 
+1. Instead, we must use a slightly diﬀerent approach, in which the quantity that we actually optimize is even more diﬀerentfrom the quantity that we truly want to optimize. 
+
+### 8.1.2 Surrogate Loss Functions and Early Stopping
+
+1. Sometimes, the loss function we actually care about (say, classiﬁcation error) is not one that can be optimized eﬃciently. 
+1. For example, trying to minimize `expected 0-1 loss` to an exact level is is typically intractable even for a linear classiﬁer. (see p. 269 for more details)
+1. In such situations, one typically optimizes a surrogate loss function instead.
+1. Although this is surrogate function is just a proxy, this approach has some advantages.
+1. For example, the negative log-likelihood of the correct class is typically used as a surrogate for the 0-1 loss. 
+1. The negative log-likelihood allows the model to estimate the conditional probability of the classes, given the input, and if the model can do that well, then it can pick the classes that yield the least classiﬁcation error inexpectation.
+
+### JH Break
+
+1. In some cases, a surrogate loss function actually results in being able to learn more. (I edited this out, refer to p. 269-270 to see an example of this.)
+1. A very important diﬀerence between optimization in general and optimization used for ML training algos is that ML training algorithms do not usually halt at a local minimum. 
+1. Instead, an ML algo usually minimizes a surrogate loss function but *halts* when a convergence criterion based on early stopping (see Section 7.8) is satisﬁed. 
+1. Typically the early stopping criterion is based on the true underlying loss function, such as 0-1 loss measured on a validation set, and is designed to cause the algorithm to halt whenever overﬁtting begins to occur.
+1. Training often halts while the surrogate loss function still has large derivatives, which is very diﬀerent from the pure optimization setting, where an optimization algorithm is considered to have converged when the gradient becomes very small.
+
+### 8.1.3 Batch and Minibatch Algorithms
+1. One aspect of machine learning algorithms that separates them from general optimization algorithms is that the objective function usually decomposes as a sum over the training examples. 
+1. Optimization algorithms for machine learning typically compute each update to the parameters based on an expected value of the cost function estimated using only a subset of the terms of the full cost function. i
+1. For example, maximum likelihood estimation problems, when viewed in log space, decompose into a sum over each example. (See Equation 8.4).
+
+### JH Break
+
+1. Skipped some stuff from p. 270 - p. 271. 
+1. Optimization algorithms that use the entire training set are called **batch** or **deterministic gradient methods**, because they process all the training examples simultaneously in a large batch. 
+1. This terminology can be somewhat confusing because the word “batch” is also often used to describe the *mini-batch* used by **mini-batch stochastic gradient descent**. 
+1. Typically the term “batch gradient descent” implies the use of the full training set, while the use of the term “batch” to describe a group of examples does not. 
+1. For example, it is common to use the term “batch size” to describe the size of a minibatch.
+
+### JH Break
+
+1. Optimization algorithms that use only a single example at a time are sometimes called *stochastic methods* and sometimes called *online methods*. 
+1. The term “online” is usually reserved for when the examples are drawn from a stream of continually created examples rather than from a ﬁxed-size training set over which several passes are made.
+1. Most algorithms used for deep learning fall somewhere in between the two extremes.
+1. These algos use more than one example at a time but fewer than all training examples at once.
+1. These were traditionally called *minibatch* or *minibatch stochastic* methods; it is now common to simply call them *stochastic methods*.
+1. **The canonical example of a stochastic method is stochastic gradient descent (SGD).**
+1. See Section 8.3.1 for in-depth coverage of SGD.
+1. See p.272 for list of factors that help determine how to adjust minibatch size for ML purposes.
+
+### JH Break
+
+1. p. 273 - It is also crucial that the minibatches be selected randomly. 
+1. Computing an unbiased estimate of the expected gradient from a set of samples requires that those samples be independent. 
+1. We also wish for two subsequent gradient estimates to be independent from each other, so two subsequent minibatches of examples should also be independent from each other. 
+1. Many datasets are most naturally arranged in a way where successive examples are highly correlated.
+
+### JH Break
+
+1. Thus, when the order of the examples in the training dataset have some trend, it is necessary to shuffle the examples before selecting minibatches. 
+1. For example of long list of blood test samples and results and very large datasets, go to p. 273 for more discussion on how to manage the need for randomization.
+1. Skipped a bunch of interesting material from "An interesting motivation for minibatch stochastic gradient descent..." at the end of p. 273 to beginning of p.275.
+
+### JH Break
+
+1. Some datasets have been growing rapidly in size and even faster than available computing power. 
+1. Thus it is becoming more common for ML apps to use each training example *only once* or even to make an incomplete pass through the training set. 
+1. When using an extremely large training set, overﬁtting is not an issue. 
+1. In these cases, underfitting and computational eﬃciency become the bigger concerns. 
+
+### 8.2 Challenges in Neural Network Optimization
 
 ### Notes from December 2023
 1. GBC Chapter 8, section 8.3 is on Stochastic Gradient Descent (SGD)
@@ -84,4 +172,7 @@ tags: []
 * "np = nabla aka gradient upside down triangle &#8711;
 * "op = omega = &#937;
 * "jp = Capital letter J function with a tilde above it = J&#771;
+* "dp = p<sub>data</sub>
 
+
+p<sub>data</sub>
