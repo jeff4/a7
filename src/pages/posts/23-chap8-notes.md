@@ -152,6 +152,63 @@ tags: []
 1. In these cases, underfitting and computational eﬃciency become the bigger concerns. 
 
 ### 8.2 Challenges in Neural Network Optimization
+1. Optimization in general is an extremely diﬃcult task. 
+1. Traditionally, ML has avoided the diﬃculty of general optimization by carefully designing the **objective function J()** and related constraints to ensure that the optimization problem is convex. 
+1. However, when training ANNs specifically,we must confront general non-convex case. Because non-convex situations are unavoidable for ANNs vs. traditional and simple ML.
+1. Even convex optimization is not without its complications. 
+1. In this section 8.2, we summarize several of the most prominent challenges involved in optimization for training deep models.
+
+### 8.2.1 Ill-Conditioning
+
+1. Some challenges arise even when optimizing convex functions. 
+1. Of these, the most prominent is ill-conditioning of the *Hessian matrix* **H**. 
+1. This is a very general problem in most numerical optimization, convex or otherwise, and is described in more detail in section 4.3.1.
+1. The ill-conditioning problem is generally believed to be present in neuralnetwork training problems. 
+1. Ill-conditioning can manifest by causing SGD to "get stuck” in the sense that even very small steps increase the cost function.
+
+### 8.2.2 Local Minima
+
+1. The point of a convex function is that any local minimum is guaranteed to be a global minimum.
+1. Some convex functions have a flat region at the bottom. This means that multiple points all satisfy the global minimum. 
+1. But any of the points in that flat region are acceptable solutions.
+1. When optimizing a convex function, we know that we have reached a good solution if we find a critical point of any kind.
+
+### JH Break
+
+1. However, ANNs are non-convex vunctions; thus there are many local minina which are not guaranteed to be global mininum.
+1. Indeed, nearly any deep model is essentially guaranteed to have an extremely large number of local minima. 
+1. As we will see, however, this is not necessarily a major problem.
+1. Neural networks and any models with multiple equivalently parametrized latent variables all have multiple local minima because of the **model identiﬁability problem**. 
+1. A model is said to be identiﬁable if a suﬃciently large training set can rule out all but one setting of the model’s parameters. 
+1. Models with latent variables are often not identiﬁable because we can obtain equivalent models by exchanging latent variables with each other. 
+
+### JH Break
+
+1. For example, we could take a neural network and modify **layer 1** by swapping the incoming weight vector for **unit vector i** with the incoming weight vector for **unit vector j**, then do the same for the outgoing weight vectors. 
+1. If we have *m* layers with *n* units each, then there are **n!<sup>m</sup>** ways of arranging the hidden units. 
+1. This kind of nonidentiﬁability is known as weight space symmetry.
+1. In addition to weight space symmetry, many kinds of neural networks have additional causes of nonidentiﬁability. 
+
+### JH Break
+
+1. For example, in any **rectiﬁed linear** or **maxout** network, we can scale all the incoming weights and biases of a unit by alpha if we also scale all its outgoing weights by `1/alpha`. 
+1. This means that—if the cost function does not include terms such as weight decay that depend directly on the weights rather than the models’ outputs—every local minimum of a rectiﬁed linear or maxout network lies on an (*m × n*)-dimensional hyperbola of equivalent local minima.
+1. These **model identiﬁability issues** mean that a neural network cost function can have an extremely large or even uncountably inﬁnite amount of local minima.
+1. However, all these local minima arising from nonidentiﬁability are equivalent to each other in cost function value. 
+
+### JH Break
+
+1. As a result, these local minima are not a problematic form of nonconvexity.
+1. Local minima can be problematic if they have high cost in comparison to the global minimum.
+1. For a long time, ML practitioners believed that local minima were a common problem plaguing ANN optimization.
+1. However as of 2016, this is not as much of a concern.
+1. Experts now suspect that, for sufficiently large ANNs, =most local minima have a low **cost function** value. 
+	* It is not that important to find a true global minimum rather than to find a point in parameter space that is 'low enough' but not the absolute global minimum.
+
+### 8.2.3 Plateaus, Saddle Points, and Other Flat Regions
+
+1. Another type of critical point is the **saddle point**.
+
 
 ### Notes from December 2023
 1. GBC Chapter 8, section 8.3 is on Stochastic Gradient Descent (SGD)
