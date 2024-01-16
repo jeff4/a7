@@ -173,7 +173,7 @@ tags: []
 1. But any of the points in that flat region are acceptable solutions.
 1. When optimizing a convex function, we know that we have reached a good solution if we find a critical point of any kind.
 
-### JH Break
+### 18 JH Break
 
 1. However, ANNs are non-convex vunctions; thus there are many local minina which are not guaranteed to be global mininum.
 1. Indeed, nearly any deep model is essentially guaranteed to have an extremely large number of local minima. 
@@ -182,21 +182,21 @@ tags: []
 1. A model is said to be identiﬁable if a suﬃciently large training set can rule out all but one setting of the model’s parameters. 
 1. Models with latent variables are often not identiﬁable because we can obtain equivalent models by exchanging latent variables with each other. 
 
-### JH Break
+### 19 JH Break
 
 1. For example, we could take a neural network and modify **layer 1** by swapping the incoming weight vector for **unit vector i** with the incoming weight vector for **unit vector j**, then do the same for the outgoing weight vectors. 
 1. If we have *m* layers with *n* units each, then there are **n!<sup>m</sup>** ways of arranging the hidden units. 
 1. This kind of nonidentiﬁability is known as weight space symmetry.
 1. In addition to weight space symmetry, many kinds of neural networks have additional causes of nonidentiﬁability. 
 
-### JH Break
+### 20 JH Break
 
 1. For example, in any **rectiﬁed linear** or **maxout** network, we can scale all the incoming weights and biases of a unit by alpha if we also scale all its outgoing weights by `1/alpha`. 
 1. This means that—if the cost function does not include terms such as weight decay that depend directly on the weights rather than the models’ outputs—every local minimum of a rectiﬁed linear or maxout network lies on an (*m × n*)-dimensional hyperbola of equivalent local minima.
 1. These **model identiﬁability issues** mean that a neural network cost function can have an extremely large or even uncountably inﬁnite amount of local minima.
 1. However, all these local minima arising from nonidentiﬁability are equivalent to each other in cost function value. 
 
-### JH Break
+### 21 JH Break
 
 1. As a result, these local minima are not a problematic form of nonconvexity.
 1. Local minima can be problematic if they have high cost in comparison to the global minimum.
@@ -208,12 +208,69 @@ tags: []
 ### 8.2.3 Plateaus, Saddle Points, and Other Flat Regions
 
 1. Another type of critical point is the **saddle point**.
+1. A saddle point is surounded by points with greater costs in some dimensions, and points with lower costs in other dimensions. 
+1. In fact, for many high-dimensional non-convex functions, local minima and maxima are relatively rare compared to saddle points.
+1. At a saddle point, the Hessian matrix has both positive and negative eigenvalues.
+	* Points lying along eigenvectors with positive eigenvalues have a higher cost than the saddle point.
+	* Points lying along eigenvectors with negative eigenvalues have a lower cost than the saddle point.
+1. We can think of a saddle point as a being a local minimum along one cross-section of the cost function and a local maximum along another cross-section.
+1. Classic picture of saddle point Fig 4.5 p. 86 in Chap 4. 
+
+### 22 JH Break
+
+1. Saddle points are a problem for Newton's Method. p.279  
+	* Gradient descent is designed to move “downhill” and is not explicitly designed to seek a critical point. 
+	* Newton’s method, however, is designed to solve for a point where the gradient is zero. 
+	* Without appropriate modiﬁcation, it can jump to a saddle point. 
+1. The proliferation of saddle points in high-dimensional spaces presumably explains why second-order methods have *not* succeeded in replacing gradient descent for neural network training. 
+1. Dauphin et al. (2014) introduced a saddle-free Newton method for second-order optimization and showed that it improves signiﬁcantly over the traditional version. 
+1. Second-order methods remain diﬃcult to scale to large neural networks, but this saddle-free approach holds promise if it can be scaled.
+
+### 8.2.4 Cliffs and Exploding Gradients
+
+### 8.2.5 Long-Term Dependencies
+
+### 8.2.6 Inexact Gradients
+
+### 8.2.7 Poor Correspondence between Local and Global Structure
+
+### 8.2.8 Theoretical Limits of Optimization
+
+### 8.3.1 Stochastic Gradient Descent
+
+### 8.3.2 Momentum
+
+### 8.3.3 Nesterov Momentum
+
+### 8.4 Parameter Initialization Strategies
+* p. 292 - 298
+
+### 8.5 Algorithms with Adaptive Learning Rates
+* 8.5.1 AdaGrad
+* 8.5.2 RMSProp
+* 8.5.3 Adam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Notes from December 2023
 1. GBC Chapter 8, section 8.3 is on Stochastic Gradient Descent (SGD)
 1. AdaGrad and then in section 8.5.3 Adam adaptive learning rate optimization
-	* Batch Normalization is extremely exciting circa 2015 (section 8.7.1) * section 8.7.4 Supervised Pretraining
+	* Batch Normalization is extremely exciting circa 2015 (section 8.7.1) 
+	* Section 8.7.4 Supervised Pretraining
 
 ##### Double-struck R for Real numbers
 * "rp = double-struck R = &#8477;
