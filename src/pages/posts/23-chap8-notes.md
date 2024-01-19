@@ -228,11 +228,48 @@ tags: []
 
 ### 8.2.4 Cliffs and Exploding Gradients
 
+1. Neural networks with many layers often have extremely steep regions resembling cliﬀs, as illustrated in ﬁgure 8.3 on p. 281. These result from the multiplication of several large weights together. 
+1. On the face of an extremely steep cliﬀ structure, the gradient update step can move the parameters extremely far, usually jumping oﬀ the cliﬀ structure altogether.
+1. Using the **gradient clipping** method from Chap10, Section 10.11.1 mitigates cliffs.
+1. Cliﬀ structures are most common in the cost functions for recurrent neural networks, because such models involve a multiplication of many factors, with one factor for each time step. 
+1. Long temporal sequences thus incur an extreme amount of multiplication.
+
 ### 8.2.5 Long-Term Dependencies
+
+1. Another diﬃculty that neural network optimization algorithms must overcome arises when the computational graph becomes extremely deep. 
+1. Feedforward networks with many layers have such deep computational graphs. 
+1. So do RNN's, described in chapter 10, which construct very deep computational graphs by repeatedly applying the same operation at each time step of a long temporal sequence. 
+1. Repeated application of the same parameters gives rise to especially pronounced diﬃculties
+1. **The vanishing and exploding gradient problem** is explained on p. 282.
 
 ### 8.2.6 Inexact Gradients
 
+1. Most optimization algorithms are designed with the assumption that we have access to the exact gradient or Hessian matrix. 
+1. In practice, we usually have only a noisy or even biased estimate of these quantities. 
+1. Nearly every deep learning algorithm relies on sampling-based estimates, at least insofar as using a minibatch of training examples to compute the gradient.
+1. In other cases, the objective function we want to minimize is actually intractable.
+1. Various neural network optimization algorithms are designed to account for imperfections in the gradient estimate. 
+1. One can also avoid the problem by choosing a surrogate loss function that is easier to approximate than the true loss.
+
 ### 8.2.7 Poor Correspondence between Local and Global Structure
+
+1. Many of the problems we have discussed so far correspond to properties of the loss function at a single point—it can be diﬃcult to make a single step if J(**&#952;**) is poorly conditioned at the current point **&#952;**, or if **&#952;** lies on a cliﬀ, or if **&#952;** is a saddlepoint hiding the opportunity to make progress downhill from the gradient.
+1. It is possible to overcome all these problems at a single point and still perform poorly if the direction that results in the most improvement locally does not point toward distant regions of much lower cost.
+1. Many existing research directions are aimed at ﬁnding good initial points forproblems that have diﬃcult global structure, rather than at developing algorithms that use nonlocal moves.
+
+### JH Break
+
+1. Gradient descent and essentially all learning algorithms that are eﬀective for training neural networks are based on making small local moves. 
+1. The previous sections have primarily focused on how the correct direction of these local moves can be diﬃcult to compute. 
+1. List of ways in which small moves aka *local descent* may not define a reasonably short path to a valid solution; or that we are not able to follow that path.
+1. Currently, we do not understand which of these problems are most relevant to making neural network optimization diﬃcult. 
+1. This is an active area of research; some of the research suggests that a smart choice of initial points is key to letting traditional optimization methods work.
+
+***
+
+
+
+
 
 ### 8.2.8 Theoretical Limits of Optimization
 
@@ -249,16 +286,6 @@ tags: []
 * 8.5.1 AdaGrad
 * 8.5.2 RMSProp
 * 8.5.3 Adam
-
-
-
-
-
-
-
-
-
-
 
 
 
