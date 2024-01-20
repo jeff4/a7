@@ -310,8 +310,19 @@ tags: []
 
 &#1013;<sub>0</sub>
 
-
 ### 8.3.2 Momentum
+
+1. While stochastic gradient descent remains a popular optimization strategy, learning with it can sometimes be slow. 
+1. The method of momentum (Polyak, 1964) is designed to accelerate learning, especially in the face of high curvature, small but consistent gradients, or noisy gradients. 
+1. The momentum algorithm accumulates an exponentially decaying moving average of past gradients and continues to move in their direction. 
+1. The eﬀect of momentum is illustrated in ﬁgure 8.5. on p. 289.
+1. Formally, the momentum algorithm introduces a variable *v* that plays the role of velocity—it is the direction and speed at which the parameters move through parameter space. 
+1. The velocity is set to an exponentially decaying average of the negative gradient. 
+1. The name momentumderives from a physical analogy, in which the negative gradient is a force moving a particle through parameter space, according to Newton’s laws of motion.
+1. Momentum in physics is mass times velocity. In the momentum learning algo, we assume unit mass, so the velocity vector v&#8407; may also be regarded as the momentum of the particle.
+
+
+
 
 ### 8.3.3 Nesterov Momentum
 
