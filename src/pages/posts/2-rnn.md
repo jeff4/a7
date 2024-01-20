@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Notes on RNN, etc.'
-LastUpdatedDate: 2023-12-28
+LastUpdatedDate: 2024-01-20
 CreatedDate: 2023-10-28
 description: 'Two 2014 RNN papers by Cho+Bengio; Goodfellow chapter 10'
 author: 'Jeff'
@@ -9,12 +9,29 @@ tags: []
 ---
 
 ***
+## Next items and other interesting notes
+1. Finish GBC chapter 8 on optimization
+1. Consolidate histories and add to AI-Timeline
+	1. From GBC Introduction chapter
+	1. Chapter 9 CNNs on neuroscientific basis / CNNS on history of deep learning sections 9.10 and 9.11
+1. Perhaps create a new page summarizing all sources?? consolidated history, Introduction, etc.
+1. Read GBC Chapter 14 on autoencoders. Note this from GBC page 4: 
+	1. The quintessential example of a representation learning algorithm is **the autoencoder**. 
+	1. An autoencoder is the combination of an **encoder function**, which converts the input data into a diﬀerent representation, and a **decoder function**, which converts the new representation back into the original format. 
+	1. Autoencoders are trained to preserve as much information as possible when an input is run through the encoder and then the decoder, but they are also trained to make thenew representation have various nice properties. 
+	1. Diﬀerent kinds of autoencoders aim to achieve diﬀerent kinds of properties.
+1. Read Cho Bengio paper 1 below from 2014
+1. Read Cho Bengio paper 2 below from 2014
+
+
+
+
+***
 ## Papers
 * *Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation* by Cho, Bahdanau, Bougares, Schwenk, and Bengio 2014a. [arXiv link](https://arxiv.org/abs/1406.1078) and [PDF](https://arxiv.org/pdf/1406.1078.pdf)
 * *On the Properties of Neural Machine Translation: Encoder–Decoder Approaches* by Cho, van Merrienboer, Bahdanau, and Bengio 2014b. [arXiv link](https://arxiv.org/abs/1409.1259) and [PDF](https://arxiv.org/pdf/1409.1259.pdf)
 
 ***
-### Test #4 new update from champ
 **Deep Learning (2016)** 
 * Ian Goodfellow, Yoshua Bengio, and Aaron Courville
 * GBC
