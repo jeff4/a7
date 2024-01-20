@@ -257,7 +257,7 @@ tags: []
 1. It is possible to overcome all these problems at a single point and still perform poorly if the direction that results in the most improvement locally does not point toward distant regions of much lower cost.
 1. Many existing research directions are aimed at ﬁnding good initial points forproblems that have diﬃcult global structure, rather than at developing algorithms that use nonlocal moves.
 
-### JH Break
+### 23 JH Break
 
 1. Gradient descent and essentially all learning algorithms that are eﬀective for training neural networks are based on making small local moves. 
 1. The previous sections have primarily focused on how the correct direction of these local moves can be diﬃcult to compute. 
@@ -281,7 +281,7 @@ tags: []
 1. Thus, each iteration of learning rate at step *k* is denoted &#1013;<sub>k</sub>. 
 	* See p. 286-287 for explanation why learning rate needs to be adjusted/iterated.
 
-### JH Break
+### 24 JH Break
 
 1. The learning rate may be chosen by trial and error, but it is usually best to choose it by monitoring learning curves that plot the objective function as a function of time. 
 1. **This is more of an art than a science, and most guidance on this subject should be regarded with some skepticism.** 
@@ -289,7 +289,7 @@ tags: []
 1. Usually, *t* is set to the number of iterations required to make a few hundred passes through the training set. 
 1. Typically, we will set &#1013; to roughly 1 percent the value of &#1013;<sub>0</sub>. 
 
-### JH Break
+### 25 JH Break
 
 1. The main question is how to set &#1013;<sub>0</sub>. 
 	* If &#1013;<sub>0</sub> is too high, the learning curve will show violent oscillations, with the cost function often increasing signiﬁcantly. 
@@ -298,7 +298,7 @@ tags: []
 1. Typically, the optimal learning rate...is higher than the learning rate that yields the best performance after the first 100 iterations or so. (see p. 287 for more)
 1. Therefore, it is usually best to monitor the first several iterations and use a learning rate that is higher than the best-performing learning rate at this time, but not so high that it causes severe instability.
 
-### JH Break
+### 26 JH Break
 
 1. The most important property of SGD and related minibatch or online gradient-based optimization is that computation time per update does not grow with the number of training examples. 
 1. This allows convergence even when the number of training examples becomes very large. 
@@ -316,13 +316,37 @@ tags: []
 1. The method of momentum (Polyak, 1964) is designed to accelerate learning, especially in the face of high curvature, small but consistent gradients, or noisy gradients. 
 1. The momentum algorithm accumulates an exponentially decaying moving average of past gradients and continues to move in their direction. 
 1. The eﬀect of momentum is illustrated in ﬁgure 8.5. on p. 289.
-1. Formally, the momentum algorithm introduces a variable *v* that plays the role of velocity—it is the direction and speed at which the parameters move through parameter space. 
+
+### 27 JH Break
+
+1. Formally, the momentum algorithm introduces a variable v&#8407; that plays the role of velocity—it is the direction and speed at which the parameters move through parameter space. 
 1. The velocity is set to an exponentially decaying average of the negative gradient. 
-1. The name momentumderives from a physical analogy, in which the negative gradient is a force moving a particle through parameter space, according to Newton’s laws of motion.
-1. Momentum in physics is mass times velocity. In the momentum learning algo, we assume unit mass, so the velocity vector v&#8407; may also be regarded as the momentum of the particle.
+1. The name *momentum* derives from a physical analogy, in which the negative gradient is a force moving a particle through parameter space, according to Newton’s laws of motion.
+1. In physics, momentum is mass times velocity. In ML and related learning algorithms, we assume *unit mass* (aka mass = 1), so the velocity vector v&#8407; may also be regarded as the momentum of the particle.
+1. A hyperparameter *alpha* between 0 and 1 (never reaching 1) determines how quickly the contributions of previous gradients exponentially decay.
+1. See Equations 8.15, 8.16; Algorithm 8.2 on p. 293 to see how the update rule operates.
 
+### 28 JH Break
 
+1. The velocity v&#8407; accumulates the gradient function **&#8711;<sub>&#952;</sub>(** *inputs* **)**.
+	* *inputs* = function L( f(x&#8407;, **&#952;**), **y** )
+	* Note that above *inputs* are summed from *i* = 1 to *i* = *m*.
+1. The *larger* alpha is relative to &#1013;, the *more* the previous gradients affect the **current** direction.
 
+### JH Break
+
+1. Before we made momentum a variable, the size of each step was simply the norm of the gradient muliplied by the learning rate.
+1. *With* momentum, the size of the step also depends on how large and how aligned a **sequence** of gradients are.
+1. The step size is largest when many successive gradients point in exactly the same direction.
+1. If the momentum algo always observes gradient g&#8407;, then it will accelerate in the direction of -g&#8407;. 
+	* Eventually it will reach a terminal velocity as given by Eq. 8.17.
+
+### JH Break
+1. In practice, common values for alpha are `0.5`, `0.9`, `0.99`.
+1. Like the learning rate, alpha may be adapted over time.
+	* Typically alpha is a small value near zero and raised gradually over time.
+1. Adapting alpha over tie is less important than shrinking &#1013; over time.
+1. We can view the momentum algorithm as simulating a particle subject to continuous-time Newtonian dynamics.
 
 ### 8.3.3 Nesterov Momentum
 
