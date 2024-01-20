@@ -265,15 +265,51 @@ tags: []
 1. Currently, we do not understand which of these problems are most relevant to making neural network optimization diﬃcult. 
 1. This is an active area of research; some of the research suggests that a smart choice of initial points is key to letting traditional optimization methods work.
 
-***
-
-
-
-
-
 ### 8.2.8 Theoretical Limits of Optimization
 
+1. In the context of neural network training, we usually do not care about ﬁnding the exact minimum of a function, but seek only to reduce its value suﬃciently to obtain good generalization error. 
+1. Theoretical analysis of whether an optimization algorithm can accomplish this goal is extremely diﬃcult. 
+1. Developing more realistic bounds on the performance ofoptimization algorithms therefore remains an important goal for ML research.
+
 ### 8.3.1 Stochastic Gradient Descent
+
+1. Stochastic gradient descent (SGD) and its variants are probably the most used optimization algorithms for ML in general and for DL in particular. 
+1. As discussed in section 8.1.3, it is possible to obtain an unbiased estimate of the gradient by taking the average gradient on a minibatch of *m* examples drawn i.i.d from the data-generating distribution.
+1. See Algorithm 8.1 for a psuedo-code implementation of SGD on p. 286.
+1. In previous discussions of **learning rate &#1013;** (*lunate epsilon*), &#1013; was a fixed quantity.
+1. However, in practice for SGC, the learning rate &#1013; needs to be gradually decreased over time.
+1. Thus, each iteration of learning rate at step *k* is denoted &#1013;<sub>k</sub>. 
+	* See p. 286-287 for explanation why learning rate needs to be adjusted/iterated.
+
+### JH Break
+
+1. The learning rate may be chosen by trial and error, but it is usually best to choose it by monitoring learning curves that plot the objective function as a function of time. 
+1. **This is more of an art than a science, and most guidance on this subject should be regarded with some skepticism.** 
+1. When searching for final learning rate &#1013; in a linear fashion, the parameters to choose are initial learning rate &#1013;<sub>0</sub>, learning rate &#1013;<sub>t</sub> at time = *t*, and *t* where *t* = iteration where we find a good learning rate.
+1. Usually, *t* is set to the number of iterations required to make a few hundred passes through the training set. 
+1. Typically, we will set &#1013; to roughly 1 percent the value of &#1013;<sub>0</sub>. 
+
+### JH Break
+
+1. The main question is how to set &#1013;<sub>0</sub>. 
+	* If &#1013;<sub>0</sub> is too high, the learning curve will show violent oscillations, with the cost function often increasing signiﬁcantly. 
+		* Gentle oscillations are ﬁne, especially if training with a stochastic cost function, such as the cost function arising from the use of dropout.
+	* If &#1013;<sub>0</sub> is too low, learning proceeds slowly. Furthermore, learning may become stuck with a high cost value. 
+1. Typically, the optimal learning rate...is higher than the learning rate that yields the best performance after the first 100 iterations or so. (see p. 287 for more)
+1. Therefore, it is usually best to monitor the first several iterations and use a learning rate that is higher than the best-performing learning rate at this time, but not so high that it causes severe instability.
+
+### JH Break
+
+1. The most important property of SGD and related minibatch or online gradient-based optimization is that computation time per update does not grow with the number of training examples. 
+1. This allows convergence even when the number of training examples becomes very large. 
+1. For a large enough dataset, SGD may converge to within some ﬁxed tolerance of its ﬁnal test set error before it has processed the entire training set.  
+1. To study the convergence rate of an optimization algo, it is common to measure the *excess error*: **J(&#952;)** - minimum<sub>&#952;</sub>**J(&#952;**).
+	* *Excess error* is simply the amt by which the current cost function exceeds the minimum possible cost.
+1. With large datasets, the ability of SGD to make rapid initial progress while evaluating the gradient for very few examples outweighs its slow asymptotic convergence.
+1. For more on SGD, see Léon Bottou (1998) 'Online algorithms and stochastic approximations' in *Online Learning in Neural Networks* by Cambridge University Press.
+
+&#1013;<sub>0</sub>
+
 
 ### 8.3.2 Momentum
 
@@ -314,6 +350,4 @@ tags: []
 * "op = omega = &#937;
 * "jp = Capital letter J function with a tilde above it = J&#771;
 * "dp = p<sub>data</sub>
-
-
-p<sub>data</sub>
+* "lp = lunate epsilon *aka* learning rate p. 286 = &#1013;
