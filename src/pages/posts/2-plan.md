@@ -11,20 +11,29 @@ tags: []
 ***
 ## Next items and other interesting notes
 1. Finish GBC chapter 8 on optimization
-1. Consolidate histories and add to AI-Timeline
-	1. From GBC Introduction chapter
-	1. Chapter 9 CNNs on neuroscientific basis / CNNS on history of deep learning sections 9.10 and 9.11
-1. Perhaps create a new page summarizing all sources?? consolidated history, Introduction, etc.
-1. Read GBC Chapter 14 on autoencoders. Note this from GBC page 4: 
+1. Reread Introduction from p. 1 - 26 on history of AI / ML. Note this from p. 4 of introduction:
 	1. The quintessential example of a representation learning algorithm is **the autoencoder**. 
 	1. An autoencoder is the combination of an **encoder function**, which converts the input data into a diﬀerent representation, and a **decoder function**, which converts the new representation back into the original format. 
 	1. Autoencoders are trained to preserve as much information as possible when an input is run through the encoder and then the decoder, but they are also trained to make thenew representation have various nice properties. 
 	1. Diﬀerent kinds of autoencoders aim to achieve diﬀerent kinds of properties.
+1. Quick skim of Chapters 11 & 12: Practical Methodology & Applications
+1. Chapter 11, focus on 
+	1. Section 11.4 Selecting Hyperparameters p. 415-424
+1. Chapter 12, focus on
+	1. 12.1 Large-Scale Deep Learning p. 431-440
+	1. 12.4 NLP, esp. Section 12.4.5.1 Attention Mechanism p. 462 and 12.4.5.2 Historical Perspective on Natural Language p.464
+	1. 12.5.1.1 Exploration vs. Exploitation p. 468 in context of bandits and recommender systems
+1. Skip Chap 13 on Linear Factor Models
+1. Go straight to Chap 14 on Autoencoders
+
+***
+## Then after GBC is finished
 1. Read Cho Bengio paper 1 below from 2014
 1. Read Cho Bengio paper 2 below from 2014
-
-
-
+1. Consolidate histories and add to AI-Timeline
+	1. From GBC Introduction chapter
+	1. Chapter 9 CNNs on neuroscientific basis / CNNS on history of deep learning sections 9.10 and 9.11
+	1. NLP historical perspective from Chapter 12 Applications, p.464
 
 ***
 ## Papers
