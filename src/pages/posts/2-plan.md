@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Notes on RNN, etc.'
-LastUpdatedDate: 2024-01-20
+title: 'Learning Plan on RNN, Autoencoders, etc.'
+LastUpdatedDate: 2024-01-23
 CreatedDate: 2023-10-28
-description: 'Two 2014 RNN papers by Cho+Bengio; Goodfellow chapter 10'
+description: 'Study plan as of February, 2024'
 author: 'Jeff'
 tags: []
 ---
