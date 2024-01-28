@@ -202,7 +202,7 @@ tags: []
 1. Local minima can be problematic if they have high cost in comparison to the global minimum.
 1. For a long time, ML practitioners believed that local minima were a common problem plaguing ANN optimization.
 1. However as of 2016, this is not as much of a concern.
-1. Experts now suspect that, for sufficiently large ANNs, =most local minima have a low **cost function** value. 
+1. Experts now suspect that, for sufficiently large ANNs, most local minima have a low **cost function** value. 
 	* It is not that important to find a true global minimum rather than to find a point in parameter space that is 'low enough' but not the absolute global minimum.
 
 ### 8.2.3 Plateaus, Saddle Points, and Other Flat Regions
@@ -379,7 +379,7 @@ tags: []
 ### 33 JH Break
 
 1. Training algorithms for deep learning models are usually iterative and thus require the user to specify some initial point from which to begin the iterations. 
-1. Moreover, training deep models isa suﬃciently diﬃcult task that most algorithms are strongly aﬀected by the choiceof initialization. 
+1. Moreover, training deep models is a suﬃciently diﬃcult task that most algorithms are strongly aﬀected by the choice of initialization. 
 1. The initial point can determine whether the algorithm converges at all, with some initial points being so unstable that the algorithm encounters numerical diﬃculties and fails altogether. 
 1. When learning does converge, the initial point can determine how quickly learning converges and whether it converges toa point with high or low cost. 
 
@@ -393,7 +393,7 @@ tags: []
 
 ### 35 JH Break
 
-1. Moreover, training deep models is a suﬃciently diﬃcult task that most algorithms are strongly aﬀected by the choiceof initialization. 
+1. Moreover, training deep models is a suﬃciently diﬃcult task that most algorithms are strongly aﬀected by the choice of initialization. 
 1. The initial point can determine whether the algorithm converges at all, with some initial points being so unstable that the algorithm encounters numerical diﬃculties and fails altogether. 
 1. When learning does converge, the initial point can determine how quickly learning converges and whether it converges to a point with high or low cost. 
 1. Also, points of comparable cost can have wildly varying generalization error, and the initial point can aﬀect the generalization as well.
@@ -401,19 +401,19 @@ tags: []
 
 ### 36 JH Break
 
-1. Designing improved initialization strategies is a diﬃcult task because neural network optimization isnot yet well understood. 
+1. Designing improved initialization strategies is a diﬃcult task because neural network optimization is not yet well understood. 
 1. Most initialization strategies are based on achieving some nice properties when the network is initialized. 
-1. However, we do not have a good understanding of which of these properties are preserved under which circumstancesafter learning begins to proceed. 
-1. A further diﬃculty is that some initial points may be beneﬁcial from the viewpoint of optimization but detrimental from the viewpoint of generalization. 
+1. However, we do not have a good understanding of which of these properties are preserved under which circumstances after learning begins to proceed. 
+1. **A further diﬃculty is that some initial points may be beneﬁcial from the viewpoint of optimization but detrimental from the viewpoint of generalization.** 
 1. Our understanding of how the initial point aﬀects generalization is especially primitive, oﬀering little to no guidance for how to select the initial point.
-1. Perhaps the only property known with complete certainty is that the initial parameters need to “break symmetry” between diﬀerent units. 
 
 ### 37 JH Break
 
+1. **Perhaps the only property known with complete certainty is that the initial parameters need to “break symmetry” between diﬀerent units.** 
 1. If two hidden units with the same activation function are connected to the same inputs, then these units must have diﬀerent initial parameters. 
-1. If they have the same initial parameters, then a deterministic learning algorithm applied to a deterministic costand model will constantly update both of these units in the same way. 
-1. Even if the model or training algorithm is capable of using stochasticity to compute diﬀerent updates for diﬀerent units (for example, if one trains with dropout), it is usually best to initialize each unit to compute a diﬀerent function from all the other units.
-1. This may help to make sure that no input patterns are lost in the null space of forward propagation and that no gradient patterns are lost in the null spaceof backpropagation. 
+1. If they have the same initial parameters, then a deterministic learning algorithm applied to a deterministic cost and model will constantly update both of these units in the same way. 
+1. Even if the model or training algorithm is capable of using stochasticity to compute diﬀerent updates for diﬀerent units (for example, if one trains with dropout), *it is usually best to initialize each unit to compute a diﬀerent function from all the other units.*
+1. This may help to make sure that no input patterns are lost in the null space of forward propagation and that no gradient patterns are lost in the null space of backpropagation. 
 1. The goal of having each unit compute a diﬀerent function motivates random initialization of the parameters. 
 
 ### 38 JH Break
