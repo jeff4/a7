@@ -333,7 +333,7 @@ tags: []
 	* Note that above *inputs* are summed from *i* = 1 to *i* = *m*.
 1. The *larger* alpha is relative to &#1013;, the *more* the previous gradients affect the **current** direction.
 
-### JH Break
+### 29 JH Break
 
 1. Before we made momentum a variable, the size of each step was simply the norm of the gradient muliplied by the learning rate.
 1. *With* momentum, the size of the step also depends on how large and how aligned a **sequence** of gradients are.
@@ -341,17 +341,95 @@ tags: []
 1. If the momentum algo always observes gradient g&#8407;, then it will accelerate in the direction of -g&#8407;. 
 	* Eventually it will reach a terminal velocity as given by Eq. 8.17.
 
-### JH Break
+### 30 JH Break
 1. In practice, common values for alpha are `0.5`, `0.9`, `0.99`.
 1. Like the learning rate, alpha may be adapted over time.
 	* Typically alpha is a small value near zero and raised gradually over time.
 1. Adapting alpha over tie is less important than shrinking &#1013; over time.
 1. We can view the momentum algorithm as simulating a particle subject to continuous-time Newtonian dynamics.
 
+### JH Break
+1. Momentum update with zero friction is not the perfect physical analogy with what we are trying to accomplish.
+1. One force is proportional to the negative gradient of the cost function: **-&#8711;**<sub>&#952;</sub> &#215; 
+ **J(** &#952; **)**.
+	* This force pushes the particle downhill along the cost function surface.
+1. We can think of the particle as being like a hockey puck sliding down an icy surface. 
+1. Whenever it descends a steep part of the surface, it gathers speed and continues sliding in that direction until it begins to go uphill again.
+
+### JH Break
+
+1. One other force is necessary. If the only force is the gradient of the cost function, then the particle might never come to rest. 
+1. Imagine a hockey puck sliding downone side of a valley and straight up the other side, oscillating back and forth forever, assuming the ice is perfectly frictionless. 
+1. To resolve this problem, we add one other force, proportional to −v(t). 
+	* In physics terminology, **this force corresponds to viscous drag**, as if the particle must push through a resistant medium such as syrup. 
+	* This causes the particle to gradually lose energy over time and eventually converge to a local minimum.
+1. Viscous drag is "Goldilocks" as a helpful physical analogy for our purposes.
+	* Viscous drag is weak enough that the gradient can continue to cause motion until a minimum is reached, but strong enough to prevent motion if the gradient does not justify moving.
+
 ### 8.3.3 Nesterov Momentum
+
+1. Introduced in 2013 by Sutskever.
 
 ### 8.4 Parameter Initialization Strategies
 * p. 292 - 298
+1. Some optimization algorithms are not iterative by nature and simply solve for a solution point. 
+1. Other optimization algorithms are iterative by nature but, when applied to the right class of optimization problems, converge to acceptable solutions in an acceptable amount of time regardless of initialization. 
+1. Deep learning training algorithms usually do not have either of these luxuries. 
+
+### JH Break
+
+1. Training algorithms for deep learning models are usually iterative and thus require the user to specify some initial point from which to begin the iterations. 
+1. Moreover, training deep models isa suﬃciently diﬃcult task that most algorithms are strongly aﬀected by the choiceof initialization. 
+1. The initial point can determine whether the algorithm converges at all, with some initial points being so unstable that the algorithm encounters numerical diﬃculties and fails altogether. 
+1. When learning does converge, the initial point can determine how quickly learning converges and whether it converges toa point with high or low cost. 
+
+### JH Break
+
+1. Also, points of comparable cost can have wildly varying generalization error, and the initial point can aﬀect the generalization as well. 
+1. Some optimization algorithms are not iterative by nature and simply solve for a solution point. 
+1. Other optimization algorithms are iterative by nature but, when applied to the right class of optimization problems, converge to acceptable solutions in an acceptable amount of time regardless of initialization. 
+1. Deep learning training algorithms usually do not have either of these luxuries. 
+1. Training algorithms for deep learning models are usually iterative and thus require the user to specify some initial point from which to begin the iterations. 
+1. Moreover, training deep models is a suﬃciently diﬃcult task that most algorithms are strongly aﬀected by the choiceof initialization. 
+1. The initial point can determine whether the algorithm converges at all, with some initial points being so unstable that the algorithm encounters numerical diﬃculties and fails altogether. 
+1. When learning does converge, the initial point can determine how quickly learning converges and whether it converges to a point with high or low cost. 
+1. Also, points of comparable cost can have wildly varying generalization error, and the initial point can aﬀect the generalization as well.
+1. Modern initialization strategies are simple and heuristic. 
+1. Designing improved initialization strategies is a diﬃcult task because neural network optimization isnot yet well understood. 
+1. Most initialization strategies are based on achieving some nice properties when the network is initialized. 
+1. However, we do not have a good understanding of which of these properties are preserved under which circumstancesafter learning begins to proceed. 
+1. A further diﬃculty is that some initial points may be beneﬁcial from the viewpoint of optimization but detrimental from the viewpoint of generalization. 
+1. Our understanding of how the initial point aﬀects generalization is especially primitive, oﬀering little to no guidance for how to select the initial point.
+1. Perhaps the only property known with complete certainty is that the initial parameters need to “break symmetry” between diﬀerent units. 
+1. If two hidden units with the same activation function are connected to the same inputs, then these units must have diﬀerent initial parameters. 
+1. If they have the same initial parameters, then a deterministic learning algorithm applied to a deterministic costand model will constantly update both of these units in the same way. 
+1. Even if the model or training algorithm is capable of using stochasticity to compute diﬀerent updates for diﬀerent units (for example, if one trains with dropout), it is usually best to initialize each unit to compute a diﬀerent function from all the other units.
+1. This may help to make sure that no input patterns are lost in the null space of forward propagation and that no gradient patterns are lost in the null spaceof backpropagation. 
+1. The goal of having each unit compute a diﬀerent function motivates random initialization of the parameters. 
+1. We could explicitly search for a large set of basis functions that are all mutually diﬀerent from each other, butthis often incurs a noticeable computational cost. 
+1. For example, if we have at most as many outputs as inputs, we could use Gram-Schmidt orthogonalization on an initial weight matrix and be guaranteed that each unit would compute a very diﬀerent function from each other unit. 
+1. Random initialization from a high-entropy distribution over a high-dimensional space is computationally cheaper and unlikely to assign any units to compute the same function as each other.
+1. Typically, we set the biases for each unit to heuristically chosen constants, and initialize only the weights randomly. 
+1. Extra parameters—for example, parameters encoding the conditional variance of a prediction—are usually set to heuristically chosen constants much like the biases are.
+1. We almost always initialize all the weights in the model to values drawn randomly from a Gaussian or uniform distribution. 
+1. The choice of Gaussian or uniform distribution does not seem to matter much but has not been exhaustively studied. 
+1. The scale of the initial distribution, however, does have a large eﬀect on both the outcome of the optimization procedure and the ability of the network to generalize.
+1. Larger initial weights will yield a stronger symmetry-breaking eﬀect, helping to avoid redundant units. 
+1. They also help to avoid losing signal during forward or backpropagation through the linear component of each layer—larger values in thematrix result in larger outputs of matrix multiplication. 
+1. Initial weights that are too large may, however, result in exploding values during forward propagation or backpropagation. 
+1. In RNN's, large weights can also result in chaos (such extreme sensitivity to small perturbations of the input that the behavior of the deterministic forward propagation procedure appears random). 
+1. To some extent, the exploding gradient problem can be mitigated by gradient clipping (thresholding the values of the gradients before performing a gradient descent step).
+1. Large weights may also result in extreme values that cause the activation functionto saturate, causing complete loss of gradient through saturated units. 
+1. These competing factors determine the ideal initial scale of the weights.
+1. The perspectives of regularization and optimization can give very different insights into how we should initialize a network. 
+1. The optimization perspective suggests that the weights should be large enough to propagate information successfully, but some regularization concerns encourage making them smaller. 
+1. The use of an optimization algorithm, such as stochastic gradient descent, that makes small incremental changes to the weights and tends to halt in areas that are nearer to the initial parameters (whether due to getting stuck in a region of low gradient, or due to triggering some early stopping criterion based on overﬁtting) expresses aprior that the ﬁnal parameters should be close to the initial parameters. 
+1. Recall from section 7.8 that gradient descent with early stopping is equivalent to weightdecay for some models. In the general case, gradient descent with early stoppingis not the same as weight decay, but it does provide a loose analogy for thinkingabout the eﬀect of initialization. We can think of initializing the parametersθtoθ0as being similar to imposing a Gaussian priorp(θ) with meanθ0. From thispoint of view, it makes sense to chooseθ0to be near 0. This prior says that it ismore likely that units do not interact with each other than that they do interact.Units interact only if the likelihood term of the objective function expresses astrong preference for them to interact. On the other hand, if we initializeθ0tolarge values, then our prior speciﬁes which units should interact with each other,and how they should interact. p. 294 in book.
+
+
+
+
+
 
 ### 8.5 Algorithms with Adaptive Learning Rates
 * 8.5.1 AdaGrad
