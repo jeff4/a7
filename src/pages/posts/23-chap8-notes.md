@@ -348,7 +348,7 @@ tags: []
 1. Adapting alpha over tie is less important than shrinking &#1013; over time.
 1. We can view the momentum algorithm as simulating a particle subject to continuous-time Newtonian dynamics.
 
-### JH Break
+### 31 JH Break
 1. Momentum update with zero friction is not the perfect physical analogy with what we are trying to accomplish.
 1. One force is proportional to the negative gradient of the cost function: **-&#8711;**<sub>&#952;</sub> &#215; 
  **J(** &#952; **)**.
@@ -356,7 +356,7 @@ tags: []
 1. We can think of the particle as being like a hockey puck sliding down an icy surface. 
 1. Whenever it descends a steep part of the surface, it gathers speed and continues sliding in that direction until it begins to go uphill again.
 
-### JH Break
+### 32 JH Break
 
 1. One other force is necessary. If the only force is the gradient of the cost function, then the particle might never come to rest. 
 1. Imagine a hockey puck sliding downone side of a valley and straight up the other side, oscillating back and forth forever, assuming the ice is perfectly frictionless. 
@@ -376,14 +376,14 @@ tags: []
 1. Other optimization algorithms are iterative by nature but, when applied to the right class of optimization problems, converge to acceptable solutions in an acceptable amount of time regardless of initialization. 
 1. Deep learning training algorithms usually do not have either of these luxuries. 
 
-### JH Break
+### 33 JH Break
 
 1. Training algorithms for deep learning models are usually iterative and thus require the user to specify some initial point from which to begin the iterations. 
 1. Moreover, training deep models isa suﬃciently diﬃcult task that most algorithms are strongly aﬀected by the choiceof initialization. 
 1. The initial point can determine whether the algorithm converges at all, with some initial points being so unstable that the algorithm encounters numerical diﬃculties and fails altogether. 
 1. When learning does converge, the initial point can determine how quickly learning converges and whether it converges toa point with high or low cost. 
 
-### JH Break
+### 34 JH Break
 
 1. Also, points of comparable cost can have wildly varying generalization error, and the initial point can aﬀect the generalization as well. 
 1. Some optimization algorithms are not iterative by nature and simply solve for a solution point. 
@@ -391,7 +391,7 @@ tags: []
 1. Deep learning training algorithms usually do not have either of these luxuries. 
 1. Training algorithms for deep learning models are usually iterative and thus require the user to specify some initial point from which to begin the iterations. 
 
-### JH Break
+### 35 JH Break
 
 1. Moreover, training deep models is a suﬃciently diﬃcult task that most algorithms are strongly aﬀected by the choiceof initialization. 
 1. The initial point can determine whether the algorithm converges at all, with some initial points being so unstable that the algorithm encounters numerical diﬃculties and fails altogether. 
@@ -399,7 +399,7 @@ tags: []
 1. Also, points of comparable cost can have wildly varying generalization error, and the initial point can aﬀect the generalization as well.
 1. Modern initialization strategies are simple and heuristic. 
 
-### JH Break
+### 36 JH Break
 
 1. Designing improved initialization strategies is a diﬃcult task because neural network optimization isnot yet well understood. 
 1. Most initialization strategies are based on achieving some nice properties when the network is initialized. 
@@ -408,7 +408,7 @@ tags: []
 1. Our understanding of how the initial point aﬀects generalization is especially primitive, oﬀering little to no guidance for how to select the initial point.
 1. Perhaps the only property known with complete certainty is that the initial parameters need to “break symmetry” between diﬀerent units. 
 
-### JH Break
+### 37 JH Break
 
 1. If two hidden units with the same activation function are connected to the same inputs, then these units must have diﬀerent initial parameters. 
 1. If they have the same initial parameters, then a deterministic learning algorithm applied to a deterministic costand model will constantly update both of these units in the same way. 
@@ -416,7 +416,7 @@ tags: []
 1. This may help to make sure that no input patterns are lost in the null space of forward propagation and that no gradient patterns are lost in the null spaceof backpropagation. 
 1. The goal of having each unit compute a diﬀerent function motivates random initialization of the parameters. 
 
-### JH Break
+### 38 JH Break
 
 1. We could explicitly search for a large set of basis functions that are all mutually diﬀerent from each other, butthis often incurs a noticeable computational cost. 
 1. For example, if we have at most as many outputs as inputs, we could use Gram-Schmidt orthogonalization on an initial weight matrix and be guaranteed that each unit would compute a very diﬀerent function from each other unit. 
@@ -424,7 +424,7 @@ tags: []
 1. Typically, we set the biases for each unit to heuristically chosen constants, and initialize only the weights randomly. 
 1. Extra parameters—for example, parameters encoding the conditional variance of a prediction—are usually set to heuristically chosen constants much like the biases are.
 
-### JH Break
+### 39 JH Break
 
 1. We almost always initialize all the weights in the model to values drawn randomly from a Gaussian or uniform distribution. 
 1. The choice of Gaussian or uniform distribution does not seem to matter much but has not been exhaustively studied. 
@@ -433,14 +433,14 @@ tags: []
 1. They also help to avoid losing signal during forward or backpropagation through the linear component of each layer—larger values in thematrix result in larger outputs of matrix multiplication. 
 1. Initial weights that are too large may, however, result in exploding values during forward propagation or backpropagation. 
 
-### JH Break
+### 40 JH Break
 
 1. In RNN's, large weights can also result in chaos (such extreme sensitivity to small perturbations of the input that the behavior of the deterministic forward propagation procedure appears random). 
 1. To some extent, the exploding gradient problem can be mitigated by gradient clipping (thresholding the values of the gradients before performing a gradient descent step).
 1. Large weights may also result in extreme values that cause the activation functionto saturate, causing complete loss of gradient through saturated units. 
 1. These competing factors determine the ideal initial scale of the weights.
 
-### JH Break
+### 41 JH Break
 
 1. The perspectives of regularization and optimization can give very different insights into how we should initialize a network. 
 1. The optimization perspective suggests that the weights should be large enough to propagate information successfully, but some regularization concerns encourage making them smaller. 
