@@ -445,14 +445,72 @@ tags: []
 1. The perspectives of regularization and optimization can give very different insights into how we should initialize a network. 
 1. The optimization perspective suggests that the weights should be large enough to propagate information successfully, but some regularization concerns encourage making them smaller. 
 1. The use of an optimization algorithm, such as stochastic gradient descent, that makes small incremental changes to the weights and tends to halt in areas that are nearer to the initial parameters (whether due to getting stuck in a region of low gradient, or due to triggering some early stopping criterion based on overﬁtting) expresses aprior that the ﬁnal parameters should be close to the initial parameters. 
-1. Recall from section 7.8 that gradient descent with early stopping is equivalent to weightdecay for some models. In the general case, gradient descent with early stoppingis not the same as weight decay, but it does provide a loose analogy for thinkingabout the eﬀect of initialization. We can think of initializing the parametersθtoθ0as being similar to imposing a Gaussian priorp(θ) with meanθ0. From thispoint of view, it makes sense to chooseθ0to be near 0. This prior says that it ismore likely that units do not interact with each other than that they do interact.Units interact only if the likelihood term of the objective function expresses astrong preference for them to interact. On the other hand, if we initializeθ0tolarge values, then our prior speciﬁes which units should interact with each other,and how they should interact. p. 294 in book.
+1. Recall from section 7.8 that gradient descent with early stopping is equivalent to weight decay for some models. 
+1. In the general case, gradient descent with early stopping is not the same as weight decay, but it does provide a loose analogy for thinking about the eﬀect of initialization. 
+1. Some heuristics are available for choosing the initial scale of the weights. 
+	* One heuristic is to initialize the weights of a fully connected layer with *m* inputs and *n* outputs by sampling each weight from U().
+	* Meanwhile, Glorot and Bengio (2010) suggest using the normalized initialization.
+	* Saxe et al (2013) recommend initializing to random orthogonal matrices, with a carefully chosen scaling aka **gain** factor *g* that accounts for the nonlinearity applied at each layer.
 
+### 42 JH Break
+1. Increasing the scaling factor *g* (aka **gain**) pushes the network toward the regime where activations increase in norm as they propagate forward through the network and gradients increase in norm as they propagate backward. 
+1. Sussillo (2014) showed that setting the gain factor correctly is suﬃcient to train networks as deep as 1,000 layers, without needing to use orthogonal initializations. 
+1. A key insight of this approach is that in feedforward networks, activations and gradients can grow or shrink oneach step of forward or back-propagation, following a random walk behavior. 
+1. This is because feedforward networks use a diﬀerent weight matrix at each layer. If this random walk is tuned to preserve norms, then feedforward networks can mostly avoid the vanishing and exploding gradients problem that arises when the same weight matrix is used at each step, as described in section 8.2.5. 
+1. Unfortunately, these optimal criteria for initial weights often do not lead to optimal performance. 
+1. This may be for three diﬀerent reasons. 
+	* First, we maybe using the wrong criteria—it may not actually be beneﬁcial to preserve the norm of a signal throughout the entire network. 
+	* Second, the properties imposedat initialization may not persist after learning has begun to proceed. 
+	* Third, the criteria might succeed at improving the speed of optimization but inadvertently increase generalization error. 
+1. In practice, we usually need to treat the scale of the weights as a hyperparameter whose optimal value lies somewhere roughly near but not exactly equal to the theoretical predictions. 
+1. One drawback to scaling rules that set all the initial weights to have the same standard deviation, such as *m<sup>-1/2</sup>* (see p. 296), is that every individual weight becomes extremely small when the layers become large. 
+1. Martens (2010) introduced an alternative initialization scheme called sparse initialization, in which each unit is initialized to have exactly *k* nonzero weights. 
+1. The idea is to keep the total amount of input to the unit independent from the number of inputs *m* without making the magnitude of individual weight elements shrink with *m*. 
+1. Sparse initialization helps to achieve more diversity among the units at initialization time. 
+1. However, it also imposes a very strong prior on the weights that are chosen to have large Gaussian values.
+1. Because it takes a long time for gradient descent to shrink “incorrect” large values, this initialization scheme can cause problems for units, such as maxout units, that have several ﬁlters that must be carefully coordinated with each other.
+1. When computational resources allow it, it is usually a good idea to treat the initial scale of the weights for each layer as a hyperparameter, and to choose these scales using a hyperparameter search algorithm described in section 11.4.2, such as random search. 
+1. The choice of whether to use dense or sparse initialization can also be made a hyperparameter. 
+1. Alternately, one can manually search forthe best initial scales. 
+1. A good rule of thumb for choosing the initial scales is to look at the range or standard deviation of activations or gradients on a single minibatch of data. 
+1. If the weights are too small, the range of activations across the minibatch will shrink as the activations propagate forward through the network.
+1. By repeatedly identifying the ﬁrst layer with unacceptably small activations and increasing its weights, it is possible to eventually obtain a network with reasonable initial activations throughout. 
+1. If learning is still too slow at this point, it can be useful to look at the range or standard deviation of the gradients as well as the activations. 
+1. This procedure can in principle be automated and is generally less computationally costly than hyperparameter optimization based on validation seterror because it is based on feedback from the behavior of the initial model on asingle batch of data, rather than on feedback from a trained model on the validation set. 
+1. While long used heuristically, this protocol has recently been speciﬁed more formally and studied by Mishkin and Matas (2015).
 
+### JH Break
 
+1. So far we have focused on the initialization of the weights. 
+1. **Fortunately, initialization of other parameters is typically easier.** 
+1. The approach for setting the biases must be coordinated with the approach for setting the weights. 
+1. Setting the biases to zero is compatible with most weight initialization schemes. 
+1. There are a few situations where we may set some biases to nonzero values. (See p. 297 for bullet points in textbook)
 
+### JH Break
 
+1. Another common type of parameter is a variance or precision parameter. For example, we can perform linear regression with a conditional variance estimate using the model (See Eq. 8.24 on p. 297).
+1. We can usually initialize variance or precision parameters to integer = 1 safely. 
+1. Another approach is to assume the initial weights are close enough to zero that the biases may be set while ignoring the eﬀect of the weights, then set the biases to produce the correct marginal mean of the output, and set the variance parameters to the marginal variance of the output in the training set.
+1. Besides these simple constant or random methods of initializing model parameters, it is possible to initialize model parameters using machine learning. 
+1. A common strategy discussed in part III of this book is to initialize a supervised model with the parameters learned by an unsupervised model trained on the same inputs.
+1. One can also perform supervised training on a related task. Even performing supervised training on an unrelated task can sometimes yield an initialization that oﬀers faster convergence than a random initialization. 
+1. Some of these initialization strategies may yield faster convergence and better generalization because they encode information about the distribution in the initial parameters of the model.
+1. Others apparently perform well primarily because they set the parameters to have the right scale or set diﬀerent units to compute diﬀerent functions from each other.
 
 ### 8.5 Algorithms with Adaptive Learning Rates
+1. Neural network researchers have long realized that the learning rate is reliably one of the most diﬃcult to set hyperparameters because it signiﬁcantly aﬀects model performance.
+1. As we discuss in sections 4.3 and 8.2, the cost is often highly sensitive to some directions in parameter space and insensitive to others. 
+1. The momentum algorithm can mitigate these issues somewhat, but it does so at the expense of introducing another hyperparameter. 
+1. In the face of this, it is natural to ask if there is another way. 
+1. If we believe that the directions of sensitivity are somewhat axis aligned, it can make sense to use a separate learning rate for each parameter and automatically adapt these learning rates throughout the course of learning.
+1. The **delta-bar-delta** algorithm (Jacobs, 1988) is an early heuristic approach to adapting individual learning rates for model parameters during training. 
+1. The approach is based on a simple idea: if the partial derivative of the loss, with respect to a given model parameter, remains the same sign, then the learning rate should increase. 
+1. If that partial derivative changes sign, then the learning rate should decrease. 
+1. Of course, this kind of rule can only be applied to full batch optimization.
+1. More recently, a number of incremental (or mini batch-based) methods have been introduced that adapt the learning rates of model parameters. 
+1. In this section,we brieﬂy review a few of these algorithms.
+
 * 8.5.1 AdaGrad
 * 8.5.2 RMSProp
 * 8.5.3 Adam
