@@ -625,9 +625,37 @@ tags: []
 1. The reparametrization signiﬁcantly reduces the problem of coordinating updates across many layers. 
 1. Batch normalization can be applied to any input or hidden layer in a network. 
 1. Let **H** be a minibatch of activations of the layer to normalize, arranged as a design matrix, with the activations for each example appearing in a row of the matrix. To normalize **H**, we replace it with Equation 8.35 on page 314.
-1. ...where *mu* is 
+1. ...where *mu* = a vector containing the mean of each neuron and *lowercase sigma* = a vector containing the standard deviation of each unit.
+1. The arithmetic below is based on broadcasting the vector *mu* and the vector *sigma* to be applied to every row of the matrix **H**.
+	* Within each row, the arithmetic is element-wise, so **H**<sub>*i,j*</sub> is normalized by subtracting *mu*<sub>*j*</sub> and dividing by *sigma*<sub>*j*</sub>. 
+1. The rest of the network then operates on **H'** in exactly the same way the original network operated on **H**.
+1. Thus, at training time, *mu* has the value given in Equation 8.36 and *sigma* = value in Eq. 8.37.
+1. Where *lowercase delta* = a small positive value such as 10<sup>-8</sup> to avoid the undefined gradient that occurs when *z* = 0. 
+1. Crucially, **we backpropagate through these operations** for computing the mean and the standard deviation, and for applying them to normalize **H**.
+1. This means that the gradient will never propose an operation that acts simply to increase the standard deviation or mean of *h<sub>i</sub>* because the normalization operations remove the eﬀect of such an action and zero out its component in the gradient. 
+1. This was a major innovation of the batch normalization approach. 
 
+### JH Break
+1. Prior to the advent of batch normalization, previous approaches had involved adding penalties to the cost function to encourage units to have normalized activation statistics or involved intervening to renormalize unit statistics after each gradient descent step.
+1. The former approach usually resulted in imperfect normalization and the latter usually resulted in signiﬁcant wasted time, as the learning algorithm repeatedly proposed changing the mean and variance, and the normalization step repeatedly undid this change. 
+1. Batch normalization reparametrizes the model to make some units always be standardized by deﬁnition, deftly sidestepping both problems.
+1. ...
 
+### JH Break
+
+1. Because the ﬁnal layer of the network is able to learn a linear transformation, we may actually wish to remove all linear relationships between units within a layer. 
+1. Indeed, this is the approach taken by Desjardins et al. (2015), who provided the inspiration for batch normalization. 
+1. Unfortunately, eliminating all linear interactions is much more expensive than standardizing the mean and standard deviation of each individual unit, and so far batch normalization remains the most practical approach.
+1. Normalizing the mean and standard deviation of a unit can reduce the expressive power of the neural network containing that unit.
+1. ...
+
+### JH Break
+
+1. In CNNs on Chapter 9,  it is important to apply the same normalizing *mu* and *sigma* at every spatial location within a feature map, so that the statistics of the feature map remain the same regardless of spatial location.
+
+### 8.7.2. Coordinate Descent
+
+1. In some cases, it may be possible to solve an optimization problem quickly bybreaking it into separate pieces. If we minimize f(x&#8407;).
 
 
 
