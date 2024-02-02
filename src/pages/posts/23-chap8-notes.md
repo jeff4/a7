@@ -655,8 +655,17 @@ tags: []
 
 ### 8.7.2. Coordinate Descent
 
-1. In some cases, it may be possible to solve an optimization problem quickly bybreaking it into separate pieces. If we minimize f(x&#8407;).
+1. In some cases, it may be possible to solve an optimization problem quickly bybreaking it into separate pieces. 
+1. If we minimize f(x&#8407;) with respect to a single variable *x<sub>i</sub>*, then minimize it wrt to another variable *x<sub>j</sub>*.
+1. And then minimize wrt to another variable *x<sub>k</sub>*. And then repeat with another variable etc.
+1. The above practice is called **coordinate descent**, because we optimize one coordinate (aka one dimension) at a time.
 
+### JH Break
+
+1. In the more general case, **block coordinate descent** refers to minimizing wrt a subset of variables simultaneously.
+1. Note: the term "coordinate descent" is often used to refer to block coordinate descent as well asthe strictly individual coordinate descent.
+1. Coordinate descent makes the most sense when the diﬀerent variables in the optimization problem can be clearly separated into groups that play relatively isolated roles; 
+1. Or when optimization with respect to one group of variables is signiﬁcantly more eﬃcient than optimization with respect to all of the variables.
 
 
 
