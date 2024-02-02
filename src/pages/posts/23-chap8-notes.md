@@ -462,16 +462,25 @@ tags: []
 	* First, we maybe using the wrong criteria—it may not actually be beneﬁcial to preserve the norm of a signal throughout the entire network. 
 	* Second, the properties imposedat initialization may not persist after learning has begun to proceed. 
 	* Third, the criteria might succeed at improving the speed of optimization but inadvertently increase generalization error. 
+
+### 43 JH Break
+
 1. In practice, we usually need to treat the scale of the weights as a hyperparameter whose optimal value lies somewhere roughly near but not exactly equal to the theoretical predictions. 
 1. One drawback to scaling rules that set all the initial weights to have the same standard deviation, such as *m<sup>-1/2</sup>* (see p. 296), is that every individual weight becomes extremely small when the layers become large. 
 1. Martens (2010) introduced an alternative initialization scheme called sparse initialization, in which each unit is initialized to have exactly *k* nonzero weights. 
 1. The idea is to keep the total amount of input to the unit independent from the number of inputs *m* without making the magnitude of individual weight elements shrink with *m*. 
+
+### 44 JH Break
+
 1. Sparse initialization helps to achieve more diversity among the units at initialization time. 
 1. However, it also imposes a very strong prior on the weights that are chosen to have large Gaussian values.
 1. Because it takes a long time for gradient descent to shrink “incorrect” large values, this initialization scheme can cause problems for units, such as maxout units, that have several ﬁlters that must be carefully coordinated with each other.
 1. When computational resources allow it, it is usually a good idea to treat the initial scale of the weights for each layer as a hyperparameter, and to choose these scales using a hyperparameter search algorithm described in section 11.4.2, such as random search. 
 1. The choice of whether to use dense or sparse initialization can also be made a hyperparameter. 
-1. Alternately, one can manually search forthe best initial scales. 
+
+### 45 JH Break
+
+1. Alternately, one can manually search for the best initial scales. 
 1. A good rule of thumb for choosing the initial scales is to look at the range or standard deviation of activations or gradients on a single minibatch of data. 
 1. If the weights are too small, the range of activations across the minibatch will shrink as the activations propagate forward through the network.
 1. By repeatedly identifying the ﬁrst layer with unacceptably small activations and increasing its weights, it is possible to eventually obtain a network with reasonable initial activations throughout. 
@@ -479,7 +488,7 @@ tags: []
 1. This procedure can in principle be automated and is generally less computationally costly than hyperparameter optimization based on validation seterror because it is based on feedback from the behavior of the initial model on asingle batch of data, rather than on feedback from a trained model on the validation set. 
 1. While long used heuristically, this protocol has recently been speciﬁed more formally and studied by Mishkin and Matas (2015).
 
-### JH Break
+### 46 JH Break
 
 1. So far we have focused on the initialization of the weights. 
 1. **Fortunately, initialization of other parameters is typically easier.** 
@@ -487,22 +496,29 @@ tags: []
 1. Setting the biases to zero is compatible with most weight initialization schemes. 
 1. There are a few situations where we may set some biases to nonzero values. (See p. 297 for bullet points in textbook)
 
-### JH Break
+### 47 JH Break
 
 1. Another common type of parameter is a variance or precision parameter. For example, we can perform linear regression with a conditional variance estimate using the model (See Eq. 8.24 on p. 297).
-1. We can usually initialize variance or precision parameters to integer = 1 safely. 
+1. We can usually initialize variance or precision parameters to *real_number = 1* safely. 
 1. Another approach is to assume the initial weights are close enough to zero that the biases may be set while ignoring the eﬀect of the weights, then set the biases to produce the correct marginal mean of the output, and set the variance parameters to the marginal variance of the output in the training set.
 1. Besides these simple constant or random methods of initializing model parameters, it is possible to initialize model parameters using machine learning. 
+
+### 48 JH Break
+
 1. A common strategy discussed in part III of this book is to initialize a supervised model with the parameters learned by an unsupervised model trained on the same inputs.
 1. One can also perform supervised training on a related task. Even performing supervised training on an unrelated task can sometimes yield an initialization that oﬀers faster convergence than a random initialization. 
 1. Some of these initialization strategies may yield faster convergence and better generalization because they encode information about the distribution in the initial parameters of the model.
 1. Others apparently perform well primarily because they set the parameters to have the right scale or set diﬀerent units to compute diﬀerent functions from each other.
 
 ### 8.5 Algorithms with Adaptive Learning Rates
+
 1. Neural network researchers have long realized that the learning rate is reliably one of the most diﬃcult to set hyperparameters because it signiﬁcantly aﬀects model performance.
 1. As we discuss in sections 4.3 and 8.2, the cost is often highly sensitive to some directions in parameter space and insensitive to others. 
 1. The momentum algorithm can mitigate these issues somewhat, but it does so at the expense of introducing another hyperparameter. 
 1. In the face of this, it is natural to ask if there is another way. 
+
+### 49 JH Break
+
 1. If we believe that the directions of sensitivity are somewhat axis aligned, it can make sense to use a separate learning rate for each parameter and automatically adapt these learning rates throughout the course of learning.
 1. The **delta-bar-delta** algorithm (Jacobs, 1988) is an early heuristic approach to adapting individual learning rates for model parameters during training. 
 1. The approach is based on a simple idea: if the partial derivative of the loss, with respect to a given model parameter, remains the same sign, then the learning rate should increase. 
@@ -511,15 +527,75 @@ tags: []
 1. More recently, a number of incremental (or mini batch-based) methods have been introduced that adapt the learning rates of model parameters. 
 1. In this section,we brieﬂy review a few of these algorithms.
 
-* 8.5.1 AdaGrad
-* 8.5.2 RMSProp
-* 8.5.3 Adam
+### 8.5.1 AdaGrad
 
+1. The AdaGrad algorithm, (shown Algorithm 8.4 on p. 299), individually adapts the learning rates of all model parameters by scaling them inversely proportional to the square root of the sum of all the historical squared values of the gradient (Duchi et al.,2011). 
+1. The parameters with the largest partial derivative of the loss have a correspondingly rapid decrease in their learning rate, while parameters with small partial derivatives have a relatively small decrease in their learning rate. 
+1. The net eﬀect is greater progress in the more gently sloped directions of parameter space.
+1. In the context of convex optimization, the AdaGrad algorithm enjoys some desirable theoretical properties. 
+1. Empirically, however, for training deep neural network models, the accumulation of squared gradients *from the beginning of training* can result in a premature and excessive decrease in the eﬀective learning rate. 
+1. AdaGrad performs well for some but not all deep learning models.
 
+### 8.5.2 RMSProp
 
+1. The **RMSProp** algorithm (Hinton, 2012) modiﬁes AdaGrad to perform better in the nonconvex setting by changing the gradient accumulation into an exponentially weighted moving average. 
+1. AdaGrad is designed to converge rapidly when applied to a convex function. 
+1. When applied to a nonconvex function to train a neural network, the learning trajectory may pass through many diﬀerent structures and eventually arrive at a region that is a locally convex bowl. 
+1. AdaGrad shrinks the learning rate according to the entire history of the squared gradient and may have made the learning rate too small before arriving at such a convex structure. 
 
+### 50 JH Break
 
+1. RMSProp uses an exponentially decaying average to discard history from the extreme past so that it can converge rapidly after ﬁnding a convex bowl, as if it were an instance of the AdaGrad algorithm initialized within that bowl.
+1. RMSProp is shown in its standard form in algorithm 8.5 and combined with Nesterov momentum in algorithm 8.6. 
+1. Compared to AdaGrad, the use of the moving average introduces a new hyperparameter, **rho**, that controls the length scale of the moving average.
+1. Empirically, RMSProp has been shown to be an eﬀective and practical optimization algorithm for deep neural networks. 
+1. It is currently one of the go-to optimization methods being employed routinely by deep learning practitioners.
 
+### 8.5.3 Adam
+
+1. Adam (Kingma and Ba, 2014) is yet another adaptive learning rate optimization algorithm and is presented in Algorithm 8.7 on p. 301. 
+1. **The name “Adam” derives from the phrase *adaptive moments*.** 
+1. In the context of the earlier algorithms, it is perhaps best seen as a variant on the combination of **RMSProp** and **momentum** with a few important distinctions. 
+1. First, in Adam, momentum is incorporated directly as an estimate of the ﬁrst-order moment (with exponential weighting) ofthe gradient. 
+	* The most straightforward way to add momentum to RMSProp is to apply momentum to the rescaled gradients. 
+	* The use of momentum in combination with rescaling does not have a clear theoretical motivation. 
+1. Second, Adam includes bias corrections to the estimates of both the ﬁrst-order moments (the momentum term) and the (uncentered) second-order moments to account for their initialization at the origin (see Algorithm 8.7). 
+
+### 51 JH Break
+
+1. RMSProp also incorporates an estimate of the (uncentered) second-order moment; however, it lacks the correction factor. 
+1. Thus, unlike in Adam, the RMSProp second-order moment estimate may have high bias early in training. 
+1. Adam is generally regarded as being fairly robust to the choiceof hyperparameters, though the learning rate sometimes needs to be changed from the suggested default.
+
+### 8.5.4 Choosing the Right Optimization Algorithm
+
+1. We have discussed a series of related algorithms that each seek to address the challenge of optimizing deep models by adapting the learning rate for each modelparameter. 
+1. At this point, a natural question is: which algorithm should one choose? Unfortunately, there is currently no consensus on this point. 
+1. Schaul et al. (2014) presented a valuable comparison of a large number of optimization algorithms across a wide range of learning tasks. 
+1. While the results suggest that the family of algorithms with adaptive learning rates (represented by RMSProp and AdaDelta) performed fairly robustly, no single best algorithm has emerged.
+1. Currently, the most popular optimization algorithms actively in use include SGD, SGD with momentum, RMSProp, RMSProp with momentum, AdaDelta,and Adam. 
+1. The choice of which algorithm to use, at this point, seems to depend largely on the user’s familiarity with the algorithm (for ease of hyperparameter tuning).
+
+### 8.6 Approximate Second-Order Methods
+
+1. In this section we discuss the application of second-order methods to training deep networks. See LeCun et al. (1998a) for an earlier treatment of this subject. The only objective function we examine is the empirical risk as shown on Equation 8.25 on p. 302. 
+1. Methods examined:
+	1. **8.6.1 Newton's Method.** Beyond the challenges created by certain features of the objective function--such as saddle points--the application of Newton’s method for training large neural networks is limited by the signiﬁcant computational burden it imposes. 
+		* The number of elements in the Hessian is squared in the number of parameters, so with *k* parameters (and for even very small neural networks, the number of parameters *k* can be in the millions), Newton’s method would require the inversion of a *k × k* matrix—with computational complexity of *O(k<sup>3</sup>)*. 
+		* Also, since the parameters willchange with every update, the inverse Hessian has to be computed *at every training iteration*. 
+		* As a consequence, only networks with a very small number of parameters can be practically trained via Newton’s method. 
+		* In the remainder of this section, we discuss alternatives that attempt to gain some of the advantages of Newton’s method while side-stepping the computational hurdles.
+	2. **8.6.2 Congurate Gradients.** 
+		* Conjugate gradients is a method to eﬃciently avoid the calculation of the inverse Hessian by iteratively descending *conjugate directions*. 
+		* The inspiration for this approach follows from a careful study of the weakness of the method of steepest descent (see section 4.3 for details), where line searches are applied iteratively in the direction associated with the gradient. 
+		* See also *Nonliner Conjugate Gradients* on p. 306 - 307. 
+	3. **8.6.3 BFGS The Broyden–Fletcher–Goldfarb–Shanno (BFGS) Algorithm.** 
+		* BFGS attempts to bring some of the advantages of Newton’s method without the computational burden. In that respect, BFGS is similar to the conjugate gradient method. 
+		* However, BFGS takes a more direct approach to the approximation of Newton’s update.
+		* The speciﬁcation and derivation of the BFGS approximation is given in many textbooks on optimization, including in Luenberger (1984).
+		* Relative to conjugate gradients, BFGS has the advantage that it can take less time refining each line search.
+		* However, BFGS algorithms must store the inverse Hessian matrix making BFGS impractical for most modern deep learning models that typically have millions of parameters.
+		* **L-BFGS** aka *Limited Memory BFGS* which avoids storing the complete inverse Hessian approximate **M**.
 
 ### Notes from December 2023
 1. GBC Chapter 8, section 8.3 is on Stochastic Gradient Descent (SGD)
