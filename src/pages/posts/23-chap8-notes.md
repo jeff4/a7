@@ -597,6 +597,49 @@ tags: []
 		* However, BFGS algorithms must store the inverse Hessian matrix making BFGS impractical for most modern deep learning models that typically have millions of parameters.
 		* **L-BFGS** aka *Limited Memory BFGS* which avoids storing the complete inverse Hessian approximate **M**.
 
+
+### 8.7 Optimization Strategies and Meta-Algorithms
+
+* Many optimization techniques are not exactly algorithms but rather general templates that can be specialized to yield algorithms, or subroutines that can be incorporated into many diﬀerent algorithms.
+
+### 8.7.1 Batch Normalization
+
+1. Batch normalization (Ioﬀe and Szegedy, 2015) is one of the most exciting recent innovations in optimizing deep neural networks, and it is actually not an optimization algorithm at all. 
+1. Instead, it is a method of adaptive reparametrization, motivated by the diﬃculty of training very deep models. 
+1. Very deep models involve the composition of several functions, or layers. The gradient tells how to update each parameter, under the assumption that the other layers do not change. 
+1. In practice, we update all the layers simultaneously. When we make the update, unexpected results can happen because many functions composed together are changed simultaneously, using updates that were computed under the assumption that the other functions remain constant. 
+1. As a simple example, suppose we have a deep neural network that has only one unit per layer and does not use an activation function at each hidden layer:
+```ˆy=xw1w2w3. . . wl. Here,wiprovides the weight used by layeri. The output of layeriishi=hi−1wi. Theoutputˆyis a linear function of the inputxbut a nonlinear function of the weightswi. Suppose our cost function has put a gradient of 1 onˆy, so we wish to decreaseˆyslightly. The back-propagation algorithm can then compute a gradientg=∇wˆy.Consider what happens when we make an updatew ← w − g. The ﬁrst-orderTaylor series approximation ofˆypredicts that the value ofˆywill decrease bygg.If we wanted to decreaseˆyby 0.1, this ﬁrst-order information available in thegradient suggests we could set the learning rateto0.1gg. Yet, the actual updatewill include second-order and third-order eﬀects, on up to eﬀects of order l.```
+1. See Equation 8.34
+
+### 52 JH Break
+
+1. This makes it very hard to choose an appropriate learning rate, because the eﬀects of an update to the parameters for one layer depend so strongly on all the other layers. 
+1. Second-order optimization algorithms address this issue by computing an update that takes these second-order interactions into account, but we can see that in very deep networks, even higher-order interactions can be signiﬁcant. 
+1. Even second-order optimization algorithms are expensive and usually require numerous approximations that preventthem from truly accounting for all signiﬁcant second-order interactions. 
+1. Building an *n*-th order optimization algorithm for *n* >2 thus seems hopeless. What can we do instead?
+
+### 53 JH Break
+
+1. **Batch normalization** provides an elegant way of reparametrizing almost any deep network. 
+1. The reparametrization signiﬁcantly reduces the problem of coordinating updates across many layers. 
+1. Batch normalization can be applied to any input or hidden layer in a network. 
+1. Let **H** be a minibatch of activations of the layer to normalize, arranged as a design matrix, with the activations for each example appearing in a row of the matrix. To normalize **H**, we replace it with Equation 8.35 on page 314.
+1. ...where *mu* is 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Notes from December 2023
 1. GBC Chapter 8, section 8.3 is on Stochastic Gradient Descent (SGD)
 1. AdaGrad and then in section 8.5.3 Adam adaptive learning rate optimization
