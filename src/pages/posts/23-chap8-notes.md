@@ -667,12 +667,29 @@ tags: []
 1. Coordinate descent makes the most sense when the diﬀerent variables in the optimization problem can be clearly separated into groups that play relatively isolated roles; 
 1. Or when optimization with respect to one group of variables is signiﬁcantly more eﬃcient than optimization with respect to all of the variables.
 
+### JH Break -- Example of coptimizing J() 
 
+1. Learning problem called **sparse coding**
+1. **W** = dictionary parameters; **H** = code representations
+1. Block coordinate descent gives us an optimization strategy that allows us to use eﬃcient convex optimization algorithms--by alternating between optimizing**W** with **H** ﬁxed, then optimizing **H** with **W** ﬁxed.
 
+### 8.7.3 Polyak Averaging
 
+1. Polyak averaging (Polyak and Juditsky, 1992) consists of averaging several points in the trajectory through parameter space visited by an optimization algorithm. 
+1. If *t* iterations of gradient descent visit points **&#952;**<sub>1</sub>, **&#952;**<sub>2</sub>,...,**&#952;**<sub>t</sub>, then the output of the Polyak averaging algorthm is **&#952;-hat**<sub>t</sub> = (Summation of the thetas) divided by *t*. See p. 313.
+1. On some problem classes, e.g. gradient descent for convex problems, this approach has a strong convergence guarantee.
+1. When applied to ANNs, the theory is a little more heuristic, *but* still works quite well in practice.
+1. **The core interpretation is that the optimization algorithm may leap back and forth across a valley several times without ever visting a point near the bottom of the valley.**
+	* However, the *average* of all the locations on either side should be close to the bottom of the valley though.
 
+### JH Break
 
+1. When applied to non-convex problems, the path taken by the optimization trajectory can be very complicated and visit many different regions.
+1. Therefore, when applying Polyak Averaging to non-convex cases, it's best to use an exponentially decaying running average. See Eq. 8.39 on p. 314.
 
+### 8.7.4 Supervised Pretraining
+
+1. 
 
 
 
