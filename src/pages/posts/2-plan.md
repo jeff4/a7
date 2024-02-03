@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Learning Plan on RNN, Autoencoders, etc.'
-LastUpdatedDate: 2024-01-23
+LastUpdatedDate: 2024-02-10
 CreatedDate: 2023-10-28
 description: 'Study plan as of February, 2024'
 author: 'Jeff'
@@ -10,7 +10,7 @@ tags: []
 
 ***
 ## Next items and other interesting notes
-1. Finish GBC chapter 8 on optimization
+1. Finish GBC chapter 8 on optimization. All raw content has been entered. Now need to edit breaks etc.
 1. Reread Introduction from p. 1 - 26 on history of AI / ML. Note this from p. 4 of introduction:
 	1. The quintessential example of a representation learning algorithm is **the autoencoder**. 
 	1. An autoencoder is the combination of an **encoder function**, which converts the input data into a diﬀerent representation, and a **decoder function**, which converts the new representation back into the original format. 

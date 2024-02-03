@@ -716,7 +716,7 @@ tags: []
 
 ### JH Break
 
-Another related line of work is **theFitNets** (Romero et al., 2015) approach.
+1. Another related line of work is **theFitNets** (Romero et al., 2015) approach.
 1. This approach begins by training a network that has low enough depth and great enough width (number of units per layer) to be easy to train. 
 1. This network then becomes a teacher for a second network, designated the student. The student network is much deeper and thinner (11-19 layers) and would bediﬃcult to train with SGD under normal circumstances. 
 1. The training of the student network is made easier by training the student network not only to predict the output for the original task, but also to predict the value of the middle layer of the teacher network. 
