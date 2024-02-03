@@ -667,9 +667,9 @@ tags: []
 1. Coordinate descent makes the most sense when the diﬀerent variables in the optimization problem can be clearly separated into groups that play relatively isolated roles; 
 1. Or when optimization with respect to one group of variables is signiﬁcantly more eﬃcient than optimization with respect to all of the variables.
 
-### JH Break -- Example of coptimizing J() 
+### JH Break -- Example of optimizing J() on p. 313
 
-1. Learning problem called **sparse coding**
+1. Learning problem called **sparse coding** applied to the cost function in Eq. 8.38
 1. **W** = dictionary parameters; **H** = code representations
 1. Block coordinate descent gives us an optimization strategy that allows us to use eﬃcient convex optimization algorithms--by alternating between optimizing**W** with **H** ﬁxed, then optimizing **H** with **W** ﬁxed.
 
@@ -689,16 +689,114 @@ tags: []
 
 ### 8.7.4 Supervised Pretraining
 
-1. 
+1. Sometimes, directly training a model to solve a speciﬁc task can be too ambitious if the model is complex and hard to optimize or if the task is very diﬃcult. 
+1. It is sometimes more eﬀective to *first* train a simpler model to solve the task; *then* make the model more complex. 
+1. It can also be more eﬀective to train the model to solve a simpler task, then move on to confront the ﬁnal task. 
+1. These strategies that involve training simple models on simple tasks before confronting the challenge of training the desired model to perform the desired task are **collectively known as pretraining**.
+1. Greedy algorithms break a problem into many components, then solve for the optimal version of each component in isolation. 
+1. Unfortunately, combining the individually optimal components is not guaranteed to yield an optimal complete solution. 
+1. Nonetheless, greedy algorithms can be computationally much cheaper than algorithms that solve for the best joint solution, and the quality of a greedy solution is often acceptable if not optimal. 
+1. Greedy algorithms may also be followed by a **ﬁne-tuning** stage in which a joint optimization algorithm searches for an optimal solution to the full problem. 
+1. Initializing the joint optimization algorithm with a greedy solution can greatly speed it up and improve the quality of thesolution it ﬁnds.
+1. Pretraining, and especially greedy pretraining, algorithms are ubiquitous in deep learning. 
+1. In this section, we describe speciﬁcally those pretraining algorithms that break supervised learning problems into other simpler supervised learning problems. 
+1. This approach is known as **greedy supervised pretraining**.
+1. In the original (Bengio et al., 2007) version of greedy supervised pretraining, each stage consists of a supervised learning training task involving only a subset ofthe layers in the ﬁnal neural network. 
+1. An example of greedy supervised pretraining is illustrated in ﬁgure 8.7, in which each added hidden layer is pretrained as part of a shallow supervised MLP, taking as input the output of the previously trained hidden layer. 
+1. Instead of pretraining one layer at a time, Simonyan and Zisserman (2015) pretrain a deep convolutional network (eleven weight layers) and then use the ﬁrst four and last three layers from this network to initialize even deeper networks (with up to nineteen layers of weights). 
+1. The middle layers of the new, very deep network are initialized randomly. 
+1. The new network is then jointly trained.
+1. Another option, explored by Yu et al. (2010), is to use the outputs of the previouslytrained MLPs, as well as the raw input, as inputs for each added stage.
+1. Why would greedy supervised pretraining help? The hypothesis initially discussed by Bengio et al. (2007) is that it helps to provide better guidance to the intermediate levels of a deep hierarchy. 
+1. In general, pretraining may help both interms of optimization and generalization.
+1. An approach related to supervised pretraining extends the idea to the context of transfer learning: Yosinski et al. (2014) pretrain a deep convolutional net with eight layers of weights on a set of tasks (a subset of the 1,000 ImageNet object categories) and then initialize a same-size network with the ﬁrst *k* layers of theﬁrst net. 
+1. All the layers of the second network (with the upper layers initialized randomly) are then jointly trained to perform a diﬀerent set of tasks (another subset of the 1,000 ImageNet object categories), with fewer training examples than for the ﬁrst set of tasks. 
+1. Other approaches to transfer learning with ANN are discussed in section 15.2. 
 
 
+### JH Break
 
+Another related line of work is **theFitNets** (Romero et al., 2015) approach.
+1. This approach begins by training a network that has low enough depth and great enough width (number of units per layer) to be easy to train. 
+1. This network then becomes a teacher for a second network, designated the student. The student network is much deeper and thinner (11-19 layers) and would bediﬃcult to train with SGD under normal circumstances. 
+1. The training of the student network is made easier by training the student network not only to predict the output for the original task, but also to predict the value of the middle layer of the teacher network. 
+1. This extra task provides a set of hints about how the hidden layers should be used and can simplify the optimization problem. 
+1. Additional parameters are introduced to regress the middle layer of the 5-layer teacher network from the middle layer of the deeper student network. 
+1. Instead of predicting the ﬁnal classiﬁcation target, however, the objective is to predict the middle hidden layer of the teacher network. 
+1. The lower layers of the student networks thus have two objectives: to help the outputs of the student network accomplish their task, as well as to predict the intermediate layer of the teacher network. 
+1. Although a thin and deep network appears to be more diﬃcult to train than a wide and shallow network, the thin and deep network may generalize better and certainly has lower computational cost if it is thin enough to have far fewer parameters. 
+1. Without the hints on the hidden layer, the student network performs very poorly in the experiments, on both the training and the test set. 
+1. Hints on middle layers may thus be one of the tools to help train neural networks that otherwise seem diﬃcult to train, but other optimization techniques or changes in the architecture may also solve the problem.
 
-### Notes from December 2023
-1. GBC Chapter 8, section 8.3 is on Stochastic Gradient Descent (SGD)
-1. AdaGrad and then in section 8.5.3 Adam adaptive learning rate optimization
-	* Batch Normalization is extremely exciting circa 2015 (section 8.7.1) 
-	* Section 8.7.4 Supervised Pretraining
+### 8.7.5 Designing Models to Aid Optimization
+
+1. To improve optimization, the best strategy is not always to improve the optimization algorithm. 
+1. Instead, many improvements in the optimization of deep models have come from designing the models to be easier to optimize.
+1. In principle, we could use activation functions that increase and decrease in jagged nonmonotonic patterns, but this would make optimization extremely diﬃcult. 
+1. In practice, it is more important to choose a model family that is easy to optimize than to use a powerful optimization algorithm. 
+1. Most of the advances in neural network learning over the past thirty years have been obtained by changing the model family rather than changing the optimization procedure. 
+1. Stochastic gradient descent with momentum, which was used to train neural networks in the 1980s, remains in use in modern state-of-the-art neural network applications.
+1. Speciﬁcally, modern ANNs reﬂect a design choice to use linear transformations between layers and activation functions that are diﬀerentiable almost everywhere, with signiﬁcant slope in large portions of their domain. 
+1. In particular, model innovations like the LSTM, rectiﬁed linear units and maxout units have all moved toward using more linear functions than previous models like deep networks based on sigmoidal units. 
+1. These models have nice properties that make optimization easier. 
+1. The gradient ﬂows through many layers provided that the Jacobian of the linear transformation has reasonable singular values. 
+1. Moreover, linear functions consistently increase in a single direction, so even if the model’s output is very far from correct, it is clear simply from computing the gradient which direction its output should move to reduce the loss function. 
+1. In other words, modern neural nets have been designed so that their local gradient information corresponds reasonably well to moving toward a distant solution.
+1. Other model design strategies can help to make optimization easier. 
+1. For example, linear paths or skip connections between layers reduce the length of the shortest path from the lower layer’s parameters to the output, and thus mitigate the vanishing gradient problem (Srivastava et al., 2015). 
+1. A related idea to skip connections is adding extra copies of the output that are attached to the intermediate hidden layers of the network, as in GoogLeNet (Szegedy et al., 2014a) and deeply supervised nets (Lee et al., 2014). 
+1. These “auxiliary heads” are trained to perform the same task as the primary output at the top of the network to ensure that the lower layers receive a large gradient. 
+1. When training is complete, the auxiliary heads may be discarded. 
+1. This is an alternative to the pretraining strategies, which were introduced in the previous section. 
+1. In this way, one can train jointly all the layers in a single phase but change the architecture, so that intermediate layers (especially the lower ones) can get some hints about what they should do, via a shorter path. 
+1. These hints provide an error signal to lower layers.
+
+### 8.7.6 Continuation Methods and Curriculum Learning
+
+1. As argued in section 8.2.7, many of the challenges in optimization arise from the global structure of the cost function and cannot be resolved merely by making better estimates of local update directions. 
+1. The predominant strategy for overcoming this problem is to attempt to initialize the parameters in a region connected to the solution by a short path through parameter space that local descent can discover.
+1. Continuation methods are a family of strategies that can make optimization easier by choosing initial points to ensure that local optimization spends most ofits time in well-behaved regions of space. 
+1. The idea behind continuation methods isto construct a series of objective functions over the same parameters. 
+1. To minimize a cost function J(**&#952;**), we construct new cost functions {J<sub>0</sub>, . . . , J<sub>n</sub>}. 
+1. These cost functions are designed to be increasingly diﬃcult, with J<sub>0</sub> being fairly easy to minimize, and J<sub>n</sub>, the most diﬃcult. 
+1. With J(**&#952;**) being the true cost function motivating the entire process.
+1. When we say that J<sub>*i*</sub> is easier than J<sub>*i* + 1</sub>, we mean that it is well behaved over more of **&#952;** space.
+1. A random initialization is more likely to land in the region where local descent can minimize the cost function successfully because this region is larger. 
+1. The series of cost functions are designed so that a solution to one is a good initial point of the next. 
+1. We thus begin by solving an easy problem, then reﬁne the solution to solve incrementally harder problems until we arrive at a solution to the true underlying problem.
+1. Traditional continuation methods (predating the use of continuation methods for ANN training) are usually based on smoothing the objective function.
+1. See Wu (1997) for an example of such a method and a review of some related methods. 
+1. Continuation methods are also closely related to *simulated annealing*, which adds noise to the parameters (Kirkpatrick et al., 1983). 
+1. Continuation methods have been extremely successful in recent years. 
+1. See Mobahi and Fisher(2015) for an overview of recent literature, especially for AI applications.
+1. Continuation methods traditionally were mostly designed with the goal of overcoming the challenge of local minima. 
+1. Speciﬁcally, they were designed to reach a global minimum despite the presence of many local minima. 
+1. To do so,these continuation methods would construct easier cost functions by “blurring” the original cost function. 
+1. This blurring operation can be done by approximating this function J(**&#952;**) (shown in Eq 8.40) via sampling.
+1. The intuition for this approach is that some nonconvex functionsbecome approximately convex when blurred. 
+1. In many cases, this blurring preserves enough information about the location of a global minimum that we can ﬁnd the global minimum by solving progressively less-blurred versions of the problem. 
+1. This approach can break down in three diﬀerent ways. 
+1. First, it might successfully deﬁne a series of cost functions where the ﬁrst is convex and the optimum tracks from one function to the next, arriving at the global minimum, but it might require so many incremental cost functions that the cost of the entire procedure remains high.
+1. NP-hard optimization problems remain NP-hard, even when continuation methods are applicable. 
+1. The other two ways continuation methods fail both correspond to the method not being applicable. 
+	* First, the function might not become convex, no matter how much it is blurred. As an example, consider the function J(**&#952;**) = -**&#952;-hat**<sup>transpose</sup>**&#952;**.
+	* Second, the function may become convex as a result of blurring, but the minimum of this blurred function may track to a local rather than a global minimum of the original cost function.
+1. Though continuation methods were mostly originally designed to deal with the problem of local minima, local minima are no longer believed to be the primary problem for neural network optimization. 
+1. Fortunately, continuation methods can still help. 
+1. The easier objective functions introduced by the continuation method can eliminate ﬂat regions, decrease variance in gradient estimates, improve conditioning of the Hessian matrix, or do anything else that will either make local updates easier to compute or improve the correspondence between local update directions and progress toward a global solution.
+1. Bengio et al. (2009) observed that an approach called curriculum learning, or shaping, can be interpreted as a continuation method. 
+1. Curriculum learning is based on the idea of planning a learning process to begin by learning simple concepts and progress to learning more complex concepts that depend on these simpler concepts. 
+1. This basic strategy was previously known to accelerate progress in animal training (Skinner, 1958; Peterson, 2004; Krueger and Dayan, 2009) and in machinelearning (Solomonoﬀ, 1989; Elman, 1993; Sanger, 1994). 
+1. Bengio et al. (2009) justiﬁed this strategy as a continuation method, where earlier J<sub>*i*</sub> are made easier by increasing the inﬂuence of simpler examples (either by assigning their contributions to the cost function larger coeﬃcients, or by sampling them more frequently), and experimentally demonstrated that better results could be obtained by following acurriculum on a large-scale neural language modeling task. 
+1. Curriculum learning has been successful on a wide range of natural language (Spitkovsky et al., 2010;Collobert et al., 2011a; Mikolov et al., 2011b; Tu and Honavar, 2011) and computer vision (Kumar et al., 2010; Lee and Grauman, 2011; Supancic and Ramanan, 2013)tasks. 
+1. Curriculum learning was also veriﬁed as being consistent with the way in which humans teach (Khan et al., 2011): teachers start by showing easier and more prototypical examples and then help the learner reﬁne the decision surface with the less obvious cases.
+1. Curriculum-based strategies are more eﬀective for teaching humans than strategies based on uniform sampling of examples and can also increase the eﬀectiveness of other teaching strategies (Basu and Christensen,2013).
+1. Another important contribution to research on curriculum learning arose in the context of training recurrent neural networks to capture long-term dependencies: Zaremba and Sutskever (2014) found that much better results were obtained with a *stochastic curriculum*, in which a random mix of easy and diﬃcult examples is always presented to the learner, but where the average proportion of the more diﬃcult examples (here, those with longer-term dependencies) is gradually increased. 
+1. With a deterministic curriculum, no improvement over the baseline (ordinary training from the full training set) was observed.
+1. We have now described the basic family of neural network models and how to regularize and optimize them. 
+1. In the chapters ahead, we turn to specializations of the neural network family that allow neural networks to scale to very large sizes andprocess input data that has special structure. 
+1. The optimization methods discussed in this chapter are often directly applicable to these specialized architectures with little or no modiﬁcation. 
+
 
 ##### Double-struck R for Real numbers
 * "rp = double-struck R = &#8477;
