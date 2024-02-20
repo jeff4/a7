@@ -87,6 +87,7 @@ tags: []
 	* J. Moor, "The Dartmouth College Artificial Intelligence Conference: The Next Fifty Years" AI Magazine 2006
 	* Ronald R. Kline "Cybernetics, Automota Studies and the Dartmouth Conference on Artificial Intelligence" IEEE Annals of the History of Computing. Oct-Dec, 2011, IEEE Computer Society
 * Look at original 1955 proposal by McCarthy, Minsky, Shannon
+* See also [this PDF](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/download/1911/1809) which is a 50-year retrospective from 2006. "AI Conference: The Next Fifty Years" to 2056.
 
 ***
 
