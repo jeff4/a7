@@ -11,8 +11,13 @@ tags: []
 ---
 
 
+
 ***
 
+* Link to [temp file](/posts/68-temp/). See /cdi for archived version.
+
+
+***
 
 ### Timeline -- mostly by JH with some adaptation from hacker noon
 * See [main ai timeline page](/posts/65-ai-timeline/) 
