@@ -26,6 +26,25 @@ tags: []
 
 ***
 
+### 2019 Report by NIHCR 
+* by National Institute For Health Care Reform
+* [Link to PDF](https://www.nihcr.org/wp-content/uploads/Altarum-Prior-Authorization-Review-November-2019.pdf)
+* Authors: Ani Turner, George Miller, Samantha Clark
+* From footnote 5: American Medical Association. 2016 AMA Prior Authorization Physician Survey. 2016. https://www.ama- assn.org/sites/ama-assn.org/files/corp/media-browser/public/government/advocacy/2016-pa-survey- results.pdf. Published 2017. Accessed July 25, 2019.
+	* Reference to footnote 5 is on page 6 of PDF: 'Physicians have reported that, overall, **72% of PA requests are approved on initial request and an additional 7% are approved on appeal**. <sup>5</sup> 
+* PAs are typically only valid for a specified length of time, after which additional requests must be submitted for continued prescription refills or therapies.
+#### Notes on NIHCR funding
+* Funding by Altarum Institute Center for Sustainable Health Spending
+* The National Institute for Health Care Reform is a 501(c)(3) nonprofit, nonpartisan organization established by the International Union, UAW; Chrysler Group LLC; Ford Motor Company; and General Motors to conduct health policy research and analysis to improve the organization, financing and delivery of health care in the United States.
+* From 2009 through 2013, the Institute contracted with the Center for Studying Health System Change (HSC) to conduct health policy research and policy analyses under the direction of HSC President Paul B. Ginsburg, PhD. Beginning in 2014, NIHCR has funded Altarum Institute’s Center for Sustainable Health Spending (CSHS), the Detroit Community-Academic Urban Research Center (Detroit URC), and the Urban Institute to conduct research and policy analyses with an emphasis on research to improve health in Detroit.
+
+
+
+
+
+
+***
+
 ## 3/05/2023
 
 1. **How many patient visits per year?**
