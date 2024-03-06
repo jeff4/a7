@@ -12,6 +12,15 @@ tags: []
 
 ## 3/06/2024
 
+### Change Healthcare Whitepaper: PA automation, interoperability, etc.
+* Title: 'Automation and Interoperability: Innovating Prior Authorization to Improve the Patient Experience'
+* [Link to PDF in Box](https://app.box.com/s/7dbomegx2lvrivkqcrqhez8bwijxe78x)
+* On Page 4, in the bullet on *Coverage Requirements Discovery (CRD)*:
+	1. Currently, a lack of consistency and transparency around payer requirements increases providers’ chances of missing a required authorization or requesting authorization for the wrong procedure at the outset. 
+	1. As **80% of authorization requests require extra work, rework, or manual follow-ups**, getting this first step right can be crucial to expediting the authorization. 
+
+***
+
 ### National Health Expenditure for US (NHE)
 * Source: [Centers for Medicare and Medicaid Services](https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet)
 * NHE grew 4.1% to $4.5 trillion in 2022, or $13,493 per person, and accounted for 17.3% of Gross Domestic Product (GDP).
@@ -23,7 +32,6 @@ tags: []
 * **Hospital expenditures grew 2.2% to $1,355.0 billion in 2022**, slower than the 4.5% growth in 2021.
 * Physician and clinical services expenditures grew 2.7% to **$884.9 billion in 2022**, slower growth than the 5.3% in 2021.
 * Prescription drug spending increased 8.4% to **$405.9 billion in 2022**, faster than the 6.8% growth in 2021.
-
 
 
 ***
