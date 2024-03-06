@@ -17,7 +17,7 @@ tags: []
 	* From [2023 Commonwealth Fund report](https://www.commonwealthfund.org/publications/issue-briefs/2023/jan/us-health-care-global-perspective-2022), about 4 visits per patients per year as of 2022.
 	* multiplied by 330m people in the US in 2022, 330m * 4 = *1.32 billion patient visits per year.*
 1. **How many prior auth requests?**
-	* From [Wikipedia] there are ~1m doctors in the US. Probably about 990,000. That number fits with 3 doctors per 1000 people, 301 doctors per 100,000 people. 330m * 0.3% = 990k doctors in the US.
+	* From [Wikipedia](https://en.wikipedia.org/wiki/Physicians_in_the_United_States) there are ~1m doctors in the US. Probably about 990,000. That number fits with 3 doctors per 1000 people, 301 doctors per 100,000 people. 330m * 0.3% = 990k doctors in the US.
 	* combining 990k doctors * 41 prior auths generated per week per physician (from AKASA report) = 40.6m prior auths generated per week.
 	* 40m prior auths requests * 52 weeks = *2 billion prior auth requests per year.*
 	* this means that *there about 1.5 prior auth requests per doctor visit*. 
@@ -41,6 +41,10 @@ tags: []
 * According to AKASA research, submitting and checking the status of a prior authorization request takes *12 minutes and 7 seconds**.
 * With **41 prior authorizations per physician per week**, it’s no surprise that 88% of physicians say the burden associated with prior authorizations is “high” or “extremely high.”
 
+### 2022 Crowe Report 
+* [Link to PDF](https://www.crowe.com/-/media/crowe/llp/widen-media-files-folder/h/hospital-double-whammy-less-cash-in-more-cash-out-chc2305-001b.pdf)
+* Title: 'Hospital double whammy: Less cash in, more cash out Increasingly frugal payors and high inflation add up to a big financial headache for hospitals and health systems'
+* From pg 7, denial rate for these providers sampled by Crowe LLP public accounting firm. Increased from 10.2% in early 2021 to 11% by 2022. I don't like this b/c the monthly chart on pg 7 tells a different story. 1.5 - 2.0% per month...how does that add up to 10% per year? It doesn't.
 
 ***
 
