@@ -18,6 +18,21 @@ tags: []
 * On Page 4, in the bullet on *Coverage Requirements Discovery (CRD)*:
 	1. Currently, a lack of consistency and transparency around payer requirements increases providers’ chances of missing a required authorization or requesting authorization for the wrong procedure at the outset. 
 	1. As **80% of authorization requests require extra work, rework, or manual follow-ups**, getting this first step right can be crucial to expediting the authorization. 
+* p. 6, '12% of total denaisl attributed to bad prior authorizations'.
+* p. 7, Automating Medical Necessity Review. Among benefits, 'get immediate approval or deferred decision within native workflow, **elminating need to call or fax** payer'
+	1. Hospital case managers and patient-access staff can stay within their workflows to conduct medical necessity reviews and submit authorization requests directly through their EMR and care management systems, which will automatically direct the needed information—including the medical review—to the correct payer system. 
+	1. That’s just one piece of the prior authorization puzzle solved (albeit the most challenging). 
+	1. Today, we can automate even more of the process using the now-ubiquitous EHR. 
+	1. **Almost all information needed to process a prior authorization request can be found in the EHR automatically via software.** 
+	1. *If that information can be extracted and applied to criteria without human intervention, the approval determination is further accelerated.* 
+	1. **Once the prior authorization request is entered, nothing more needs to be done until the request is approved or pended.** 
+	1. *And given that many initial pended decisions are due to a lack of information found in the medical record, retrieving data directly from that record will likely increase the number of approvals.*
+	1. That solution is currently live at an expanding number of customer sites. 
+	1. Hospital admissions using these capabilities can automatically populate the medical necessity review and then transmit it to the correct payer. 
+	1. Using transparent, automated reviews that include embedded EHR data can also increase trust with payers.
+
+
+
 
 ***
 
