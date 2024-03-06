@@ -12,6 +12,21 @@ tags: []
 
 ## 3/06/2024
 
+### National Health Expenditure for US (NHE)
+* Source: [Centers for Medicare and Medicaid Services](https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet)
+* NHE grew 4.1% to $4.5 trillion in 2022, or $13,493 per person, and accounted for 17.3% of Gross Domestic Product (GDP).
+* Medicare spending grew 5.9% to $944.3 billion in 2022, or 21 percent of total NHE.
+* Medicaid spending grew 9.6% to $805.7 billion in 2022, or 18 percent of total NHE.
+* Private health insurance spending grew 5.9% to $1,289.8 billion in 2022, or 29 percent of total NHE.
+* Out of pocket spending grew 6.6% to $471.4 billion in 2022, or 11 percent of total NHE.
+* Other Third Party Payers and Programs and Public Health Activity spending declined 10.2% in 2022 to $564.0 billion, or 13 percent of total NHE.
+* **Hospital expenditures grew 2.2% to $1,355.0 billion in 2022**, slower than the 4.5% growth in 2021.
+* Physician and clinical services expenditures grew 2.7% to **$884.9 billion in 2022**, slower growth than the 5.3% in 2021.
+* Prescription drug spending increased 8.4% to **$405.9 billion in 2022**, faster than the 6.8% growth in 2021.
+
+
+
+***
 ### Remington Report
 
 * The truth is although prior authorizations has been an issue among healthcare providers for many years, little is known about the cost, either to individual practices or the healthcare system as a whole. 
