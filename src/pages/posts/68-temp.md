@@ -10,6 +10,40 @@ tags: []
 
 ---
 
+
+3/05/2023
+
+1. **How many patient visits per year?**
+	* From [2023 Commonwealth Fund report](https://www.commonwealthfund.org/publications/issue-briefs/2023/jan/us-health-care-global-perspective-2022), about 4 visits per patients per year as of 2022.
+	* multiplied by 330m people in the US in 2022, 330m * 4 = *1.32 billion patient visits per year.*
+1. **How many prior auth requests?**
+	* From [Wikipedia] there are ~1m doctors in the US. Probably about 990,000. That number fits with 3 doctors per 1000 people, 301 doctors per 100,000 people. 330m * 0.3% = 990k doctors in the US.
+	* combining 990k doctors * 41 prior auths generated per week per physician (from AKASA report) = 40.6m prior auths generated per week.
+	* 40m prior auths requests * 52 weeks = *2 billion prior auth requests per year.*
+	* this means that *there about 1.5 prior auth requests per doctor visit*. 
+1. **what percentage of prior auth requests get denied?**
+	* Unclear. According to [KFF 2021](https://www.kff.org/medicare/issue-brief/over-35-million-prior-authorization-requests-were-submitted-to-medicare-advantage-plans-in-2021/), about 5% of prior auths are denied, but that only samples from Medicare Part B.
+		* If we use the 5% number, that means that 100m denials of prior auth requests per year.
+1. **Cost impact**
+1. **Care impact**
+
+
+### New sources on number of prior authorization requests per year
+* the below sources are not ideal
+	1. This KFF source (aka Kaiser Health News) draws data only from Medicare Advantage in 2021. 
+		* [Headline](https://www.kff.org/medicare/issue-brief/over-35-million-prior-authorization-requests-were-submitted-to-medicare-advantage-plans-in-2021/#:~:text=Just%20over%202%20million%20prior,or%20in%20part%20in%202021): 'Over 35 Million Prior Authorization Requests Were Submitted to Medicare Advantage Plans in 2021' of which 2 million were fully or partially denied.
+		* 2m / 35m =  5% of all prior auths have been denied
+	1. This [JAMA article from 2021](https://jamanetwork.com/journals/jama-health-forum/fullarticle/2780396) only examines Medicare Part B.
+		* 'This cross-sectional study examined medical services paid for by government-administered Medicare Part B, which lacks prior authorization requirements, for approximately **6.5 million beneficiaries**; **2.2 services per beneficiary per year** would have been subject to prior authorization under the coverage rules of a large Medicare Advantage insurer, and these services accounted for 25% of annual Part B spending.'
+
+### AKASA report from May 2023
+* [Link](https://akasa.com/blog/prior-authorization-trends/)
+* According to AKASA research, submitting and checking the status of a prior authorization request takes *12 minutes and 7 seconds**.
+* With **41 prior authorizations per physician per week**, it’s no surprise that 88% of physicians say the burden associated with prior authorizations is “high” or “extremely high.”
+
+
+***
+
 Sources
 
 * 1/24/2024 - ['Advocacy in action: Fixing prior authorization'](https://www.ama-assn.org/practice-management/prior-authorization/advocacy-action-fixing-prior-authorization)
@@ -19,6 +53,11 @@ Sources
 	* Eighty-two percent of group practice executives say prior authorization is very or extremely burdensome, according to the Medical Group Management Association's "Annual Regulatory Burden Report."
 * 2020? [Prior Authorizations: The Saga Continues For Providers](https://remingtonreport.com/intelligence-resources/futurefocus/prior-authorizations-the-saga-continues-for-providers/) data from 2019.
 	* The average number of hours per week for physician spent was 4.6. The average number of hours per week for their staff was 11.6.
+* 2022 AMA report infographic. [Link to PDF](https://www.ama-assn.org/system/files/prior-authorization-survey.pdf). Title: "2022 AMA prior authorization (PA)
+physician survey"
+	* 'For those patients whose treatment requires PA, how often does this process delay access to necessary care?' **94% report delays**.
+	* ' How often do issues related to the PA process lead to patients abandoning their recommended course of treatment?' **80% lead to some abandonment**.
+
 ***
 
 From the AMA report:
