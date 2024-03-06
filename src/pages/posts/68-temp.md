@@ -1,17 +1,32 @@
 ---
 layout: ../../layouts/MdPostDescLayout.astro
-title: 'temp'
+title: 'Notes on Prior Authorization (PA)'
 LastUpdatedDate: 2024-03-05
 CreatedDate: 2024-03-01
-description: 'temp on pre auth'
+description: 'n/a'
 author: 'Jeff'
 tags: []
 
 
 ---
 
+## 3/06/2024
 
-3/05/2023
+### Remington Report
+
+* The truth is although prior authorizations has been an issue among healthcare providers for many years, little is known about the cost, either to individual practices or the healthcare system as a whole. 
+* In 2009, one study estimated that on average, prior authorization requests consumed about **20 hours a week per medical practice**: 
+	1. **1 hour** of the doctor’s time, 
+	1. **~2 hours** of clerical time, 
+	1. **13 hours** of nurses’ time.
+* A study by Health Affairs further revealed that when the time is converted to dollars, practices spent an average of *$68,274 per physician per year interacting with health plans*. 
+* **This equates to $23 billion and $31 billion annually!** 
+* Prior authorization ultimately ends up costing the health care system more than it saves.
+
+
+***
+
+## 3/05/2023
 
 1. **How many patient visits per year?**
 	* From [2023 Commonwealth Fund report](https://www.commonwealthfund.org/publications/issue-briefs/2023/jan/us-health-care-global-perspective-2022), about 4 visits per patients per year as of 2022.
