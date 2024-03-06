@@ -27,6 +27,22 @@ tags: []
 1. **Cost impact**
 1. **Care impact**
 
+### 2022 AMA Survey on PA (Prior Authorization) Infographic #1
+* [Link to infographic PDF](https://www.ama-assn.org/system/files/prior-authorization-survey.pdf)
+* 'For those patients whose treatment requires PA, how often does this process delay access to necessary care?' **94% report delays**.
+* ' How often do issues related to the PA process lead to patients abandoning their recommended course of treatment?' **80% lead to some abandonment**.
+
+### 2022 AMA Survey on PA (Prior Authorization) Infographic #2
+1. [Link to infographic PDF](https://www.ama-assn.org/system/files/prior-authorization-reform-progress-update.pdf)
+1. Increase in number of PA requirements from 2018-2022
+	* For prescription medications, 81% of physicians report that the number of PAs has increased in the last 5 years.
+	* For medical services, 80% of physicians report that the number of PAs has increased in the last 5 years.
+1. 64% and 61% (for prescription medication and medical services, respectively) of physicians report that it is somewhat or extremely difficult to determine whether prescription or med service require PA.
+1. Continuity of patient care. **89% of physicians** report that PA interferes with continuity of care.
+1. Physicians report **phone** as the most commonly used method for completing PAs. 
+	* Moreover, *only 29% of physicians report that their EHR* system offers electronic PA for prescription medications.
+	* *Table of usage* Phone (54%,56%); Fax (47%,45%); EMR/PMS (52%,33%); Plan portal (40%,40%); Email or US Mail (24%,26%). 
+
 
 ### New sources on number of prior authorization requests per year
 * the below sources are not ideal
@@ -57,10 +73,6 @@ Sources
 	* Eighty-two percent of group practice executives say prior authorization is very or extremely burdensome, according to the Medical Group Management Association's "Annual Regulatory Burden Report."
 * 2020? [Prior Authorizations: The Saga Continues For Providers](https://remingtonreport.com/intelligence-resources/futurefocus/prior-authorizations-the-saga-continues-for-providers/) data from 2019.
 	* The average number of hours per week for physician spent was 4.6. The average number of hours per week for their staff was 11.6.
-* 2022 AMA report infographic. [Link to PDF](https://www.ama-assn.org/system/files/prior-authorization-survey.pdf). Title: "2022 AMA prior authorization (PA)
-physician survey"
-	* 'For those patients whose treatment requires PA, how often does this process delay access to necessary care?' **94% report delays**.
-	* ' How often do issues related to the PA process lead to patients abandoning their recommended course of treatment?' **80% lead to some abandonment**.
 
 ***
 
