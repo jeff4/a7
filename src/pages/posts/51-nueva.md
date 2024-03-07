@@ -13,7 +13,7 @@ tags: []
 
 ***
 
-* Link to [temp file](/posts/68-temp/). See /cdi for archived version.
+* Link to [PA notes](/posts/68-temp/) and [deck notes](/posts/67-pitch/)
 
 
 ***
