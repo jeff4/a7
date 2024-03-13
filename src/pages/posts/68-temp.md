@@ -10,6 +10,13 @@ tags: []
 
 ---
 
+
+***
+## 3/13/2024
+* Article on pain of PA suggested by Chloe preoius week 3/07
+* See [this AMA article](https://www.ama-assn.org/practice-management/prior-authorization/what-doctors-wish-patients-knew-about-prior-authorization) from Christin on pains of PA with Dr. Resneck
+
+
 ***
 ## 3/06/2024
 
