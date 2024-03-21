@@ -72,13 +72,28 @@ tags: []
 * 3:31
 	* Photos of PA denials.
 	* Screen goes to black with just white text: Your request was denied.
-* 3:35
+* 3:35 - 4:29
 	* When you PA is denied, you have three options
 1. **Pay out of pocket.** v-o: But healthcare is so ridiculously expensive, that that's not really realistic.
 1. **Abandon Treatment.** v-o: You can give up. That's what happens up to 80% of the time. A *win* for your insurance company.
 1. **Appeal.** v-o: Or your doctor can go to bat for you. (3:54) 
-	* Pediatrician: When our PAs get denied, we have to do what's called a peer-to-peer
-* Finished up to 3:59
+	* Pediatrician: When our PAs get denied, we have to do what's called a peer-to-peer. 
+	* Dr. Jain: A p2p is supposed to be a phone call where you call somebody [at the insurance company] to justify the care you want to deliver.
+	* Ped: I'm a pediatrician and sometimes I'll end up talking to a neurologist
+	* Dr. Jain: People who couldn't pronounce the names of the drugs I was trying to prescribe.
+	* Ped: Oftentimes, it's not even a physician. 
+	* Dr. Jain: Now imagine you need to do that 5-10 times a day.
+	* Other doc: What's even more ridiculous about this whole process is that after we go through all of this is that after we go through all this--if you're really a determined provider, you'll probably get your drug or your procedure authorized.
+* 4:30
+	* v-o: Insurance companies say that this process helps reduce the cost of expensive treatments
+
+
+
+
+
+
+
+
 
 
 ***

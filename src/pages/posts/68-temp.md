@@ -1,14 +1,16 @@
 ---
 layout: ../../layouts/MdPostDescLayout.astro
 title: 'Notes on Prior Authorization (PA)'
-LastUpdatedDate: 2024-03-05
+LastUpdatedDate: 2024-04-05
 CreatedDate: 2024-03-01
-description: 'n/a'
+description: 'main log'
 author: 'Jeff'
 tags: []
 
 
 ---
+* [Link to video / deck notes](/posts/67-pitch/)
+
 ## 3/19/2024
 ### Links from Christin
 1. Physician specialties varied widely in rates of services that required prior authorization, with highest rates among radiation oncologists (97%), cardiologists (93%), and radiologists (91%) and lowest rates among pathologists (2%) and psychiatrists (4%).
