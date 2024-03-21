@@ -108,9 +108,17 @@ tags: []
 	* v-o: In many countries, these tough ethical decisions about what is covered is made by governments, not for-profit insurance companies
 * 7:26
 	* v-o: The government should abolish PA or at the very least, reform it.
-
-
-
+	* Image of Republican Senator Curt VanderWall. Sen VW: My goal with Senate Bill No. 247 is to reform the PA process
+* 7:38 - 7:56: Gold Carding
+	* Texas House Bill 3459 image. PA streamlining process known as 'gold carding'.
+	* v-o: A handful of states have created gold card programs: Arkansas, Louisana, Michigan, Texas, West Virgina. Pilot program in Vermont.
+	* In other words, doctors who have previously successfully obtained PA approvals are exempt from needing them again.
+	* All states and the Federal Gov't should pass laws like these.
+* 7:57
+	* v-o: Your insurance should not be a barrier between you and the health care you need.
+* 8:05 - 8:30
+	* Ocean: I finally got the PA to see the neuro-ophthalmologist after 12 weeks. And he said, 'We're going to do this surgery but it's only to preserve the vision that you have left. If we had seen you earlier, that would have been a different story'
+	* Ocean: Maybe I'd be able to see now. Maybe I'd have a different life. 
 
 
 ***
