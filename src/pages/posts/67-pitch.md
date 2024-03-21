@@ -84,13 +84,30 @@ tags: []
 	* Ped: Oftentimes, it's not even a physician. 
 	* Dr. Jain: Now imagine you need to do that 5-10 times a day.
 	* Other doc: What's even more ridiculous about this whole process is that after we go through all of this is that after we go through all this--if you're really a determined provider, you'll probably get your drug or your procedure authorized.
-* 4:30
-	* v-o: Insurance companies say that this process helps reduce the cost of expensive treatments
-
-
-
-
-
+* 4:30 - 4:57
+	* Gastroerontologist, Dr. Jessica Korman: Insurance companies say that this process helps reduce the cost of expensive treatments, ensure member safety, and lower the total cost of care. But what it's actually doing is creating a lot of expensive bureacracy. 
+	* Dr. JKorman: We have 4 full-time employees who their sole focus is on obtaining PAs for medications to treat Crohn's disease and ulcerative colitis...and that's just for *one* disease state!
+* 4:58 - 5:19
+	* v-o: By one estimate, the US spends about $35B a year on the administrative costs of PA. 
+		* Source: 'Active Steps to Reduce Administrative Spending Associated with Financial Transactions in US Health Care.'
+	* Dr. JKorman: These resources could be devoted to patient care, answering phones in a timely fashion. I might actually get to go home and see my family on a regular basis.
+* 5:20 - 5:37
+	* v-o: In an admission of sorts, some companies have actually pledged to reduce prior authorizations. But those efforts only scratch the surface.
+	* Dr. JKorman: I am a board-certified Gastroenterologist. I know what I'm doing, only being blockaded by all of this bureaucracy, red tape, which really only serves to enrich the insurance companies.
+* 5:38 - 5:51 Insurance Co profits in 2023
+	* Cigna - $5.2B; Elevance - $6B; United Healthcare made $22B
+* 5:52 - 6:23
+	* Dr. Jain: I had a patient who had a new diagnosis of lymphoma and the insurance company was giving me a hard time to give me chemotherapy. I got someone on the phone and I told the person, I said, 'I need your name. B/c when this young man dies, I want to tell his parents who was the reason behind it.'
+	* Dr. Jain: I went home and cried after I hung up the phone because I was so emotionally exhausted. **And that was just *one* patient.**
+	* Dr. J: I had seen **25 other patients** that day. And many of them would eventually need PAs as well.
+* 6:24
+	* v-o: PA gives your insurance company more power than your doctor. 
+	* v-o: Now, there are some complicated cases when it makes sense to double check that your doctor isn't unnecessarily overprescribing. Imagine you've had a cancerous tumor removed. To be extra safe, your doctor recommends an additional treatment but it costs $170k, 
+	* Sara: On the one hand, i can see where insurance companies are coming from with wanting to take a careful look at these expensive treatments. On the other hand, I'm a human and I'm a young mom. What's my life worth?
+	* v-o: Sara's insurance denied the treatment. The question is, do you think they made that decision based on what was her best interest, or theirs [payer's best interest]?
+	* v-o: In many countries, these tough ethical decisions about what is covered is made by governments, not for-profit insurance companies
+* 7:26
+	* v-o: The government should abolish PA or at the very least, reform it.
 
 
 

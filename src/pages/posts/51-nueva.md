@@ -13,11 +13,6 @@ tags: []
 
 ***
 
-* Link to [PA notes](/posts/68-temp/) and [deck notes](/posts/67-pitch/)
-
-
-***
-
 ### Timeline -- mostly by JH with some adaptation from hacker noon
 * See [main ai timeline page](/posts/65-ai-timeline/) 
 * See also [general timeline](/posts/66-tech-timeline/) for more milestones in tech history.
