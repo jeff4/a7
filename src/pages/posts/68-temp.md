@@ -39,6 +39,39 @@ tags: []
 	* from their site: 'A better way to prior-authorize. Itiliti Health’s best-in-class technology leverages AI and automation to accelerate communication between payers and providers, creating a touchless prior authorization solution that applies the right medical policies while helping to automate prior authorizations quickly, securely and cost-effectively.'
 
 
+## 3/24/2024
+* Podcasts with Athena / Devoted Health founders
+* Ed Park and Todd Park co-interviewed in late 2023 at a16z Las Vegas LP summit. [Link](https://a16z.simplecast.com/episodes/devoting-your-life-to-reinventing-a-broken-system-cftMcIms)
+	* **Date aired:** March 25, 2024
+	* **Title:** Devoting Your Life to Reinventing a Broken SystemO
+	* **Summary:** In this episode, a16z General Partner Vijay Pande chats with Ed and Todd Park, the visionary siblings behind Devoted Health. Their mission? To overhaul a healthcare system they describe as critically essential yet deeply flawed. The Park brothers delve into the genesis of their ambition to construct a healthcare system from scratch, underscoring the sector's urgent need for technological innovation and the game-changing role of AI. Kicking off with an American dream story, this episode is a must-listen for anyone interested in how technology can reshape healthcare for the better.
+	* 12:45 - After 25 years of learning the hard way, we've realized that the way to do this is to build a complete alternative universe healthcare-system-as-a-service in order to hyperscaale that set of results everywhere.
+	* 13:00 - People call us a tech-enabled virtual Kaiser Permanente, or a 'tech-enabled pay-vider' aka portmanteau of payer and provider. We call it an all-in-one healthcare solution. 
+	* 13:20 - We built from scratch five ingredients: 
+		1. Built an entire insurance company.
+		1. Navigator service. Health-enabled concierge service called HealthGuide. 'I don't care how smart you are; you can't navigate through the complex system'
+		1. Partner with great local doctors and hospitals. For a whole bunch of historical reasons, overfitted on emergency reactive service. Not for preventive care 
+		1. Full-scale in-house medical group. The first truly great virtual care for seniors. 95% is delivered telemedically
+		1. Key to entire thing. Software called Orinoco. Ultra-modern... the first end-to-end software that can run both payer and provider operations. From thousands of sources, gets the right care at the right time.
+	* Coordinates all these complex pieces 'stitch in time to save nine'.
+	* We feel like we've split the atom. 
+	* NPS of 77. Higher than Apple, Starbucks. Way higher than legacy healthcare systems.
+	* 5 star clinical outcomes, that our own clinicians can't believe
+	* Cuts the cost of medicare (and primary and preventative care)
+	* Fastest growing health insurance provider in America.
+	* Started in 8 counties in FL with 2300 members in 2019. Now serve 140,000 members in 13 states.
+	* 17:45 Medicare Advantage market. Outsourced private medical care for seniors. $425B market, growing to $1T by 2035.
+		* We're starting with seniors, but aim is to do it serve everyone.
+		* Getting calls from other countries. No one else can build Orinoco.
+	* 19:00 Double click on why Ed Park is the one of the best engineers on the planet and no software person understands the healthcare system the way he does.
+		* Ed was the First developer for Orinoco. 
+		* Todd in 8th grade said I'm going to be the best big brother I can.
+* [Michael Lewis 2022 interview](https://overcast.fm/+5Jd4rkhMI) with Todd Park and Bob Gatewood.
+	* **Date Aired:** April 5, 2022
+	* 'Season 3, Episode 1: Six Levels Down'
+
+***
+
 ## 3/19/2024
 ### Links from Christin
 1. Physician specialties varied widely in rates of services that required prior authorization, with highest rates among radiation oncologists (97%), cardiologists (93%), and radiologists (91%) and lowest rates among pathologists (2%) and psychiatrists (4%).
