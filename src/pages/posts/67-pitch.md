@@ -2,7 +2,7 @@
 
 layout: ../../layouts/MdPostDescLayout.astro
 title: 'Notes on deck and video'
-LastUpdatedDate: 2024-03-16
+LastUpdatedDate: 2024-04-16
 CreatedDate: 2024-03-06
 description: 'n/a'
 author: 'Jeff'
@@ -10,6 +10,14 @@ tags: []
 
 
 ---
+## Consolidated statistics
+
+### Jeff's estimates
+* 2 billion PA requests a year, calculated from number of physician visits
+* Total US NHE in 2022 is $4.5 T. [Source: CMS](https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet)
+	* $1.3T is the part of the NHE that JH thinks might be subject to PA. Sum of two items: $885B (Physician and lcinical services) + $405B (prescription drug spending)
+
+
 
 
 ## 3/19/2024
