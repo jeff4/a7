@@ -59,7 +59,39 @@ tags: []
 #### Next
 1. Until now, need to buy 2 different PA products: one for prescriptions, another for procedures.
 1. This has to do with incompatible electronic transmission standards, which are used to digitize information, said Susan Lawson-Dawson, content marketing strategist for the vendor Myndshft Health.
+Myndshft has long been selling automation software for medical prior authorizations, but now it is introducing a product for prescriptions, Lawson-Dawson said. She said Myndshft will then be the only vendor to automate both kinds of prior authorizations. 
+1. Lawson-Dawson said Myndshft has 685 customers to date and is looking for more business. 
+1. Recently the company entered the Google Cloud Marketplace. 
+1. Google Cloud customers can now direct their committed spend with Google to purchasing Myndshft, meaning they could get it at a discount. 
+1. Software like Olive and Myndshft can operate independently of payers, but a vendor called Rhyme depends on payers for its software to function, said Rhyme CEO Joe Anstine. 
+1. He said more than 300 payers have agreed to install the Rhyme system, and Rhyme has signed up a number of large health systems to use the product. 
+1. Initially, he said, clinicians paid for the service, but now Rhyme is beginning to find payers to foot the costs and to let clinicians use it for free, which would open Rhyme up to smaller practices. 
+1. EHR companies themselves are beginning to offer automation, too. 
+1. Epic, for example, has created a tool for prior authorization as part of its Epic Payer Platform. 
+1. Like Rhyme, it requires payer cooperation, because information goes back and forth between clinician and payer in what is called bi-directional exchange. 
+1. The Epic product is still in its pilot phase. 
+1. Epic reported that several large health systems were using its product in conjunction with a specific payer — for instance, Mayo Clinic with Blue Cross and Blue Shield of Minnesota and Ochsner Health with Humana. 
+1. According to Epic, the arrangement reduced Mayo's denials due to additional documentation requests by 63% for professional billing. 
+1. Automating with just one payer still means the clinician has to deal with manual processes at other payers. 
+1. But a large clinician could have sufficient volume with that one payer to make the arrangement useful.
 
+### Payers and PA
+1. Ultimately, *payers may take the automation business away from vendors, offering a free product to all clinicians.*
+1. **But don't hold your breath.** Payers first have to rebuild their electronic systems to accommodate an electronic connection with providers. Even then, some payers might hold back from automating, forcing practices to continue manually processing some prior authorizations.
+1. Efforts are underway, however, to mandate payers to support prior authorization automation. For this to happen, payers would have to revamp their data so that it could be easily read by practices' EHRs. This would mean adopting a specific interoperability standard called Health Level 7 Fast Healthcare Interoperability Resources (FHIR). Toward this goal, the Centers for Medicare & Medicaid Services proposes to require payers to adopt FHIR by January 2026. (CMS still has to finalize the rule.) Experts say the two-year ramp-up time is needed because it takes extensive work for payers to translate their data into FHIR.
+#### Regence Payer + MultiCare CC Provider
+1. The only payer to switch so far is Regence in WA state, which has a pilot with just one provider, an ACO (accontable care organization) called MultiCare Connected Care.
+	* Anna Taylor, VP at MultiCare CC, said these doctors have been "enthusiastic" about the arrangement.
+1. The results of the pilot are impressive. 
+1. Taylor said **automation has resulted in a 233% productivity gain for MultiCare clinicians, and 89% of submissions to Regence get an immediate response.**
+1. There is a **potential downside**, however, to working directly with payers. 
+1. *A direct connection to clinicians allows payers to access the doctor's clinical notes, which could make many doctors uneasy.*
+1. Taylor said two of the 27 other payers that MultiCare works with are "highly interested," but **it would take a lot of work for them to get connected with practices and other clinicians.** 
+1. Ultimately, payers could offer automation and third-party vendors might then fade away. 
+1. However, physicians may resist working directly with payers if the arrangement requires full access to their medical records.
+
+
+#### List of PA vendors 3/27 from link in Medscape article
 1. [List of vendors from PA G2](https://www.g2.com/categories/prior-authorization) (pulled on 3/27/2024):
 	1. Valer
 	1. RXNT
