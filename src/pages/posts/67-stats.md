@@ -11,6 +11,8 @@ tags: []
 
 ---
 * [Main PA page](/posts/68-temp/)
+* [Competitors](/posts/69-competitors/)
+
 ## Consolidated statistics
 * Jeff's estimates
 	* 2 billion PA requests a year, calculated from number of physician visits

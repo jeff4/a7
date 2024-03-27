@@ -3,13 +3,14 @@ layout: ../../layouts/MdPostDescLayout.astro
 title: 'Notes on Prior Authorization (PA)'
 LastUpdatedDate: 2024-04-05
 CreatedDate: 2024-03-01
-description: 'main log'
+description: 'Main PA page'
 author: 'Jeff'
 tags: []
 
 
 ---
 * [Link to consolidated stats, video notes, etc.](/posts/67-stats/)
+* [Link to competition](/posts/69-competitors/)
 
 ## 3/26/2024
 ### Notes on Medscape article
@@ -91,39 +92,6 @@ Myndshft has long been selling automation software for medical prior authorizati
 1. However, physicians may resist working directly with payers if the arrangement requires full access to their medical records.
 
 
-#### List of PA vendors 3/27 from link in Medscape article
-1. [List of vendors from PA G2](https://www.g2.com/categories/prior-authorization) (pulled on 3/27/2024):
-	1. Valer
-	1. RXNT
-	1. Myndshft
-	1. CoverMyMeds Platform
-	1. EHR 24/7 by Office Ally
-	1. Waystar
-	1. AccuReg
-	1. Authorization Manager
-	1. Azalea Health
-	1. Basys.ai
-	1. Change Healthcare Prior Authorization
-	1. Cohere PaaS Intelligent Prior Authorization
-	1. DART Chart
-	1. Electronic Prior Authorization
-	1. Exchange EDI Authorization
-	1. Experian Prior Authorization
-	1. Glidian
-	1. Infinitus
-	1. INFINX Prior Authorization
-	1. intelliPath ePA
-	1. MediFusion
-	1. Olive
-	1. PAHub (Agadia?)
-	1. Patient Advisor EPA+
-	1. Practice Mate and Service Center products by Office Ally
-	1. Quality Care Products
-	1. Rhyme
-	1. Samacare
-	1. Surescripts Prior Authorization
-	1. XIFIN Prior Authorization
-
 ### other notes on olive software
 * Interesting divestment of AI-enabled utilization mgt article from [April 2023](https://www.fiercehealthcare.com/health-tech/availity-picks-olive-ais-prior-authorization-business-automation-startup-sheds-business). Sold it to Availity
 	* Olive pulled in a $400m round from Vista Equity Partners at a $4b valuation
@@ -145,26 +113,6 @@ Myndshft has long been selling automation software for medical prior authorizati
 * [Axios article](https://www.axios.com/2024/01/18/health-insurance-prior-authorization-doctors) on rule change from Jan 2024. 'New limits on PA hailed as good first step'.
 * [Axios article](https://www.axios.com/2023/01/27/states-target-doctor-authorization) on 'States jumping into PA fight' from **January 2023**
 * [Medscape article](https://www.medscape.com/viewarticle/997446?form=fpf) on vendors, providers, and payers trying to automate PA. Reference to Rhyme / PriorAuthNow 
-
-### Notes from Justin on Wed 3/20/2024
-* Roland's new company [HealthHelp](https://www.healthhelp.com/benefits-management-offerings/)
-* Sequoia-funded company **Co:Helm**, the co-pilot for healthcare. See [post announcing their funding](https://www.sequoiacap.com/article/partnering-with-cohelm-the-co-pilot-for-health-care/). Abdel Mahmoud and Zahid Mahmoud are cofounders.
-* **Basys.ai** [Smart Prior Auth and Utilization Mgt](https://www.basys.ai)
-	* [TC article](https://techcrunch.com/2023/08/10/basys-ai-2-4m-prior-authorization-mayo-clinic-healthcare/): 'Basys.ai grabs $2.4M for its prior authorization tech powered by Mayo Clinic’s data'. from August 2023.i
-		* 'And the administrative costs associated account for between 20% and 34% of U.S. healthcare expenditures.'
-		* Basys combines generative AI and deep learning to power its “engine,” which can automate up to 90% of the prior authorization requests for drugs and procedures at high accuracy, Nigam told TechCrunch. The platform also doesn’t require sensitive data from insurance companies or doctors, thus reducing the typical integration time from up to a year down to weeks.
-		* “The engine is trained on extensive Joslin Diabetes Center and Mayo Clinic’s longitudinal data of more than 10 million patients,” Nigam said. “This translates to flattening the cost curve for patients and reducing administrative burden by leveraging AI.”
-		* In addition, by automating the encoding of payer policies, Basys can more quickly plot timelines with health plans at a rate of up to nine months faster than most of its competitors, of which Nigam said included companies like Cohere Health.
-		* The company makes its commercial launch today, buoyed by $2.4 million pre-seed funding. Nina Capital led the round and was joined by a group of investors, including Eli Lilly (Lilly Ventures), Mayo Clinic, Two Lanterns Venture Partners, Asset Management Ventures and Chaac Ventures.
-		* Basys initially began selling to providers and had been bringing in revenue, but has since pivoted its business model to selling to health insurance companies. It is now initiating pilots with two large payers in Massachusetts and Minnesota, Nigam said.
-		* The company is also working on capturing patient outcomes through reducing readmission rates and determining if the progression of the patient’s disease has stopped or slowed down.
-		* “We also make sure we have a lot of information about the patients,” Nigam said. “Sometimes when you make decisions, it is not entirely based on one or two attributes; it’s based on hundreds or thousands of attributes along with the understanding of the insurance company’s policies. Once you match these policies with the patient information, then resolving a prior authorization request is more nuanced.”
-* [Cohere Health](https://coherehealth.com)
-	* Cohere Health, which leverages artificial intelligence to streamline prior authorization for health plans and risk-bearing providers, raised 550 million to meet growing demand. The company grew from less than 10 employees in 2020 to more than 700 employees today, now serving five health plans, processing 5.5 million prior authorizations annually for more than 15 million health plan members and 420,000 healthcare providers nationally. (PR Newswire)
-* [Rhyme](https://www.getrhyme.com) is rebrand of early company PriorAuthNow
-* **Itilit Health** * Itiliti Health, a 2.5-year-old, Eden Prairie, Mn.-based healthcare-focused whose software helps manage prior authorizations for payers, has raised $2 million in funding co-led by Bread and Butter Ventures and Altitude Ventures. Other backers in the round include M25, SpringTime VC, and Groove Capital. 
-	* website: https://itilitihealth.com
-	* from their site: 'A better way to prior-authorize. Itiliti Health’s best-in-class technology leverages AI and automation to accelerate communication between payers and providers, creating a touchless prior authorization solution that applies the right medical policies while helping to automate prior authorizations quickly, securely and cost-effectively.'
 
 ***
 
@@ -260,9 +208,6 @@ Myndshft has long been selling automation software for medical prior authorizati
 	1. Hospital admissions using these capabilities can automatically populate the medical necessity review and then transmit it to the correct payer. 
 	1. Using transparent, automated reviews that include embedded EHR data can also increase trust with payers.
 
-
-
-
 ***
 
 ### National Health Expenditure for US (NHE)
@@ -280,7 +225,6 @@ Myndshft has long been selling automation software for medical prior authorizati
 
 ***
 ### Remington Report
-
 * The truth is although prior authorizations has been an issue among healthcare providers for many years, little is known about the cost, either to individual practices or the healthcare system as a whole. 
 * In 2009, one study estimated that on average, prior authorization requests consumed about **20 hours a week per medical practice**: 
 	1. **1 hour** of the doctor’s time, 
@@ -304,10 +248,6 @@ Myndshft has long been selling automation software for medical prior authorizati
 * Funding by Altarum Institute Center for Sustainable Health Spending
 * The National Institute for Health Care Reform is a 501(c)(3) nonprofit, nonpartisan organization established by the International Union, UAW; Chrysler Group LLC; Ford Motor Company; and General Motors to conduct health policy research and analysis to improve the organization, financing and delivery of health care in the United States.
 * From 2009 through 2013, the Institute contracted with the Center for Studying Health System Change (HSC) to conduct health policy research and policy analyses under the direction of HSC President Paul B. Ginsburg, PhD. Beginning in 2014, NIHCR has funded Altarum Institute’s Center for Sustainable Health Spending (CSHS), the Detroit Community-Academic Urban Research Center (Detroit URC), and the Urban Institute to conduct research and policy analyses with an emphasis on research to improve health in Detroit.
-
-
-
-
 
 
 ***
