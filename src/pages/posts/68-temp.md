@@ -9,13 +9,33 @@ tags: []
 
 
 ---
-* [Link to video / deck notes](/posts/67-pitch/)
+* [Link to video / deck notes](/posts/67-stats/)
 
 ## 3/26/2024
 ### Notes on Medscape article
 * Date published: October 17, 2023
 * About New England Baptist Hospital (NEBH) in Boston
 * 100 orthopedic surgeons on staff
+* NEBH has been using software for about 5 years (since 2018?). 
+	* Software has reduced write-offs by 30%, staff cosgs by 25%.
+	* PA requests used to take 11 days; now take 3 days.
+	* 'This software not only saves staff time, but it can also more accurately predict when prior authorization is needed,' said director of patient access Lidiya Hadzhieva
+* So far, the software is mainly used at large organizations like hospital systems. **But as word gets out and the software becomes easier to use, private practices and other smaller entities may join the automation trend.**
+* Usual AMA report stats: 16 hours per week on PA; 60% of doctors say it's hard to know when PA is needed; 93% of doctors reported care delays.
+* Experts estimate that 80% of PA work can be automated, but most practices still use phone/fax even as PA burden continues to increase
+* Automation software connects directly to the EHR (electronic health record) of each practice. 'When the doctor places an order in the EHR, the process starts automatically,' Hadzhieva said. 'The doctor may not even notice it.'
+	* although this automatic connection can be used, a lot of the software products also allow access via fax, phone, and the web portal of the payer.
+* Manually keeping track of payer rules is very time-consuming, but automation uses bots to visit each payer site to look for rules changes. 
+* **One vender, Infinitus, uses a voice-based bot called Eva that calls up each payer and speaks with a representative.**
+
+### Olive software
+* Interesting divestment of AI-enabled utilization mgt article from [April 2023](https://www.fiercehealthcare.com/health-tech/availity-picks-olive-ais-prior-authorization-business-automation-startup-sheds-business). Sold it to Availity
+	* Olive pulled in a $400m round from Vista Equity Partners at a $4b valuation
+	* Olive has a raised a total of $902m since company founded in 2012.
+	* Olive had aquired PA AI vendor Verata Health.
+* CEO Sean Lane said at the time that Olive was experiencing many of the same headwinds as other organizations—including shifts in the industry landscape, evolving customer expectations and challenging market conditions—but also acknowledged the company needs to "reconcile missteps" that were made, he wrote.
+* The company's market research indicates that **payers and providers collectively spend up to $13 billion every year managing an administrative process widely blamed for care delays, patient dissatisfaction, staff burnout and friction between payers and providers, executives said in a press release. To date, automation of authorizations has been difficult because they require both administrative and clinical data, which are often stored in siloed information systems and in non-standardized formats that require manual intervention to bring together. Availity’s AI auth solution leverages automation capabilities and natural language processing (NLP) to streamline authorizations workflow. The tech can import and structure payers’ medical policies to automatically approve authorizations based on the codified medical policies and front-end capabilities enable providers to simplify authorizations workflow, according to the company. The use of automation and NLP also helps automate and standardize clinical data collection, eliminating the multiple steps and handoffs in a manual workflow, and can reduce authorization approval time from days to seconds, executives said.
+
 
 
 

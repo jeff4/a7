@@ -20,14 +20,30 @@ tags: []
 	1. Dr. Shikha Jain, oncologist at 1:30: PA impacts every insured person in this country. According to CMS, that's about 92% of the US population, aka 300m Americans.
 	1. Dr. Jessica Korman, Gastroerontologist: When prescribing meds, 95% of the time, i need to go through PA (around 1:55)
 	1. After a PA is denied, there may be appeal or pay out of pocket (OOP), but **80% of the time**, treatment is simply abandoned. (3:40)
-	1. Might ahve peer to peers as much as 5-10 times a day
+	1. Might have peer to peers as much as 5-10 times a day
 	1. For Dr. JKorman's practice, they have 4 fulltime employees whose sole focus is obtaining PAs for medications. (4:45)
 	1. (4:58) **USA spends bout $35B a year on administrative costs of PA.**
+		* Note that [this Fierce Health article on Olive](https://www.fiercehealthcare.com/health-tech/availity-picks-olive-ais-prior-authorization-business-automation-startup-sheds-business) says Olive company research indicates that $13B a year is spent managing PA. See temp page for more on that article and relevant quote
 * Axios article on US states increasing regulatory scrutiny on PA from Jan 27, 2023
 	* Refers to [Crowe research Nov 2022 article](https://www.crowe.com/-/media/crowe/llp/widen-media-files-folder/h/hospital-double-whammy-less-cash-in-more-cash-out-chc2305-001b.pdf) saying that **dollar value of insurer coverage denials increased by 67% between January 2021 to August 2022**.
 * Medscape article
-	
+	1. AMA stats -- See infographic sections below
+		* 16 hours per week on PA; 60% of doctors say it's hard to know when PA is needed; 93% of doctors reported care delays.
+	1. Experts estimate that 80% of PA work can be automated, but most practices still use phone/fax even as PA burden continues to increase
 
+
+### 2022 AMA Survey on PA (Prior Authorization) Infographic #1
+* [Link to infographic PDF](https://www.ama-assn.org/system/files/prior-authorization-survey.pdf)
+* 'For those patients whose treatment requires PA, how often does this process delay access to necessary care?' **94% report delays**.
+* ' How often do issues related to the PA process lead to patients abandoning their recommended course of treatment?' **80% lead to some abandonment**.
+
+### 2022 AMA Survey on PA (Prior Authorization) Infographic #2
+1. [Link to infographic PDF](https://www.ama-assn.org/system/files/prior-authorization-reform-progress-update.pdf)
+1. 64% and 61% (for prescription medication and medical services, respectively) of physicians report that it is somewhat or extremely difficult to determine whether prescription or med service require PA.
+1. Continuity of patient care. **89% of physicians** report that PA interferes with continuity of care.
+1. Physicians report **phone** as the most commonly used method for completing PAs. 
+	* Moreover, *only 29% of physicians report that their EHR* system offers electronic PA for prescription medications.
+	* *Table of usage* Phone (54%,56%); Fax (47%,45%); EMR/PMS (52%,33%); Plan portal (40%,40%); Email or US Mail (24%,26%). 
 
 ## 3/19/2024
 * Gift link to [NYT video](https://www.nytimes.com/2024/03/14/opinion/health-insurance-prior-authorization.html?unlocked_article_code=1.c00.sJL6.W6MlRzmi_cXu&smid=url-share)
