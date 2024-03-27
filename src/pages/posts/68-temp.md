@@ -9,7 +9,7 @@ tags: []
 
 
 ---
-* [Link to video / deck notes](/posts/67-stats/)
+* [Link to consolidated stats, video notes, etc.](/posts/67-stats/)
 
 ## 3/26/2024
 ### Notes on Medscape article
@@ -27,8 +27,72 @@ tags: []
 	* although this automatic connection can be used, a lot of the software products also allow access via fax, phone, and the web portal of the payer.
 * Manually keeping track of payer rules is very time-consuming, but automation uses bots to visit each payer site to look for rules changes. 
 * **One vender, Infinitus, uses a voice-based bot called Eva that calls up each payer and speaks with a representative.**
+#### section of medscape article on Olive Software
+1. "Automatically updating payer rules is not a new technology," said YiDing Yu, MD, chief product officer at Olive, the automation vendor for New England Baptist. 
+1. "What is new in the last 5 years is extracting the information needed for the prior authorization out of the clinical notes."
+1. This is challenging because each doctor has different ways to describe each step of clinical work. 
+1. To identify this shorthand, **Yu said Olive uses NLP**.
+1. Yu asserts that Olive is actually better than a practice's staff at digging out clinical information. 
+1. **She said staff without much clinical training may miss terms that the software can catch, and they don't have the time to go back many months into the record to find valuable information.** But automation can do that.
+1. At NEBH, *the software is used mainly by physicians in fairly small private practices who are on staff.* 
+#### Cost, pricing, and GTM for software
+1. **They are using the software on the hospital's dime, but it only works inside the hospital, Hadzhieva said.**
+1. For their work outside of the hospital, they would have to purchase the Olive software on their own, she said.
+1. Despite the promising outcomes for products like Olive, *automation software is still primarily used by large organizations.* 
+1. Vendors say very few private practices have bought it yet. 
+1. "The technology works, but it is still in the early-adopter phase," Yu said. 
+1. For one thing, the software can be expensive. Very few venders reveal their prices, but Yu did so. 
+1. She said **Olive normally costs about $50,000 a year for even a small organization.** She insisted, however, that the savings from avoiding just one denial each month for a hip surgery would justify the expense.
+#### comparison between SureScripts and Olive
+1. Surescripts and Olive have entirely separate functions. 
+1. Yu said **Olive is limited to procedures** [aka does not cover prescriptions], 
+1. so it benefits specialties like oncology, neurosurgery, colorectal surgery, vascular surgery, and cardiology. Olive does not cover prescriptions, because they operate on a different technology.
+#### Other hurdles
+1. Yu said another hurdle for adopting the software is the kind of EHR systems that doctors use. At this point, only a few EHR systems — such as Epic, Cerner, and Athena — are compatible with Olive. Large organizations tend to use Epic and Cerner, while many practices often use Athena or a variety of other systems, she said. Despite stunted demand, there is no shortage of companies offering automation software for medical (ie, non-prescription) prior authorization. One compilation lists 25 such vendors, including companies like Myndshft, Rhyme, Infinitus, Infinx, and Waystar. As with any start-up technology, companies occasionally buy out each other.
+1.  In addition to issues like cost, specialty, and EHR compatibility, another hurdle is that few doctors even know the technology exists. Vendors say marketing focuses on larger provider organizations, not smaller practices. 
+1. Even many tech-savvy doctors, like Adam Bruggeman, MD, an orthopedist and CEO of Texas Spine Care Center in San Antonio, say they know little about the technology. 
+1. **"There is definitely a need to automate prior authorization," he said. "But I don't know of any colleagues who use it." He has only just begun to explore vendors, he said.**
+1. *Many medical practice consultants also have not yet explored the technology.*
+1. "Automation makes a lot of sense, because there are a lot of repetitive tasks in prior authorization," said Jill Arena, CEO of Portland, Oregon-based Health e Practices. 
+1. "But I haven't looked into it yet and **none of my clients has even asked about it.**" "I could see how it could be an easier sell for large organizations," she added. "They have an IT person and a CFO who can explore the issue. Smaller practices usually don't have that kind of expertise."
 
-### Olive software
+#### Next
+1. Until now, need to buy 2 different PA products: one for prescriptions, another for procedures.
+1. This has to do with incompatible electronic transmission standards, which are used to digitize information, said Susan Lawson-Dawson, content marketing strategist for the vendor Myndshft Health.
+
+1. [List of vendors from PA G2](https://www.g2.com/categories/prior-authorization) (pulled on 3/27/2024):
+	1. Valer
+	1. RXNT
+	1. Myndshft
+	1. CoverMyMeds Platform
+	1. EHR 24/7 by Office Ally
+	1. Waystar
+	1. AccuReg
+	1. Authorization Manager
+	1. Azalea Health
+	1. Basys.ai
+	1. Change Healthcare Prior Authorization
+	1. Cohere PaaS Intelligent Prior Authorization
+	1. DART Chart
+	1. Electronic Prior Authorization
+	1. Exchange EDI Authorization
+	1. Experian Prior Authorization
+	1. Glidian
+	1. Infinitus
+	1. INFINX Prior Authorization
+	1. intelliPath ePA
+	1. MediFusion
+	1. Olive
+	1. PAHub (Agadia?)
+	1. Patient Advisor EPA+
+	1. Practice Mate and Service Center products by Office Ally
+	1. Quality Care Products
+	1. Rhyme
+	1. Samacare
+	1. Surescripts Prior Authorization
+	1. XIFIN Prior Authorization
+
+### other notes on olive software
 * Interesting divestment of AI-enabled utilization mgt article from [April 2023](https://www.fiercehealthcare.com/health-tech/availity-picks-olive-ais-prior-authorization-business-automation-startup-sheds-business). Sold it to Availity
 	* Olive pulled in a $400m round from Vista Equity Partners at a $4b valuation
 	* Olive has a raised a total of $902m since company founded in 2012.
@@ -36,7 +100,10 @@ tags: []
 * CEO Sean Lane said at the time that Olive was experiencing many of the same headwinds as other organizations—including shifts in the industry landscape, evolving customer expectations and challenging market conditions—but also acknowledged the company needs to "reconcile missteps" that were made, he wrote.
 * The company's market research indicates that **payers and providers collectively spend up to $13 billion every year managing an administrative process widely blamed for care delays, patient dissatisfaction, staff burnout and friction between payers and providers, executives said in a press release. To date, automation of authorizations has been difficult because they require both administrative and clinical data, which are often stored in siloed information systems and in non-standardized formats that require manual intervention to bring together. Availity’s AI auth solution leverages automation capabilities and natural language processing (NLP) to streamline authorizations workflow. The tech can import and structure payers’ medical policies to automatically approve authorizations based on the codified medical policies and front-end capabilities enable providers to simplify authorizations workflow, according to the company. The use of automation and NLP also helps automate and standardize clinical data collection, eliminating the multiple steps and handoffs in a manual workflow, and can reduce authorization approval time from days to seconds, executives said.
 
-
+### Pretty interesting Olive / Verata m&a announcement from 2020
+* [Link to press release](https://www.prnewswire.com/news-releases/olive-acquires-verata-health-to-accelerate-artificial-intelligence-technology-for-healthcare-providers-and-payers-301185294.html)
+* Verata CEO was a former MD at Mayo Clinic. Quote:
+	* *"Caring for patients at Mayo Clinic was life-changing," said Dr. Jeremy Friese, CEO of Verata and former Mayo physician executive. "We started Verata to have an impact on patients and providers across the country. Combining our AI solution with Olive's creates the leading platform to solve prior authorization on **both ends of the fax machine** at providers and payers to drive impact for millions of patients."*
 
 
 ***
@@ -67,6 +134,7 @@ tags: []
 	* website: https://itilitihealth.com
 	* from their site: 'A better way to prior-authorize. Itiliti Health’s best-in-class technology leverages AI and automation to accelerate communication between payers and providers, creating a touchless prior authorization solution that applies the right medical policies while helping to automate prior authorizations quickly, securely and cost-effectively.'
 
+***
 
 ## 3/24/2024
 * Podcasts with Athena / Devoted Health founders

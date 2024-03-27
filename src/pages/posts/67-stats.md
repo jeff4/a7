@@ -24,6 +24,7 @@ tags: []
 	1. For Dr. JKorman's practice, they have 4 fulltime employees whose sole focus is obtaining PAs for medications. (4:45)
 	1. (4:58) **USA spends bout $35B a year on administrative costs of PA.**
 		* Note that [this Fierce Health article on Olive](https://www.fiercehealthcare.com/health-tech/availity-picks-olive-ais-prior-authorization-business-automation-startup-sheds-business) says Olive company research indicates that $13B a year is spent managing PA. See temp page for more on that article and relevant quote
+		* December 2020 [press release](https://www.prnewswire.com/news-releases/olive-acquires-verata-health-to-accelerate-artificial-intelligence-technology-for-healthcare-providers-and-payers-301185294.html) by Olive on acquiring Verata for AI tech says PA costs $31B a year.
 * Axios article on US states increasing regulatory scrutiny on PA from Jan 27, 2023
 	* Refers to [Crowe research Nov 2022 article](https://www.crowe.com/-/media/crowe/llp/widen-media-files-folder/h/hospital-double-whammy-less-cash-in-more-cash-out-chc2305-001b.pdf) saying that **dollar value of insurer coverage denials increased by 67% between January 2021 to August 2022**.
 * Medscape article
