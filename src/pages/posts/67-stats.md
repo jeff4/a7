@@ -15,7 +15,7 @@ tags: []
 * Jeff's estimates
 	* 2 billion PA requests a year, calculated from number of physician visits
 	* Total US NHE in 2022 is $4.5 T. [Source: CMS](https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet)
-	* $1.3T is the part of the NHE that JH thinks might be subject to PA. Sum of two items: $885B (Physician and lcinical services) + $405B (prescription drug spending)
+	* $1.3T is the part of the NHE that JH thinks might be subject to PA. Sum of two items: $885B (Physician and clinical services) + $405B (prescription drug spending)
 * From NYT video
 	1. Dr. Shikha Jain, oncologist at 1:30: PA impacts every insured person in this country. According to CMS, that's about 92% of the US population, aka 300m Americans.
 	1. Dr. Jessica Korman, Gastroerontologist: When prescribing meds, 95% of the time, i need to go through PA (around 1:55)
@@ -23,7 +23,7 @@ tags: []
 	1. Might have peer to peers as much as 5-10 times a day
 	1. For Dr. JKorman's practice, they have 4 fulltime employees whose sole focus is obtaining PAs for medications. (4:45)
 	1. (4:58) **USA spends bout $35B a year on administrative costs of PA.**
-		* Note that [this Fierce Health article on Olive](https://www.fiercehealthcare.com/health-tech/availity-picks-olive-ais-prior-authorization-business-automation-startup-sheds-business) says Olive company research indicates that $13B a year is spent managing PA. See temp page for more on that article and relevant quote
+		* Note that [this Fierce Health article on Olive](https://www.fiercehealthcare.com/health-tech/availity-picks-olive-ais-prior-authorization-business-automation-startup-sheds-business) says Olive company research indicates that $13B a year is spent managing PA. See main PA page for more on that article and relevant quote
 		* December 2020 [press release](https://www.prnewswire.com/news-releases/olive-acquires-verata-health-to-accelerate-artificial-intelligence-technology-for-healthcare-providers-and-payers-301185294.html) by Olive on acquiring Verata for AI tech says PA costs $31B a year.
 * Axios article on US states increasing regulatory scrutiny on PA from Jan 27, 2023
 	* Refers to [Crowe research Nov 2022 article](https://www.crowe.com/-/media/crowe/llp/widen-media-files-folder/h/hospital-double-whammy-less-cash-in-more-cash-out-chc2305-001b.pdf) saying that **dollar value of insurer coverage denials increased by 67% between January 2021 to August 2022**.
