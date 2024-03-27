@@ -12,7 +12,10 @@ tags: []
 * [Link to video / deck notes](/posts/67-pitch/)
 
 ## 3/26/2024
-
+### Notes on Medscape article
+* Date published: October 17, 2023
+* About New England Baptist Hospital (NEBH) in Boston
+* 100 orthopedic surgeons on staff
 
 
 
@@ -21,7 +24,7 @@ tags: []
 ## 3/25/2024
 ### Updated statistics
 * [Axios article](https://www.axios.com/2024/01/18/health-insurance-prior-authorization-doctors) on rule change from Jan 2024. 'New limits on PA hailed as good first step'.
-* [Axios article](https://www.axios.com/2023/01/27/states-target-doctor-authorization) on 'States jumping into PA fight'
+* [Axios article](https://www.axios.com/2023/01/27/states-target-doctor-authorization) on 'States jumping into PA fight' from **January 2023**
 * [Medscape article](https://www.medscape.com/viewarticle/997446?form=fpf) on vendors, providers, and payers trying to automate PA. Reference to Rhyme / PriorAuthNow 
 
 ### Notes from Justin on Wed 3/20/2024

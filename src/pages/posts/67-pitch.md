@@ -1,7 +1,7 @@
 ---
 
 layout: ../../layouts/MdPostDescLayout.astro
-title: 'Notes on deck and video'
+title: 'Statistics, video outline, etc.'
 LastUpdatedDate: 2024-04-16
 CreatedDate: 2024-03-06
 description: 'n/a'
@@ -10,14 +10,23 @@ tags: []
 
 
 ---
+* [Main PA page](/posts/68-temp/)
 ## Consolidated statistics
-
-### Jeff's estimates
-* 2 billion PA requests a year, calculated from number of physician visits
-* Total US NHE in 2022 is $4.5 T. [Source: CMS](https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet)
+* Jeff's estimates
+	* 2 billion PA requests a year, calculated from number of physician visits
+	* Total US NHE in 2022 is $4.5 T. [Source: CMS](https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet)
 	* $1.3T is the part of the NHE that JH thinks might be subject to PA. Sum of two items: $885B (Physician and lcinical services) + $405B (prescription drug spending)
-
-
+* From NYT video
+	1. Dr. Shikha Jain, oncologist at 1:30: PA impacts every insured person in this country. According to CMS, that's about 92% of the US population, aka 300m Americans.
+	1. Dr. Jessica Korman, Gastroerontologist: When prescribing meds, 95% of the time, i need to go through PA (around 1:55)
+	1. After a PA is denied, there may be appeal or pay out of pocket (OOP), but **80% of the time**, treatment is simply abandoned. (3:40)
+	1. Might ahve peer to peers as much as 5-10 times a day
+	1. For Dr. JKorman's practice, they have 4 fulltime employees whose sole focus is obtaining PAs for medications. (4:45)
+	1. (4:58) **USA spends bout $35B a year on administrative costs of PA.**
+* Axios article on US states increasing regulatory scrutiny on PA from Jan 27, 2023
+	* Refers to [Crowe research Nov 2022 article](https://www.crowe.com/-/media/crowe/llp/widen-media-files-folder/h/hospital-double-whammy-less-cash-in-more-cash-out-chc2305-001b.pdf) saying that **dollar value of insurer coverage denials increased by 67% between January 2021 to August 2022**.
+* Medscape article
+	
 
 
 ## 3/19/2024
