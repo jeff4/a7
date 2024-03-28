@@ -13,7 +13,39 @@ tags: []
 * [Link to competition](/posts/69-competitors/)
 
 ## 3/26/2024
-### Notes on Medscape article
+### Info on RCM from Availity
+* Availity bought some of Olive's PA business see below. j
+* [Revenue Cycle Management 101](https://www.availity.com/blog/2023/december/back-to-basics-healthcare-revenue-cycle-management-101) published 12/21/2023 
+* Text:
+	1. RCM – it’s an acronym that’s thrown around a lot in healthcare circles. 
+	1. It is a critical component to any healthcare organization, as well as an omnipresent process that touches many hands, from front desk schedulers all the way to C-suite executives. 
+	1. Many may be familiar with the term, but what does it really mean? 
+	1. Let’s break it down. 
+	1. At its core, revenue cycle management, commonly known as RCM, centers on – you guessed it – a healthcare organization’s revenue cycle. 
+	1. Weaving through many sections of healthcare operations, the revenue cycle encompasses various moving parts: patient registration, claims submission, and denials and appeals, to name a few. 
+	1. On their own, these areas are no doubt important. 
+	1. However, when collectively viewed through the lens of the overall revenue cycle, they are vital to success. 
+	1. For an organization’s revenue cycle to run on all cylinders, these varied forces must work together – and work properly – to create a high-functioning revenue cycle. 
+	1. If patient care delivery is seen as the center of healthcare, revenue cycle is its cornerstone. 
+	1. Care outcomes are of course of the utmost importance, but when healthcare operations are examined from the business side, a different perspective emerges 
+	1. Business executives and those with a hand in the management of the revenue cycle at a health system must also be invested in the things like coding accuracy and the technology used to ensure the organization’s payment portals function properly. 
+	1. This is because a core function of the business side of healthcare s optimizing the revenue cycle, and these duties are key pieces of the puzzle. 
+	1. Imagine the revenue cycle as an assembly line: each task must be checked off the figurative list in order to see a finished product. 
+	1. These various moving parts must work together to achieve the desired outcome. 
+	1. Take eligibility, for example. 
+	1. Verifying coverage is crucial for determining patient eligibility. 
+	1. If a patient’s insurance provider has changed and they fail to mention this, or if a manual error mistakenly notes the wrong policy number, consequences could arise for the patient, provider, and payer. 
+	1. This task, along with the other, are critical cogs in the wheel of the overall revenue cycle. 
+	1. While many pieces can function independently, the true strength comes from working together. 
+	1. To perfect care delivery, these behind-the-scenes elements have to be in optimal working order. 
+	1. The importance of RCM lies in its ability to streamline and enhance the financial workflow, ensuring accurate and timely reimbursement for the services provided. 
+	1. Efficient RCM practices help minimize revenue leakage, reduce billing errors, and enhance cash flow, which, in turn, allows healthcare providers to allocate resources effectively and focus on delivering high-quality patient care. 
+	1. Moreover, in an era of complex healthcare regulations and evolving payment models, a robust RCM strategy becomes even more crucial to navigate the intricacies of the billing and reimbursement landscape, ultimately contributing to the overall financial viability of healthcare organizations. 
+	1. For hospitals and physician practices to succeed, a spotlight needs to be placed on the revenue cycle, and RCM measures need to be enacted to optimize operational processes and meet revenue goals. 
+	1. And perhaps most importantly, with a high-functioning revenue cycle in place, the patient support side of healthcare to able to thrive. Learn how Essentials Pro from Availity can help manage your RCM here.
+ 
+
+### Notes on [Medscape article](https://www.medscape.com/viewarticle/997446?form=fpf)
 * Date published: October 17, 2023
 * About New England Baptist Hospital (NEBH) in Boston
 * 100 orthopedic surgeons on staff

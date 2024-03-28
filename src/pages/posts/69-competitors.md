@@ -49,9 +49,10 @@ tags: []
 ***
 
 ### Olive notes
-*  Olive normally costs about $50,000 a year for even a small organization. (See Medscape notes on main PA page)
-
-
+* Olive normally costs about $50,000 a year for even a small organization. (See Medscape notes on main PA page)
+* oops. Looks like Olive shut down in November 2023, just a few weeks after the October 2023 [Medscape article](https://www.medscape.com/viewarticle/997446?form=fpf)
+* [Article](https://www.beckershospitalreview.com/digital-health/the-rise-and-fall-of-olive-ai-a-timeline.html) about ups and downs.
+* Sold PA ai business to new startup called [Humata Health](https://www.bizjournals.com/columbus/inno/stories/news/2023/11/03/olive-buyers-waystar-humata.html) which is *not* to be confused with [Humata AI](www.humata.ai) a PDF company, backed by Google's Gradient Ventures.
 
 ***
 
