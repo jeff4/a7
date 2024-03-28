@@ -13,6 +13,10 @@ tags: []
 * [Main PA page](/posts/68-temp/)
 * [Stats](/posts/67-stats/)
 
+
+### 3/27/2024
+* Valer Health is the new name of Voluware
+
 #### List of PA vendors 3/27 from link in Medscape article
 * [List of vendors from PA G2](https://www.g2.com/categories/prior-authorization) (pulled on 3/27/2024):
 	1. Valer

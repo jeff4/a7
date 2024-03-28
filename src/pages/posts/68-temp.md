@@ -13,6 +13,14 @@ tags: []
 * [Link to competition](/posts/69-competitors/)
 
 ## 3/26/2024
+
+### Competitive Research
+* Cerner/Oracle ; DrChrono ; Forbes
+* Jan 2023 [blog post](https://blogs.oracle.com/healthcare/post/the-prior-authorization-process-what-makes-it-painful-and-how-to-improve-it)
+* Oct 2023 [blog post](https://drchrono.com/blog/2023/10/electronic-prior-authorization-why-your-practice-needs-this-technology-now/)
+* Sept 2023 [Forbes article](https://www.forbes.com/sites/sethjoseph/2023/09/27/ai-and-standards-arent-enough-fixing-prior-authorization-will-require-something-else-entirely/?sh=76c5583c6993) that AI and Standards aren't sufficient to solve PA
+
+
 ### Info on RCM from Availity
 * Availity bought some of Olive's PA business see below. j
 * [Revenue Cycle Management 101](https://www.availity.com/blog/2023/december/back-to-basics-healthcare-revenue-cycle-management-101) published 12/21/2023 
