@@ -38,11 +38,11 @@ tags: []
 	1. Glidian
 	1. Infinitus
 	1. INFINX Prior Authorization
-	1. intelliPath ePA
+	1. EviCore intelliPath ePA by Evernorth
 	1. MediFusion
-	1. Olive
-	1. PAHub (Agadia?)
-	1. Patient Advisor EPA+
+	1. Olive (out of business)
+	1. Agadia electronicPA (PA Hub)
+	1. DrFirst Patient Advisor EPA+
 	1. Practice Mate and Service Center products by Office Ally
 	1. Quality Care Products
 	1. Rhyme
