@@ -82,3 +82,15 @@ tags: []
 	* from their site: 'A better way to prior-authorize. Itiliti Health’s best-in-class technology leverages AI and automation to accelerate communication between payers and providers, creating a touchless prior authorization solution that applies the right medical policies while helping to automate prior authorizations quickly, securely and cost-effectively.'
 
 ***
+## 3/06/2024
+
+### article on how to build a Competitive slide from Pitch Deck advice
+* [Link to Box PDF](https://app.box.com/s/ul6ng9y9l7akzftt9wnk4l619ccb8or9)
+* [Link to web article](https://www.storypitchdecks.com/post/how-to-create-a-powerful-pitch-deck-competition-slide-that-will-ace-investor-meetings)
+
+
+
+
+
+
+
