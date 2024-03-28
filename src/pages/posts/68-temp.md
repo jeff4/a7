@@ -153,31 +153,7 @@ Myndshft has long been selling automation software for medical prior authorizati
 ### Links from Christin
 1. Physician specialties varied widely in rates of services that required prior authorization, with highest rates among radiation oncologists (97%), cardiologists (93%), and radiologists (91%) and lowest rates among pathologists (2%) and psychiatrists (4%).
 	* [Source](https://jamanetwork.com/journals/jama-health-forum/fullarticle/2780396)
-1. The most common treatments subject to PA:
-	* Genetic testing: 100 percent
-	* Specialty drugs: 100 percent
-	* Elective inpatient surgical services: 92 percent
-	* Election inpatient medical services: 88 percent
-	* High cost non-specialty prescription drugs: 88 percent
-	* High-tech imaging: 88 percent
-		* Chloe: for advanced imaging, serious issue
-	* Post acute care facility services: 88 percent
-	* Cardiology: 80 percent
-	* Durable medical equipment: 80 percent
-	* Orthopedics: 80 percent
-	* [Source](https://www.beckerspayer.com/payer/most-common-treatments-subject-to-prior-authorization.html)
-1. Medscape surveyed 17,461 U.S. clinicians representing more than 30 specialties. Rate of claim denials and resubmissions by specialty.
-	1. Plastic surgery: 28 percent
-	2. Emergency medicine: 22 percent
-		* Chloe: yes, this is true and painful. Some of this is handled through decision tree
-		* Seymour: ChatGPT answer
-	3. Radiology: 20 percent
-	4. Critical care: 20 percent
-	5. General surgery: 19 percent
-	6. Physical medicine and rehabilitation: 19 percent
-	7. Anesthesiology: 19 per
-	* To get full report, create free account. [Source](https://www.beckersasc.com/asc-coding-billing-and-collections/which-physicians-have-the-most-claims-denied-resubmitted-a-specialty-breakdown.html).
-* For general surgeons, 19 percent of claims are denied or need resubmitted, according to Medscape's "Physician Compensation Report 2020."
+1. The most common treatments subject to PA. Raw notes here. See Slack and /stats page for cleaner formatting...
 * Seymour also created this [ChatGPT answer on PA in the context of Emergency Medicine](https://docs.google.com/document/d/1A_GQCyJ0Sfpaqm7kcnoA-mnPj48Oojy56nuMvgbHqik/edit?usp=sharing) accessible via primary gmail account.
 
 ***

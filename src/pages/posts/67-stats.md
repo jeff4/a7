@@ -48,6 +48,37 @@ tags: []
 	* Moreover, *only 29% of physicians report that their EHR* system offers electronic PA for prescription medications.
 	* *Table of usage* Phone (54%,56%); Fax (47%,45%); EMR/PMS (52%,33%); Plan portal (40%,40%); Email or US Mail (24%,26%). 
 
+### Stats from Christin on 3/19 on specialties most likely to require PA
+1. **Prior Auth requirement rates by specialty.** [Source](https://jamanetwork.com/journals/jama-health-forum/fullarticle/2780396).
+	* *Specialties with highest PA rates:*
+		1. Radiation oncologists: 97%
+		1. Cardiologists: 93%
+		1. Radiologists: 91%
+	* *Specialties with lowest PA rates:*
+		1. Pathologists: 2%
+		1. Psychiatrists: 4%
+1. **The most common treatments subject to PA.** [Source](https://www.beckerspayer.com/payer/most-common-treatments-subject-to-prior-authorization.html).
+	1. Genetic testing: 100%
+	1. Specialty drugs: 100%
+	1. Elective inpatient surgical services: 92%
+	1. Election inpatient medical services: 88%
+	1. High cost non-specialty prescription drugs: 88%
+	1. High-tech imaging: 88%
+	1. Post acute care facility services: 88%
+	1. Cardiology: 80%
+	1. Durable medical equipment: 80%
+	1. Orthopedics: 80%
+1. **Rate of claim denials and resubmissions by specialty.** Medscape surveyed 17,461 U.S. clinicians representing more than 30 specialties. [Source](https://www.beckersasc.com/asc-coding-billing-and-collections/which-physicians-have-the-most-claims-denied-resubmitted-a-specialty-breakdown.html). (*To get full report, create free account at Becker.*) 
+	1. Plastic surgery: 28%
+	2. Emergency medicine: 22%
+	3. Radiology: 20%
+	4. Critical care: 20%
+	5. General surgery: 19%
+	6. Physical medicine and rehabilitation: 19%
+	7. Anesthesiology: 19%
+
+
+
 ## 3/19/2024
 * Gift link to [NYT video](https://www.nytimes.com/2024/03/14/opinion/health-insurance-prior-authorization.html?unlocked_article_code=1.c00.sJL6.W6MlRzmi_cXu&smid=url-share)
 * Video posted at NYT on 2024-03-14.
