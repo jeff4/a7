@@ -171,7 +171,7 @@ Myndshft has long been selling automation software for medical prior authorizati
 * On Page 4, in the bullet on *Coverage Requirements Discovery (CRD)*:
 	1. Currently, a lack of consistency and transparency around payer requirements increases providers’ chances of missing a required authorization or requesting authorization for the wrong procedure at the outset. 
 	1. As **80% of authorization requests require extra work, rework, or manual follow-ups**, getting this first step right can be crucial to expediting the authorization. 
-* p. 6, '12% of total denaisl attributed to bad prior authorizations'.
+* p. 6, '12% of total denials attributed to bad prior authorizations'.
 * p. 7, Automating Medical Necessity Review. Among benefits, 'get immediate approval or deferred decision within native workflow, **elminating need to call or fax** payer'
 	1. Hospital case managers and patient-access staff can stay within their workflows to conduct medical necessity reviews and submit authorization requests directly through their EMR and care management systems, which will automatically direct the needed information—including the medical review—to the correct payer system. 
 	1. That’s just one piece of the prior authorization puzzle solved (albeit the most challenging). 

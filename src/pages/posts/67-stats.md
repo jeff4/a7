@@ -48,7 +48,14 @@ tags: []
 	* Moreover, *only 29% of physicians report that their EHR* system offers electronic PA for prescription medications.
 	* *Table of usage* Phone (54%,56%); Fax (47%,45%); EMR/PMS (52%,33%); Plan portal (40%,40%); Email or US Mail (24%,26%). 
 
-### Stats from Christin on 3/19 on specialties most likely to require PA
+### From Change Healthcare whitepaper
+* As **80% of authorization requests require extra work, rework, or manual follow-ups**, getting this first step right can be crucial to expediting the authorization. 
+* **12% of total denials attributed to bad prior authorizations** (p. 6)
+* *Automation and Interoperability: Innovating Prior Authorization to Improve the Patient Experience*
+* [Link to PDF in Box](https://app.box.com/s/7dbomegx2lvrivkqcrqhez8bwijxe78x)
+
+
+## Rates of PA by specialty, procedure, likelihood of denial/resubmissions
 1. **Prior Auth requirement rates by specialty.** [Source](https://jamanetwork.com/journals/jama-health-forum/fullarticle/2780396).
 	* *Specialties with highest PA rates:*
 		1. Radiation oncologists: 97%
@@ -76,6 +83,7 @@ tags: []
 	5. General surgery: 19%
 	6. Physical medicine and rehabilitation: 19%
 	7. Anesthesiology: 19%
+* Stats shared by Christin on 3/19/2024
 
 
 

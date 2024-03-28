@@ -46,6 +46,12 @@ tags: []
 	1. Surescripts Prior Authorization
 	1. XIFIN Prior Authorization
 
+***
+
+### Olive notes
+*  Olive normally costs about $50,000 a year for even a small organization. (See Medscape notes on main PA page)
+
+
 
 ***
 
@@ -65,7 +71,8 @@ tags: []
 * [Cohere Health](https://coherehealth.com)
 	* Cohere Health, which leverages artificial intelligence to streamline prior authorization for health plans and risk-bearing providers, raised 550 million to meet growing demand. The company grew from less than 10 employees in 2020 to more than 700 employees today, now serving five health plans, processing 5.5 million prior authorizations annually for more than 15 million health plan members and 420,000 healthcare providers nationally. (PR Newswire)
 * [Rhyme](https://www.getrhyme.com) is rebrand of early company PriorAuthNow
-* **Itilit Health** * Itiliti Health, a 2.5-year-old, Eden Prairie, Mn.-based healthcare-focused whose software helps manage prior authorizations for payers, has raised $2 million in funding co-led by Bread and Butter Ventures and Altitude Ventures. Other backers in the round include M25, SpringTime VC, and Groove Capital. 
+* **Itilit Health** 
+	* Itiliti Health, a 2.5-year-old, Eden Prairie, Mn.-based healthcare-focused whose software helps manage prior authorizations for payers, has raised $2 million in funding co-led by Bread and Butter Ventures and Altitude Ventures. Other backers in the round include M25, SpringTime VC, and Groove Capital. 
 	* website: https://itilitihealth.com
 	* from their site: 'A better way to prior-authorize. Itiliti Health’s best-in-class technology leverages AI and automation to accelerate communication between payers and providers, creating a touchless prior authorization solution that applies the right medical policies while helping to automate prior authorizations quickly, securely and cost-effectively.'
 
