@@ -178,7 +178,7 @@ Myndshft has long been selling automation software for medical prior authorizati
 	7. Anesthesiology: 19 per
 	* To get full report, create free account. [Source](https://www.beckersasc.com/asc-coding-billing-and-collections/which-physicians-have-the-most-claims-denied-resubmitted-a-specialty-breakdown.html).
 * For general surgeons, 19 percent of claims are denied or need resubmitted, according to Medscape's "Physician Compensation Report 2020."
-
+* Seymour also created this [ChatGPT answer on PA in the context of Emergency Medicine](https://docs.google.com/document/d/1A_GQCyJ0Sfpaqm7kcnoA-mnPj48Oojy56nuMvgbHqik/edit?usp=sharing) accessible via primary gmail account.
 
 ***
 ## 3/13/2024
