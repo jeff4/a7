@@ -273,16 +273,31 @@ There will be no more crises; the expanded production, which for the present ord
 1. **Footnote:** Engels’ put *unchanged* here, referring to the answer in the June draft under No. 21 which is shown.
 
 ### 23. What will be its attitude to existing religions?
-1.
+1. All religions so far have been the expression of historical stages of development of individual peoples or groups of peoples. But communism is the stage of historical development which makes all existing religions superfluous and brings about their disappearance.
 
 ### 24. How do communists differ from socialists?
-1.
+1. The so-called socialists are divided into three categories.
 
 #### 24a. Reactionary Socialists
+1. The first category consists of adherents of a feudal and patriarchal society which has already been destroyed, and is still daily being destroyed, by big industry and world trade and their creation, bourgeois society. 
+1. This category concludes, from the evils of existing society, that feudal and patriarchal society must be restored because it was free of such evils. 
+1. In one way or another, all their proposals are directed to this end. 
+1. This category of reactionary socialists, for all their seeming partisanship and their scalding tears for the misery of the proletariat, is nevertheless energetically opposed by the communists for the **following three reasons**:
+	1. It strives for something which is entirely impossible.
+	1. It seeks to establish the rule of the aristocracy, the guildmasters, the small producers, and their retinue of absolute or feudal monarchs, officials, soldiers, and priests--a society which was, to be sure, free of the evils of present-day society but which brought it at least as many evils without even offering to the oppressed workers the prospect of liberation through a communist revolution.
+	1. As soon as the proletariat becomes revolutionary and communist, these reactionary socialists show their true colors by immediately making common cause with the bourgeoisie against the proletarians.
 
 #### 24b. Bourgeois Socialists
+1. The second category consists of adherents of present-day society who have been frightened for its future by the evils to which it necessarily gives rise. 
+1. What they want, therefore, is to maintain this society while getting rid of the evils which are an inherent part of it. 
+1. To this end, some propose mere welfare measures--while others come forward with grandiose systems of reform which, under the pretense of re-organizing society, are in fact intended to preserve the foundations, and hence the life, of existing society. 
+1. Communists must unremittingly struggle against these bourgeois socialists because they work for the enemies of communists and protect the society which communists aim to overthrow.
 
 #### 24c. Democratic Socialists
+1. Finally, the third category consists of democratic socialists who favor some of the same measures the communists advocate, as described in Question 18, not as part of the transition to communism, however, but as measures which they believe will be sufficient to abolish the misery and evils of present-day society. 
+1. These democratic socialists are either proletarians who are not yet sufficiently clear about the conditions of the liberation of their class, or they are representatives of the petty bourgeoisie, a class which, prior to the achievement of democracy and the socialist measures to which it gives rise, has many interests in common with the proletariat. 
+1. It follows that, in moments of action, the communists will have to come to an understanding with these democratic socialists, and in general to follow as far as possible a common policy with them--provided that these socialists do not enter into the service of the ruling bourgeoisie and attack the communists. 
+1. It is clear that this form of co-operation in action does not exclude the discussion of differences.
 
 ### 25. What is the attitude of the communists to the other political parties of our time?
 1.
