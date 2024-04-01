@@ -300,8 +300,20 @@ There will be no more crises; the expanded production, which for the present ord
 1. It is clear that this form of co-operation in action does not exclude the discussion of differences.
 
 ### 25. What is the attitude of the communists to the other political parties of our time?
-1.
-
+1. This attitude is different in the different countries. 
+1. In England, France, and Belgium, where the bourgeoisie rules, the communists still have a common interest with the various democratic parties, an interest which is all the greater the more closely the socialistic measures they champion approach the aims of the communists--that is, the more clearly and definitely they represent the interests of the proletariat and the more they depend on the proletariat for support. 
+1. In England, for example, the working-class Chartists are infinitely closer to the communists than the democratic petty bourgeoisie or the so-called Radicals. 
+1. In America, where a democratic constitution has already been established, the communists must make the common cause with the party which will turn this constitution against the bourgeoisie and use it in the interests of the proletariat--that is, with the agrarian National Reformers. 
+1. In Switzerland, the Radicals, though a very mixed party, are the only group with which the communists can co-operate, and, among these Radicals, the Vaudois and Genevese are the most advanced. 
+1. In Germany, finally, the decisive struggle now on the order of the day is that between the bourgeoisie and the absolute monarchy. 
+1. Since the communists cannot enter upon the decisive struggle between themselves and the bourgeoisie until the bourgeoisie is in power, it follows that it is in the interest of the communists to help the bourgeoisie to power as soon as possible in order the sooner to be able to overthrow it. 
+1. Against the governments, therefore, the communists must continually support the radical liberal party, taking care to avoid the self-deceptions of the bourgeoisie and not fall for the enticing promises of benefits which a victory for the bourgeoisie would allegedly bring to the proletariat. 
+1. The sole advantages which the proletariat would derive from a bourgeois victory would consist:
+	1. in various concessions which would facilitate the unification of the proletariat into a closely knit, battle-worthy, and organized class; and
+	1. in the certainly that, on the very day the absolute monarchies fall, the struggle between bourgeoisie and proletariat will start. From that day on, the policy of the communists will be the same as it now is in the countries where the bourgeoisie is already in power.
 
 ***
 
+In the name and on the mandate of the Congress.
+
+***
