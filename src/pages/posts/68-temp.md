@@ -12,6 +12,23 @@ tags: []
 * [Link to consolidated stats, video notes, etc.](/posts/67-stats/)
 * [Link to competition](/posts/69-competitors/)
 
+## 4/17/2024
+### Various process flows with and without Quick Qual
+1. Easy path
+	* patient visits doctor
+1. PA needed, immediate approval on first PA attempt
+	* patient visits doctor
+1. Most annoying. PA needed, missed an exam or other item on checklist
+	* patient visits doctor
+1. We solve the problem with Quick Qual
+	* patient visits doctor
+1. We solve the problem with PCL Payer Coverage Letter
+	* patient visits doctor
+1. We solve the problem with Insurance Portal RPA
+	* patient visits doctor
+
+
+
 ## 3/26/2024
 
 ### Competitive Research
