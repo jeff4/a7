@@ -13,19 +13,19 @@ tags: []
 * [Link to competition](/posts/69-competitors/)
 
 ## 4/17/2024
-### Various process flows with and without Quick Qual
+### User stories with and without Quick Qual
 1. Easy path
-	* patient visits doctor
+	* patient visits doctor --> no PAs needed --> goes straight to surgery
 1. PA needed, immediate approval on first PA attempt
-	* patient visits doctor
+	* patient visits doctor --> PA needed --> PA staffer enters in PA request in insurance company portal --> payer approves PA --> patient goes to surgery
 1. Most annoying. PA needed, missed an exam or other item on checklist
-	* patient visits doctor
+	* patient visits doctor PA needed --> PA staffer enters in PA request in insurance company portal --> payer denies PA request because one exam was not completed in original request --> re-exam of patient, gets all tests in this time --> PA staffer enters in PA request in insurance company portal --> this time PA request is approved --> patient goes to surgery
 1. We solve the problem with Quick Qual
-	* patient visits doctor
-1. We solve the problem with PCL Payer Coverage Letter
-	* patient visits doctor
-1. We solve the problem with Insurance Portal RPA
-	* patient visits doctor
+	* patient visits doctor --> *before patient visit or certainly before PA request*, doctor checks with QuickQual, interactive chatbot, makes sure all exams are done this time. Then finishes process as in User Story 2 above
+1. We solve the problem with PCL Payer Coverage Letter. Almost exactly like US 2.
+	* patient visits doctor --> PA needed --> PA staffer generates PCL and gets it ready for submission --> PA staffer enters in PA request in insurance company portal --> payer approves PA --> patient goes to surgery
+1. We solve the problem with Insurance Portal RPA. Almost exactly like US 5 above
+	* patient visits doctor --> PA needed --> RPA intelligently handles PA submission via insurance portal --> payer approves PA --> patient goes to surgery
 
 
 
