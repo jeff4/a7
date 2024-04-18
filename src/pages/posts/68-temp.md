@@ -12,6 +12,13 @@ tags: []
 * [Link to consolidated stats, video notes, etc.](/posts/67-stats/)
 * [Link to competition](/posts/69-competitors/)
 
+## 4/18/2024
+* New calculations about how there are about 450m prior auth requests per year; updating prior Jeff estimate of 2B PA requests per year.
+* 1.5 PA requests per doctor visit. and there are about 300m doctor visits per year? or 300m insured Americans?
+
+
+
+
 ## 4/17/2024
 ### User stories with and without Quick Qual
 1. Easy path
