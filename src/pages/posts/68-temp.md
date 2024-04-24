@@ -12,11 +12,20 @@ tags: []
 * [Link to consolidated stats, video notes, etc.](/posts/67-stats/)
 * [Link to competition](/posts/69-competitors/)
 
+## 4/24/2024
+* Product demo. 
+* Atomic unit is one LLM call
+* Simple Chain of 3 llm calls. Call 1: is this a medical document? Call 2: extract keywords. Call 3: generate PCL
+* Tools perform specific functions. 
+* An Agent is just an LLM + Tools. You've given the LLM tools and it knows what tools to call.  
+* An agent have any number of tools. It autonomously decides which tools to call. An agent can use as many tools in any order as it sees fit.
+* Query user with Clinical Info Tool --> SUP agent --> query user for Payer Info Tool --> SUP agent --> search MMPD for relevant policy --> then initiate MNR agent --> MNR agnet asks questions --> conversation between SUP and MNR --> check initial answer with SOP agent --> SOP generates additional answers to question; pick majority reponse;  --> finally generate PCL.
+
+
+
 ## 4/18/2024
 * New calculations about how there are about 450m prior auth requests per year; updating prior Jeff estimate of 2B PA requests per year.
 * 1.5 PA requests per doctor visit. and there are about 300m doctor visits per year? or 300m insured Americans?
-
-
 
 
 ## 4/17/2024
