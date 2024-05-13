@@ -49,3 +49,8 @@ tags: []
 1. Friendier diplomat from middle-class background. Born in Chicago in 1899 in a mixed neighborhood, causing trouble with a mix of neighborhood kids who were from ethnic Polish, Italian, Bohemian, and Norwegian immigrant families.
 1. Glad hander who wanted to understand local cultures
 1. p. 25-29
+
+***
+
+## Chapter 6: The September 30th Movement
+1. Indonesia, September 1965 Indonesia
