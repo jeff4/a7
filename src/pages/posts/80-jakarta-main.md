@@ -80,4 +80,18 @@ tags: []
 	* Nearly 33% of the country's adult registered voters were PKI affiliates.
 	* Given 100m population including children, it's very impressive that 20m Indonesians belonged to PKI-associated organizations: [SOBSI](https://en.wikipedia.org/wiki/Central_All-Indonesian_Workers_Organization), [LEKRA](https://en.wikipedia.org/wiki/Lembaga_Kebudajaan_Rakjat), [Farmer's Alliance BTI](https://en.wikipedia.org/wiki/Peasants_Front_of_Indonesia), [People's Youth *Pemuda Rakyat*](https://en.wikipedia.org/wiki/People%27s_Youth_(Indonesia)), 
 nd [Indonesian Women's Movement *Gerwani*](https://en.wikipedia.org/wiki/Gerwani).
+1. The PKI operated openly and throughout the geography of Indonesia but at the national level, they relied almost entirely on Sukarno b/c of the Guided Democracy Policy.
+	* The PKI had neither arms nor the ballot-box.
+	* The PKI ahd been peaceful since the expulsion of the Dutch.
+	* Remember, they were denied access to votes b/c the US Army had been so alarmed by the popularity of the PKI during elections.
+1. p. 116. On the other hand, the military was allied with Muslim groups and increasingly the US. 
+1. Political camps: (a)  Sukarno + PKI on one side; (b) Army and the West on the other.
+1. Sukarno no longer felt shyness about taking on the West. 
+	* Sukarno's 1958 revolution had bested the CIA
+	* He had succeeded in convincing JFK and the Netherlands in backing down over West New Guinea / Papua.
+	* With US intervention in Brazil and escalation in Vietnam, Sukarno had more evidence that the US was an imperialist aggressor. 
 
+### Confrontation with the UK on the creation of Malaysia
+
+1. Konfrontasi
+1. p. 116 One of the last British colonies in Asia was Malaya. London was now decolonizing it and creating the country of Malaysia.
