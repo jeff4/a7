@@ -50,7 +50,34 @@ tags: []
 1. Glad hander who wanted to understand local cultures
 1. p. 25-29
 
+
+
+***
+
+### Bandung Conference
+1. Huge event for third world and Indonesia, the Asian-African aka Afro-Asian Conference aka [Bandung Conference](https://en.wikipedia.org/wiki/Bandung_Conference) in April, 1955.
+	* From Wikipedia, "The 29 countries that participated represented 1.5b people, 54% of the world population.
+
 ***
 
 ## Chapter 6: The September 30th Movement
 1. Indonesia, September 1965 Indonesia
+1. In early 1960s, Sukarno visited Fidel and Che Guevara in Havana. Indonesia and Cuba began working on a 'tricontinental' conference which would expand the 1955 Afro-Asian conference to begin including Latin America. 'The entire Third World united.' p. 113
+1. New Sukarno acronym / neologism [NASAKOM](https://en.wikipedia.org/wiki/Nasakom). Part of [Guided Democracy Era](https://en.wikipedia.org/wiki/Guided_Democracy_in_Indonesia)
+	* Nasionalisme, Agama, Komunisme aka Nationalism, Religion, and Communism
+1. Indonesian head of the army General Nasution told US Ambassador 'Smiling' Howard Jones that the military would never allow the PKI (Indonesia Communist Party) to join the government. 
+1. In reality, the three political forces in Indonesia were not Nationalism (*Nasionalisme*), Agama (*Religion*), Communism (*Komunisme*); the real tripod was the PKI, Sukarno, and the Military.
+1. p.114 Unlike in Brazil, fanatical anticommunism did not have widespread support in Indonesian society. 
+1. Despite what military leaders said to Americans in private, they were not opposed to the left in general, and they often echoed Sukarno's revolutionary language in their literature and public statements. 
+1. The entire country was essentially anti-imperialist, by definition.
+1. In early 1963, the countries from the 1955 Bandung conference founded the Afro-Asian Journalist Association at a conference in Jakarta.
+	* Francesca joined the resulting *Afro-Asian Journalist* magazine.
+1. [GANEFO](https://en.wikipedia.org/wiki/GANEFO) which ran from 1962-1967, was a Third World competitor to the Olympic Games. "GAmes of the New Emerging FOrces". 
+	* GANEFO originally came about when Indonesia excluded Taiwan and Israel from the [1962 Asian Games](https://en.wikipedia.org/wiki/1962_Asian_Games). p. 114
+1. p.115 PKI at this point was the third most populous Communist party in the world after the USSR and China.
+	* The PKI's strategy of nonviolent, direct engagement with the masses had led to impressive results.
+	* The PKI now had 3m card-carrying members.
+	* Nearly 33% of the country's adult registered voters were PKI affiliates.
+	* Given 100m population including children, it's very impressive that 20m Indonesians belonged to PKI-associated organizations: [SOBSI](https://en.wikipedia.org/wiki/Central_All-Indonesian_Workers_Organization), [LEKRA](https://en.wikipedia.org/wiki/Lembaga_Kebudajaan_Rakjat), [Farmer's Alliance BTI](https://en.wikipedia.org/wiki/Peasants_Front_of_Indonesia), [People's Youth *Pemuda Rakyat*](https://en.wikipedia.org/wiki/People%27s_Youth_(Indonesia)), 
+nd [Indonesian Women's Movement *Gerwani*](https://en.wikipedia.org/wiki/Gerwani).
+
