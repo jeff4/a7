@@ -12,6 +12,17 @@ tags: []
 * [Link to consolidated stats, video notes, etc.](/posts/67-stats/)
 * [Link to competition](/posts/69-competitors/)
 
+## 5/13/2024
+* investors
+* what are the best prospects?
+* Next people to reach out to: Elizabeth Yin
+* 6182 pre-seed investors
+	* when focused on $150k to $500k, number of funds go down to 3074
+* 15,305 seed investors
+* when putting a 
+* focus on bay area
+* industry healthcare / ai
+
 ## 4/24/2024
 * Product demo. 
 * Atomic unit is one LLM call
@@ -21,12 +32,9 @@ tags: []
 * An agent have any number of tools. It autonomously decides which tools to call. An agent can use as many tools in any order as it sees fit.
 * Query user with Clinical Info Tool --> SUP agent --> query user for Payer Info Tool --> SUP agent --> search MMPD for relevant policy --> then initiate MNR agent --> MNR agnet asks questions --> conversation between SUP and MNR --> check initial answer with SOP agent --> SOP generates additional answers to question; pick majority reponse;  --> finally generate PCL.
 
-
-
 ## 4/18/2024
 * New calculations about how there are about 450m prior auth requests per year; updating prior Jeff estimate of 2B PA requests per year.
 * 1.5 PA requests per doctor visit. and there are about 300m doctor visits per year? or 300m insured Americans?
-
 
 ## 4/17/2024
 ### User stories with and without Quick Qual
