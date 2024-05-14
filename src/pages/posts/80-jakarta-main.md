@@ -95,3 +95,44 @@ nd [Indonesian Women's Movement *Gerwani*](https://en.wikipedia.org/wiki/Gerwani
 
 1. Konfrontasi
 1. p. 116 One of the last British colonies in Asia was Malaya. London was now decolonizing it and creating the country of Malaysia.
+
+### The end of the Smiling Jones Method
+1. LBJ took a different approach than JFK did.
+1. p. 120 'Just 3 days before his death, JFK reiterated his clear, if slightly cynical, commitment to the strategy of ongoing engagement with Sukarno--the very strategy that Smiling JOnes had long been advocating.
+	* 'According to White House aide Michael Forrestal, JFK said "Indonesia is a nation of 100m with perhaps more resources than any other nation in Asia...It doesn't make any sense for the US to go out of our way to permanently alenate this large group of people sitting on thses resources unless there is some very,very persuasive reason."
+	* '*Konfrontasi* was not enough for JFK to abandon Sukarno and Smiling Jones.'
+1. In contrast, LBJ was not interested in direct engagement with Indonesia; he did not want to spend political capital pushing Asia policies that were unpopular in Congress.
+1. Howard Jones reminisces about the attitutinal and policy shift between the JFK and LBJ administrations towards Indonesia:
+	* "Regarding himself as the leader not only of the new Asian-African nations but all the *new emerging forces* [of the Third World], I am sure that Sukarno felt that an understanding at least (if not a full on alliance) was possible between himself and the man considered the leader of the Western world.
+	* "Sukarno was being wooed by Khrushchev and Mao--why, then, should not the leader of the other world bloc be equally interested in working with him?"
+1. Jones believed Sukarno would back off on Malaysia as long as that did not mean national humliation; he told JFK a presidential visit to Indonesia would probably just what was needed.
+	* Kennedy agreed and planned to come.
+	* But a few months after JFK's death, Jones asked LBJ to sign an official determiniation that continued aid to Indonesia was in the national interest. 
+	* LBJ declined.
+1. Howard Jones: "JFK, i knew, would have signed the determination almost as matter of course of routine. It was disappointing."
+1. In December, 1963, Robert McNamara began suggesting aggressive curtailment of aid. It was the end of the Indonesia policy that Jones had been cultivating for a decade.
+1. LBJ made a deal with the British. In exchange for the UK's support in Vietnam escalation, the US would back the UK in the creation of Malaysia.
+1. Rising anti-American sentiment and policies in Indonesia b/c of LBJ's brush-off and Washington DC's support of the British in Malaysia.
+
+### Gulf of Tonkin Incident
+1. p. 123. Three days after Gulf of Tonkin, Sukarno defiantly established relations with Ho Chi Minh's government in North Vietnam.
+1. Sukarno to Jones: "I think your Asian policy is wrong. It is not popular with Asian people generally. It looks to them as if you are interfering with the affairs of the Asian nations...Why should you become involved?"
+1. Needless to say, Sukarno's support of North Vietnam was 'a scandalous position in DC'.
+1. But most Indonesians agreed with Sukarno. To people like Francisca and Sakono and Magdalena, the Vietnamese were fighting for national independence.
+
+### End of US Ambassador to Indonesia Howard Jones' tenure
+1. Warm send-off by Indonesians
+1. What did the US press say at the time? After Jones announced his departure from Indonesia,
+	* *The Washington Post*: Jones is Sukarno's pal, a man who is almost angelically naive. In a article with a lot of quotes from critics of Jones.
+	* *The Los Angeles Times*: Headline asking if "Jones was a patsy?"
+
+### Clandestine Operations
+1. p. 124 When Jones' diplomatic approach collapsed, both the US and the British governments escalated secret activities in Indonesia.
+1. Their full nature is still hidden to us, but they included 'black ops' and preparations for psychological warfare.
+
+
+
+
+
+
+## Chapter 7:
