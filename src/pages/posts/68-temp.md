@@ -12,6 +12,12 @@ tags: []
 * [Link to consolidated stats, video notes, etc.](/posts/67-stats/)
 * [Link to competition](/posts/69-competitors/)
 
+## 5/14/2024
+* 
+
+
+
+
 ## 5/13/2024
 * investors
 * what are the best prospects?
