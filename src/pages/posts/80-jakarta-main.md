@@ -131,8 +131,18 @@ nd [Indonesian Women's Movement *Gerwani*](https://en.wikipedia.org/wiki/Gerwani
 1. Their full nature is still hidden to us, but they included 'black ops' and preparations for psychological warfare.
 
 
+## Chapter 7: Extermination
+* 'When eyewitnesses and victims talk about the 6 months after September 30, 1965, they speak differently. Elderly men and women who talk about other parts of their lives in terms of years, or decades, begin to talk about weeks, specific dates, hours, and minutes.'
+* The now-public US Government communications recporting on the same events are also very specific about dates.
+* In deference to the manner in which these two very different types of voices can now speak to us, what follows is a selected timeline of these months. p. 137
 
+### October 5, 1965
+1. October 5th is Armed Forces Day in Indonesia.
+1. Because Sept 30th had just happened, in 1965 AFD meant a state funeral for the fallen generals--a demonstration of the military's new dominance.
+1. Sukarno refrained from attending, out of fear for his safety.
+1. President Sukarno now had to publicly back the new military leadership or appear to support the defeated and discredited, indeed apparently 'demonic' Sept 30th Movement.
+1. Defense Minister Nasution gave an impassioned speech condemning the treachery of the PKI rebellion and recognizing General Suharto's leadership.
+1. Around the archipelago, local chapters of the PKI (the Indonesian Communist Party) participated in festivities as they always had--proudly waving their hammer-and-sickle flags alongside the military celebrations.
 
-
-
-## Chapter 7:
+#### Washington Comms
+1. On Oct 5, US Ambassador to Indonesia Marshall Green cabled this to DC
