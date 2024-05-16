@@ -10,7 +10,7 @@ tags: []
 
 
 ---
-* [Main PA page](/posts/68-temp/)
+* [Main PA page](/posts/68-pa-main/)
 * [Stats](/posts/67-stats/)
 
 
