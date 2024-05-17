@@ -21,15 +21,6 @@ tags: []
 * DMs for Ride Home Fund
 * Blurb for Nat Friedman intro
 
---- Short description of Mindscale AI ---
- 
-Mindscale AI is tackling the problem of prior authorization for medical treatments. We are first to market applying multi-agent reasoning AI to this space. Combined with proprietary IP we are developing, we dynamically generate proof-of-medical necessity by mapping each patient’s case to their payer’s specific medical necessity criteria. 
-
-While competitors focus on optimizing paper flow for payers, we take the guesswork out of prior auth for providers. Our AI agent platform lets us tackle general problem-solving across heterogeneous policies and clinical guidelines across all medical specialities enabling us to seamlessly scale, create a moat, and unlock many adjacent applications.
-
-We have pilot programs in progress at several medical practices and hospitals and are seeking seed funding to continue proving our thesis. For more info, please reach out to Mindscale AI's CEO Seymour Duncker <seymour.duncker@mindscale.ai>.
-
-
 
 
 ## 5/14/2024
