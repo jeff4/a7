@@ -14,14 +14,24 @@ tags: []
 * [Link to competition](/posts/69-competitors/)
 
 
+## 5/17/2024
+
+### emails from Mindscale acct
+* Ashley Mayer, Coalition Operators, no deck just blurb
+
+
+### PPT Sendouts from personal JH email
+* blurb only no powerpoint. Greg Keller JumpCloud
+* Richard Aberman. blurb + ppt
+
 
 
 ## 5/16/2024
 ### Christina Warren
 * DMs for Ride Home Fund
 * Blurb for Nat Friedman intro
-
-
+### Hillary Frank
+* Sent out PPT, logged in '_send outs' directory
 
 ## 5/14/2024
 ### From Marissa 5/14
