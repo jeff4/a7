@@ -13,6 +13,16 @@ tags: []
 * [Link to competition](/posts/69-competitors/)
 * [Link to investor research](/posts/90-investors/)
 
+## 5/20/2024
+* overall
+* hm basys.ai (harvard / boston based startup funded by Two Lanterns VC) started serving providers and have pivoted to payers
+
+
+
+
+
+
+
 ## 5/13/2024
 * Research from Crunchbase
 * 6182 pre-seed investors
