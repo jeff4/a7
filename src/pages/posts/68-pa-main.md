@@ -13,18 +13,9 @@ tags: []
 * [Link to competition](/posts/69-competitors/)
 * [Link to investor research](/posts/90-investors/)
 
-## 5/28/2024
-* Leaned about Samacare from Hilary Frank at Vive Collective in early May. Funded by Vive Collective, they recently scored a Series B. Focus on providers with guarantee to move 7-day approval to 2-day approval. No mention of AI, credit to them.
-
-
-
-
-
 
 ## 5/20/2024
-* overall
 * hm basys.ai (harvard / boston based startup funded by Two Lanterns VC) started serving providers and have pivoted to payers
-
 
 
 ## 5/13/2024

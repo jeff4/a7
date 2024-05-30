@@ -13,6 +13,11 @@ tags: []
 * [Main PA page](/posts/68-pa-main/)
 * [Stats](/posts/67-stats/)
 
+## 5/17
+* Samacare, Vive Collective, Hillary Frank, Cheryl Cheng. See also this [LinkedIn post](https://www.linkedin.com/posts/fawadbutt_healthcare-priorauthorization-healthcareinnovation-activity-7199164420147601410-v0pk/) from Fawad Butt, former CDO at Kaiser. Comment from Cheryl Cheng. 
+* SamaCare focuses on providers, but no mention of AI in their Spring 2024 Series B fundraising announcement.
+* Funded by Vive Collective, they recently scored a Series B. Focus on providers with guarantee to move 7-day approval to 2-day approval. No mention of AI, credit to them.
+
 
 ### 3/27/2024
 * Valer Health is the new name of Voluware
