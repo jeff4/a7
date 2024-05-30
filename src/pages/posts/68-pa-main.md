@@ -17,11 +17,16 @@ tags: []
 
 ## 5/30/2024
 * Been trying to get cleaner stats for the last few days. Check out TAM page.
-* Since we started sending out the deck in earest in early May, We've been using the 450m PA numbers per year. Per GPT-4o on 5/29, might be as low as 64m per year. Especially first time submissions
+* Since we started sending out the deck in earest in early May, We've been using the 450m PA numbers per year. Per GPT-4o on 5/29, might be as low as 64m per year. Especially first time submissions.
+* See these comments from Slack 5/30 in our three-person DMo
+	* interesting data source [here](https://www.definitivehc.com/resources/healthcare-insights/doctors-us-hospitals) from 2023. It says it sources the data from public CMS data but when I follow the CMS link it leads to a giant gov't website where it's hard to find info 
+		* "On average, each U.S. hospital has about 209 affiliated providers. The number may include non-physician providers such as Nurse Practitioners and Physician Assistants and is based on the reported number of affiliated providers for 6,579 hospitals tracked in HospitalView. In total, nearly 1.4 million providers are affiliated with hospital facilities across the country."
+	* However, i believe this 1.4m is an undercount of all providers (aka doctors + nurse pract + PAs) because this is only sampling from a list of 6600 hospitals being tracked
+	* The 6600 hospitals where they source their data completely excludes ~18,000 private physician group practices. The private group segment alone employs 400k clinical workers (250k doctors + 150k nurse practitioners / phys assts). So 1.4m is definitely an undercount of all clinical providers
 
-
-
-
+### More data from definitive healthcare article 2023
+* "Larger hospital facilities also have a higher number of providers. Hospitals with 100 beds or less have an average number of providers that is also less than 100. Hospitals with more than 250 beds average 756 affiliated providers. These larger hospitals can offer a larger variety of services and levels of care, such as cancer care, that require a high number of providers to cover the different service lines."
+* "Hospitals in the southwest, southeast, and Midwest average between 140 and 195 providers per hospital. Hospitals in the northeast tend to have more healthcare providers with an average of 337 per hospital. Some of the largest hospitals by bed size are in the northeastern region, including hospitals in New York City and Boston, Massachusetts. As seen in the section above, larger hospitals average higher total numbers of providers."
 
 
 
