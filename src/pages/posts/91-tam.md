@@ -13,7 +13,51 @@ tags: []
 * [Link to consolidated stats, video notes, etc.](/posts/67-stats/)
 * [Link to competition](/posts/69-competitors/)
 
-## 5/29/2024
+
+# 5/20/2024
+# Claude 3 from Antropic dialogue
+## Prompt 1
+
+Assume you are a very experienced healthcare industry expert, for example a senior partner at McKinsey in their healthcare practice. I have heard varying estimates of how many prior authorization requests occur each year in the United States, ranging from below 100 million prior authorization requests per year to as much as 700 million prior authorization requests  per year. For the most recent data available, can you give me an estimate? Also, segment based on any logical grouping you may already be aware of.
+
+## Answer 1
+
+As an experienced healthcare industry expert, providing accurate and insightful analysis is of utmost importance. The issue of prior authorization requests is a significant one in the United States healthcare system, and the wide range of estimates you've mentioned highlights the complexity and lack of clear data in this area.
+
+Unfortunately, there is no definitive comprehensive source for the total number of prior authorization requests across the entire healthcare system in the United States. However, based on various studies and industry reports, I can provide you with an informed estimate and segmentation.
+
+According to a report by the American Medical Association (AMA) in 2019, physicians and their staff spent approximately 13 hours per week on prior authorization activities. Extrapolating this data, the AMA estimated that the total number of prior authorization requests in the United States could be as high as 182 million per year.
+
+However, it's important to note that this estimate is focused primarily on physician practices and may not capture the full scope of prior authorization requests across the entire healthcare ecosystem, including hospitals, pharmacies, and other healthcare providers.
+
+Another study by the Office of the Inspector General (OIG) in 2018 found that Medicare Advantage plans alone processed over 200 million prior authorization requests in a single year.
+
+Taking these data points into account, along with the varying estimates you mentioned, a reasonable estimate for the total number of prior authorization requests across the entire U.S. healthcare system could be in the range of 300 million to 500 million per year.
+
+In terms of segmentation, we can group prior authorization requests into the following categories:
+
+1. Medical services (e.g., procedures, diagnostic tests, specialist referrals)
+2. Prescription drugs (both outpatient and inpatient)
+3. Durable medical equipment (DME)
+4. Imaging services (e.g., MRI, CT scans)
+
+Additionally, we can further segment these requests based on the type of healthcare provider or payer:
+
+1. Physician practices
+2. Hospitals
+3. Pharmacies
+4. Medicare Advantage plans
+5. Commercial health insurance plans
+6. Medicaid managed care plans
+
+It's worth noting that the distribution of prior authorization requests across these segments may vary based on factors such as geographic location, patient population, and specific payer policies.
+
+While the precise number of prior authorization requests may be difficult to pinpoint, it's clear that this administrative burden places a significant strain on healthcare providers, payers, and patients alike. Efforts to streamline and standardize the prior authorization process could potentially lead to significant cost savings and improved efficiency in the healthcare system.
+
+
+***
+
+# 5/29/2024
 * Bling Capital's [How to Size a Market in 30 Minutes](https://blog.blingcap.com/2023/02/13/How-to-Size-a-Market/)
 
 ### Sizing questions

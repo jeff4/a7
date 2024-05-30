@@ -2,7 +2,7 @@
 
 layout: ../../layouts/MdPostDescLayout.astro
 title: 'Statistics, video outline, etc.'
-LastUpdatedDate: 2024-04-16
+LastUpdatedDate: 2024-06-05
 CreatedDate: 2024-03-06
 description: 'n/a'
 author: 'Jeff'
@@ -12,8 +12,15 @@ tags: []
 ---
 * [Main PA page](/posts/68-pa-main/)
 * [Competitors](/posts/69-competitors/)
+* [TAM](/posts/91-tam/)
 
-## Consolidated statistics
+## New consolidated stats
+* We've been using the 450m PA numbers per year. Per GPT-4o on 5/29, might be as low as 64m per year.
+
+
+
+
+## Consolidated statistics from before May 1, 2024
 * Jeff's estimates
 	* 2 billion PA requests a year, calculated from number of physician visits
 	* Total US NHE in 2022 is $4.5 T. [Source: CMS](https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet)

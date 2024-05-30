@@ -15,6 +15,17 @@ tags: []
 * [Link to TAM](/posts/91-tam/)
 
 
+## 5/30/2024
+* Been trying to get cleaner stats for the last few days. Check out TAM page.
+* Since we started sending out the deck in earest in early May, We've been using the 450m PA numbers per year. Per GPT-4o on 5/29, might be as low as 64m per year. Especially first time submissions
+
+
+
+
+
+
+
+
 ## 5/20/2024
 * hm basys.ai (harvard / boston based startup funded by Two Lanterns VC) started serving providers and have pivoted to payers
 
