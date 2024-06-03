@@ -14,6 +14,15 @@ tags: []
 * [Link to competition](/posts/69-competitors/)
 
 
+# 6/02/2024
+# Continued with ChatGPT
+## Prompt 1
+
+
+
+***
+
+
 # 5/31/2024
 # Continued with ChatGPT
 ## Prompt 1
