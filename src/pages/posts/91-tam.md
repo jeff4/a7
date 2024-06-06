@@ -167,6 +167,9 @@ To estimate the percentage of APRNs working in each of the 11 segments, we need 
 
 These estimates provide a general view of how APRNs are distributed across different healthcare segments, reflecting their diverse roles and the evolving healthcare landscape.
 
+
+***
+
 ## Prompt 4
 
 If one considers all other US caregivers who are able to prescribe medications and perform similarly important clinical tasks that require significant licensure, how many caregivers are there overall in the US in 2023. I would break this into 3 categories: (1) traditional MD/DO physicians, (2) APRNs like Nurse Practitioners , and (3) all other similar caregivers who are not MDs, NPs, APRNs, etc.
@@ -340,6 +343,8 @@ These estimates provide a general view of how MDs and DOs are distributed across
 
 * **JH note:** This is not good. this answer indicates that 25% of MDs work in large hospitals. But the data I got the other day from ChatGPT indicates only 12% of MDs work at large hospitals. Additional queries with ChatGPT did not resolve this data issue.
 
+
+***
 
 ## Prompt 7 - Claude from Anthropic
 
