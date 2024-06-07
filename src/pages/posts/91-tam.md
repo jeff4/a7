@@ -12,10 +12,66 @@ tags: []
 * [Link to Main PA page](/posts/68-pa-main/)
 * [Link to consolidated stats, video notes, etc.](/posts/67-stats/)
 * [Link to competition](/posts/69-competitors/)
+* [Link to FortuneBI on PGP](/posts/92-pgp1/)
 
+
+***
 
 # 6/06
-# Continued with ChatGPT
+# Thursday, part 2
+* After some thought let's focus more on physician group practices.
+* From Definitive Healthcare, there are about 338k PGPs in the US as of January 2024. You can download the CSV from [this page](https://www.definitivehc.com/resources/healthcare-insights/number-physician-group-practices-by-state).
+	* Most populous states are: California 31k, Florida 26k, Texas 25.6k, New York 21k.
+	* Big drop to next grouping: PA 13.9k, Illinois with 13k. NJ, Michigan, Georgia, Ohio, North Carolina each have about 11k - 12k.
+	* Washington 7k, Oregon 4.1k
+* Hm. last week, ChatGPT claimed there were 18k PGPs in the US. But Definitive Healthcare says there are 338k. :\
+* Tried query in phind.com and Bing Co-Pilot and they repeated the 338k number from Definitive HC. Bing also highlighted this $3000 report from [Fortune Business Intelligence](https://www.fortunebusinessinsights.com/u-s-physician-groups-market-106510). From the summary: 
+	* 'The U.S. physician groups market size was valued at $293.27 billion in 2023 & is anticipated to grow from $305.88 billion in 2024 to $444.79 billion by 2032; this is a CAGR of 4.8% in this period.'
+* Note. from the Fortune BI summary, looks like from 2012-2022, the % of physicians who moved from working in practices with 10 or fewer doctors decreased from 61% to 52%. based on data from the AMA.
+* Based on number of physicians in a practice, Fortune BI splits PGPs into: 
+	* 2 to 10 doctors
+	* 11 to 24 doctors 
+	* 25 to 50
+	* 50+
+
+***
+
+### California’s Physician Practice Landscape: A Rapidly Changing Market with Limited Data (2022 report)
+
+* Began learning more about PGPs based on this [2022 PDF](https://www.chcf.org/wp-content/uploads/2022/02/CAPhysicianPracticeLandscapeRapidlyChanging.pdf) focused on California.
+* p.4 - As of 2020, 14% of doctors were in solo practice, 42.6% were in single-specialty group, 26.2% in multispecialty group. 
+	* 9.3% were hospital employees or contractors.
+	* 2.9% in a faculty practice
+	* 5% were in some other practice, including ambulatory care and urgent care facilities.
+* p.4 As of 2020 breakdown by practice size:
+	* 2-4 doctors: 33.6%
+	* 5-10 doctors: 20%
+	* 11-24 doctors: 11.5%
+	* 25-49 doctors: 7.8%
+	* 50 or more doctors: 17.2%
+	* Other (direct hospital employees or contractors): 9.7%
+	
+***
+### 2022 AMA paper by Carol K. Kane, PhD
+* From [this PDF](https://www.ama-assn.org/system/files/2022-prp-practice-arrangement.pdf)
+* 
+
+    
+
+
+## Prompt 8
+What is the total number of nurses working in the United States as of 2023 or the best (or most recent data you have available)?
+
+
+## Answer 8
+
+
+
+
+***
+
+# 6/06
+# Thursday with ChatGPT, part 1
 ## Prompt 1
 What is the total number of nurses working in the United States as of 2023 or the best (or most recent data you have available)?
 
