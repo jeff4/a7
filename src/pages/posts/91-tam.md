@@ -13,6 +13,7 @@ tags: []
 * [Link to consolidated stats, video notes, etc.](/posts/67-stats/)
 * [Link to competition](/posts/69-competitors/)
 * [Link to FortuneBI on PGP](/posts/92-pgp1/)
+* [Link to ideas](/posts/93-ideas/)
 
 
 ***
