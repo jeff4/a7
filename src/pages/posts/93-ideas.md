@@ -17,6 +17,16 @@ tags: []
 
 
 ***
+
+## 6/17
+* Over weekend, watched most of the 13-video [Carta course Startups 101](https://carta.com/learn/cap-table-101/). [Link to YouTube playlist](https://www.youtube.com/playlist?list=PLQkiYvUCwsTElsULazHEqDMk39TloFENk).
+
+
+
+
+
+
+
 ## 6/13/2024
 ### BioRender
 
