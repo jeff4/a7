@@ -27,6 +27,11 @@ tags: []
 	* 'Ask any of the health-focused VCs to name one of the top AI startups and one name comes up over and over again: a company  based in Pittsburgh called Abridge.'
 	* Its a medical scribe company
 	* Founder: Dr. Shiv Rao, practicing cardiologist and part-time corporate VC at UPitt Medical Center.
+	* 'Although most corporations are still very cautious about adopting AI tools, large medical systems are eager to sign contracts with Abridge.'
+	* '“The sales cycle for [health systems] can be 18 to 24 months,” said Rao. “When we started the company, we knew what we were in for.”  But with a four-year lead on a virtual scribe product trained on thousands of doctor-patient conversations, and now that AI is booming, hospitals are suddenly buying Abridge at a rapid pace, a stark contrast to their typically protracted purchasing behavior. The company has announced a new health system customer nearly every week since the start of 2024.'
+	* 'Large hospitals are not only buying multi-thousand seat licenses of Abridge but, in many cases, publishing glowing reviews about how the health tech’s software is changing physicians’ lives. Hospital executives and doctors are describing Abridge as “life-changing,” “magical,” and “one of the most important paradigm shifts within our careers.”'
+	* Press releases from [Christus Health based in Texas](https://www.abridge.com/press-release/christus-health-announcement), [MemorialCare](https://www.abridge.com/press-release/christus-health-announcement), [University of Chicago Medicine](https://www.abridge.com/press-release/abridge-uchicago)
+* Is it really true that the big budgets that come big hospitals to buy who already use Epic EHR and demand integrations...is this worth the tradeoff in the long slow certification process? Is there a niche possible for smaller systems or PGPs that might be more amenable to PLG that does not rely on partnership/channel/integration with Epic?
 
 
 ***
