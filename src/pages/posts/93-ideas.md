@@ -18,23 +18,27 @@ tags: []
 
 ***
 
+
+## 6/19
+* Saw this HN homepage -- ['Ribbon Health (YC S17) is hiring a Sales Engineering Director for Enterprises'](https://news.ycombinator.com/item?id=40727427) Ribbon Health's platform has two basic use cases: (1) Helping patients find doctors through referrals. They have a database of every provider in the US. *and* (2) Provider data Management - act as single source of truth to integrate custom insurance data with provider datasets.
+	* Platform "transforms provider data from operational headache to a source of business efficiency and value."
+	* Ribbon Directory: 'The industry’s most comprehensive and accurate data asset on healthcare providers and facilities, from basics like address and insurance network, to detailed metrics like common procedures, affiliations, cost, quality, and more. Data is constantly compiled and refreshed from thousands of sources, and Ribbon AI models surface the most accurate data.'
+* From TC today [How Abridge became one of the most talked about healthcare AI startups](https://techcrunch.com/2024/06/18/how-abridge-became-one-of-the-most-talked-about-healthcare-ai-startups/)
+	* 'Ask any of the health-focused VCs to name one of the top AI startups and one name comes up over and over again: a company  based in Pittsburgh called Abridge.'
+	* Its a medical scribe company
+	* Founder: Dr. Shiv Rao, practicing cardiologist and part-time corporate VC at UPitt Medical Center.
+
+
+***
+
 ## 6/17
 * Over weekend, watched most of the 13-video [Carta course Startups 101](https://carta.com/learn/cap-table-101/). [Link to YouTube playlist](https://www.youtube.com/playlist?list=PLQkiYvUCwsTElsULazHEqDMk39TloFENk).
-
-
-
-
-
-
 
 ## 6/13/2024
 ### BioRender
 
 Research from Crunchbase
-
-
 * 23 open positions from their Lever /jobs page
-
 
 ### Notes from 2021 Visualize 2021
 * CEO and cofounder Shiz Aoki
