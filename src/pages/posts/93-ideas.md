@@ -18,6 +18,17 @@ tags: []
 
 ***
 
+## 7/10/2024
+
+* Resources on medspas MedSpa.com:
+1. [What is a Med Spa?](https://medspa.com/what-is-a-med-spa)
+1. [Why do i need a med spa?](https://medspa.com/why-do-i-need-a-medspa)
+
+
+
+
+
+***
 
 ## 6/19
 * Saw this HN homepage -- ['Ribbon Health (YC S17) is hiring a Sales Engineering Director for Enterprises'](https://news.ycombinator.com/item?id=40727427) Ribbon Health's platform has two basic use cases: (1) Helping patients find doctors through referrals. They have a database of every provider in the US. *and* (2) Provider data Management - act as single source of truth to integrate custom insurance data with provider datasets.
