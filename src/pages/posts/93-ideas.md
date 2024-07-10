@@ -35,280 +35,278 @@ tags: []
 1. **Q: The medical spa I go to has a nurse practitioner on site, but no doctor. Is this legal? Is this safe?**
 	* It depends on your state, but as a general rule, yes, that’s perfectly fine. Nurse Practitioners and Physician Assistants are called “mid-level” providers. This means that they can do many of the same things that a doctor can do provided they are properly trained and experienced. They can see new patients, make diagnoses, develop treatment plans, and even prescribe medication. Most states do not require the doctor overseeing the NP or PA to be on site, although there are often distance and documentation requirements. As long as the NP or PA is properly trained and experienced, there should be no problem with the spa being staffed by an NP or PA. But don’t be shy! Ask about the NP’s experience, ask about his or her overseeing doctor, and ask to see all supporting documentation if you have questions. All of this should be readily available and, if it’s not, that’s a red flag you need to take into consideration.
 
-
 ### List of treatments (original order)
 1. Botox
-2. Laser Hair Removal
-3. Photo-facial pulsed light (IPL)
-4. Chemical Peels
-5. Coolsculpting
-6. Facials
-7. Dermal Fillers
-8. Juvederm
-9. Microneedling
-10. Restylane
-11. Kybella
-12. Hydrafacial
-13. Laser Skin Resurfacing
-14. Dermaplaning
-15. Dysport
-16. IV Therapy
-17. Tattoo Removal
-18. Signature Facial
-19. Ultherapy
-20. Acne Scar Treatments
-21. PRP Blood Facial
-22. Microdermabrasion
-23. Voluma
-24. Skin Tightening
-25. Sculptra
-26. LED - Light Therapy
-27. Xeomin
-28. Body Contouring
-29. Lip Filler
-30. Cryotherapy
-31. Red Light Therapy
-32. Diamond Glow
-33. Cooltone
-34. PDO Thread Lifts
-35. Semaglutide Therapy
-36. Skinpen
-37. EMSculpt
-38. Hormone Replacement Therapy
-39. CryoFacial
-40. Dermabrasion
-41. Muscle Toning
-42. Thermage
-43. Skin Rejuvenation & Resurfacing
-44. Morpheus8 RF Microneedling
-45. Radiofrequency
-46. RF Microneedling
-47. Localized Cryotherapy
-48. Medical Weight Loss Program
-49. Microderm Infusion
-50. Hair Loss Treatment
-51. Radiesse
-52. Microcurrent
-53. Compression Therapy
-54. Decompression Therapy
-55. Jeuveau
-56. CryoSlimming
-57. Back Treatment
-58. Belotero Balance
-59. Scar Revision
-60. Vein Removal
-61. Laser Scar Revision
-62. Laser Vein Treatments
-63. Emsculpt Neo
-64. Botox for Sweat
-65. VI Peel
-66. PRP Hair Regeneration
-67. Vampire Facelift
-68. Infrared Sauna
-69. Zerobody Dry Float
-70. Hair Regeneration
-71. Liquid Facelift
-72. Latisse
-73. Fibroblast
-74. BBL Corrective
-75. Venus Legacy
-76. Pixel8 RF Microneedling
-77. Hydrojelly Mask
-78. Thorne Supplements
-79. Glo2Facial
-80. Hydrafacial Boosters
-81. Hair Replacement
-82. Clear + Brilliant
-83. Under Eye PRP
-84. Endermologie
-85. Velashape III
-86. B12 Injection
-87. CryoTherma
-88. Sclerotherapy
-89. Ematrix
-90. Fraxel
-91. truSculpt
-92. Smart Liposuction
-93. Laser Facial
-94. Butt Lift - injectable
-95. Skinvive
-96. Venus Freeze
-97. Vaginal Rejuvenation - Radio Frequency
-98. Keravive
-99. Plasma Injections
-100. Vanquish ME
-101. Revanesse
-102. Microblading
-103. QWO Cellulite Injection
-104. Upneeq
-105. Pro yellow
-106. Vaginal Rejuvenation - Laser
-107. Teeth Whitening
-108. Thread Facelift
-109. Vollure
-110. Volbella
-111. Ultrasound
-112. Renuvion
-113. Liquid Nose Job
-114. Permanent Makeup
-115. CoolPeel
-116. CO2 Laser
-117. Oxygen Dome Facial
-118. Eon
-119. NuEra Skin Tightening
-120. Kenalog
-121. Chin Fat Removal
-122. Aquagold Fine Touch
-123. Halo
-124. Collagen Induction
-125. UltraShape Power
-126. Cosmelan Peels
-127. Sculpsure
-128. Mole and Skin Tag Removal
-129. ThermiSmooth
-130. Anti-Aging Eye Treatment
-131. AGNES RF Laser
-132. Coolifting
-133. CryToning
-134. Exilis Ultra
-
-### List of treatments (alphabetical)
-1. Botox
-2. Laser Hair Removal
-3. Photo-facial pulsed light (IPL)
-4. Acne Scar Treatments
-5. AGNES RF Laser
-6. Anti-Aging Eye Treatment
-7. Aquagold Fine Touch
-8. B12 Injection
-9. Back Treatment
-10. BBL Corrective
-11. Belotero Balance
-12. Body Contouring
-13. Botox for Sweat
-14. Butt Lift - injectable
-15. Chemical Peels
-16. Chin Fat Removal
-17. Clear + Brilliant
-18. CO2 Laser
-19. Collagen Induction
-20. Compression Therapy
-21. Coolifting
-22. CoolPeel
-23. Coolsculpting
-24. Cooltone
-25. Cosmelan Peels
-26. CryoFacial
-27. CryoSlimming
-28. Cryotherapy
-29. CryoTherma
-30. CryToning
-31. Decompression Therapy
-32. Dermabrasion
-33. Dermal Fillers
-34. Dermaplaning
-35. Diamond Glow
-36. Dysport
-37. Ematrix
-38. EMSculpt
-39. Emsculpt Neo
-40. Endermologie
-41. Eon
-42. Exilis Ultra
-43. Facials
-44. Fibroblast
-45. Fraxel
-46. Glo2Facial
-47. Hair Loss Treatment
-48. Hair Regeneration
-49. Hair Replacement
-50. Halo
-51. Hormone Replacement Therapy
-52. Hydrafacial
-53. Hydrafacial Boosters
-54. Hydrojelly Mask
-55. Infrared Sauna
-56. IV Therapy
-57. Jeuveau
-58. Juvederm
-59. Kenalog
-60. Keravive
-61. Kybella
-62. Laser Facial
-63. Laser Scar Revision
-64. Laser Skin Resurfacing
-65. Laser Vein Treatments
-66. Latisse
-67. LED - Light Therapy
-68. Lip Filler
-69. Liquid Facelift
-70. Liquid Nose Job
-71. Localized Cryotherapy
-72. Medical Weight Loss Program
-73. Microblading
-74. Microcurrent
-75. Microderm Infusion
-76. Microdermabrasion
-77. Microneedling
-78. Mole and Skin Tag Removal
-79. Morpheus8 RF Microneedling
-80. Muscle Toning
-81. NuEra Skin Tightening
-82. Oxygen Dome Facial
-83. PDO Thread Lifts
-84. Permanent Makeup
-85. Pixel8 RF Microneedling
-86. Plasma Injections
-87. Pro yellow
-88. PRP Blood Facial
-89. PRP Hair Regeneration
-90. QWO Cellulite Injection
-91. Radiesse
-92. Radiofrequency
-93. Red Light Therapy
-94. Renuvion
-95. Restylane
-96. Revanesse
-97. RF Microneedling
-98. Scar Revision
-99. Sclerotherapy
-100. Sculpsure
-101. Sculptra
-102. Semaglutide Therapy
-103. Signature Facial
-104. Skin Rejuvenation & Resurfacing
-105. Skin Tightening
-106. Skinpen
-107. Skinvive
-108. Smart Liposuction
-109. Tattoo Removal
-110. Teeth Whitening
-111. Thermage
-112. ThermiSmooth
-113. Thorne Supplements
-114. Thread Facelift
-115. truSculpt
-116. Ultherapy
-117. UltraShape Power
-118. Ultrasound
-119. Under Eye PRP
-120. Upneeq
-121. Vaginal Rejuvenation - Laser
-122. Vaginal Rejuvenation - Radio Frequency
-123. Vampire Facelift
-124. Vanquish ME
-125. Vein Removal
-126. Velashape III
-127. Venus Freeze
-128. Venus Legacy
-129. VI Peel
-130. Volbella
-131. Vollure
-132. Voluma
-133. Xeomin
-134. Zerobody Dry Float
+1. Laser Hair Removal
+1. Photo-facial pulsed light (IPL)
+1. Chemical Peels
+1. Coolsculpting
+1. Facials
+1. Dermal Fillers
+1. Juvederm
+1. Microneedling
+1. Restylane
+1. Kybella
+1. Hydrafacial
+1. Laser Skin Resurfacing
+1. Dermaplaning
+1. Dysport
+1. IV Therapy
+1. Tattoo Removal
+1. Signature Facial
+1. Ultherapy
+1. Acne Scar Treatments
+1. PRP Blood Facial
+1. Microdermabrasion
+1. Voluma
+1. Skin Tightening
+1. Sculptra
+1. LED - Light Therapy
+1. Xeomin
+1. Body Contouring
+1. Lip Filler
+1. Cryotherapy
+1. Red Light Therapy
+1. Diamond Glow
+1. Cooltone
+1. PDO Thread Lifts
+1. Semaglutide Therapy
+1. Skinpen
+1. EMSculpt
+1. Hormone Replacement Therapy
+1. CryoFacial
+1. Dermabrasion
+1. Muscle Toning
+1. Thermage
+1. Skin Rejuvenation & Resurfacing
+1. Morpheus8 RF Microneedling
+1. Radiofrequency
+1. RF Microneedling
+1. Localized Cryotherapy
+1. Medical Weight Loss Program
+1. Microderm Infusion
+1. Hair Loss Treatment
+1. Radiesse
+1. Microcurrent
+1. Compression Therapy
+1. Decompression Therapy
+1. Jeuveau
+1. CryoSlimming
+1. Back Treatment
+1. Belotero Balance
+1. Scar Revision
+1. Vein Removal
+1. Laser Scar Revision
+1. Laser Vein Treatments
+1. Emsculpt Neo
+1. Botox for Sweat
+1. VI Peel
+1. PRP Hair Regeneration
+1. Vampire Facelift
+1. Infrared Sauna
+1. Zerobody Dry Float
+1. Hair Regeneration
+1. Liquid Facelift
+1. Latisse
+1. Fibroblast
+1. BBL Corrective
+1. Venus Legacy
+1. Pixel8 RF Microneedling
+1. Hydrojelly Mask
+1. Thorne Supplements
+1. Glo2Facial
+1. Hydrafacial Boosters
+1. Hair Replacement
+1. Clear + Brilliant
+1. Under Eye PRP
+1. Endermologie
+1. Velashape III
+1. B12 Injection
+1. CryoTherma
+1. Sclerotherapy
+1. Ematrix
+1. Fraxel
+1. truSculpt
+1. Smart Liposuction
+1. Laser Facial
+1. Butt Lift - injectable
+1. Skinvive
+1. Venus Freeze
+1. Vaginal Rejuvenation - Radio Frequency
+1. Keravive
+1. Plasma Injections
+1. Vanquish ME
+1. Revanesse
+1. Microblading
+1. QWO Cellulite Injection
+1. Upneeq
+1. Pro yellow
+1. Vaginal Rejuvenation - Laser
+1. Teeth Whitening
+1. Thread Facelift
+1. Vollure
+1. Volbella
+1. Ultrasound
+1. Renuvion
+1. Liquid Nose Job
+1. Permanent Makeup
+1. CoolPeel
+1. CO2 Laser
+1. Oxygen Dome Facial
+1. Eon
+1. NuEra Skin Tightening
+1. Kenalog
+1. Chin Fat Removal
+1. Aquagold Fine Touch
+1. Halo
+1. Collagen Induction
+1. UltraShape Power
+1. Cosmelan Peels
+1. Sculpsure
+1. Mole and Skin Tag Removal
+1. ThermiSmooth
+1. Anti-Aging Eye Treatment
+1. AGNES RF Laser
+1. Coolifting
+1. CryToning
+1. Exilis Ultra
 
 
+### List of treatments (alphabetical order)
+1. Acne Scar Treatments
+1. AGNES RF Laser
+1. Anti-Aging Eye Treatment
+1. Aquagold Fine Touch
+1. B12 Injection
+1. Back Treatment
+1. BBL Corrective
+1. Belotero Balance
+1. Body Contouring
+1. **Botox**
+1. Botox for Sweat
+1. Butt Lift - injectable
+1. Chemical Peels
+1. Chin Fat Removal
+1. Clear + Brilliant
+1. CO2 Laser
+1. Collagen Induction
+1. Compression Therapy
+1. Coolifting
+1. CoolPeel
+1. Coolsculpting
+1. Cooltone
+1. Cosmelan Peels
+1. CryoFacial
+1. CryoSlimming
+1. Cryotherapy
+1. CryoTherma
+1. CryToning
+1. Decompression Therapy
+1. Dermabrasion
+1. Dermal Fillers
+1. Dermaplaning
+1. Diamond Glow
+1. Dysport
+1. Ematrix
+1. EMSculpt
+1. Emsculpt Neo
+1. Endermologie
+1. Eon
+1. Exilis Ultra
+1. Facials
+1. Fibroblast
+1. Fraxel
+1. Glo2Facial
+1. Hair Loss Treatment
+1. Hair Regeneration
+1. Hair Replacement
+1. Halo
+1. Hormone Replacement Therapy
+1. Hydrafacial
+1. Hydrafacial Boosters
+1. Hydrojelly Mask
+1. Infrared Sauna
+1. IV Therapy
+1. Jeuveau
+1. Juvederm
+1. Kenalog
+1. Keravive
+1. Kybella
+1. Laser Facial
+1. **Laser Hair Removal**
+1. Laser Scar Revision
+1. Laser Skin Resurfacing
+1. Laser Vein Treatments
+1. Latisse
+1. LED - Light Therapy
+1. Lip Filler
+1. Liquid Facelift
+1. Liquid Nose Job
+1. Localized Cryotherapy
+1. Medical Weight Loss Program
+1. Microblading
+1. Microcurrent
+1. Microderm Infusion
+1. Microdermabrasion
+1. Microneedling
+1. Mole and Skin Tag Removal
+1. Morpheus8 RF Microneedling
+1. Muscle Toning
+1. NuEra Skin Tightening
+1. Oxygen Dome Facial
+1. PDO Thread Lifts
+1. Permanent Makeup
+1. **Photo-facial pulsed light (IPL)**
+1. Pixel8 RF Microneedling
+1. Plasma Injections
+1. Pro yellow
+1. PRP Blood Facial
+1. PRP Hair Regeneration
+1. QWO Cellulite Injection
+1. Radiesse
+1. Radiofrequency
+1. Red Light Therapy
+1. Renuvion
+1. Restylane
+1. Revanesse
+1. RF Microneedling
+1. Scar Revision
+1. Sclerotherapy
+1. Sculpsure
+1. Sculptra
+1. Semaglutide Therapy
+1. Signature Facial
+1. Skin Rejuvenation & Resurfacing
+1. Skin Tightening
+1. Skinpen
+1. Skinvive
+1. Smart Liposuction
+1. Tattoo Removal
+1. Teeth Whitening
+1. Thermage
+1. ThermiSmooth
+1. Thorne Supplements
+1. Thread Facelift
+1. truSculpt
+1. Ultherapy
+1. UltraShape Power
+1. Ultrasound
+1. Under Eye PRP
+1. Upneeq
+1. Vaginal Rejuvenation - Laser
+1. Vaginal Rejuvenation - Radio Frequency
+1. Vampire Facelift
+1. Vanquish ME
+1. Vein Removal
+1. Velashape III
+1. Venus Freeze
+1. Venus Legacy
+1. VI Peel
+1. Volbella
+1. Vollure
+1. Voluma
+1. Xeomin
+1. Zerobody Dry Float
 
 
 
