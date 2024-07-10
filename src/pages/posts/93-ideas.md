@@ -19,6 +19,8 @@ tags: []
 ***
 
 ## 7/10/2024
+* See also the AmSpa (American Med Spa Association). [website](https://americanmedspa.org). Team, timeline, history, pricing are all located on their [about page](https://americanmedspa.org/why-amspa).
+* Looks like MedSpas.com and AmSpa are different organizations. MS.com is about patient education and is a discovery/directory to find a local medspa. Meanwhile, AmSpa has taken on some aspects of a professional org but is a for-profit org started by a healthcare lawyer to focus on the different laws etc. available around the country.
 
 * Resources on medspas MedSpa.com:
 	1. [What is a Med Spa?](https://medspa.com/what-is-a-med-spa)
@@ -27,19 +29,33 @@ tags: []
 
 ### From What is a Med Spa article
 
+1. **Intro Section**
+	* The American Med Spa Association (AMSPA) defines a Medical Spa or so-called Med Spa as a hybrid between an aesthetic medical center and a day spa” with four core elements: 
+		1. the provision of non-invasive (i.e. non-surgical) aesthetic medical services; 
+		1. under the general supervision of a licensed physician; 
+		1. performed by trained, experienced and qualified practitioners; 
+		1. with onsite supervision by a licensed healthcare professional.
 1. **Q: 'What constitutes a medical treatment?'**
 	* "most states believe that any treatment that affects anything outside the dead skin cells, i.e. the epidermis, is considered to be a medical treatment. There is some confusion about whether certain treatments constitute medical treatments, such as microneedling and dermaplaning."
 	* Also, AmSpa encourages consumers to be aware that oftentimes noncompliant medical spas will indicate that medical spa treatments are not medical treatments, when they are in fact considered medical treatments by the state. Body sculpting and laser treatments are often considered medical treatments, for instance, even though they are often advertised as non-medical treatments. It’s in your hands to do the proper research. There are medical spas out there that aren’t necessarily always honest or even aware about compliance and legalities. **The laws are changing and difficult to find, therefore it’s incumbent upon all of us to be aware of the legalities of the industry.**
-1. **Q: An aesthetician wnats to perform my Botox injection. Should I let her?**
+1. **Q: An aesthetician wants to perform my Botox injection. Should I let her?**
 	* No. Botox is considered a medical treatment, therefore, prior to your initial treatment, the medical spa should offer you an in-person exam by either a doctor, a nurse practitioner or a physician assistant. While each state treats each procedure differently, AmSpa recommends that only an RN or higher-level practitioner perform Botox or injectables.
 1. **Q: The medical spa I go to has a nurse practitioner on site, but no doctor. Is this legal? Is this safe?**
 	* It depends on your state, but as a general rule, yes, that’s perfectly fine. Nurse Practitioners and Physician Assistants are called “mid-level” providers. This means that they can do many of the same things that a doctor can do provided they are properly trained and experienced. They can see new patients, make diagnoses, develop treatment plans, and even prescribe medication. Most states do not require the doctor overseeing the NP or PA to be on site, although there are often distance and documentation requirements. As long as the NP or PA is properly trained and experienced, there should be no problem with the spa being staffed by an NP or PA. But don’t be shy! Ask about the NP’s experience, ask about his or her overseeing doctor, and ask to see all supporting documentation if you have questions. All of this should be readily available and, if it’s not, that’s a red flag you need to take into consideration.
+1. **Q: At the medical spa I go to a nurse, not a doctor, performs Botox and filler injections. Is this legal? Is this safe?**
+	* It depends on your state, but as a general rule, yes, that’s perfectly fine. Most states allow RNs to inject Botox and fillers, with a few important caveats. One, you should always see a physician (either MD or DO) or a mid-level provider (nurse practitioner or physician assistant) before your first treatment. This is not only true for injectables, but all medical treatments, including laser treatments and microneedling. If you go to a new medical spa and are treated by an RN without ever seeing either an MD, DO, NP or PA, the medical spa is very likely breaking the law and does not have proper medical supervision in place.
+	* Two, the RN must be properly trained, qualified, and experienced. And don’t simply take their word for it—ask for their license number (all nurses are registered with the state), ask to speak to their supervising physician, and ask for references. These should be readily available.
+1. **Q: I have been invited to a "Botox party" at someone's house. Is this legal? Is this safe?**
+	* Typically, yes, but you should definitely do some research to make sure the event is safe and compliant. As a general rule, most medical boards don’t exclusively require Botox or fillers to be administered at the doctor’s office. Provided all the proper protocols and safety measures are in place, they often can be performed anywhere, including at a private residence. 
+	* But please know that all the requirements of medical treatments are applicable, even though the treatment is being done offsite. That means that, unless you have already been treated at the medical spa before, you should see a doctor, nurse practitioner, or physician assistant before you receive the treatment. If you are invited to Botox party held by a nurse you have never met before (who is not accompanied by a doctor, NP or PA), this is a huge red flag that the party is being held illegally and that proper medical protocols are not in place. Remember, you should see a doctor, NP, or PA first, before you are treated.
+
 
 ### List of treatments (original order)
 1. Botox
 1. Laser Hair Removal
 1. Photo-facial pulsed light (IPL)
 1. Chemical Peels
+
 1. Coolsculpting
 1. Facials
 1. Dermal Fillers
