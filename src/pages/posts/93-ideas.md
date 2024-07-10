@@ -21,8 +21,157 @@ tags: []
 ## 7/10/2024
 
 * Resources on medspas MedSpa.com:
-1. [What is a Med Spa?](https://medspa.com/what-is-a-med-spa)
-1. [Why do i need a med spa?](https://medspa.com/why-do-i-need-a-medspa)
+	1. [What is a Med Spa?](https://medspa.com/what-is-a-med-spa)
+	1. [Why do i need a med spa?](https://medspa.com/why-do-i-need-a-medspa)
+* General principle: any time a scalpel or needle is used, it's considered a medical treatment. 
+
+### From What is a Med Spa article
+
+1. **Q: 'What constitutes a medical treatment?'**
+	* "most states believe that any treatment that affects anything outside the dead skin cells, i.e. the epidermis, is considered to be a medical treatment. There is some confusion about whether certain treatments constitute medical treatments, such as microneedling and dermaplaning."
+	* Also, AmSpa encourages consumers to be aware that oftentimes noncompliant medical spas will indicate that medical spa treatments are not medical treatments, when they are in fact considered medical treatments by the state. Body sculpting and laser treatments are often considered medical treatments, for instance, even though they are often advertised as non-medical treatments. It’s in your hands to do the proper research. There are medical spas out there that aren’t necessarily always honest or even aware about compliance and legalities. **The laws are changing and difficult to find, therefore it’s incumbent upon all of us to be aware of the legalities of the industry.**
+1. **Q: An aesthetician wnats to perform my Botox injection. Should I let her?**
+	* No. Botox is considered a medical treatment, therefore, prior to your initial treatment, the medical spa should offer you an in-person exam by either a doctor, a nurse practitioner or a physician assistant. While each state treats each procedure differently, AmSpa recommends that only an RN or higher-level practitioner perform Botox or injectables.
+1. **Q: The medical spa I go to has a nurse practitioner on site, but no doctor. Is this legal? Is this safe?**
+	* It depends on your state, but as a general rule, yes, that’s perfectly fine. Nurse Practitioners and Physician Assistants are called “mid-level” providers. This means that they can do many of the same things that a doctor can do provided they are properly trained and experienced. They can see new patients, make diagnoses, develop treatment plans, and even prescribe medication. Most states do not require the doctor overseeing the NP or PA to be on site, although there are often distance and documentation requirements. As long as the NP or PA is properly trained and experienced, there should be no problem with the spa being staffed by an NP or PA. But don’t be shy! Ask about the NP’s experience, ask about his or her overseeing doctor, and ask to see all supporting documentation if you have questions. All of this should be readily available and, if it’s not, that’s a red flag you need to take into consideration.
+
+
+### List of treatments
+Botox
+Laser Hair Removal
+Photo-facial pulsed light (IPL)
+Chemical Peels
+Coolsculpting
+Facials
+Dermal Fillers
+Juvederm
+Microneedling
+Restylane
+Kybella
+Hydrafacial
+Laser Skin Resurfacing
+Dermaplaning
+Dysport
+IV Therapy
+Tattoo Removal
+Signature Facial
+Ultherapy
+Acne Scar Treatments
+PRP Blood Facial
+Microdermabrasion
+Voluma
+Skin Tightening
+Sculptra
+LED - Light Therapy
+Xeomin
+Body Contouring
+Lip Filler
+Cryotherapy
+Red Light Therapy
+Diamond Glow
+Cooltone
+PDO Thread Lifts
+Semaglutide Therapy
+Skinpen
+EMSculpt
+Hormone Replacement Therapy
+CryoFacial
+Dermabrasion
+Muscle Toning
+Thermage
+Skin Rejuvenation & Resurfacing
+Morpheus8 RF Microneedling
+Radiofrequency
+RF Microneedling
+Localized Cryotherapy
+Medical Weight Loss Program
+Microderm Infusion
+Hair Loss Treatment
+Radiesse
+Microcurrent
+Compression Therapy
+Decompression Therapy
+Jeuveau
+CryoSlimming
+Back Treatment
+Belotero Balance
+Scar Revision
+Vein Removal
+Laser Scar Revision
+Laser Vein Treatments
+Emsculpt Neo
+Botox for Sweat
+VI Peel
+PRP Hair Regeneration
+Vampire Facelift
+Infrared Sauna
+Zerobody Dry Float
+Hair Regeneration
+Liquid Facelift
+Latisse
+Fibroblast
+BBL Corrective
+Venus Legacy
+Pixel8 RF Microneedling
+Hydrojelly Mask
+Thorne Supplements
+Glo2Facial
+Hydrafacial Boosters
+Hair Replacement
+Clear + Brilliant
+Under Eye PRP
+Endermologie
+Velashape III
+B12 Injection
+CryoTherma
+Sclerotherapy
+Ematrix
+Fraxel
+truSculpt
+Smart Liposuction
+Laser Facial
+Butt Lift - injectable
+Skinvive
+Venus Freeze
+Vaginal Rejuvenation - Radio Frequency
+Keravive
+Plasma Injections
+Vanquish ME
+Revanesse
+Microblading
+QWO Cellulite Injection
+Upneeq
+Pro yellow
+Vaginal Rejuvenation - Laser
+Teeth Whitening
+Thread Facelift
+Vollure
+Volbella
+Ultrasound
+Renuvion
+Liquid Nose Job
+Permanent Makeup
+CoolPeel
+CO2 Laser
+Oxygen Dome Facial
+Eon
+NuEra Skin Tightening
+Kenalog
+Chin Fat Removal
+Aquagold Fine Touch
+Halo
+Collagen Induction
+UltraShape Power
+Cosmelan Peels
+Sculpsure
+Mole and Skin Tag Removal
+ThermiSmooth
+Anti-Aging Eye Treatment
+AGNES RF Laser
+Coolifting
+CryToning
+Exilis Ultra
+
 
 
 
