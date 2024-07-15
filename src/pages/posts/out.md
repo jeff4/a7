@@ -1,6 +1,9 @@
 1. **Q: 'What constitutes a medical treatment?'**
 1. **Q: An aesthetician wnats to perform my Botox injection. Should I let her?**
 1. **Q: The medical spa I go to has a nurse practitioner on site, but no doctor. Is this legal? Is this safe?**
+
+
+### List of treatments (original)
 1. Botox
 1. Laser Hair Removal
 1. Photo-facial pulsed light (IPL)
@@ -135,6 +138,10 @@
 1. Coolifting
 1. CryToning
 1. Exilis Ultra
+
+
+
+### List of treatments (alphabetical)
 1. Botox
 1. Laser Hair Removal
 1. Photo-facial pulsed light (IPL)
