@@ -207,9 +207,6 @@ tags: []
 ***
 
 ### List of treatments (alphabetical)
-1. Botox
-1. Laser Hair Removal
-1. Photo-facial pulsed light (IPL)
 1. Acne Scar Treatments
 1. AGNES RF Laser
 1. Anti-Aging Eye Treatment
@@ -219,6 +216,7 @@ tags: []
 1. BBL Corrective
 1. Belotero Balance
 1. Body Contouring
+1. **Botox**  
 1. Botox for Sweat
 1. Butt Lift - injectable
 1. Chemical Peels
@@ -269,6 +267,7 @@ tags: []
 1. Keravive
 1. Kybella
 1. Laser Facial
+1. **Laser Hair Removal** 
 1. Laser Scar Revision
 1. Laser Skin Resurfacing
 1. Laser Vein Treatments
@@ -291,6 +290,7 @@ tags: []
 1. Oxygen Dome Facial
 1. PDO Thread Lifts
 1. Permanent Makeup
+1. **Photo-facial pulsed light (IPL)**
 1. Pixel8 RF Microneedling
 1. Plasma Injections
 1. Pro yellow
