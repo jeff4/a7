@@ -55,7 +55,10 @@ tags: []
 * List believed all those flowery words to be a mere smokescreen.
 * According to List, the true intention of Cobden and other free traders: to keep Britain as the *manufacturer for the world* in perpetuity.
 * List warned that if the rest of the industrializing world listened to free-traders and threw open their domestic markets to open trade, Britain would maintain its hegemony by strangling rival nations' infant industries in the cradle.
-#### Spread of 
+
+#### Spread of List's ideas around the world
+* List prescribed his Anglophobic protectionist product as a cure-all to counteract a British-dominated economic system. 
+* He found an eager and quick reception around the world. p. 18
 * List of languages and countries first translated/published on p. 19:
 	1. 1843 - Hungary
 	1. 1851 - France
@@ -71,6 +74,13 @@ tags: []
 	1. 1927 - China
 	1. 1846/1935 - Finland
 	1. 1942 - Spain
+
+### Transimperial Exportation of the American System, 1861-1890
+* p. 19 "From imperial metropole to colonial peripheries, the American System--rather than British-style free trade--became the economic model of choice."
+* More on List on p. 19... esp. introducing his protectionist ideas to France in the early 1840s.
+
+***
+
 
 ## Chapter 1 - The Imperialism of Economic Nationalism: Globalizing the American System p. 13
 * p. 25 The growing popularity of the American System in the British settler colonies of Canada and Australia, coupled with the Long Depression (1873 - 1890s), gave succor to imperial protectionists in Britain itself.
