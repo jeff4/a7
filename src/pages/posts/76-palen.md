@@ -32,14 +32,21 @@ tags: []
 ## Introduction p. 1
 * p. 1-2 about Gershwin brother's *Strike Up the Band* a satirical musical about cheese trade war between the US and Switzerland in 1927.
 
-### Friederich List
+### Friederich List p. 14
 * Friederich List first introduced on p. 14. Born and raised in German, [List](https://en.wikipedia.org/wiki/Friedrich_List) lived in Pennsylvania from 1825-1831 and moved to other parts of US before moving to Leipzig in 1833.
 * During his stay in the USA, List left his indelible mark on the likes of American Henry Charles Carey (also protectionist / economic nationalist) and the future US Republican Party's protectionism.
 * 1827, List publishes *Outlines of American Political Economy* which is inspired by the American System.
 	* *Outlines* establishes List as an authority on US fiscal policy and *champion of US protectionism*. 
+
+#### The National System of Political Economy p. 14, p. 18-22 
 * In 1841, [List's](https://en.wikipedia.org/wiki/Friedrich_List#Journalism_and_The_National_System:_1837–1841) publishes *The National System of Political Economy* while living back in future Germany. p. 14 
 	* German title: *Das national System der politischen Oekonomie*
-* During List's residency in Pennsylvania
+* List's ideas went far in shaping imperial globalization by at once:
+	1. Attacking British free trade;
+	1. Encouraging high import tariffs and domestic subsidies to foster national industrial development;
+	1. Contending that Western industrializing powers such as the US, Belgium France, and Germany required colonial expansion to obtain: (a) national security, (b) raw materials, and (c) new export markets for surplus capital.
+	1. Furthermore, these Western powers should colonize the undeveloped "uninstructed, indolent" nations in Latin America, Asia and Eastern Europe. So that these colonies could focus on the production of raw materials for their industrializing colonial masters.
+
 * List of languages and countries first translated/published on p. 19:
 	1. 1843 - Hungary
 	1. 1851 - France
