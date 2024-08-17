@@ -81,13 +81,16 @@ tags: []
 
 ***
 
-
 ## Chapter 1 - The Imperialism of Economic Nationalism: Globalizing the American System p. 13
 * p. 25 The growing popularity of the American System in the British settler colonies of Canada and Australia, coupled with the Long Depression (1873 - 1890s), gave succor to imperial protectionists in Britain itself.
 * p. 25 British economic nationalists had feared speaking above a whisper in the 1860s - 70s owing to the hegemonic hold of the [free-trade] Manchester School (*aka* [Cobdenism](https://en.wikipedia.org/wiki/Richard_Cobden)). 
 	* However, protectionist rumblings became a tumult by the late 1880s.
 * Unsurprisingly, a British variant of the GHB (German Historical School -- a german variant of Henry Clay and Friederich List's American System) arose in the 1880s named the **English Historical School** (EHS). p. 25
 * A capitalist manufacturer and Conservative politician from Birmingham, England named Sampson Samuel Lloyd published the first British translation of Friederich List's *The National System of Political Economy* in 1885. p. 25
+* Lloyd made a global tour of settler colonies and that inspired his translation.
+* During his travels, Lloyd discovered how "List's work had direclty inspired the commercial policy of two of the 'greatest nations in the world, Germany and the USA'" as well as "our English-speaking colonies and some commercial economists in" the home country of Britain.
+* LIst's economic nationalist theories of 40 years earlier were thus "applicable at one time as at another" including the present moment (mid-1880s) in Britain. p. 25
+* With List as muse, Lloyd helped revive the imperialism of economic nationalism in Britain.
 
 
 
