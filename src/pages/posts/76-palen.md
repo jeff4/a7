@@ -39,7 +39,7 @@ tags: []
 	* *Outlines* establishes List as an authority on US fiscal policy and *champion of US protectionism*. 
 
 #### The National System of Political Economy p. 14, p. 18-22 
-* In 1841, [List's](https://en.wikipedia.org/wiki/Friedrich_List#Journalism_and_The_National_System:_1837–1841) publishes *The National System of Political Economy* while living back in future Germany. p. 14 
+* In 1841, [List's](https://en.wikipedia.org/wiki/Friedrich_List#Journalism_and_The_National_System:_1837–1841) publishes *The National System of Political Economy* while living back in future Germany. p. 18 
 	* German title: *Das national System der politischen Oekonomie*
 * List's ideas went far in shaping imperial globalization by at once:
 	1. Attacking British free trade;
@@ -48,13 +48,14 @@ tags: []
 	1. Furthermore, these Western powers should colonize the undeveloped "uninstructed, indolent" nations in Latin America, Asia and Eastern Europe. So that these colonies could focus on the production of raw materials for their industrializing colonial masters.
 * After all, this combination of economic nationalism and colonialism was precisely what Britain had used to ascend to industrial preeminence in the decades prior to the post-1846 embrace of free trade (abolishment of protectionist Corn Laws).
 	* It seems that now that Britan had achieved escape velocity for industrialization, it sought to "kick away the ladder" for competing Western imperialist countries.
-* British free traders and their compatriots in other countries *duplicitously* downplayed the power of political and econoimc nationalism at their own peril. p. 14
+* British free traders and their compatriots in other countries *duplicitously* downplayed the power of political and econoimc nationalism at their own peril. p. 18
 	* List derisively called free-traders advocates of *cosmopolitical economy*.
 * In List's view, free-trade radicals and idealists promised that international trade liberalization would bring cheap food to the starving masses, prosperity for all, and even world peace.
 * But List the realist claimed to see through this universalistic and pacifistic language.
 * List believed all those flowery words to be a mere smokescreen.
-* According to List, the true intention of Cobden and other free traders: 
-
+* According to List, the true intention of Cobden and other free traders: to keep Britain as the *manufacturer for the world* in perpetuity.
+* List warned that if the rest of the industrializing world listened to free-traders and threw open their domestic markets to open trade, Britain would maintain its hegemony by strangling rival nations' infant industries in the cradle.
+#### Spread of 
 * List of languages and countries first translated/published on p. 19:
 	1. 1843 - Hungary
 	1. 1851 - France
