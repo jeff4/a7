@@ -50,7 +50,10 @@ tags: []
 	* It seems that now that Britan had achieved escape velocity for industrialization, it sought to "kick away the ladder" for competing Western imperialist countries.
 * British free traders and their compatriots in other countries *duplicitously* downplayed the power of political and econoimc nationalism at their own peril. p. 14
 	* List derisively called free-traders advocates of *cosmopolitical economy*.
-
+* In List's view, free-trade radicals and idealists promised that international trade liberalization would bring cheap food to the starving masses, prosperity for all, and even world peace.
+* But List the realist claimed to see through this universalistic and pacifistic language.
+* List believed all those flowery words to be a mere smokescreen.
+* According to List, the true intention of Cobden and other free traders: 
 
 * List of languages and countries first translated/published on p. 19:
 	1. 1843 - Hungary
@@ -67,8 +70,6 @@ tags: []
 	1. 1927 - China
 	1. 1846/1935 - Finland
 	1. 1942 - Spain
-* 
-
 
 ## Chapter 1 - The Imperialism of Economic Nationalism: Globalizing the American System p. 13
 * p. 25 The growing popularity of the American System in the British settler colonies of Canada and Australia, coupled with the Long Depression (1873 - 1890s), gave succor to imperial protectionists in Britain itself.
