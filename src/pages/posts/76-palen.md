@@ -46,6 +46,11 @@ tags: []
 	1. Encouraging high import tariffs and domestic subsidies to foster national industrial development;
 	1. Contending that Western industrializing powers such as the US, Belgium France, and Germany required colonial expansion to obtain: (a) national security, (b) raw materials, and (c) new export markets for surplus capital.
 	1. Furthermore, these Western powers should colonize the undeveloped "uninstructed, indolent" nations in Latin America, Asia and Eastern Europe. So that these colonies could focus on the production of raw materials for their industrializing colonial masters.
+* After all, this combination of economic nationalism and colonialism was precisely what Britain had used to ascend to industrial preeminence in the decades prior to the post-1846 embrace of free trade (abolishment of protectionist Corn Laws).
+	* It seems that now that Britan had achieved escape velocity for industrialization, it sought to "kick away the ladder" for competing Western imperialist countries.
+* British free traders and their compatriots in other countries *duplicitously* downplayed the power of political and econoimc nationalism at their own peril. p. 14
+	* List derisively called free-traders advocates of *cosmopolitical economy*.
+
 
 * List of languages and countries first translated/published on p. 19:
 	1. 1843 - Hungary
