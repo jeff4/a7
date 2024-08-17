@@ -31,8 +31,16 @@ tags: []
 
 ## Introduction p. 1
 * p. 1-2 about Gershwin brother's *Strike Up the Band* a satirical musical about cheese trade war between the US and Switzerland in 1927.
-* History of Friederich List's *The National System of Political Economy*. p. 14 is first intro to List and *The National System*.
-* First published in 1841--I believe in German. See list of languages and countries first translated/published on p. 19:
+
+### Friederich List
+* Friederich List first introduced on p. 14. Born and raised in German, [List](https://en.wikipedia.org/wiki/Friedrich_List) lived in Pennsylvania from 1825-1831 and moved to other parts of US before moving to Leipzig in 1833.
+* During his stay in the USA, List left his indelible mark on the likes of American Henry Charles Carey (also protectionist / economic nationalist) and the future US Republican Party's protectionism.
+* 1827, List publishes *Outlines of American Political Economy* which is inspired by the American System.
+	* *Outlines* establishes List as an authority on US fiscal policy and *champion of US protectionism*. 
+* In 1841, [List's](https://en.wikipedia.org/wiki/Friedrich_List#Journalism_and_The_National_System:_1837–1841) publishes *The National System of Political Economy* while living back in future Germany. p. 14 
+	* German title: *Das national System der politischen Oekonomie*
+* During List's residency in Pennsylvania
+* List of languages and countries first translated/published on p. 19:
 	1. 1843 - Hungary
 	1. 1851 - France
 	1. 1856 - USA
