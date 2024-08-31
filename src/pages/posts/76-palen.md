@@ -20,12 +20,12 @@ tags: []
 
 ## Table of Contents
 * **Introduction** - p. 1
-* **The Imperialism of Economic Nationalism** - p. 13
-* **The Anti-Imperialism of Free Trade** - p. 51
-* **Marx and the Manchester School** - p. 93
-* **Free-Trade Feminism** - p. 118
-* **Free Trade, Fraternity, and Federation** - p. 153
-* **Pax Economica vs. Pax Americana: The Left-Wing Free-Trade Fight Against Neocolonialism, Neomercantilism, and Neoliberalism, 1945-2022** - p. 188
+* **Chapter 1: The Imperialism of Economic Nationalism** - p. 13
+* **Chapter 2: The Anti-Imperialism of Free Trade** - p. 51
+* **Chapter 3: Marx and the Manchester School** - p. 93
+* **Chapter 4: Free-Trade Feminism** - p. 118
+* **Chapter 5: Free Trade, Fraternity, and Federation** - p. 153
+* **Chapter 6: Pax Economica vs. Pax Americana: The Left-Wing Free-Trade Fight Against Neocolonialism, Neomercantilism, and Neoliberalism, 1945-2022** - p. 188
 
 ***
 
@@ -92,6 +92,37 @@ tags: []
 * LIst's economic nationalist theories of 40 years earlier were thus "applicable at one time as at another" including the present moment (mid-1880s) in Britain. p. 25
 * With List as muse, Lloyd helped revive the imperialism of economic nationalism in Britain.
 
+***
 
 
+## Chapter 2 - The Anti-Imperialism of Free Trade
+### 2.1 Intro p. 51
 
+***
+
+### 2.2 Transatlantic Economic Cosmopolitan Confluences: 1846-1870 p. 55
+* Anti-imperialism, Antislavery, Universal Brotherhood, and Peace
+
+***
+
+### 2.3 The Commercial Peace Movement Gets Organized: 1870-1898 p. 63
+* The mid-century Cobdenite vision of Europe-wide free trade...
+
+***
+
+### 2.4 'New Liberal' Free-Trade Theories or Anti-Imperialism and Peace: 1898-1918 p. 72
+* An explosion of imperial expansion at the turn of the 20th century-- the Sino-Japanese War, the Russo-Japanese War, etc...
+
+***
+
+### 2.5 Pax Economica and the New Liberal Radicals 1919-1946 p. 84 
+* In 1918, Henri Lambert laid out...
+
+***
+
+### 2.6 Conclusion p. 91
+* The economic peace movement that arose in the...
+
+***
+
+## Chapter 3: Marx and Manchester p. 93
