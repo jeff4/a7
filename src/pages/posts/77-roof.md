@@ -38,6 +38,10 @@ tags: []
 * Email: masterroofersusa@gmail.com
 * IG: @Master.roofers
 
-## 03 Jimmy 
+## 03 Jimmy at Safeway Roofing / Guardian Roofing
+* Printed out estimated, emailed, subject line: Estimate 17838 from Safeway* Nice PDF with license number.
+* Based in Brookhaven, NY
+* Price for HDZ = $31,580
+* Price for UHDZ = $35,580
 
 ## Phil at King Quality
