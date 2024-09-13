@@ -13,7 +13,7 @@ tags: []
 
 ## 9/12/2024 thoughts
 
-1. Need an electrician
+1. Need an electrician. Brian recommends Suresh, who does all the work for his own house and his family members. 631-790-8614
 1. Quote on actually getting Soffit and Fascia replaced
 1. Quote on adding 6" gutters
 1. Quote on HDZ vs. UHDZ by GAF
