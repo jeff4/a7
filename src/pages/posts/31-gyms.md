@@ -13,3 +13,7 @@ tags: []
 
 ## 9/18/2024 potential gyms
 
+### Intelligent Fitness
+* Address: 3012a Jericho Turnpike-East Northport, NY 11731
+* [Website](https://intelligentfitness.net/intelligent-fitness-reviews/)
+* 50 reviews on Google 
