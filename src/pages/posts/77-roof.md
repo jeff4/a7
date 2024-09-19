@@ -10,6 +10,12 @@ tags: []
 
 ---
 
+## 9/18
+* Contract signed for $15k + $32k = $47k even. includes replacing all 4 skyights, including $1000 labor. Ends about ($650 * 4 = $2600 total) + 4000. The mom would say fimrly "NO"
+
+
+
+***
 
 ## 9/12/2024 thoughts
 
@@ -68,18 +74,6 @@ Questions:
 1. We are considering to make sure the fascia and soffits are replaced. How much would that cost?
 1. we had the power company come out and they said that we need an electrician and carpenter to fix the situation.
 1. Do you have electricians you can recommend? I have the name of someone that I want to have do an estimate next week
-
-***
-
-Brian answers
-
-
-
-
-
-
-
-
 
 
 ***
