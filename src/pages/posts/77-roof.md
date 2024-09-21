@@ -13,6 +13,9 @@ tags: []
 ## 9/18
 * Contract signed for $15k + $32k = $47k even. includes replacing all 4 skyights, including $1000 labor. Ends about ($650 * 4 = $2600 total) + 4000. The mom would say fimrly "NO"
 
+## 9/11/2024 customer reviews for Brian and LevelUp roofing
+* Kathy Lofrese 516-457-6238 Southold 940 Tarpon Dr. Complete Roof replacement  stellar review
+* Sam Janvey 516-457-2711 Commack 3 Silo Road Complete Roof replacement  y stellar review
 
 
 ***
