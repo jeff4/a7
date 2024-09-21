@@ -30,6 +30,10 @@ tags: []
 * Replace the damaged Fascia boards (using 1' x 6' x 12' )
 * Install J-channel where needed
 * Install all new vented soffits all around the house
-
-
-
+* Install new white fascia cover all around the house
+* **Subtotal: $9k**
+* **$3k** Replace all 4 skylights using suprime skylights
+	* 3 30" x 30" skylights
+	* 1 45" x 45" skylights
+* **$3k** Install new mesh gutter screens everwhere + 5" gutters. Gutter guards mounted with screws
+* **Total: $15k**
