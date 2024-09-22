@@ -28,7 +28,8 @@ tags: []
 * Replace up to 25' feet of fascia board at no charge. $9 a linear foot after that
 	* No credit given for unused wood replacement.
 * Flashing as necessary
-### UDZ additional itemized
+
+### HDZ additional itemized
 1. Install Premium Starter Strip WeatherBlocker (prevents shingle blow of GAF required for warranty)
 1. Install Premium Leak Barrier WeatherWatch 24. 24" up insulated wall plus soffit around protrusion and under flashing in valley.
 1. Install Premium deck protection Shingle-Mate
