@@ -48,7 +48,7 @@ tags: []
 ***
 
 ## UHDZ + 6" gutters
-* Forever Premium System: 7 part Millenium Roof Ssytem Backed by GAF Golden Pledge.
+* Forever Premium System: 7 part Millenium Roof System Backed by GAF Golden Pledge.
 	* 50 years labor warranty
 	* 40 years material warranty even if we go out of business
 * King Quality. The only 3-Star Premium System Professional in the North East
