@@ -10,6 +10,18 @@ tags: []
 
 ---
 
+
+
+## Events Friday through Sunday 
+* Friday 9/20 - Mom expressed discomfort with entire project, wanted refund etc. Initial phone call with Brian in afternoon at 2 pm. Called Brian, he agreed to return 3k deposit
+* Sat 9/21 - Brian texted/called around 9 am asking if we could perhaps meegt on Monday rather than Saturday.  Pow-wow with mom and dad for 30 min. Decided we still wanted the money today, but let's meet on Monday 9/23 instead.
+	* Decided to process both LevelUp and King Quality docs as Excel
+* Sun 9/22 - At South Huntington Public Library, found this article about plywood pieces. It's about [roof sheathing](https://todayshomeowner.com/roofing/guides/roof-sheathing-thickness/)
+	* I think it's **4' x 8'** per board for *32 square feet*.
+
+
+***
+
 ## 9/18
 * Contract signed for $15k + $32k = $47k even. includes replacing all 4 skyights, including $1000 labor. Ends about ($650 * 4 = $2600 total) + 4000. The mom would say fimrly "NO"
 
