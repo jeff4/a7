@@ -17,7 +17,7 @@ tags: []
 ***
 
 ## HDZ (aka GAF Lifetime Singles) + 5" gutters
-* King Quality. The only 3-Star Premium Systme Professional in the North East
+* King Quality. The only 3-Star Premium System Professional in the North East
 * King Quality 7 Part Millenium Roof System Backed by GAF Golden Pledge
 	* 50 years material / 25 years labor
 	* 25 years stain guard
@@ -28,7 +28,6 @@ tags: []
 * Replace up to 25' feet of fascia board at no charge. $9 a linear foot after that
 	* No credit given for unused wood replacement.
 * Flashing as necessary
-
 ### UDZ additional itemized
 1. Install Premium Starter Strip WeatherBlocker (prevents shingle blow of GAF required for warranty)
 1. Install Premium Leak Barrier WeatherWatch 24. 24" up insulated wall plus soffit around protrusion and under flashing in valley.
@@ -48,10 +47,11 @@ tags: []
 ***
 
 ## UHDZ + 6" gutters
-* Forever Premium System: **Add more...**
-* King Quality. The only 3-Star Premium Systme Professional in the North East
-
-* **Add more here**
+* Forever Premium System: 7 part Millenium Roof Ssytem Backed by GAF Golden Pledge.
+	* 50 years labor warranty
+	* 40 years material warranty even if we go out of business
+* King Quality. The only 3-Star Premium System Professional in the North East
+* Golden Ticket 50 Year No leak Warranty including Flashing, 130 mph, Venting coverage and 30 years Stain Guard.
 	* Prepare and protect ground, landscaping, siding.
 	* Strip existing roofing
 * Replace up to 384 sq. feet of roofing plywood at no charge
