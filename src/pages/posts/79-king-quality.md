@@ -58,9 +58,29 @@ tags: []
 	* Charge $4.25 per sq feet after first 192 sq feet
 * Replace up to 75' feet of fascia board at no charge. $9 a linear foot after that
 
-
-
 ### UDZ details itemized
 1. Install Premium Starter Strip WeatherBlocker (prevents shingle blow of GAF required for warranty)
-1. Install Premium Leak Barrier WeatherWatch 24. 24" up insulated wall plus soffit around protrusion and under flashing in valley.
-1. Install Premium deck protection Shingle-Mate
+1. Install Premium Leak Barrier StormGuard 24" up insulated wall plus soffit around protrusion and under flashing in valley.
+	* Amount and ice and water protection GAF required for warranty
+1. Install Premium deck protection Deck Armor (prevents moisture damage to wood and blow off -- GAF required for warranty)
+1. Install GAF Premium Lifetime Timberlinw UHDZ Shingles
+1. Install Premium venting Specific to your home attic. Snow country ridge vent add vent into wood overhang (soffit). 
+	* Balanced attic venting GAF required for warranty
+1. Install Premium Hip Ridge caps. 
+	* Seals ridge and hips GAF required for warranty
+1. Install drip edge flashing all roof edges
+	* Protects ice eve driven rain wind on rakes GAF required for warranty
+1. Install Premium silicon vent pipe boot with aluminum flashing and pipe covers
+1. Install new copper flashing on chimney with counter flashing and on all 4 skylights
+	* New flashing GAF required for warranty
+1. Install new aluminum apron and step flashing with ice and water barrier t all wall junctions
+1. Cut wood shake and install wood counter flashing. Paint Brown
+1. **Roof subtotal: $40k** (was $41.9k)
+
+#### UHDZ additional items
+1. 4 new skylights $3.2k
+1. 6" gutters *without leaf guards* $2.9k
+
+#### UHDZ total
+* $40k + $3.2k + $2.9k = **$46,100 Final**
+	
