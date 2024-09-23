@@ -10,14 +10,20 @@ tags: []
 
 ---
 
+## Monday 9/23
+* Electrician Adam visited at 11 am
+* Brian came for visit #3 at 1 PM
+* Key piece of info. King Quality partnered with (acquired by?) Alpine Investors and Vertex Service Partners in 2023. See [this article](https://alpineinvestors.com/story/jeff-brett-king-quality-vertex-service-partners/) about founder Jeff Brett
+* See photos for fascia board, fascia cover (as Brian calls it), or fascia trim which is a vinyl piece that goes around protects the vertical fascia board, and goes partially onto the soffit area.
 
 
-## Events Friday through Sunday 
+## Summary: Friday 9/20/2024 through Sunday 9/22/2024
 * Friday 9/20 - Mom expressed discomfort with entire project, wanted refund etc. Initial phone call with Brian in afternoon at 2 pm. Called Brian, he agreed to return 3k deposit
 * Sat 9/21 - Brian texted/called around 9 am asking if we could perhaps meegt on Monday rather than Saturday.  Pow-wow with mom and dad for 30 min. Decided we still wanted the money today, but let's meet on Monday 9/23 instead.
 	* Decided to process both LevelUp and King Quality docs as Excel
 * Sun 9/22 - At South Huntington Public Library, found this article about plywood pieces. It's about [roof sheathing](https://todayshomeowner.com/roofing/guides/roof-sheathing-thickness/)
 	* I think it's **4' x 8'** per board for *32 square feet*.
+	* Julian called me around 11:30 pm Eastern time and we talked for about 70 minutes about mom's doubts
 
 
 ***
