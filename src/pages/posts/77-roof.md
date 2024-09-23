@@ -15,6 +15,7 @@ tags: []
 * Brian came for visit #3 at 1 PM
 * Key piece of info. King Quality partnered with (acquired by?) Alpine Investors and Vertex Service Partners in 2023. See [this article](https://alpineinvestors.com/story/jeff-brett-king-quality-vertex-service-partners/) about founder Jeff Brett
 * See photos for fascia board, fascia cover (as Brian calls it), or fascia trim which is a vinyl piece that goes around protects the vertical fascia board, and goes partially onto the soffit area.
+* Disregard Safeway, he does not trust the crummy plywood quality, perhaps from Home Depot of the $95 plywood board.
 
 
 ## Summary: Friday 9/20/2024 through Sunday 9/22/2024
