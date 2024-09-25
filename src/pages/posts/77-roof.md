@@ -10,6 +10,11 @@ tags: []
 
 ---
 
+## Tues 9/24
+* Moving forward with Brian.
+* On wed 9/25, will send over deposit, and tell him what color roof.
+* Also, here is a [good diagram](https://cdnassets.hw.net/dims4/GG/2c97a68/2147483647/resize/876x%3E/quality/90/?url=https%3A%2F%2Fcdnassets.hw.net%2F0f%2F2e%2F85f03f024e3598b6df5f15480266%2F0220-jlc-ttt-eaves-web-01-rev.jpg) of fascia trim aka fascia cover.
+
 ## Monday 9/23
 * Electrician Adam visited at 11 am
 * Brian came for visit #3 at 1 PM
