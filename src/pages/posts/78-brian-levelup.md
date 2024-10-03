@@ -10,6 +10,15 @@ tags: []
 
 ---
 
+## 10/02/2024 Thoughts on Google Marketing
+* Created an account for chijeffh@gmail.com, created 10/01/2024
+* Look at [WordStream](https://www.wordstream.com/google-adwords?cid=Paid_GGL_Search_AdWords_AdWordsGrader_AWGrader&utm_source=google&utm_medium=PPC&utm_campaign=paid_freetool&utm_content=rsa&utm_term=get%20more%20google%20ads&gad_source=1&gclid=EAIaIQobChMInJaYhMrtiAMVIDYIBR1PKTJ8EAAYAiAAEgLGd_D_BwE)
+* logged into [semrush](https://www.semrush.com/analytics/keywordgap/?db=us&q=www.kingquality.com&searchType=domain&keywordType=organic&compareWith=https%253A%252F%252Fpowerhrg.com%3Adomain%3Aorganic) using stepfunction@gmail.com
+* Comptetitors: King Quality; [Power Roofing](https://powerhrg.com/about/)
+
+
+
+
 ## Initial 9/10/2024 estimate
 * Remove 2 layers of roof down to the deck
 * First 5 sheets of Plywood Free of Charge (modified to 10 sheets on Wed 9/18)
