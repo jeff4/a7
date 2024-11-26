@@ -12,6 +12,16 @@ tags: []
 
 ***
 
-## 7/10/2024
-* See also the AmSpa (American Med Spa Association). [website](https://americanmedspa.org). Team, timeline, history, pricing are all located on their [about page](https://americanmedspa.org/why-amspa).
-* Looks like MedSpas.com and AmSpa are different organizations. MS.com is about patient education and is a discovery/directory to find a local medspa. Meanwhile, AmSpa has taken on some aspects of a professional org but is a for-profit org started by a healthcare lawyer to focus on the different laws etc. available around the country.
+## 11/24/2024
+* [DeepGram links to papers](https://deepgram.com/learn/top-arxiv-papers-about-ai-agents)
+* [ChatBase article](https://www.chatbase.co/blog/ai-agent-frameworks)
+* Pretty basic HR article by [Josh Bersin](https://joshbersin.com/2024/09/agentic-ai-ai-agents-the-new-workforce-were-not-quite-ready-for/)
+
+***
+
+## 11/26/2024
+* Some videos
+
+
+
+***
