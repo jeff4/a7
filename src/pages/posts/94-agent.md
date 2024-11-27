@@ -24,6 +24,12 @@ tags: []
 	1. CrewAI
 * Pretty basic HR article by [Josh Bersin](https://joshbersin.com/2024/09/agentic-ai-ai-agents-the-new-workforce-were-not-quite-ready-for/) - Sept 2024
 
+## Suggestions from ChatGPT on 11/27
+1. A Survey on Large Language Model based Autonomous Agents (April 2023) - [arXiv link](https://arxiv.org/abs/2308.11432)
+1. Generative Agents: Interactive Simulacra of Human Behavior (August 2023) - [arXiv](https://arxiv.org/abs/2304.03442)
+1. AGILE: A Novel Framework of LLM Agents (November 2024) - [arXiv](https://arxiv.org/abs/2405.14751v1)
+
+
 ***
 
 ## 11/26/2024
