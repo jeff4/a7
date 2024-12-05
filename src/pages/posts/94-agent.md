@@ -99,12 +99,20 @@ tags: []
 * Date posted: 22 November 2024 
 
 #### TimeStamps
-* 1:01 Jared Friedmanis Excited about Vertical AI Agents
-* 1:51 Most Startup Founders (esp young ones) don't realize how big b2b SaaS is b/c it's not in their personal consumer experience
-* 2:12 40% of VC over last 20 years has gone into SaaS, produced over 300 SaaS unicorns
-* 2:58 Invention of AJAX (Asynch JavaScript and XML / XMLHttpRequest) in 2004. Arguably, Google Maps, Gmail, etc led to this ability to run rich web apps without having to reload entire page for each button click
+* **1:01** Jared Friedmanis Excited about Vertical AI Agents
+* **1:51** Most Startup Founders (esp young ones) don't realize how big b2b SaaS is b/c it's not in their personal consumer experience
+* **2:12** 40% of VC over last 20 years has gone into SaaS, produced over 300 SaaS unicorns
+* **2:58** Invention of AJAX (Asynch JavaScript and XML / XMLHttpRequest) in 2004. Arguably, Google Maps, Gmail, etc led to this ability to run rich web apps without having to reload entire page for each button click
 	* Software moved from being something primarily based on CDs, to something accessed purely over internet / local web browser
 	* Paul Graham's ViaWeb connected Unix prompt to changes in web with minimal intermediaries; arguably invented SaaS in 1995.
-* 4:16 Jared sees this as a similar invention paradigm with LLMs that allows us to do something fundamentally different.
-* In 2005, what should we do with XmlHttpRequest? Where is the value going to accrue, where are the startup opportunities in 2005?
+* **4:16** Jared sees this as a similar invention paradigm with LLMs that allows us to do something fundamentally different.
+* **4:35** In 2005, what should we do with XmlHttpRequest? Where is the value going to accrue, where are the startup opportunities in 2005?
+	* Bucket 1: Obviously Good Ideas, eg. docs, photos, email, calendar, chat. Zero startups won here. Google and Microsoft and other incumbents won
+	* Bucket 2: Mass consumer ideas that nobody predicted. Uber, DoorDash, InstaCart, Coinbase, AirBnB. Came out of left field. incumbents didn't even try b/c it was a weird/big jump from XMLHttpReq to renting a room
+	* Bucket 3: 300 B2B SaaS unicorns.
+* By # of logos, way more companies were created in Bucket 3. There is no "Microsoft of SaaS". For structural reasons, there are just different companies.
+* **6:35** Harj Taggar: Talk by Marc Benioff that initially, people assumed that web apps suck. Early on, people didn't believe one could build sophisticated enterprise applications in the cloud via SaaS. Perception issue. 
+	* "Serious software" had to be purchased in cardboard boxes / CD-ROMs
+* **7:09** one had to be a visionary like Paul Graham in 1995 to see how the browser would keep getting better. Similar moment to LLMs now  
+	* Current critiques of LLMs in an enterprise app perspective: they hallucinate, they're not perfect
 
