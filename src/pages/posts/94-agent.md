@@ -115,4 +115,7 @@ tags: []
 	* "Serious software" had to be purchased in cardboard boxes / CD-ROMs
 * **7:09** one had to be a visionary like Paul Graham in 1995 to see how the browser would keep getting better. Similar moment to LLMs now  
 	* Current critiques of LLMs in an enterprise app perspective: they hallucinate, they're not perfect
-
+* **7:30** By analogy to SaaS revolution, incumbents will win Bucket 1 LLMs products that are obvious like generalized voice assistants. Perhaps Perplexity can challenge Google in Search, but we'll see? 
+* **8:30** Perhaps the reason why incumbents didn't take over Bucket 2 is b/c of classic innovator's dilemma b/c they did not want to endanger their profitable incumbent franchises. Google never launched an Uber clone or AirBnB clone.
+	* Travis Kalanick talk: For the first several years of Uber's lifetime, he was convinced he was going to go to prison. No comfortable Google Exec would risk that.
+* **9:15** Diana Hu: Why didn't incumbents go into Bucket 3? (JH: I'd argue that Amazon through AWS and Google as a follower in GCP did. And MS with Azure)
