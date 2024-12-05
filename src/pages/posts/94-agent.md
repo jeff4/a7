@@ -50,7 +50,7 @@ tags: []
 
 ***
 
-# Section 2: Background
+## Section 2: Background
 * Breakdown into: sensing/perception, brain (LLMs for now), action/muscles
 ## 2.1 Origin of AI Agent
 ### 2.1.1 Agent in Philosophy
@@ -88,3 +88,23 @@ tags: []
 
 #### Abstract
 * This paper explores existing works of multi-agent systems and identify challenges that remain inadequately addressed. By leveraging the diverse capabilities and roles of individual agents within a multi-agent system, these systems can tackle complex tasks through collaboration. We discuss optimizing task allocation, fostering robust reasoning through iterative debates, managing complex and layered context information, and enhancing memory management to support the intricate interactions within multi-agent systems. We also explore the potential application of multi-agent systems in blockchain systems to shed light on their future development and application in real-world distributed systems.
+
+***
+
+## 12/05/2024
+### YC LightCone Discussion
+* "Vertical AI Agents Could Be 10x Bigger Than SaaS"
+* [Page](https://www.ycombinator.com/library/Lt-vertical-ai-agents-could-be-10x-bigger-than-saas)
+* [YouTube link](https://www.youtube.com/watch?v=ASABxNenD_U)
+* Date posted: 22 November 2024 
+
+#### TimeStamps
+* 1:01 Jared Friedmanis Excited about Vertical AI Agents
+* 1:51 Most Startup Founders (esp young ones) don't realize how big b2b SaaS is b/c it's not in their personal consumer experience
+* 2:12 40% of VC over last 20 years has gone into SaaS, produced over 300 SaaS unicorns
+* 2:58 Invention of AJAX (Asynch JavaScript and XML / XMLHttpRequest) in 2004. Arguably, Google Maps, Gmail, etc led to this ability to run rich web apps without having to reload entire page for each button click
+	* Software moved from being something primarily based on CDs, to something accessed purely over internet / local web browser
+	* Paul Graham's ViaWeb connected Unix prompt to changes in web with minimal intermediaries; arguably invented SaaS in 1995.
+* 4:16 Jared sees this as a similar invention paradigm with LLMs that allows us to do something fundamentally different.
+* In 2005, what should we do with XmlHttpRequest? Where is the value going to accrue, where are the startup opportunities in 2005?
+
