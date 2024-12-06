@@ -120,4 +120,10 @@ tags: []
 * **9:15** Diana Hu: Why didn't incumbents go into Bucket 3? (JH: I'd argue that Amazon through AWS and Google as a follower in GCP did. And MS with Azure)
 	* Jared: I think it's hard to manage that large a scope. Each b2b company needs to have deep domain expertise in their vertical. 
 		* Example: Gusto. Hard to have an organization hyper-focused on all the various local, state, federal payroll regulations. 
-		* Easier for incumbentsto focus only a few huge categories
+		* Easier for incumbents to focus only a few huge categories
+* **10:15** Harj: Why wasn't b2b SaaS just taken over by Oracle, SAP, Netsuite? 
+	* Partially it's because the old distribution/ecosystem model was for the large System Integrators to offer to build custom extensions, etc. for each customer. Remember, before cloud era, there was less intermingling.
+	* Knock against Salesforce at first was that it would be too underpowered for the highly custom / specific demand. But they proved that it was good enough and improved quickly enough that it worked. 
+	* (JH: Helped that the horrible UI and expense/post-sales integration of incumbents were Oracle, etc as the competition. No real consumer-grade UI as competitors)
+* **11:10** Diana: Oracle, SAP, all their UI was really bad. Jack of all Trade master of none b/c they have such huge portfolio across all their apps. Could build a literally 10x better UI
+* **11:40** Garry: 
