@@ -9,7 +9,6 @@ tags: []
 
 
 ---
-
 ***
 
 ## 11/24/2024
@@ -119,3 +118,6 @@ tags: []
 * **8:30** Perhaps the reason why incumbents didn't take over Bucket 2 is b/c of classic innovator's dilemma b/c they did not want to endanger their profitable incumbent franchises. Google never launched an Uber clone or AirBnB clone.
 	* Travis Kalanick talk: For the first several years of Uber's lifetime, he was convinced he was going to go to prison. No comfortable Google Exec would risk that.
 * **9:15** Diana Hu: Why didn't incumbents go into Bucket 3? (JH: I'd argue that Amazon through AWS and Google as a follower in GCP did. And MS with Azure)
+	* Jared: I think it's hard to manage that large a scope. Each b2b company needs to have deep domain expertise in their vertical. 
+		* Example: Gusto. Hard to have an organization hyper-focused on all the various local, state, federal payroll regulations. 
+		* Easier for incumbentsto focus only a few huge categories
