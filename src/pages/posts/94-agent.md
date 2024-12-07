@@ -126,4 +126,17 @@ tags: []
 	* Knock against Salesforce at first was that it would be too underpowered for the highly custom / specific demand. But they proved that it was good enough and improved quickly enough that it worked. 
 	* (JH: Helped that the horrible UI and expense/post-sales integration of incumbents were Oracle, etc as the competition. No real consumer-grade UI as competitors)
 * **11:10** Diana: Oracle, SAP, all their UI was really bad. Jack of all Trade master of none b/c they have such huge portfolio across all their apps. Could build a literally 10x better UI
-* **11:40** Garry: 
+* **11:40** Garry: Joke about how there are only 3 prices in software per month: $5/seat, $500/seat, $5000/seat
+	* These correspond to consumer, smb, and enterprise
+	* Classic difference between tech buyer vs end-user
+* **12:35** Garry: Is this going to change in the era of LLMs?
+	* Typically, as revenue scales in YC portfolio, it's typical to see companies that reach $100m - $200m in revenue have 500-2000 employees already.
+	* I'm curious; now giving advice to companies 1-2 months post YC batch to see if you'd hire this many people
+	* different than the advice he might have given 1-2 years ago.
+	* In the past, would make a huge priority to hire *the best of the best* sales people, product people, marketing, customer success, HR, engineering, etc. And they would build big teams.But maybe not now? Just hire great software programmers who really understand LLMs to build what you need; to buildthe solutions around your bottlenecks to growth. In the past, it was hire sales/marketing/recuriting, etc.
+* **14:15** Maybe this means CEO investment decisions post PMF will be different. Dramatically changing cost structure
+	* We're right at the beginning of this new era
+* **14:33** Diana: We've talked about this before. See the first unicorn that can run with only 10 employees (JH: what about Instagram from 2012?)
+	* Garry: and the employees all they do is run evals and prompts
+* **14:45** Harj: When I was running Triple Byte, for user acquisition, after raise a Series B, you are supposed to hire a Marketing Exec and spin up a machine for sales and marketing
+	* Example of an MIT / YC alum who was building a smart frying pan
