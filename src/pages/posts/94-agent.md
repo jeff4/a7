@@ -153,3 +153,13 @@ tags: []
 	* So perhaps the similar evolution. Start off with generalized players of un-customized tools. Then over time, specialized vertical LLM players will evolve.
 	* What do you all think? Start off with a few generalized players; later in LLM era lifecycle, vertical LLM specialists win? Or will vertical b2b llm specialists win from beginning
 * **18:30** Jared: Interesting...if one looks at the history of SaaS:
+    * 2005-2010, consumer startups worked first, e.g., email, chat, maps. People as consumers became more comfortable
+* **19:00** Harj: Alternately, perhaps there is no reset b/c of LLMs. User experience is maybe the same for LLM vs. incumbent SaaS products.
+	* Enterprise customers are now used to the idea that point-solution vertical specialists are better than old jack-of-all-trade platforms.
+	* So they might just adopt
+	* So some of our companies are getting faster traction in enterprises than we've ever seen before.
+* **19:50** Garry: I think we're just early in the game. All software starts as pretty vertical. And as industries get more developed, 
+	* Early in the game, everyone is making point solutions. At some point, people need to go horizontal. To justify big marketing/sales spend, need to make a big market
+* **20:30** Diana: Maybe the bull case for why llm b2b vertical wil be even bigger than SaaS: still needed an operations team, data entry to input data. Now, not only going to eliminate the payroll of customers. Way fewer employees needed at the customers to clikc through SaaS, click approvals, etc.
+* **21:20** Jared: I agree. Given that we expect customer companies shift spending from their headcount *to* their software purchasing budget, 
+* **21:30** Jared: Examples from actual startups working right now
