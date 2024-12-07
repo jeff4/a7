@@ -28,6 +28,32 @@ tags: []
 1. A Survey on Large Language Model based Autonomous Agents (April 2024) - [arXiv link](https://arxiv.org/abs/2308.11432)
 1. AGILE: A Novel Framework of LLM Agents (November 2024) - [arXiv](https://arxiv.org/abs/2405.14751v1)
 
+***
+## 12/06/2024
+* 7 minute video [AI Agents Simplified](https://www.youtube.com/watch?v=wazHMMaiDEA). by Vendasta
+	* by Vishal Teckchandani
+* **1:00**: AI is just the genius, smarts, but nothing else. AI Agent is when that brain is tasked with specific jobs/tasks.
+	* Takes the intelligence of AI and turns it into action
+* **1:45** Examples of jobs it can do
+	* Answer questions
+	* Automate work
+	* Work through your to-do list (i guess including prioritization, execution, chain-of-action, etc.)
+* AI before Agents: Knowing how to do something
+* AI Agents: Actually do something
+* AI Agents listen/understand --> think --> act
+* **3:00** Example of a babysitter when parents go on date night
+* **3:30** AI Agents = UI + Workflow
+	* UI examples: chat window, Alexa/Echo voice assistant, or button on a website
+	* Workflow: a flow chart that goes through steps (or nodes) that could iinvolve asking for info from a datasource, take an action like send an email, make a decision, prompt user, etc
+* Four steps
+	1. Input: User asks question / give a command through UI
+	1. Processing: AI Agent Searches for best way to respond
+	1. Action: Execute action
+	1. Learning from past:
+1. Claim that this means this will tremendously boost productivity of local businesses
+1. **5:35** "This isn't just a tech upgrade; it's likely the biggest transformation we'll see in our lifetime."
+1. AI Agents are set to revolutionize how work gets done.
+
 
 ***
 
@@ -89,6 +115,9 @@ tags: []
 * This paper explores existing works of multi-agent systems and identify challenges that remain inadequately addressed. By leveraging the diverse capabilities and roles of individual agents within a multi-agent system, these systems can tackle complex tasks through collaboration. We discuss optimizing task allocation, fostering robust reasoning through iterative debates, managing complex and layered context information, and enhancing memory management to support the intricate interactions within multi-agent systems. We also explore the potential application of multi-agent systems in blockchain systems to shed light on their future development and application in real-world distributed systems.
 
 ***
+***
+
+
 
 ## 12/05/2024
 ### YC LightCone Discussion
@@ -162,4 +191,9 @@ tags: []
 	* Early in the game, everyone is making point solutions. At some point, people need to go horizontal. To justify big marketing/sales spend, need to make a big market
 * **20:30** Diana: Maybe the bull case for why llm b2b vertical wil be even bigger than SaaS: still needed an operations team, data entry to input data. Now, not only going to eliminate the payroll of customers. Way fewer employees needed at the customers to clikc through SaaS, click approvals, etc.
 * **21:20** Jared: I agree. Given that we expect customer companies shift spending from their headcount *to* their software purchasing budget, 
-* **21:30** Jared: Examples from actual startups working right now
+* **21:30** Jared: Examples from actual startups working right now.
+* [Outset](https://www.ycombinator.com/companies/outset) AI-powered User Interviews, co-founded by Aaron Cannon, former head of product at Triplebyte. www.outset.ai
+	* LLM competitor to Qualtrics
+	* Surveys for product mgrs, marketing teams.
+	* Since surveys are language
+* **22:30** Garry: Here's a problem-- you have to go high up enough in the organization to sell this type of solution. But hope that the decision maker is not afraid they are going to automate themselves or their departments out of a job.
