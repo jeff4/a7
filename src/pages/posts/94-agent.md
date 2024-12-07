@@ -140,3 +140,16 @@ tags: []
 	* Garry: and the employees all they do is run evals and prompts
 * **14:45** Harj: When I was running Triple Byte, for user acquisition, after raise a Series B, you are supposed to hire a Marketing Exec and spin up a machine for sales and marketing
 	* Example of an MIT / YC alum who was building a smart frying pan
+	* To sell this pan, he had to get really smart about Google Ads. He took his engineer mindset and apply it Google Ads. 
+	* Harj preferred hiring him vs more traditional marketing folks. They were spending $1m per month on Google Ads
+* **16:00** Harj: This was all Mike, the effective marketing (Jared: You could tell from the CalTrain take overs for TripleByte's marketing campaigns were *not* from a traditional marketing person.)
+	* If you put a really smart engineer, you find leverage. People assumed Triplebyte had hundreds of employees; it only had 40.
+	* LLMs will enable this but even more.
+* **16:30** Jason: My proposal: each of the 300 b2b SaaS vertical incumbents could be replaced by an LLM equivalent
+* **17:00** Harj: Enterprises right now are not sure about what agents they need.
+	* One approach from from experience founders (like Bret Taylor at Sierra) is letting enterprises deploy their agents customized ways without prescribing like in a finished in a SaaS format. (JH: perhaps Like giving an ingredient list of agents rather than finishe dishes. )
+	* Example: [VectorShifts](https://vectorshift.ai/) founded by 2 Harvard CS folks. No-code workspace that allows customers to put agents together. A no-code or sdk platform for internal LLM-powered agent.
+	* I wonder if in the box software world, vendors were trying convince custoemrs to use something at all. And the sw gets more sophisticated over time. Eventually this becomes vertical winners.
+	* So perhaps the similar evolution. Start off with generalized players of un-customized tools. Then over time, specialized vertical LLM players will evolve.
+	* What do you all think? Start off with a few generalized players; later in LLM era lifecycle, vertical LLM specialists win? Or will vertical b2b llm specialists win from beginning
+* **18:30** Jared: Interesting...if one looks at the history of SaaS:
