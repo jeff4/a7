@@ -20,3 +20,5 @@ tags: []
 ### What should we be looking forward to in 2025 and beyond
 ### a16z 12/11 podcast
 * Elimination of so much
+* Title "How AI is Transforming Labor Markets"
+* References this [article](https://a16z.com/ai-turns-capital-to-labor/)
