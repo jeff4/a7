@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MdPostDescLayout.astro
-title: 'Automating DXP - Notes'
+title: 'Notes on automating web content publishing'
 LastUpdatedDate: 2025-03-27
 CreatedDate: 2025-02-27
 description: 'n/a'
@@ -13,7 +13,7 @@ tags: []
 
 ## 2/27/2024
 ### to do
-* WorkHelix move to startups
+* <del>WorkHelix move to startups</del>
 * Feed operator info into Claude
 * Outline thoughts
 * Five phases: Backlog Grooming; Planning; Implementation; Deployment; TATO
