@@ -15,8 +15,11 @@ tags: []
 ### to do
 * <del>WorkHelix move to startups</del>
 * <del>Feed operator info into Claude</del>
-* Outline thoughts
 * Five phases: Backlog Grooming; Planning; Implementation; Deployment; TATO
+
+***
+
+* See Markdown table [here](/posts/97-wa-table/)
 
 ***
 
